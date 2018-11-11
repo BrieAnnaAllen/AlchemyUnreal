@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PlayerMovement.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{350FD8CA-2E8B-4C10-BDA5-72CB2CF1438E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PlayerMovement.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PlayerMovementEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E13668D9-8FD4-407A-9C92-CD99FB2A4F99}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PlayerMovement">
+			<UniqueIdentifier>{0F252BC9-5B50-449A-A685-783AA9E771D0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PlayerMovement\BPTris.cpp">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PlayerMovement\BPTris.h">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PlayerMovement\PawnPlayerMove.cpp">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PlayerMovement\PawnPlayerMove.h">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\PlayerMovement\PlayerMovement.Build.cs">
+			<Filter>Source\PlayerMovement</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PlayerMovement\PlayerMovement.cpp">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PlayerMovement\PlayerMovement.h">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PlayerMovement\PlayerMovementGameModeBase.cpp">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PlayerMovement\PlayerMovementGameModeBase.h">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
