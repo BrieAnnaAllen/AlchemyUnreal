@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Building 3 actions with 8 processes...
+    [1/3] PawnPlayerMove.cpp
+    [2/3] UE4Editor-PlayerMovement-2175.lib
+       Creating library D:\Users\BrieAnna\Documents\GitHub\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2175.lib and object D:\Users\BrieAnna\Documents\GitHub\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2175.exp
+    [3/3] UE4Editor-PlayerMovement-2175.dll
+       Creating library D:\Users\BrieAnna\Documents\GitHub\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2175.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2175.suppressed.exp
+  Deploying PlayerMovementEditor Win64 Development...
+  Total build time: 40.62 seconds (Parallel executor: 35.69 seconds)

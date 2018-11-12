@@ -97,8 +97,8 @@ void APawnPlayerMove::HandleInput()
 
 	}
 
-	//AddControllerYawInput(InputComponent->GetAxisKeyValue(EKeys::MouseX));
-	//AddControllerPitchInput(InputComponent->GetAxisKeyValue(EKeys::MouseY));
+	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
+	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
 
 // Called to bind functionality to input
@@ -115,17 +115,14 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput);
 	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Left, this, &APawnPlayerMove::AddControllerYawInput);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Right);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Up, this, &APawnPlayerMove::AddControllerPitchInput);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Up);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Left);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Right);
-
-
-}
-
-void APawnPlayerMove::MoveThumbstickLeftX(float AxisValue)
-{
-
 
 
 }
