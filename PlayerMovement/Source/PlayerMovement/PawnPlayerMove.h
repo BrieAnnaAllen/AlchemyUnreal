@@ -14,6 +14,13 @@ class PLAYERMOVEMENT_API APawnPlayerMove : public APawn
 public:
 	// Sets default values for this pawn's properties
 	APawnPlayerMove();
+
+	UFUNCTION(BlueprintCallable, Category = "Character|Input")
+		void StartInventory();
+
+	UFUNCTION(BlueprintCallable, Category = "Character|Input")
+		void EndInventory();
+
 	//Capsule Collider
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Components")
 		class UCapsuleComponent* Capsule;
@@ -54,6 +61,9 @@ protected:
 
 	// Remove this override for Implementation
 	virtual void AddControllerYawInput(float Val) override;
+
+	UPROPERTY()
+		class AGenericHUD* HudReference;
 
 public:	
 	// Called every frame

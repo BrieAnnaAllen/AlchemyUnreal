@@ -11,6 +11,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "UI/GenericHUD.h"
 
 // Sets default values
 APawnPlayerMove::APawnPlayerMove()
@@ -40,6 +41,8 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
+
+	HudReference = nullptr;
 
 }
 
@@ -115,8 +118,55 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput);
 	InputComponent->BindAxisKey(EKeys::MouseY);
 
+	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
+
 
 }
+
+void APawnPlayerMove::StartInventory()
+{
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+		//check if hud is not valid
+		if (!HudReference)
+		{
+			HudReference = Cast<AGenericHUD>(PC->GetHUD());
+		}
+
+		//checks if hud is valid
+		if (HudReference)
+		{
+			HudReference->ShowSpecificMenu(HudReference->GetPauseMenuClas(), false, true);
+		}
+
+		//Pause the game
+		PC->SetPause(true);
+	}
+}
+
+void APawnPlayerMove::EndInventory()
+{
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+
+		//Unpause the game
+		PC->SetPause(false);
+
+		//check if hud is not valid
+		if (!HudReference)
+		{
+			HudReference = Cast<AGenericHUD>(PC->GetHUD());
+		}
+
+		//checks if hud is valid
+		if (HudReference)
+		{
+			HudReference->ShowSpecificMenu(HudReference->GetGameplayHUDClass(), true, false);
+		}
+
+	}
+}
+
 
 void APawnPlayerMove::MoveThumbstickLeftX(float AxisValue)
 {

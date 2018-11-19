@@ -1,0 +1,44 @@
+﻿  Cleaning PlayerMovementEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for PlayerMovementEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for PlayerMovementEditor
+    Running UnrealHeaderTool "C:\workspace\AlchemyUnreal\PlayerMovement\PlayerMovement.uproject" "C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\PlayerMovementEditor\Development\PlayerMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PlayerMovementEditor in 7.9666255 seconds
+  Distributing 16 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  SharedPCH.Engine.cpp (0:20.18 at +0:00)
+  BPTris.cpp (0:00.48 at +0:20)
+  PawnPlayerMove.cpp (0:08.01 at +0:20)
+  PlayerMovement.cpp (0:00.37 at +0:28)
+  PlayerMovementGameModeBase.cpp (0:00.54 at +0:29)
+  GenericHUD.cpp (0:01.50 at +0:29)
+  Inventory.cpp (0:01.82 at +0:31)
+  BPTris.gen.cpp (0:00.56 at +0:32)
+  GenericHUD.gen.cpp (0:00.67 at +0:33)
+  Inventory.gen.cpp (0:01.43 at +0:34)
+  PawnPlayerMove.gen.cpp (0:00.59 at +0:35)
+  PlayerMovement.init.gen.cpp (0:00.46 at +0:36)
+  PlayerMovementGameModeBase.gen.cpp (0:00.65 at +0:36)
+  PCLaunch.rc (0:00.07 at +0:37)
+  UE4Editor-PlayerMovement.dll (0:00.92 at +0:37)
+     Creating library C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.suppressed.lib and object C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.suppressed.exp
+  UE4Editor-PlayerMovement.lib (0:00.10 at +0:38)
+     Creating library C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.lib and object C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.exp
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Deploying PlayerMovementEditor Win64 Development...
+  Total build time: 52.62 seconds (XGE executor: 38.62 seconds)
