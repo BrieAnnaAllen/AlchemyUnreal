@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerMovement_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/PlayerMovement",
 				PKG_CompiledIn | 0x00000000,
-				0xC614DD7A,
-				0xB93E1637,
+				0xB1849203,
+				0xCD577C16,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

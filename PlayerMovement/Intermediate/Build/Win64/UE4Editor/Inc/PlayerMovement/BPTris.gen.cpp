@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeBPTris() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABPTris, 3757158355);
+	IMPLEMENT_CLASS(ABPTris, 3789380612);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABPTris(Z_Construct_UClass_ABPTris, &ABPTris::StaticClass, TEXT("/Script/PlayerMovement"), TEXT("ABPTris"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABPTris);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

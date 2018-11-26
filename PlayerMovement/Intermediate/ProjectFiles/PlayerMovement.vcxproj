@@ -83,7 +83,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B63912C4-86FA-4F31-9481-B6E6BDCC34C0}</ProjectGuid>
+    <ProjectGuid>{2F420387-05EB-4602-8A35-9FC97160777E}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>PlayerMovement</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -410,14 +410,15 @@
     <NMakeOutput>..\..\Binaries\HTML5\PlayerMovement-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\GenericHUD.cpp" />
-    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\GenericHUD.h" />
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Pickup_Actor.cpp" />
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Pickup_Actor.h" />
     <None Include="..\..\PlayerMovement.uproject" />
     <None Include="..\..\Source\PlayerMovement.Target.cs" />
     <None Include="..\..\Source\PlayerMovementEditor.Target.cs" />
     <None Include="..\..\Config\DefaultEditor.ini" />
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Config\DefaultInput.ini" />
     <ClCompile Include="..\..\Source\PlayerMovement\BPTris.cpp" />
     <ClInclude Include="..\..\Source\PlayerMovement\BPTris.h" />
     <ClCompile Include="..\..\Source\PlayerMovement\PawnPlayerMove.cpp" />
@@ -427,7 +428,11 @@
     <ClInclude Include="..\..\Source\PlayerMovement\PlayerMovement.h" />
     <ClCompile Include="..\..\Source\PlayerMovement\PlayerMovementGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\PlayerMovement\PlayerMovementGameModeBase.h" />
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\GenericHUD.cpp" />
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Interaction_Interface.cpp" />
     <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Inventory.cpp" />
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\GenericHUD.h" />
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Interaction_Interface.h" />
     <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Inventory.h" />
   </ItemGroup>
   <PropertyGroup>

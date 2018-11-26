@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PlayerMovement.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{03AD14B8-E7F5-45D7-9A80-2B61664CC6BD}</UniqueIdentifier>
+      <UniqueIdentifier>{03376736-565D-4E6B-941E-6AA7CDA2B4FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PlayerMovement.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4A4FB321-BCEE-4307-8D7C-6B5D8D811555}</UniqueIdentifier>
+      <UniqueIdentifier>{41533161-BF91-40CB-9D6A-B4536DB63852}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\PlayerMovement">
-      <UniqueIdentifier>{861537AC-00AC-4034-A768-5007F294FC7D}</UniqueIdentifier>
+      <UniqueIdentifier>{7D7612B3-2D7E-4A7F-BDCF-CDA17D1AD619}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PlayerMovement\BPTris.cpp">
       <Filter>Source\PlayerMovement</Filter>
@@ -54,31 +57,43 @@
       <Filter>Source\PlayerMovement</Filter>
     </ClInclude>
     <Filter Include="Source\PlayerMovement\Private">
-      <UniqueIdentifier>{EC5C7DF7-99AE-47AA-868E-18F58619D551}</UniqueIdentifier>
+      <UniqueIdentifier>{573BB0E9-BC2E-4675-BEF2-1B5A4799D455}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\PlayerMovement\Private\UI">
-      <UniqueIdentifier>{F7F13EC0-9007-4F01-A936-EB03860C6BB6}</UniqueIdentifier>
+      <UniqueIdentifier>{8DF2D015-5C25-4543-AF1B-112743AD20AC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\GenericHUD.cpp">
+      <Filter>Source\PlayerMovement\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Interaction_Interface.cpp">
+      <Filter>Source\PlayerMovement\Private\UI</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Inventory.cpp">
       <Filter>Source\PlayerMovement\Private\UI</Filter>
     </ClCompile>
     <Filter Include="Source\PlayerMovement\Public">
-      <UniqueIdentifier>{870EA53B-A928-41B5-B5A9-80F242D49F16}</UniqueIdentifier>
+      <UniqueIdentifier>{DC062BC8-7885-4750-8CE3-83BBF42D5CC0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\PlayerMovement\Public\UI">
-      <UniqueIdentifier>{439C0984-0320-4523-9E5E-41C844038936}</UniqueIdentifier>
+      <UniqueIdentifier>{832487D9-7441-4588-9760-B802CB80E826}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\GenericHUD.h">
+      <Filter>Source\PlayerMovement\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Interaction_Interface.h">
+      <Filter>Source\PlayerMovement\Public\UI</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Inventory.h">
       <Filter>Source\PlayerMovement\Public\UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\GenericHUD.h">
+    <ClInclude Include="..\..\Source\PlayerMovement\Public\UI\Pickup_Actor.h">
       <Filter>Source\PlayerMovement\Public\UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\GenericHUD.cpp">
+    <ClCompile Include="..\..\Source\PlayerMovement\Private\UI\Pickup_Actor.cpp">
       <Filter>Source\PlayerMovement\Private\UI</Filter>
     </ClCompile>
   </ItemGroup>

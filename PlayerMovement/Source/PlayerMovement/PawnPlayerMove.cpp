@@ -12,6 +12,7 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "UI/GenericHUD.h"
+#include "UI/Interaction_Interface.h"
 
 // Sets default values
 APawnPlayerMove::APawnPlayerMove()
@@ -43,6 +44,7 @@ APawnPlayerMove::APawnPlayerMove()
 	SkeletalMesh->SetupAttachment(RootComponent);
 
 	HudReference = nullptr;
+	InteractionDistance = 250;
 
 }
 
@@ -189,3 +191,39 @@ void APawnPlayerMove::AddControllerPitchInput(float Val)
 
 }
 
+void APawnPlayerMove::Interact()
+{
+	//Prepare our invisible ray's values
+	FHitResult Hit;
+	const FVector StartTrace = Camera->GetComponentLocation();
+	const FVector EndTrace = StartTrace + (Camera->GetForwardVector()*InteractionDistance);
+
+	//Collision to ignore
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(GetOwner());
+	QueryParams.AddIgnoredActor(this);
+
+	//Fire an invisible ray
+	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, ECollisionChannel::ECC_Visibility, QueryParams);
+
+	//Check if we hit anything
+	if (Hit.bBlockingHit)
+	{
+		AActor* HitActor = Hit.GetActor();
+		//check if it has the interface implemented
+		if (HitActor->GetClass()->ImplementsInterface(UInteraction_Interface::StaticClass()))
+		{
+			//cast for c++ interface
+			if (IInteraction_Interface* Interface = Cast<IInteraction_Interface>(HitActor))
+			{
+				//call C++ layer
+				Interface->Execute_OnInteract(HitActor, this);
+			}
+			else
+			{
+				//Call BP Layer
+				IInteraction_Interface::Execute_OnInteract(HitActor, this);
+			}
+		}
+	}
+}

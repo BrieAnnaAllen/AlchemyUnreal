@@ -62,8 +62,17 @@ protected:
 	// Remove this override for Implementation
 	virtual void AddControllerYawInput(float Val) override;
 
+	virtual void OnInteract_Implementation(AActor* Interactor)
+		PURE_VIRTUAL(IInteraction_Interface::OnInteract_Implementation, );
+
 	UPROPERTY()
 		class AGenericHUD* HudReference;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character")
+		float InteractionDistance;
+
+	UFUNCTION()
+		void Interact();
 
 public:	
 	// Called every frame

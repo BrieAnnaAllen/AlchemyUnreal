@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define PlayerMovement_Source_PlayerMovement_PawnPlayerMove_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execInteract) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interact(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execEndInventory) \
 	{ \
 		P_FINISH; \
@@ -33,6 +41,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define PlayerMovement_Source_PlayerMovement_PawnPlayerMove_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInteract) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interact(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEndInventory) \
 	{ \
@@ -94,7 +110,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnPlayerMove); \
 
 
 #define PlayerMovement_Source_PlayerMovement_PawnPlayerMove_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__HudReference() { return STRUCT_OFFSET(APawnPlayerMove, HudReference); }
+	FORCEINLINE static uint32 __PPO__HudReference() { return STRUCT_OFFSET(APawnPlayerMove, HudReference); } \
+	FORCEINLINE static uint32 __PPO__InteractionDistance() { return STRUCT_OFFSET(APawnPlayerMove, InteractionDistance); }
 
 
 #define PlayerMovement_Source_PlayerMovement_PawnPlayerMove_h_9_PROLOG

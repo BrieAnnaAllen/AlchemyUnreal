@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_PlayerMovement();
 	PLAYERMOVEMENT_API UFunction* Z_Construct_UFunction_APawnPlayerMove_EndInventory();
+	PLAYERMOVEMENT_API UFunction* Z_Construct_UFunction_APawnPlayerMove_Interact();
 	PLAYERMOVEMENT_API UFunction* Z_Construct_UFunction_APawnPlayerMove_StartInventory();
 	PLAYERMOVEMENT_API UClass* Z_Construct_UClass_AGenericHUD_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -31,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 		UClass* Class = APawnPlayerMove::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "EndInventory", &APawnPlayerMove::execEndInventory },
+			{ "Interact", &APawnPlayerMove::execInteract },
 			{ "StartInventory", &APawnPlayerMove::execStartInventory },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -55,6 +57,28 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APawnPlayerMove_EndInventory_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APawnPlayerMove_Interact_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APawnPlayerMove_Interact_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PawnPlayerMove.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APawnPlayerMove_Interact_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APawnPlayerMove, "Interact", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APawnPlayerMove_Interact_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APawnPlayerMove_Interact_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APawnPlayerMove_Interact()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APawnPlayerMove_Interact_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -92,6 +116,10 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractionDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_InteractionDistance;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HudReference_MetaData[];
 #endif
@@ -148,6 +176,7 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APawnPlayerMove_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APawnPlayerMove_EndInventory, "EndInventory" }, // 1016203393
+		{ &Z_Construct_UFunction_APawnPlayerMove_Interact, "Interact" }, // 614763273
 		{ &Z_Construct_UFunction_APawnPlayerMove_StartInventory, "StartInventory" }, // 1003117119
 	};
 #if WITH_METADATA
@@ -157,6 +186,13 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 		{ "ModuleRelativePath", "PawnPlayerMove.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_InteractionDistance_MetaData[] = {
+		{ "Category", "Character" },
+		{ "ModuleRelativePath", "PawnPlayerMove.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_InteractionDistance = { UE4CodeGen_Private::EPropertyClass::Float, "InteractionDistance", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(APawnPlayerMove, InteractionDistance), METADATA_PARAMS(Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_InteractionDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_InteractionDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_HudReference_MetaData[] = {
 		{ "ModuleRelativePath", "PawnPlayerMove.h" },
@@ -256,6 +292,7 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_Capsule = { UE4CodeGen_Private::EPropertyClass::Object, "Capsule", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000009000d, 1, nullptr, STRUCT_OFFSET(APawnPlayerMove, Capsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_Capsule_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_Capsule_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APawnPlayerMove_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_InteractionDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_HudReference,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_CameraHeightOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnPlayerMove_Statics::NewProp_CameraDistance,
@@ -291,7 +328,7 @@ void EmptyLinkFunctionForGeneratedCodePawnPlayerMove() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APawnPlayerMove, 1789805985);
+	IMPLEMENT_CLASS(APawnPlayerMove, 113920956);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APawnPlayerMove(Z_Construct_UClass_APawnPlayerMove, &APawnPlayerMove::StaticClass, TEXT("/Script/PlayerMovement"), TEXT("APawnPlayerMove"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APawnPlayerMove);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
