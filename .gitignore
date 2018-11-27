@@ -43,6 +43,8 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.pdb
+*.cache
 
 # Precompiled Assets
 SourceArt/**/*.png
