@@ -1,0 +1,32 @@
+﻿  Cleaning PlayerMovementEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for PlayerMovementEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.14.26428) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for PlayerMovementEditor
+    Running UnrealHeaderTool "C:\workspace\AlchemyUnreal\PlayerMovement\PlayerMovement.uproject" "C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\PlayerMovementEditor\Development\PlayerMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PlayerMovementEditor in 8.0807558 seconds
+  Building 18 actions with 8 processes...
+    [1/18] PCLaunch.rc
+    [2/18] SharedPCH.Engine.cpp
+    [3/18] PlayerMovement.init.gen.cpp
+    [4/18] Interaction_Interface.cpp
+    [5/18] Interaction_Interface.gen.cpp
+    [6/18] PawnPlayerMove.gen.cpp
+    [7/18] BPTris.gen.cpp
+    [8/18] GenericHUD.gen.cpp
+    [9/18] PlayerMovement.cpp
+    [10/18] PlayerMovementGameModeBase.cpp
+    [11/18] BPTris.cpp
+    [12/18] PlayerMovementGameModeBase.gen.cpp
+    [13/18] Inventory.gen.cpp
+    [14/18] GenericHUD.cpp
+    [15/18] Inventory.cpp
+    [16/18] PawnPlayerMove.cpp
+    [17/18] UE4Editor-PlayerMovement.lib
+       Creating library C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.lib and object C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.exp
+    [18/18] UE4Editor-PlayerMovement.dll
+       Creating library C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.suppressed.lib and object C:\workspace\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement.suppressed.exp
+  Deploying PlayerMovementEditor Win64 Development...
+  Total build time: 46.74 seconds (Parallel executor: 32.52 seconds)

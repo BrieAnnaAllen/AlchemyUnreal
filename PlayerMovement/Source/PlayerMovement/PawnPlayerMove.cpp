@@ -11,6 +11,8 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "UI/GenericHUD.h"
+#include "UI/Interaction_Interface.h"
 
 // Sets default values
 APawnPlayerMove::APawnPlayerMove()
@@ -40,6 +42,9 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
+
+	HudReference = nullptr;
+	InteractionDistance = 250;
 
 }
 
@@ -115,8 +120,55 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput);
 	InputComponent->BindAxisKey(EKeys::MouseY);
 
+	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
+
 
 }
+
+void APawnPlayerMove::StartInventory()
+{
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+		//check if hud is not valid
+		if (!HudReference)
+		{
+			HudReference = Cast<AGenericHUD>(PC->GetHUD());
+		}
+
+		//checks if hud is valid
+		if (HudReference)
+		{
+			HudReference->ShowSpecificMenu(HudReference->GetPauseMenuClas(), false, true);
+		}
+
+		//Pause the game
+		PC->SetPause(true);
+	}
+}
+
+void APawnPlayerMove::EndInventory()
+{
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+
+		//Unpause the game
+		PC->SetPause(false);
+
+		//check if hud is not valid
+		if (!HudReference)
+		{
+			HudReference = Cast<AGenericHUD>(PC->GetHUD());
+		}
+
+		//checks if hud is valid
+		if (HudReference)
+		{
+			HudReference->ShowSpecificMenu(HudReference->GetGameplayHUDClass(), true, false);
+		}
+
+	}
+}
+
 
 void APawnPlayerMove::MoveThumbstickLeftX(float AxisValue)
 {
@@ -139,3 +191,39 @@ void APawnPlayerMove::AddControllerPitchInput(float Val)
 
 }
 
+void APawnPlayerMove::Interact()
+{
+	//Prepare our invisible ray's values
+	FHitResult Hit;
+	const FVector StartTrace = Camera->GetComponentLocation();
+	const FVector EndTrace = StartTrace + (Camera->GetForwardVector()*InteractionDistance);
+
+	//Collision to ignore
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(GetOwner());
+	QueryParams.AddIgnoredActor(this);
+
+	//Fire an invisible ray
+	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, ECollisionChannel::ECC_Visibility, QueryParams);
+
+	//Check if we hit anything
+	if (Hit.bBlockingHit)
+	{
+		AActor* HitActor = Hit.GetActor();
+		//check if it has the interface implemented
+		if (HitActor->GetClass()->ImplementsInterface(UInteraction_Interface::StaticClass()))
+		{
+			//cast for c++ interface
+			if (IInteraction_Interface* Interface = Cast<IInteraction_Interface>(HitActor))
+			{
+				//call C++ layer
+				Interface->Execute_OnInteract(HitActor, this);
+			}
+			else
+			{
+				//Call BP Layer
+				IInteraction_Interface::Execute_OnInteract(HitActor, this);
+			}
+		}
+	}
+}
