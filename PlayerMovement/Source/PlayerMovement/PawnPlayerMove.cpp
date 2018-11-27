@@ -57,7 +57,7 @@ void APawnPlayerMove::BeginPlay()
 	// Automatically set Collision Preset to Pawn
 	Capsule->SetCollisionProfileName("Pawn");
 
-	//
+	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
 }
 
@@ -73,10 +73,11 @@ void APawnPlayerMove::Tick(float DeltaTime)
 
 void APawnPlayerMove::HandleInput()
 {
-	FVector FActorMovement;
-	FRotator FCharacterRotation;
-	FVector FDirection = GetActorForwardVector();
-	//FRotator FCharacterDestinationRotation = GetActorRotation();
+	FVector FActorMovement; // reperesents the current location of the character
+	//FRotator FCharacterRotation; //
+	FVector FDirection = GetActorForwardVector(); // sets the FDirectionb variable to the foward vector of the actor
+
+	//Controlls 
 	if((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 
@@ -115,32 +116,32 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	// Create Bindings
+	// Create Bindings for each key
 	InputComponent = PlayerInputComponent;
 	InputComponent->BindAxisKey(EKeys::W);
 	InputComponent->BindAxisKey(EKeys::S);
 	InputComponent->BindAxisKey(EKeys::A);
 	InputComponent->BindAxisKey(EKeys::D);
-	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput);
-	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput);
+	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
+	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
-	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Left, this, &APawnPlayerMove::AddControllerYawInput);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Left, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
 	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Right);
-	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Up, this, &APawnPlayerMove::AddControllerPitchInput);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Up, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
 	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Up);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Left);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Right);
 }
-
+// Grabs the Yaw Input class that is already built into Unreal
 void APawnPlayerMove::AddControllerYawInput(float Val)
 {
 
 	Super::AddControllerYawInput(IsCameraYawInverted ? Val * -1 : Val);
 
 }
-
+ // Grabs the Pitch input class that is already built into Unreal
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
 

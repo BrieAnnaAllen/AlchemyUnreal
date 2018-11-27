@@ -419,6 +419,8 @@
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<ClCompile Include="..\..\Source\PlayerMovement\BPTris.cpp" />
 		<ClInclude Include="..\..\Source\PlayerMovement\BPTris.h" />
+		<ClCompile Include="..\..\Source\PlayerMovement\FSubtitle.cpp" />
+		<ClInclude Include="..\..\Source\PlayerMovement\FSubtitle.h" />
 		<ClCompile Include="..\..\Source\PlayerMovement\PawnPlayerMove.cpp" />
 		<ClInclude Include="..\..\Source\PlayerMovement\PawnPlayerMove.h" />
 		<None Include="..\..\Source\PlayerMovement\PlayerMovement.Build.cs" />

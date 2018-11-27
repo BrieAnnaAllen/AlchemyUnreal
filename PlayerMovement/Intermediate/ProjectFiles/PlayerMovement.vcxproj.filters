@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PlayerMovement.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{350FD8CA-2E8B-4C10-BDA5-72CB2CF1438E}</UniqueIdentifier>
+			<UniqueIdentifier>{551B4C3D-7E0D-411A-A685-CD682F448D98}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PlayerMovement.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E13668D9-8FD4-407A-9C92-CD99FB2A4F99}</UniqueIdentifier>
+			<UniqueIdentifier>{15FA4B40-E39D-4472-93AE-04EAACE3DB97}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,12 +25,18 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PlayerMovement">
-			<UniqueIdentifier>{0F252BC9-5B50-449A-A685-783AA9E771D0}</UniqueIdentifier>
+			<UniqueIdentifier>{C5117470-07F0-47B4-A173-E5FFA1A9A866}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PlayerMovement\BPTris.cpp">
 			<Filter>Source\PlayerMovement</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\PlayerMovement\BPTris.h">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PlayerMovement\FSubtitle.cpp">
+			<Filter>Source\PlayerMovement</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PlayerMovement\FSubtitle.h">
 			<Filter>Source\PlayerMovement</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\PlayerMovement\PawnPlayerMove.cpp">
