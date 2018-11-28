@@ -15,11 +15,13 @@ public:
 	// Sets default values for this pawn's properties
 	APawnPlayerMove();
 
+
 	UFUNCTION(BlueprintCallable, Category = "Character|Input")
 		void StartInventory();
 
 	UFUNCTION(BlueprintCallable, Category = "Character|Input")
 		void EndInventory();
+
 
 	//Capsule Collider
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Components")
@@ -62,6 +64,7 @@ protected:
 	// Remove this override for Implementation
 	virtual void AddControllerYawInput(float Val) override;
 
+
 	virtual void OnInteract_Implementation(AActor* Interactor)
 		PURE_VIRTUAL(IInteraction_Interface::OnInteract_Implementation, );
 
@@ -74,6 +77,7 @@ protected:
 	UFUNCTION()
 		void Interact();
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -81,6 +85,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void MoveThumbstickLeftX(float AxisValue);
+
 	
 };

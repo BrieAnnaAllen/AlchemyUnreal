@@ -13,6 +13,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "UI/GenericHUD.h"
 #include "UI/Interaction_Interface.h"
+#include "Kismet/KismetMathLibrary.h"
+
 
 // Sets default values
 APawnPlayerMove::APawnPlayerMove()
@@ -43,8 +45,10 @@ APawnPlayerMove::APawnPlayerMove()
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
 
+
 	HudReference = nullptr;
 	InteractionDistance = 250;
+
 
 }
 
@@ -61,7 +65,8 @@ void APawnPlayerMove::BeginPlay()
 	// Automatically set Collision Preset to Pawn
 	Capsule->SetCollisionProfileName("Pawn");
 
-	//
+
+	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
 }
 
@@ -77,33 +82,43 @@ void APawnPlayerMove::Tick(float DeltaTime)
 
 void APawnPlayerMove::HandleInput()
 {
-	if(InputComponent->GetAxisKeyValue(EKeys::W) > 0)
+
+	FVector FActorMovement; // reperesents the current location of the character
+	//FRotator FCharacterRotation; //
+	FVector FDirection = GetActorForwardVector(); // sets the FDirectionb variable to the foward vector of the actor
+
+	//Controlls 
+	if((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 
-		SetActorLocation((GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds()));
+		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
 
 	}
-	if (InputComponent->GetAxisKeyValue(EKeys::S) > 0)
+	if ((InputComponent->GetAxisKeyValue(EKeys::S) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Down) > 0))
 	{
 
-		SetActorLocation((GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds()));
+		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
 
 	}
-	if (InputComponent->GetAxisKeyValue(EKeys::A) > 0)
+	if ((InputComponent->GetAxisKeyValue(EKeys::A) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Left) > 0))
 	{
 
-		SetActorLocation((GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds()));
+		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
 
 	}
-	if (InputComponent->GetAxisKeyValue(EKeys::D) > 0)
+	if ((InputComponent->GetAxisKeyValue(EKeys::D) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Right) > 0))
 	{
-
-		SetActorLocation((GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds()));
+		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
 
 	}
-
-	//AddControllerYawInput(InputComponent->GetAxisKeyValue(EKeys::MouseX));
-	AddControllerPitchInput(InputComponent->GetAxisKeyValue(EKeys::MouseY));
+	
+	SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
+	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
+	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
 
 // Called to bind functionality to input
@@ -111,14 +126,14 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	// Create Bindings
+
+	// Create Bindings for each key
 	InputComponent = PlayerInputComponent;
 	InputComponent->BindAxisKey(EKeys::W);
 	InputComponent->BindAxisKey(EKeys::S);
 	InputComponent->BindAxisKey(EKeys::A);
 	InputComponent->BindAxisKey(EKeys::D);
-	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput);
-	InputComponent->BindAxisKey(EKeys::MouseY);
+
 
 	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
 
@@ -177,6 +192,20 @@ void APawnPlayerMove::MoveThumbstickLeftX(float AxisValue)
 
 }
 
+
+	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
+	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
+	InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Left, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Right);
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Up, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
+	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Down);
+	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Up);
+	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Down);
+	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Left);
+	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Right);
+}
+// Grabs the Yaw Input class that is already built into Unreal
 void APawnPlayerMove::AddControllerYawInput(float Val)
 {
 
@@ -184,12 +213,15 @@ void APawnPlayerMove::AddControllerYawInput(float Val)
 
 }
 
+ // Grabs the Pitch input class that is already built into Unreal
+
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
 
 	Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
 
 }
+
 
 void APawnPlayerMove::Interact()
 {
@@ -227,3 +259,4 @@ void APawnPlayerMove::Interact()
 		}
 	}
 }
+
