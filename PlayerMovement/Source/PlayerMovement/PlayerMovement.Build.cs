@@ -8,7 +8,9 @@ public class PlayerMovement : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "Slate" });
+
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
