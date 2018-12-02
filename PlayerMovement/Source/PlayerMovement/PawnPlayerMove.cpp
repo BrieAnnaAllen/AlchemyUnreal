@@ -11,10 +11,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "UI/GenericHUD.h"
-#include "UI/Interaction_Interface.h"
 #include "Kismet/KismetMathLibrary.h"
-
 
 // Sets default values
 APawnPlayerMove::APawnPlayerMove()
@@ -45,11 +42,6 @@ APawnPlayerMove::APawnPlayerMove()
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
 
-
-	HudReference = nullptr;
-	InteractionDistance = 250;
-
-
 }
 
 // Called when the game starts or when spawned
@@ -64,7 +56,6 @@ void APawnPlayerMove::BeginPlay()
 
 	// Automatically set Collision Preset to Pawn
 	Capsule->SetCollisionProfileName("Pawn");
-
 
 	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
@@ -82,7 +73,6 @@ void APawnPlayerMove::Tick(float DeltaTime)
 
 void APawnPlayerMove::HandleInput()
 {
-
 	FVector FActorMovement; // reperesents the current location of the character
 	//FRotator FCharacterRotation; //
 	FVector FDirection = GetActorForwardVector(); // sets the FDirectionb variable to the foward vector of the actor
@@ -126,73 +116,12 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-
 	// Create Bindings for each key
 	InputComponent = PlayerInputComponent;
 	InputComponent->BindAxisKey(EKeys::W);
 	InputComponent->BindAxisKey(EKeys::S);
 	InputComponent->BindAxisKey(EKeys::A);
 	InputComponent->BindAxisKey(EKeys::D);
-
-
-	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
-
-
-}
-
-void APawnPlayerMove::StartInventory()
-{
-	if (APlayerController* PC = Cast<APlayerController>(GetController()))
-	{
-		//check if hud is not valid
-		if (!HudReference)
-		{
-			HudReference = Cast<AGenericHUD>(PC->GetHUD());
-		}
-
-		//checks if hud is valid
-		if (HudReference)
-		{
-			HudReference->ShowSpecificMenu(HudReference->GetPauseMenuClas(), false, true);
-		}
-
-		//Pause the game
-		PC->SetPause(true);
-	}
-}
-
-void APawnPlayerMove::EndInventory()
-{
-	if (APlayerController* PC = Cast<APlayerController>(GetController()))
-	{
-
-		//Unpause the game
-		PC->SetPause(false);
-
-		//check if hud is not valid
-		if (!HudReference)
-		{
-			HudReference = Cast<AGenericHUD>(PC->GetHUD());
-		}
-
-		//checks if hud is valid
-		if (HudReference)
-		{
-			HudReference->ShowSpecificMenu(HudReference->GetGameplayHUDClass(), true, false);
-		}
-
-	}
-}
-
-
-void APawnPlayerMove::MoveThumbstickLeftX(float AxisValue)
-{
-
-
-
-}
-
-
 	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
 	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
@@ -212,51 +141,11 @@ void APawnPlayerMove::AddControllerYawInput(float Val)
 	Super::AddControllerYawInput(IsCameraYawInverted ? Val * -1 : Val);
 
 }
-
  // Grabs the Pitch input class that is already built into Unreal
-
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
 
 	Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
 
-}
-
-
-void APawnPlayerMove::Interact()
-{
-	//Prepare our invisible ray's values
-	FHitResult Hit;
-	const FVector StartTrace = Camera->GetComponentLocation();
-	const FVector EndTrace = StartTrace + (Camera->GetForwardVector()*InteractionDistance);
-
-	//Collision to ignore
-	FCollisionQueryParams QueryParams;
-	QueryParams.AddIgnoredActor(GetOwner());
-	QueryParams.AddIgnoredActor(this);
-
-	//Fire an invisible ray
-	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, ECollisionChannel::ECC_Visibility, QueryParams);
-
-	//Check if we hit anything
-	if (Hit.bBlockingHit)
-	{
-		AActor* HitActor = Hit.GetActor();
-		//check if it has the interface implemented
-		if (HitActor->GetClass()->ImplementsInterface(UInteraction_Interface::StaticClass()))
-		{
-			//cast for c++ interface
-			if (IInteraction_Interface* Interface = Cast<IInteraction_Interface>(HitActor))
-			{
-				//call C++ layer
-				Interface->Execute_OnInteract(HitActor, this);
-			}
-			else
-			{
-				//Call BP Layer
-				IInteraction_Interface::Execute_OnInteract(HitActor, this);
-			}
-		}
-	}
 }
 
