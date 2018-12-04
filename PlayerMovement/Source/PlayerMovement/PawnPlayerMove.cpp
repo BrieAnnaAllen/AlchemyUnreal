@@ -43,9 +43,10 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
-
+	
 	HudReference = nullptr;
 	InteractionDistance = 250;
+
 
 }
 
