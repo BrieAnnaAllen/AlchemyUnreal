@@ -13,8 +13,7 @@ UCLASS()
 class PLAYERMOVEMENT_API UInventory : public UUserWidget
 {
 	GENERATED_BODY()
-
-
+	
 protected:
 
 	//occurs on compile from blueprint editor
@@ -29,8 +28,9 @@ private:
 	//when the button is clicked
 	UFUNCTION()
 		void OnResumeClicked();
-	
+
 	void UnPauseGame();
 
+	
 	
 };

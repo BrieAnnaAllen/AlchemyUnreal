@@ -56,7 +56,3 @@ void AGenericHUD::HideAllMenus()
 	//call an already established function to remove all widgets from the player's screen
 	UWidgetLayoutLibrary::RemoveAllWidgets(this);
 }
-
-
-
-

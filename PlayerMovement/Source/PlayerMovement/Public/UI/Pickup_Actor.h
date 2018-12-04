@@ -10,8 +10,9 @@ UCLASS()
 class PLAYERMOVEMENT_API APickup_Actor : public AActor
 {
 	GENERATED_BODY()
+	
 
-		UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 		class USphereComponent* CollectionSphere;
 public:
 	// Sets default values for this actor's properties

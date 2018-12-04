@@ -13,7 +13,7 @@ UCLASS()
 class PLAYERMOVEMENT_API AGenericHUD : public AHUD
 {
 	GENERATED_BODY()
-
+	
 public:
 
 	//constructor
@@ -42,7 +42,6 @@ protected:
 	//the menu to use when the player pauses the game
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "GenericHUD")
 		class TSubclassOf<UUserWidget> PauseMenuClass;
-
-
-
+	
+	
 };

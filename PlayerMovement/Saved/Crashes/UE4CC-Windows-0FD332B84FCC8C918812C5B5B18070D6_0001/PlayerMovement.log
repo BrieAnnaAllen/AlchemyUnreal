@@ -1,0 +1,570 @@
+﻿Log file open, 12/04/18 08:06:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PlayerMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.336200
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.208s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:         Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz, GPU: AMD Radeon HD 7000 series
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.04-14.06.51:848][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-14.06.51:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.04-14.06.51:876][  0]LogHAL: Display: Platform has ~ 8 GB [8542158848 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.04-14.06.51:876][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.04-14.06.51:876][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.04-14.06.51:891][  0]LogInit: Computer: DESKTOP-T8CS1KL
+[2018.12.04-14.06.51:891][  0]LogInit: User: tolso
+[2018.12.04-14.06.51:891][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.04-14.06.51:891][  0]LogInit: High frequency timer resolution =3.312806 MHz
+[2018.12.04-14.06.51:892][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.12.04-14.06.51:892][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.04-14.06.51:892][  0]LogMemory: Process Physical Memory: 99.69 MB used, 99.69 MB peak
+[2018.12.04-14.06.51:892][  0]LogMemory: Process Virtual Memory: 91.05 MB used, 91.05 MB peak
+[2018.12.04-14.06.51:892][  0]LogMemory: Physical Memory: 3867.71 MB used,  4278.73 MB free, 8146.44 MB total
+[2018.12.04-14.06.51:892][  0]LogMemory: Virtual Memory: 4640.04 MB used,  4278.73 MB free, 134217728.00 MB total
+[2018.12.04-14.06.52:033][  0]LogInit: Using OS detected language (en-US).
+[2018.12.04-14.06.52:033][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.04-14.06.52:064][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.04-14.06.52:714][  0]LogStreaming: Display: Took  0.681s to InitEngineTextLocalization.
+[2018.12.04-14.06.52:714][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.04-14.06.53:024][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.04-14.06.53:024][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.04-14.06.57:559][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-14.06.57:559][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.04-14.06.57:569][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7000 series' (Feature Level 11_0)
+[2018.12.04-14.06.57:569][  0]LogD3D11RHI:       1008/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.12.04-14.06.57:571][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.04-14.06.57:571][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.04-14.06.57:571][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.04-14.06.57:577][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.04-14.06.57:577][  0]LogD3D11RHI:     GPU DeviceId: 0x6778 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.04-14.06.57:577][  0]LogWindows: EnumDisplayDevices:
+[2018.12.04-14.06.57:577][  0]LogWindows:    0. 'AMD Radeon HD 7000 series' (P:1 D:1)
+[2018.12.04-14.06.57:578][  0]LogWindows:    1. 'AMD Radeon HD 7000 series' (P:0 D:0)
+[2018.12.04-14.06.57:578][  0]LogWindows:    2. 'AMD Radeon HD 7000 series' (P:0 D:0)
+[2018.12.04-14.06.57:579][  0]LogWindows:    3. 'AMD Radeon HD 7000 series' (P:0 D:0)
+[2018.12.04-14.06.57:579][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.04-14.06.57:579][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7000 series
+[2018.12.04-14.06.57:579][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2018.12.04-14.06.57:579][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2018.12.04-14.06.57:579][  0]LogRHI: Texture pool is 706 MB (70% of 1008 MB)
+[2018.12.04-14.06.57:685][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.12.04-14.06.57:693][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.04-14.06.57:705][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.12.04-14.06.57:706][  0]LogShaderCompilers: Guid format shader working directory is -119 characters bigger than the processId version (../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Intermediate/Shaders/WorkingDirectory/11364/).
+[2018.12.04-14.06.57:706][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tolso/AppData/Local/Temp/UnrealShaderWorkingDir/334D20644B1958E501DDC6897C8BF5D1/'.
+[2018.12.04-14.06.58:187][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.04-14.06.58:203][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.04-14.06.58:220][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.04-14.06.58:243][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.04-14.06.58:262][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.04-14.06.58:280][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.04-14.06.58:305][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.04-14.06.58:329][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.04-14.06.58:345][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-14.06.58:458][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.04-14.06.58:536][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-14.06.58:536][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-14.06.58:568][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-14.06.58:568][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-14.06.58:592][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.04-14.06.58:607][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.04-14.06.58:620][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.04-14.06.58:640][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.04-14.06.58:652][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.04-14.06.58:652][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.04-14.06.59:045][  0]LogXGEController: Cleaning working directory: C:/Users/tolso/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.04-14.06.59:046][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.04-14.06.59:046][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.04-14.06.59:046][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.04-14.06.59:890][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.04-14.07.00:687][  0]LogDerivedDataCache: Loaded boot cache 0.80s 71MB C:/Users/tolso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-14.07.00:687][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tolso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.04-14.07.00:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.04-14.07.00:688][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.04-14.07.00:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.04-14.07.00:688][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.04-14.07.00:750][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.04-14.07.00:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tolso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.04-14.07.00:764][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.04-14.07.00:764][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.04-14.07.00:784][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.04-14.07.00:785][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.04-14.07.00:807][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.04-14.07.01:239][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.12.04-14.07.01:654][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-14.07.02:092][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.04-14.07.02:132][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.04-14.07.02:132][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.04-14.07.02:132][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.04-14.07.02:132][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.04-14.07.02:162][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2018.12.04-14.07.02:988][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.134474 seconds
+[2018.12.04-14.07.02:994][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.04-14.07.02:994][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.04-14.07.02:994][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.04-14.07.15:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.04-14.07.15:552][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.04-14.07.16:242][  0]SourceControl: Source control is disabled
+[2018.12.04-14.07.16:242][  0]SourceControl: Source control is disabled
+[2018.12.04-14.07.16:278][  0]SourceControl: Source control is disabled
+[2018.12.04-14.07.16:340][  0]SourceControl: Source control is disabled
+[2018.12.04-14.07.16:961][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.04-14.07.17:104][  0]LogOcInput: OculusInput pre-init called
+[2018.12.04-14.07.17:286][  0]LogEngine: Initializing Engine...
+[2018.12.04-14.07.17:287][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-14.07.17:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-14.07.17:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-14.07.17:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.04-14.07.17:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-14.07.17:512][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.04-14.07.17:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.04-14.07.17:585][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.04-14.07.17:907][  0]LogInit: FAudioDevice initialized.
+[2018.12.04-14.07.17:907][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.04-14.07.18:099][  0]LogDerivedDataCache: Saved boot cache 0.19s 71MB C:/Users/tolso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-14.07.18:123][  0]LogInit: Texture streaming: Enabled
+[2018.12.04-14.07.18:200][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.04-14.07.18:306][  0]LogInit: Transaction tracking system initialized
+[2018.12.04-14.07.18:585][  0]BlueprintLog: New page: Editor Load
+[2018.12.04-14.07.19:056][  0]LocalizationService: Localization service is disabled
+[2018.12.04-14.07.20:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.04-14.07.20:057][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.04-14.07.20:057][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.04-14.07.20:057][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-14.07.20:057][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-14.07.20:057][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.04-14.07.20:057][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-14.07.20:923][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/' took 0.02s
+[2018.12.04-14.07.20:965][  0]SourceControl: Source control is disabled
+[2018.12.04-14.07.20:966][  0]LightingResults: New page: Lighting Build
+[2018.12.04-14.07.20:983][  0]MapCheck: New page: Map Check
+[2018.12.04-14.07.20:984][  0]LightingResults: New page: Lighting Build
+[2018.12.04-14.07.21:119][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.12.04-14.07.21:120][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.12.04-14.07.21:120][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.12.04-14.07.21:189][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:189][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.12.04-14.07.21:189][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2018.12.04-14.07.21:194][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.12.04-14.07.21:194][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.12.04-14.07.21:194][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.12.04-14.07.21:217][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:217][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.12.04-14.07.21:217][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2018.12.04-14.07.21:218][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.12.04-14.07.21:219][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.12.04-14.07.21:219][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:219][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.12.04-14.07.21:219][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.12.04-14.07.21:219][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.12.04-14.07.21:220][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:220][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.12.04-14.07.21:230][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.12.04-14.07.21:230][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.12.04-14.07.21:230][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.12.04-14.07.21:230][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.12.04-14.07.21:232][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:232][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2018.12.04-14.07.21:232][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.12.04-14.07.21:232][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2018.12.04-14.07.21:232][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.12.04-14.07.21:232][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2018.12.04-14.07.21:232][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.12.04-14.07.21:233][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2018.12.04-14.07.21:586][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.04-14.07.21:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.04-14.07.21:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.04-14.07.21:717][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.861ms to complete.
+[2018.12.04-14.07.21:717][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.753
+[2018.12.04-14.07.22:099][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-14.07.22:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-14.07.22:124][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-14.07.22:133][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-14.07.22:189][  0]LogCollectionManager: Loaded 0 collections in 0.002263 seconds
+[2018.12.04-14.07.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Collections/' took 0.01s
+[2018.12.04-14.07.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/Developers/tolso/Collections/' took 0.01s
+[2018.12.04-14.07.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/Collections/' took 0.01s
+[2018.12.04-14.07.22:249][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.04-14.07.22:268][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2579 classes and 607 folders.
+[2018.12.04-14.07.22:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.04-14.07.23:545][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.04-14.07.23:571][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.04-14.07.23:661][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.04-14.07.23:661][  0]LogLoad: (Engine Initialization) Total time: 35.99 seconds
+[2018.12.04-14.07.23:661][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.04-14.07.23:702][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.12.04-14.07.23:706][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.04-14.07.23:782][  0]LogSlate: Took 0.070870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.04-14.07.23:819][  0]LogSlate: Took 0.031768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.04-14.07.23:893][  0]LogSlate: Took 0.062967 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.04-14.07.24:137][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 9 NumSamples 1 (Frame:1).
+[2018.12.04-14.07.24:137][  0]LogSlate: Took 0.016026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-14.07.24:671][  2]LogAssetRegistry: Asset discovery search completed in 23.4550 seconds
+[2018.12.04-14.07.24:673][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.04-14.07.24:673][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2018.12.04-14.07.31:857][287]LogSlate: Window 'Message Log' being destroyed
+[2018.12.04-14.07.31:867][287]LogSlate: Window 'Message Log' being destroyed
+[2018.12.04-14.13.49:109][164]LogRenderer: Reallocating scene render targets to support 804x544 Format 9 NumSamples 1 (Frame:13896).
+[2018.12.04-14.14.25:606][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.04-14.14.28:923][360]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-14.14.29:042][360]LogSlate: Took 0.055261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.04-14.14.36:004][642]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyPickup_Actor.MyPickup_Actor
+[2018.12.04-14.14.37:497][642]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.12.04-14.14.39:612][642]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-14.16.12:023][100]LogSlate: Took 0.033674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.04-14.16.32:413][197]LogSlate: Took 0.000450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.04-14.17.10:347][ 19]LogEditorTransaction: Undo Add New Function
+[2018.12.04-14.18.42:856][233]LogLinker: Can't find file '/Script/CPP_PacktTut'
+[2018.12.04-14.18.42:856][233]LogLinker: Can't find file '/Script/CPP_PacktTut'
+[2018.12.04-14.18.42:856][233]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Pickup_Actor"',MemberName="OnCollection")'
+[2018.12.04-14.18.42:858][233]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Pickup_Actor"',MemberName="OnCollection")'
+[2018.12.04-14.18.42:860][233]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Base_Character"',MemberName="SetCurrentHealth")'
+[2018.12.04-14.18.42:861][233]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Base_Character"',MemberName="GetMaxHealth")'
+[2018.12.04-14.18.46:526][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.029
+[2018.12.04-14.18.46:582][408]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyPickup_Actor] ([1] browsable assets)...
+[2018.12.04-14.18.46:583][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyPickup_Actor]
+[2018.12.04-14.18.46:691][408]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/MyPickup_Actor_Auto123E26A594D13CA2532E9339B688F81B0.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Autosaves/Game/MyPickup_Actor_Auto1.uasset'
+[2018.12.04-14.18.46:735][408]LogFileHelpers: Auto-saving content packages took 0.208
+[2018.12.04-14.18.55:716][ 28]LogEditorTransaction: Undo Move Nodes
+[2018.12.04-14.18.57:527][127]LogEditorTransaction: Undo Paste clipboard contents
+[2018.12.04-14.21.06:679][132]LogUObjectHash: Warning: Ambiguous search, could be K2Node_Event /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3 or K2Node_CustomEvent /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3
+[2018.12.04-14.21.06:681][132]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Pickup_Actor"',MemberName="OnCollection")'
+[2018.12.04-14.21.06:682][132]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Pickup_Actor"',MemberName="OnCollection")'
+[2018.12.04-14.21.06:684][132]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Base_Character"',MemberName="SetCurrentHealth")'
+[2018.12.04-14.21.06:685][132]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Base_Character"',MemberName="GetMaxHealth")'
+[2018.12.04-14.21.08:876][246]LogEditorTransaction: Undo Paste clipboard contents
+[2018.12.04-14.21.16:148][404]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallParentFunction /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_CallParentFunction_0 or K2Node_CallParentFunction /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_CallParentFunction_0
+[2018.12.04-14.21.16:149][404]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'Class'"/Script/CPP_PacktTut.Pickup_Actor"',MemberName="OnCollection")'
+[2018.12.04-14.21.16:149][404]LogUObjectHash: Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_ExecutionSequence_0 or K2Node_ExecutionSequence /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_ExecutionSequence_0
+[2018.12.04-14.21.16:150][404]LogUObjectHash: Warning: Ambiguous search, could be K2Node_Event /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3 or K2Node_Event /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3
+[2018.12.04-14.21.16:150][404]LogUObjectHash: Warning: Ambiguous search, could be K2Node_Event /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3 or K2Node_CustomEvent /Game/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_3
+[2018.12.04-14.25.23:099][566]LogRenderer: Reallocating scene render targets to support 804x672 Format 9 NumSamples 1 (Frame:475).
+[2018.12.04-14.28.39:563][151]BlueprintLog: New page: Compile MyPickup_Actor
+[2018.12.04-14.28.39:599][151]LogBlueprint: Warning: [Compiler MyPickup_Actor] Sequence  has no valid output
+[2018.12.04-14.28.39:870][151]LogBlueprint: Warning: [Compiler MyPickup_Actor] [1312.20] Compile of MyPickup_Actor successful, but with 1 Warning(s) [in 306 ms] (/Game/MyPickup_Actor.MyPickup_Actor)
+[2018.12.04-14.29.28:100][967]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Inventory_WB.Inventory_WB
+[2018.12.04-14.29.28:507][967]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-14.29.59:291][519]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.025
+[2018.12.04-14.29.59:293][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyPickup_Actor] ([1] browsable assets)...
+[2018.12.04-14.29.59:337][519]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyPickup_Actor.MyPickup_Actor]
+[2018.12.04-14.29.59:337][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyPickup_Actor]
+[2018.12.04-14.29.59:412][519]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/MyPickup_Actor_Auto2D67119B746C6545CB795F39AF8772A86.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Autosaves/Game/MyPickup_Actor_Auto2.uasset'
+[2018.12.04-14.29.59:415][519]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Inventory_WB] ([1] browsable assets)...
+[2018.12.04-14.29.59:415][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory_WB]
+[2018.12.04-14.29.59:428][519]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Inventory_WB_Auto2D6E5C0B74BEE80FEC99627A8919D99D8.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Autosaves/Game/Blueprints/Inventory_WB_Auto2.uasset'
+[2018.12.04-14.29.59:429][519]LogFileHelpers: Auto-saving content packages took 0.137
+[2018.12.04-14.30.18:738][104]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.04-14.30.27:574][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor_C' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:OnCollection' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:ReceiveTick' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:ReceiveBeginPlay' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:ParticleSystem' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:Sphere' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.SKEL_MyPickup_Actor_C:UserConstructionScript' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:575][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor_C:ParticleSystem' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:576][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor_C:Sphere' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:576][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor_C:OnCollection' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:576][679]LogMetaData: Removing '/Game/Blueprints/MyPickup_Actor.MyPickup_Actor_C:UserConstructionScript' ref from Metadata '/Game/MyPickup_Actor.PackageMetaData'
+[2018.12.04-14.30.27:671][679]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/MyPickup_Actor8B629FAB46E3EBCD37F423AE5F7C4848.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/Blueprints/MyPickup_Actor.uasset'
+[2018.12.04-14.31.09:767][733]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory_WB.Inventory_WB
+[2018.12.04-14.32.20:880][401]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/Inventory_WB260F7EC94A97EB785602B89856299CD5.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/Blueprints/Inventory_WB.uasset'
+[2018.12.04-14.33.50:464][692]BlueprintLog: New page: Compile MyPickup_Actor
+[2018.12.04-14.33.52:178][743]LogSavePackage: Moving '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Saved/MyPickup_ActorDAC4D81A485C092630B10C9E2FBE8810.tmp' to '../../../../../../Users/tolso/Downloads/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/AlchemyUnreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba/PlayerMovement/Content/Blueprints/MyPickup_Actor.uasset'
+[2018.12.04-14.34.00:111][ 45]LogSkeletalMesh: Building Skeletal Mesh Tris_polySurface181...
+[2018.12.04-14.34.00:169][ 45]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Art/Tris/Tris.Tris_polySurface181
+[2018.12.04-14.34.00:169][ 45]LogSkeletalMesh: Building Skeletal Mesh Tris_polySurface269...
+[2018.12.04-14.34.00:169][ 45]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art/Tris/Tris.Tris_polySurface269
+[2018.12.04-14.34.00:170][ 45]LogSkeletalMesh: Building Skeletal Mesh Tris_polySurface272...
+[2018.12.04-14.34.00:170][ 45]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art/Tris/Tris.Tris_polySurface272
+[2018.12.04-14.34.00:173][ 45]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.12.04-14.34.00:417][ 45]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.04-14.34.00:417][ 45]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.04-14.34.00:417][ 45]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.04-14.34.00:417][ 45]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.04-14.34.00:420][ 45]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2018.12.04-14.34.00:469][ 45]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/PlayerMovementTest.PlayerMovementTest
+[2018.12.04-14.34.00:515][ 45]LightingResults: New page: Lighting Build
+[2018.12.04-14.34.00:516][ 45]LoadErrors: New page: Loading map: PlayerMovementTest.umap
+[2018.12.04-14.34.00:516][ 45]MapCheck: New page: Map Check
+[2018.12.04-14.34.00:516][ 45]LightingResults: New page: Lighting Build
+[2018.12.04-14.34.00:572][ 45]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.04-14.34.00:635][ 45]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.04-14.34.00:760][ 45]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.569ms to complete.
+[2018.12.04-14.34.00:761][ 45]LogFileHelpers: Loading map 'PlayerMovementTest' took 0.248
+[2018.12.04-14.34.03:548][164]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-14.34.03:967][181]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-14.34.12:745][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.04-14.34.14:413][576]LogRenderer: Reallocating scene render targets to support 1056x672 Format 9 NumSamples 1 (Frame:510).
+[2018.12.04-14.34.16:026][617]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.04-14.34.16:072][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.04-14.34.16:117][617]PIE: New page: PIE session: PlayerMovementTest (Dec 4, 2018, 2:34:16 AM)
+[2018.12.04-14.34.16:117][617]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2018.12.04-14.34.16:161][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043267s)
+[2018.12.04-14.34.16:161][617]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2018.12.04-14.34.16:171][617]LogPlayLevel: PIE: World Init took: (0.010360s)
+[2018.12.04-14.34.16:171][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.053873s)
+[2018.12.04-14.34.16:220][617]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.04-14.34.16:231][617]LogInit: FAudioDevice initialized.
+[2018.12.04-14.34.16:310][617]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PlayerMovement.PlayerMovementGameMode'
+[2018.12.04-14.34.16:310][617]LogLoad: Game class is 'GameModeBase'
+[2018.12.04-14.34.16:313][617]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2018.12.04-08.34.16
+[2018.12.04-14.34.16:330][617]LogWorld: Bringing up level for play took: 0.017616
+[2018.12.04-14.34.16:391][617]LogOutputDevice: Warning: 
+
+Script Stack:
+PlayerController.ClientRestart
+
+[2018.12.04-14.34.18:353][617]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.962 s
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: Stack: 
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7f0071f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7ed40c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7ed5b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6d47cd8c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc5add4cd6 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\tolso\downloads\alchemyunreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba\alchemyunreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba\playermovement\source\playermovement\pawnplayermove.cpp:127]
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e247bcc UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e2ed3af UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6d4b36d6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc9d326467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc9d551133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.04-14.34.18:354][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6d568033 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6ea68dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e30e2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6de113c7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e3037b9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e31d33c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6deb112e UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6deb08ac UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6dc71ec5 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70faf989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70fd01ac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70fee536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70a06b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ffc712ff666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f45cbd UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f55b3c UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f55bba UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.18:355][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f63dac UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.18:356][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f65aaa UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.18:356][617]LogOutputDevice: Error: [Callstack] 0x00007ffcc5db3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.04-14.34.18:356][617]LogOutputDevice: Error: [Callstack] 0x00007ffcc80d1471 ntdll.dll!UnknownFunction []
+[2018.12.04-14.34.18:356][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.18:372][617]LogStats:                SubmitErrorReport -  0.011 s
+[2018.12.04-14.34.24:708][617]LogStats:                    SendNewReport -  6.337 s
+[2018.12.04-14.34.24:708][617]LogStats:             FDebug::EnsureFailed -  8.318 s
+[2018.12.04-14.34.24:708][617]LogOutputDevice: Warning: 
+
+Script Stack:
+PlayerController.ClientRestart
+
+[2018.12.04-14.34.24:712][617]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.003 s
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: Stack: 
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7f0071f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7ed40c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc7ed5b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc5add2f8f UE4Editor-PlayerMovement.dll!FInputAxisKeyBinding::FInputAxisKeyBinding() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:469]
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc5add24d0 UE4Editor-PlayerMovement.dll!UInputComponent::BindAxisKey<APawnPlayerMove>() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:816]
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc5add4e13 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\tolso\downloads\alchemyunreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba\alchemyunreal-b2989dcfba84c7ffa77c055d3cc94a80156a3fba\playermovement\source\playermovement\pawnplayermove.cpp:134]
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e247bcc UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:712][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e2ed3af UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6d4b36d6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc9d326467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc9d551133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6d568033 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6ea68dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e30e2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6de113c7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e3037b9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6e31d33c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6deb112e UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6deb08ac UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc6dc71ec5 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70faf989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70fd01ac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70fee536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc70a06b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ffc712ff666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.04-14.34.24:713][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f45cbd UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f55b3c UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f55bba UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f63dac UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ff629f65aaa UE4Editor.exe!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ffcc5db3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: [Callstack] 0x00007ffcc80d1471 ntdll.dll!UnknownFunction []
+[2018.12.04-14.34.24:714][617]LogOutputDevice: Error: 
+[2018.12.04-14.34.24:715][617]LogStats:                SubmitErrorReport -  0.000 s
