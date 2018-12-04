@@ -20,7 +20,7 @@ APickup_Actor::APickup_Actor()
 	}
 }
 
-void APickup_Actor::OnCollection_Implementation(APlayer_Character * Collector)
+void APickup_Actor::OnCollection_Implementation(APawnPlayerMove * Collector)
 {
 	//Destroy this actor
 	Destroy();
@@ -29,7 +29,7 @@ void APickup_Actor::OnCollection_Implementation(APlayer_Character * Collector)
 void APickup_Actor::OnSphereOverlap(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	//check if the pawn that entered is the player pawn
-	APlayer_Character* Player = Cast<APlayer_Character>(OtherActor);
+	APawnPlayerMove* Player = Cast<APawnPlayerMove>(OtherActor);
 	if (Player)
 	{
 		//pass in the player reference to OnCollected
