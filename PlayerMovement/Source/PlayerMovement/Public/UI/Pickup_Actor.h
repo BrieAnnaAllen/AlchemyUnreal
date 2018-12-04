@@ -20,9 +20,9 @@ public:
 protected:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Pickup_Actor")
-		void OnCollection(class APlayer_Character* Collector);
+		void OnCollection(class APawnPlayerMove* Collector);
 
-	void OnCollection_Implementation(class APlayer_Character* Collector);
+	void OnCollection_Implementation(class APawnPlayerMove* Collector);
 
 private:
 
