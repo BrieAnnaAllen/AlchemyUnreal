@@ -65,6 +65,9 @@ void APawnPlayerMove::BeginPlay()
 
 	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
+
+	StaticMesh->BodyInstance.bLockXRotation = true;
+	StaticMesh->BodyInstance.bLockYRotation = true;
 }
 
 // Called every frame
@@ -139,10 +142,14 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Left);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Right);
-
+	InputComponent->BindAction("NextLine", IE_Pressed, this, &APawnPlayerMove::NextLine);
 	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
 }
 
+void APawnPlayerMove::NextLine()
+{
+
+}
 void APawnPlayerMove::StartInventory()
 {
 	if (APlayerController* PC = Cast<APlayerController>(GetController()))

@@ -11,7 +11,7 @@
  * 
  */
 USTRUCT(BlueprintType)
-struct FSubtitle : public FTableRowBase
+struct FFSubtitle : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
 

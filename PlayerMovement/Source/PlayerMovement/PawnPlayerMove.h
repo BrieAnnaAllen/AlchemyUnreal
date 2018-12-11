@@ -4,6 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Engine/DataTable.h"
+#include "Dialog.h"
+#include "DialogUIW.h"
+#include "Readable.h"
 #include "PawnPlayerMove.generated.h"
 
 UCLASS()
@@ -52,10 +56,47 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Character")
 		float CameraHeightOffset = 100.0f;
 
+	//Generate playerLines
+	void GeneratePlayerLines(UDataTable& PlayerLines);
+
+	//contains subtitles that wil lpass into UI
+	UFUNCTION(BlueprintCallable, Category = DialogSystem)
+		void Talk(TArray<FFSubtitle>& Subtitles);
+
+	//Enables or disables talk ability
+	void SetTalkRangeStatus(bool Status) { bIsInTalkRange = Status };
+
+	//sets the object Tris is interacting with
+	void SetAssociatedActor(AReadable* Actor) {AssociatedObject = Actor };
+
+	//Get UI reference
+	UDialogUIW* GetUI() { return UI; }
+private:
+	//Tris is talking
+	bool bIsTalking;
+	//Tris is in range of dialog object
+	bool bIsInTalkRange;
+
+	//initiates / terminates conversation
+	void ToggleTalking();
+
+	//Object Tirs is talking about
+	AActor AssociatedOjbect;
+
+	FDialog* RetrieveDialog(UDataTable* TableToSearch, FName RowName);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void HandleInput();
+
+	void NextLine();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = DialogSystem)
+		void ToggleUI();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		UDialogUIW* UI;
 
 	// Remove this override for Implementation
 	virtual void AddControllerPitchInput(float Val) override;
