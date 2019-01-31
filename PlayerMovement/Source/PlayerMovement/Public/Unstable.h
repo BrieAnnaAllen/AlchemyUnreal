@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Chemical.h"
+#include "Engine/TriggerVolume.h"
 #include "Runtime/Engine/Classes/Components/BoxComponent.h"
 #include "Unstable.generated.h"
 
@@ -26,9 +27,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Chemical Reaction")
-		void Reaction();
+		void Reaction(const EElementType OtherEleEnum);
 
-	virtual void Reaction_Implementation() override;
+	virtual void Reaction_Implementation(const EElementType OtherEleEnum) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Enum)
 		EReactionType ReactionTypeEnum;

@@ -9,7 +9,9 @@ AUnstable::AUnstable()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerArea"));
+	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger Area"));
+	BoxComp->SetCollisionProfileName(TEXT("Trigger"));
+	BoxComp->SetupAttachment(RootComponent);
 
 	ReactionTypeEnum = EReactionType::RT_Unstable;
 	ElementTypeEnum = EElementType::ET_None;
@@ -29,7 +31,7 @@ void AUnstable::Tick(float DeltaTime)
 
 }
 
-void AUnstable::Reaction_Implementation()
+void AUnstable::Reaction_Implementation(const EElementType OtherEleEnum)
 {
 	UE_LOG(LogTemp, Error, TEXT("Message: This Unstable Reaction has not been impelemented"));
 	//This should be filled out by the other Elements that are children of this class

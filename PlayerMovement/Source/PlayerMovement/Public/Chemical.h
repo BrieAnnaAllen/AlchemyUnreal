@@ -39,7 +39,7 @@ class PLAYERMOVEMENT_API IChemical
 
 public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Chemical Reaction")
-		void Reaction();
+		void Reaction(const EElementType OtherEleEnum);
 
 };
 
