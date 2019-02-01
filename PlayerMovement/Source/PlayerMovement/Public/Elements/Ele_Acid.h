@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Unstable.h"
+#include "Pickup_Actor.h"
 #include "Ele_Acid.generated.h"
 
 /**

@@ -17,7 +17,7 @@ AElementTracker::AElementTracker()
 void AElementTracker::CheckObject_Implementation(AActor* Element)
 {
 	APickup_Actor* Object= Cast<APickup_Actor>(Element);
-	if (Object&& !HasItem)
+	if (Object && !HasItem)
 	{
 		if (Object->Acid)
 		{
