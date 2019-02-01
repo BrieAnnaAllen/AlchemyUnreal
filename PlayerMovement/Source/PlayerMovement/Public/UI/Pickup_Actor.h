@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Pickup_Actor.generated.h"
 
+
 UCLASS()
 class PLAYERMOVEMENT_API APickup_Actor : public AActor
 {
@@ -17,6 +18,16 @@ class PLAYERMOVEMENT_API APickup_Actor : public AActor
 public:
 	// Sets default values for this actor's properties
 	APickup_Actor();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Type")
+		bool Fire;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Type")
+		bool Ice;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Type")
+		bool Acid;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Type")
+		bool Soap;
+
 
 protected:
 
