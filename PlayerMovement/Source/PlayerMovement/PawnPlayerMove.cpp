@@ -6,6 +6,7 @@
 #include "Engine.h"
 #include "Components/SceneComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Camera/CameraComponent.h"
@@ -24,14 +25,16 @@ APawnPlayerMove::APawnPlayerMove()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	// Create components
-	Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
+	//Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
+	Cube = CreateDefaultSubobject<UBoxComponent>("Cube");
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("Static Mesh");
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Skeletal Mesh");
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 	
 	// Make sure main collider is Root
-	RootComponent = Cast<USceneComponent>(Capsule);
+	//RootComponent = Cast<USceneComponent>(Capsule);
+	RootComponent = Cast<USceneComponent>(Cube);
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = CameraDistance;
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
@@ -43,6 +46,9 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
+	//Capsule->BodyInstance.bLockRotation = true;
+	//SkeletalMesh->BodyInstance.bLockRotation = true;
+
 	
 	HudReference = nullptr;
 	InteractionDistance = 250;
@@ -55,13 +61,17 @@ void APawnPlayerMove::BeginPlay()
 {
 	Super::BeginPlay();
 	// Make sure to Simulate Physics
-	Capsule->SetSimulatePhysics(true);
 
+	//Capsule->SetSimulatePhysics(true);
+	Cube->SetSimulatePhysics(true);
+	//Cube->BodyInstance.bLockRotation = true;
 	// Make sure Gravity is enabled
-	Capsule->SetEnableGravity(true);
+	//Capsule->SetEnableGravity(true);
+	Cube->SetEnableGravity(true);
 
 	// Automatically set Collision Preset to Pawn
-	Capsule->SetCollisionProfileName("Pawn");
+	//Capsule->SetCollisionProfileName("Pawn");
+	Cube->SetCollisionProfileName("Pawn");
 
 	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
@@ -82,13 +92,14 @@ void APawnPlayerMove::HandleInput()
 	FVector FActorMovement; // reperesents the current location of the character
 	//FRotator FCharacterRotation; //
 	FVector FDirection = GetActorForwardVector(); // sets the FDirectionb variable to the foward vector of the actor
-
+	isMoving = false;
 	//Controlls 
 	if((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		isMoving = true;
 
 	}
 	if ((InputComponent->GetAxisKeyValue(EKeys::S) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Down) > 0))
@@ -96,6 +107,7 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		isMoving = true;
 
 	}
 	if ((InputComponent->GetAxisKeyValue(EKeys::A) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Left) > 0))
@@ -103,16 +115,18 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		isMoving = true;
 
 	}
 	if ((InputComponent->GetAxisKeyValue(EKeys::D) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Right) > 0))
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		isMoving = true;
 
 	}
 	
-	SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
+	//SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
 	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }

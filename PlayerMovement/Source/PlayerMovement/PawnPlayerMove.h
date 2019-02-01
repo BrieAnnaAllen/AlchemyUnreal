@@ -23,13 +23,15 @@ public:
 
 
 	//Capsule Collider
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Components")
-		class UCapsuleComponent* Capsule;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
+		//class UCapsuleComponent* Capsule;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
+		class UBoxComponent* Cube;
 	// Static Mesh for something?
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 		class UStaticMeshComponent* StaticMesh;
 	// Skeletal Mesh for Character Models
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Components")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 		class USkeletalMeshComponent* SkeletalMesh;
 	// Camera for Player
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Components")
@@ -51,6 +53,8 @@ public:
 		float CameraDistance = 400.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Character")
 		float CameraHeightOffset = 100.0f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Charaer")
+		bool isMoving = false;
 
 protected:
 	// Called when the game starts or when spawned
