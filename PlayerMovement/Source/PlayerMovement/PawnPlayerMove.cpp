@@ -1,8 +1,6 @@
  // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PawnPlayerMove.h"
-
-
 #include "Engine.h"
 #include "Components/SceneComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -126,7 +124,7 @@ void APawnPlayerMove::HandleInput()
 
 	}
 	
-	//SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
+	SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
 	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
