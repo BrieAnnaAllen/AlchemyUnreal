@@ -27,9 +27,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Chemical Reaction")
-		void Reaction(const EElementType OtherEleEnum);
+		void Reaction(const EElementType OtherEleEnum, AActor* OtherChemical);
 
-	virtual void Reaction_Implementation(const EElementType OtherEleEnum) override;
+	virtual void Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Enum)
 		EReactionType ReactionTypeEnum;

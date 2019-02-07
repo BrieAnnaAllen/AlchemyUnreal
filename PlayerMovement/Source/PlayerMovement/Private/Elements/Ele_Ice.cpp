@@ -25,7 +25,7 @@ void AEle_Ice::Tick(float DeltaTime)
 {
 }
 
-void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum)
+void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Ice Reaction Hit"));
 
@@ -36,6 +36,8 @@ void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum)
 
 	case EElementType::ET_Fire:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
+		OtherChemical->BeginDestroy();
+		OtherChemical->Destroy();
 		break;
 
 	case EElementType::ET_Ice:
@@ -70,8 +72,9 @@ void AEle_Ice::OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * Oth
 		if (bIsImplemented)
 		{
 			AUnstable* UnstableObject = Cast<AUnstable>(OtherActor);
+			AActor* ChemObject = Cast<AActor>(OtherActor);
 
-			Reaction_Implementation(UnstableObject->ElementTypeEnum);
+			Reaction_Implementation(UnstableObject->ElementTypeEnum, ChemObject);
 		}
 	}
 }
