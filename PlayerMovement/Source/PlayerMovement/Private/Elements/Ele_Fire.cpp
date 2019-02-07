@@ -42,8 +42,9 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 
 	case EElementType::ET_Ice:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
-		OtherChemical->BeginDestroy();
-		OtherChemical->Destroy();
+		GetWorld()->DestroyActor(OtherChemical);
+		Destroy();
+
 		break;
 
 	case EElementType::ET_Acid:
