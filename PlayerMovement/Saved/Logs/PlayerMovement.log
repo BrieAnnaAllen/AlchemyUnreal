@@ -1,4 +1,4 @@
-﻿Log file open, 02/01/19 08:52:00
+﻿Log file open, 02/07/19 16:22:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlayerMovement
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.672727
+LogStats: Stats thread started at 1.031184
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.160s to configure plugins.
+LogStreaming: Display: Took  0.151s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,661 +147,751 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.01-14.52.01:498][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.01-14.52.01:498][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.01-14.52.01:528][  0]LogHAL: Display: Platform has ~ 16 GB [17054232576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.01-14.52.01:528][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.01-14.52.01:528][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.01-14.52.01:546][  0]LogInit: Computer: DAFT-ZERO
-[2019.02.01-14.52.01:546][  0]LogInit: User: P3dro
-[2019.02.01-14.52.01:546][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.02.01-14.52.01:546][  0]LogInit: High frequency timer resolution =2.835940 MHz
-[2019.02.01-14.52.01:546][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.01-14.52.01:546][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.01-14.52.01:546][  0]LogMemory: Process Physical Memory: 99.97 MB used, 99.97 MB peak
-[2019.02.01-14.52.01:546][  0]LogMemory: Process Virtual Memory: 84.16 MB used, 84.16 MB peak
-[2019.02.01-14.52.01:546][  0]LogMemory: Physical Memory: 5389.39 MB used,  10874.80 MB free, 16264.18 MB total
-[2019.02.01-14.52.01:546][  0]LogMemory: Virtual Memory: 4616.62 MB used,  10874.80 MB free, 134217728.00 MB total
-[2019.02.01-14.52.02:178][  0]LogInit: Using OS detected language (en-US).
-[2019.02.01-14.52.02:178][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.01-14.52.02:182][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.01-14.52.02:632][  0]LogStreaming: Display: Took  0.453s to InitEngineTextLocalization.
-[2019.02.01-14.52.02:633][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.01-14.52.02:752][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.01-14.52.02:752][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.01-14.52.05:696][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.01-14.52.05:696][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.01-14.52.05:810][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2019.02.01-14.52.05:810][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.01-14.52.05:818][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2019.02.01-14.52.05:818][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.01-14.52.05:820][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.01-14.52.05:820][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.01-14.52.05:820][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.01-14.52.05:846][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.01-14.52.05:846][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2019.02.01-14.52.05:846][  0]LogWindows: EnumDisplayDevices:
-[2019.02.01-14.52.05:846][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2019.02.01-14.52.05:847][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.02.01-14.52.05:847][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.02.01-14.52.05:847][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.01-14.52.05:847][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2019.02.01-14.52.05:847][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.01-14.52.05:847][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.01-14.52.05:847][  0]LogRHI: Texture pool is 1413 MB (70% of 2018 MB)
-[2019.02.01-14.52.05:864][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.01-14.52.05:888][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.01-14.52.05:893][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/10420/).
-[2019.02.01-14.52.05:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/P3dro/AppData/Local/Temp/UnrealShaderWorkingDir/BAD9179B4BD7B83F5C603CB35B762FBE/'.
-[2019.02.01-14.52.06:277][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.01-14.52.06:291][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.01-14.52.06:305][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.01-14.52.06:319][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.01-14.52.06:339][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.01-14.52.06:354][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.01-14.52.06:368][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.01-14.52.06:383][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.01-14.52.06:392][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:482][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.01-14.52.06:485][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.01-14.52.06:563][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.01-14.52.06:563][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.01-14.52.06:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.01-14.52.06:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.01-14.52.06:606][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.01-14.52.06:623][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.01-14.52.06:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.01-14.52.06:671][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.01-14.52.06:684][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.01-14.52.06:685][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.01-14.52.06:945][  0]LogXGEController: Cleaning working directory: C:/Users/P3dro/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.01-14.52.06:945][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.01-14.52.06:945][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.01-14.52.06:945][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.01-14.52.09:679][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.01-14.52.10:017][  0]LogDerivedDataCache: Loaded boot cache 0.34s 87MB C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.01-14.52.10:018][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.01-14.52.10:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.01-14.52.10:019][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.01-14.52.10:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.01-14.52.10:019][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.01-14.52.10:045][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.01-14.52.10:059][  0]LogDerivedDataCache: Using Local data cache path C:/Users/P3dro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.01-14.52.10:059][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.01-14.52.10:059][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.01-14.52.10:080][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.01-14.52.10:089][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.01-14.52.10:114][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.01-14.52.10:462][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
-[2019.02.01-14.52.10:869][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.01-14.52.11:290][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.01-14.52.11:314][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.01-14.52.11:314][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.01-14.52.11:315][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.01-14.52.11:315][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.01-14.52.11:377][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
-[2019.02.01-14.52.12:816][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.129515 seconds
-[2019.02.01-14.52.12:823][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.01-14.52.12:824][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.02.01-14.52.12:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.01-14.52.17:105][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.01-14.52.17:130][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.01-14.52.17:549][  0]SourceControl: Source control is disabled
-[2019.02.01-14.52.17:550][  0]SourceControl: Source control is disabled
-[2019.02.01-14.52.17:567][  0]SourceControl: Source control is disabled
-[2019.02.01-14.52.17:574][  0]SourceControl: Source control is disabled
-[2019.02.01-14.52.17:985][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.01-14.52.18:067][  0]LogOcInput: OculusInput pre-init called
-[2019.02.01-14.52.18:213][  0]LogEngine: Initializing Engine...
-[2019.02.01-14.52.18:216][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.01-14.52.18:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.02.01-14.52.18:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.01-14.52.18:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.01-14.52.18:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.01-14.52.18:661][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.01-14.52.18:724][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.01-14.52.18:752][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-14.52.18:802][  0]LogInit: FAudioDevice initialized.
-[2019.02.01-14.52.18:802][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.01-14.52.18:888][  0]LogDerivedDataCache: Saved boot cache 0.08s 87MB C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.01-14.52.18:903][  0]LogInit: Texture streaming: Enabled
-[2019.02.01-14.52.18:930][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.01-14.52.19:010][  0]LogInit: Transaction tracking system initialized
-[2019.02.01-14.52.19:103][  0]BlueprintLog: New page: Editor Load
-[2019.02.01-14.52.19:407][  0]LocalizationService: Localization service is disabled
-[2019.02.01-14.52.20:450][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.01-14.52.20:451][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.01-14.52.20:451][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.01-14.52.20:451][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.01-14.52.20:451][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.01-14.52.20:451][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.01-14.52.20:451][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.01-14.52.20:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/' took 0.02s
-[2019.02.01-14.52.20:853][  0]SourceControl: Source control is disabled
-[2019.02.01-14.52.20:862][  0]LightingResults: New page: Lighting Build
-[2019.02.01-14.52.20:874][  0]MapCheck: New page: Map Check
-[2019.02.01-14.52.20:874][  0]LightingResults: New page: Lighting Build
-[2019.02.01-14.52.21:093][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.01-14.52.21:094][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.01-14.52.21:094][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2019.02.01-14.52.21:225][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:225][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.01-14.52.21:225][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
-[2019.02.01-14.52.21:232][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.01-14.52.21:232][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.01-14.52.21:232][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2019.02.01-14.52.21:321][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:322][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
-[2019.02.01-14.52.21:322][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.01-14.52.21:323][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.01-14.52.21:324][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:324][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
-[2019.02.01-14.52.21:336][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2019.02.01-14.52.21:336][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2019.02.01-14.52.21:336][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2019.02.01-14.52.21:336][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2019.02.01-14.52.21:339][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:339][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
-[2019.02.01-14.52.21:339][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
-[2019.02.01-14.52.21:340][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
-[2019.02.01-14.52.21:340][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
-[2019.02.01-14.52.21:340][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
-[2019.02.01-14.52.21:340][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
-[2019.02.01-14.52.21:340][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
-[2019.02.01-14.52.21:556][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.01-14.52.21:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.01-14.52.21:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.01-14.52.21:706][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.873ms to complete.
-[2019.02.01-14.52.21:706][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.852
-[2019.02.01-14.52.23:258][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.01-14.52.23:369][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PlayerMovement
-[2019.02.01-14.52.23:369][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.01-14.52.23:369][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2019.02.01-14.52.23:370][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.01-14.52.23:370][  0]LogTemp: BranchPath = DAFT-ZERO/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DAFT-ZERO/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2019.02.01-14.52.23:370][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.23:386][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\P3dro\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.01-14.52.23:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.23:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.23:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.23:430][  0]LogCollectionManager: Loaded 0 collections in 0.002078 seconds
-[2019.02.01-14.52.23:484][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
-[2019.02.01-14.52.23:485][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Developers/P3dro/Collections/' took 0.01s
-[2019.02.01-14.52.23:485][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
-[2019.02.01-14.52.23:485][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.01-14.52.23:500][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2579 classes and 607 folders.
-[2019.02.01-14.52.23:515][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.01-14.52.24:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.01-14.52.24:128][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.02.01-14.52.24:240][  0]LogSlate: Took 0.009620 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.01-14.52.24:255][  0]LogSlate: Took 0.010111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.01-14.52.24:273][  0]LogSlate: Took 0.010356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.01-14.52.24:492][  0]LogRenderer: Reallocating scene render targets to support 1172x644 Format 9 NumSamples 1 (Frame:1).
-[2019.02.01-14.52.25:103][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.01-14.52.25:104][  0]LogLoad: (Engine Initialization) Total time: 31.70 seconds
-[2019.02.01-14.52.25:104][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.01-14.52.25:155][  0]LogContentStreaming: Texture pool size now 600 MB
-[2019.02.01-14.52.25:254][  2]LogAssetRegistry: Asset discovery search completed in 14.8153 seconds
-[2019.02.01-14.52.25:256][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.01-14.52.25:256][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
-[2019.02.01-14.52.26:147][ 49]LogSlate: Took 0.007607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.01-14.52.31:132][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.01-14.52.31:303][351]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/PauseMenu_WB.PauseMenu_WB
-[2019.02.01-14.52.32:281][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2019.02.01-14.52.33:377][351]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/MainMenu_WB.MainMenu_WB
-[2019.02.01-14.52.33:761][351]LogLinker: Warning: Can't resolve asset name
-[2019.02.01-14.52.33:776][351]LogSlate: Took 0.005729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.01-14.52.35:182][429]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.01-14.52.45:516][ 11]LogSlate: Window 'MainMenu_WB' being destroyed
-[2019.02.01-14.52.53:444][485]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-14.52.53:471][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2019.02.01-14.52.53:471][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-14.52.53:486][485]PIE: New page: PIE session: Minimal_Default (Feb 1, 2019, 2:52:53 AM)
-[2019.02.01-14.52.53:486][485]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2019.02.01-14.52.53:491][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005092s)
-[2019.02.01-14.52.53:492][485]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.01-14.52.53:492][485]LogPlayLevel: PIE: World Init took: (0.001064s)
-[2019.02.01-14.52.53:492][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006340s)
-[2019.02.01-14.52.53:530][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-14.52.53:578][485]LogInit: FAudioDevice initialized.
-[2019.02.01-14.52.53:585][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.53:632][485]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PlayerMovement.PlayerMovementGameMode'
-[2019.02.01-14.52.53:632][485]LogLoad: Game class is 'GameModeBase'
-[2019.02.01-14.52.53:633][485]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.02.01-08.52.53
-[2019.02.01-14.52.53:634][485]LogWorld: Bringing up level for play took: 0.001221
-[2019.02.01-14.52.53:656][485]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2019.02.01-14.52.53:660][485]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.303
-[2019.02.01-14.52.53:661][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2019.02.01-14.52.55:832][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2019.02.01-14.52.55:833][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.52.55:851][606]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-14.52.55:881][606]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-14.52.55:881][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2019.02.01-14.52.55:935][607]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.02.01-14.53.00:255][860]LogAIModule: Creating AISystem for world Main
-[2019.02.01-14.53.00:260][860]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
-[2019.02.01-14.53.00:289][860]Cmd: MAP LOAD FILE="../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.01-14.53.00:290][860]LightingResults: New page: Lighting Build
-[2019.02.01-14.53.00:290][860]LoadErrors: New page: Loading map: Main.umap
-[2019.02.01-14.53.00:291][860]MapCheck: New page: Map Check
-[2019.02.01-14.53.00:291][860]LightingResults: New page: Lighting Build
-[2019.02.01-14.53.00:406][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.01-14.53.00:461][860]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.01-14.53.00:544][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.093ms to complete.
-[2019.02.01-14.53.00:544][860]LogFileHelpers: Loading map 'Main' took 0.255
-[2019.02.01-14.53.01:972][938]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-14.53.02:434][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-14.53.02:434][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-14.53.02:434][938]PIE: New page: PIE session: Main (Feb 1, 2019, 2:53:02 AM)
-[2019.02.01-14.53.02:435][938]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-14.53.02:436][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001502s)
-[2019.02.01-14.53.02:437][938]LogAIModule: Creating AISystem for world Main
-[2019.02.01-14.53.02:437][938]LogPlayLevel: PIE: World Init took: (0.000922s)
-[2019.02.01-14.53.02:437][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002604s)
-[2019.02.01-14.53.02:472][938]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-14.53.02:520][938]LogInit: FAudioDevice initialized.
-[2019.02.01-14.53.02:553][938]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-14.53.02:554][938]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-08.53.02
-[2019.02.01-14.53.02:554][938]LogWorld: Bringing up level for play took: 0.000339
-[2019.02.01-14.53.02:570][938]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.607
-[2019.02.01-14.53.02:570][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-14.53.17:408][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.53.17:408][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-14.53.17:445][821]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-14.53.17:445][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-14.53.17:478][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-14.53.17:533][822]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/PauseMenu_WB.SKEL_PauseMenu_WB_C:WidgetTree.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB_C:WidgetTree.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/MainMenu_WB.SKEL_MainMenu_WB_C:WidgetTree.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/MainMenu_WB.MainMenu_WB_C:WidgetTree.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu_WB_C_1.WidgetTree_0.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/PauseMenu_WB.PauseMenu_WB:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:MainMenu_WB_C_1.WidgetTree_0.CanvasPanel_0
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6 or CanvasPanelSlot /Game/Blueprints/MainMenu_WB.SKEL_MainMenu_WB_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6 or CanvasPanelSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6
-[2019.02.01-14.54.26:880][966]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6 or CanvasPanelSlot /Engine/Transient.World_4:MainMenu_WB_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6
-[2019.02.01-14.54.26:880][966]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6) from referencer (VerticalBox /Engine/UMG/Editor/Transient.CreditsMenu).  Import failed...
-[2019.02.01-14.54.26:880][966]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_6"''
-[2019.02.01-14.55.19:157][ 83]LogSlate: Took 0.027739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.02.01-14.55.55:516][257]LogEditorTransaction: Undo Edit Text
-[2019.02.01-14.55.56:444][257]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.923 s
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: 
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: 
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: Stack: 
-[2019.02.01-14.55.56:444][257]LogOutputDevice: Error: [Callstack] 0x00007ffe149171f6 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe14650c92 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe1466b356 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0feeeedf UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0fe94576 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0d379e88 UE4Editor-PropertyEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0d31e267 UE4Editor-PropertyEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0d35297b UE4Editor-PropertyEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0d3c2add UE4Editor-PropertyEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0979bc87 UE4Editor-DetailCustomizations.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0b386812 UE4Editor-EditorWidgets.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0b368829 UE4Editor-EditorWidgets.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe15428e57 UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe153d6a2e UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151e93b0 UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe15181444 UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0af26cd4 UE4Editor-UMGEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0aec5a96 UE4Editor-UMGEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0ae573c4 UE4Editor-UMGEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0af59a79 UE4Editor-UMGEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0af1ee5b UE4Editor-UMGEditor.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0ea2fce9 UE4Editor-Kismet.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe1125d8d3 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe102649b5 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0eb9e4cd UE4Editor-Kismet.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0fe94dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:445][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0fec01fb UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0fea6535 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0ff12dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0ff59b6d UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0feec81f UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe0ea305b8 UE4Editor-Kismet.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151824df UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151c437e UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe10743a8e UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe10731a08 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151470ac UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151c606c UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe151b9846 UE4Editor-Slate.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe46e1ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe46e10270 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe46e1f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe46e0c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe7b576d41 USER32.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe7b576713 USER32.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe46e20646 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ff703db54e5 UE4Editor.exe!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5b3c UE4Editor.exe!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5bba UE4Editor.exe!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ff703dd3dac UE4Editor.exe!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ff703dd5aaa UE4Editor.exe!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe7b233034 KERNEL32.DLL!UnknownFunction []
-[2019.02.01-14.55.56:446][257]LogOutputDevice: Error: [Callstack] 0x00007ffe7c043691 ntdll.dll!UnknownFunction []
-[2019.02.01-14.55.56:447][257]LogOutputDevice: Error: 
-[2019.02.01-14.55.56:449][257]LogStats:                SubmitErrorReport -  0.000 s
-[2019.02.01-14.55.57:294][257]LogStats:                    SendNewReport -  0.845 s
-[2019.02.01-14.55.57:294][257]LogStats:             FDebug::EnsureFailed -  1.773 s
-[2019.02.01-14.57.29:440][754]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.57.29:440][754]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.57.29:440][754]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.57.29:440][754]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3.VerticalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_35).  Import failed...
-[2019.02.01-14.57.29:440][754]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_3.VerticalBoxSlot_1"''
-[2019.02.01-14.58.15:421][499]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.58.15:421][499]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.58.15:421][499]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.58.15:421][499]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_5.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.58.15:421][499]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3.VerticalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_35).  Import failed...
-[2019.02.01-14.58.15:421][499]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_3.VerticalBoxSlot_1"''
-[2019.02.01-14.58.34:907][654]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB483B136D482AEC9F12A5A9A637A8BDBD.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
-[2019.02.01-14.59.00:520][183]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_1
-[2019.02.01-14.59.00:520][183]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_1
-[2019.02.01-14.59.00:520][183]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_1
-[2019.02.01-14.59.00:520][183]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_5.WidgetTree_0.VerticalBox_1
-[2019.02.01-14.59.00:520][183]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_6.WidgetTree_0.VerticalBox_1
-[2019.02.01-14.59.00:520][183]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1.VerticalBoxSlot_3) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_27).  Import failed...
-[2019.02.01-14.59.00:520][183]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_1.VerticalBoxSlot_3"''
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_5.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_6.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_7.WidgetTree_0.VerticalBox_3
-[2019.02.01-14.59.44:521][806]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3.VerticalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_35).  Import failed...
-[2019.02.01-14.59.44:521][806]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_3.VerticalBoxSlot_1"''
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_5.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_6.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_7.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_8.WidgetTree_0.VerticalBox_1
-[2019.02.01-15.00.03:233][919]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_1.VerticalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_39).  Import failed...
-[2019.02.01-15.00.03:233][919]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_1.VerticalBoxSlot_1"''
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_2.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_3.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_4.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_5.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_6.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_7.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_8.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_4:MainMenu_WB_C_9.WidgetTree_0.VerticalBox_3
-[2019.02.01-15.00.23:316][113]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu_WB.MainMenu_WB:WidgetTree.VerticalBox_3.VerticalBoxSlot_4) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_40).  Import failed...
-[2019.02.01-15.00.23:316][113]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_3.VerticalBoxSlot_4"''
-[2019.02.01-15.04.47:393][907]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.04.47:866][929]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.05.27:987][320]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB5A30E0284280F65D3197449618C4903B.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
-[2019.02.01-15.05.37:536][885]LogSlate: Took 0.007384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.01-15.06.55:368][533]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.06.58:631][719]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-15.06.58:655][719]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.06.58:655][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-15.06.58:656][719]PIE: New page: PIE session: Main (Feb 1, 2019, 3:06:58 AM)
-[2019.02.01-15.06.58:656][719]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-15.06.58:657][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000915s)
-[2019.02.01-15.06.58:657][719]LogAIModule: Creating AISystem for world Main
-[2019.02.01-15.06.58:657][719]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2019.02.01-15.06.58:657][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001671s)
-[2019.02.01-15.06.58:687][719]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-15.06.58:728][719]LogInit: FAudioDevice initialized.
-[2019.02.01-15.06.58:735][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.06.58:772][719]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-15.06.58:773][719]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-09.06.58
-[2019.02.01-15.06.58:774][719]LogWorld: Bringing up level for play took: 0.000896
-[2019.02.01-15.06.58:787][719]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.01-15.06.58:799][719]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.836
-[2019.02.01-15.06.58:799][719]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.07:433][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.07:434][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.07.07:453][233]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-15.07.07:481][233]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-15.07.07:481][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.07:531][234]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.02.01-15.07.33:035][751]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.07.34:249][814]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-15.07.34:273][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.34:273][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-15.07.34:273][814]PIE: New page: PIE session: Main (Feb 1, 2019, 3:07:34 AM)
-[2019.02.01-15.07.34:273][814]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-15.07.34:274][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000859s)
-[2019.02.01-15.07.34:275][814]LogAIModule: Creating AISystem for world Main
-[2019.02.01-15.07.34:275][814]LogPlayLevel: PIE: World Init took: (0.000627s)
-[2019.02.01-15.07.34:275][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001577s)
-[2019.02.01-15.07.34:305][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-15.07.34:346][814]LogInit: FAudioDevice initialized.
-[2019.02.01-15.07.34:352][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.07.34:385][814]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-15.07.34:386][814]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-09.07.34
-[2019.02.01-15.07.34:386][814]LogWorld: Bringing up level for play took: 0.000416
-[2019.02.01-15.07.34:398][814]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.01-15.07.34:404][814]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.441
-[2019.02.01-15.07.34:405][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.41:298][225]LogNet: Browse: /Game/Levels/PlayerMovementTest
-[2019.02.01-15.07.41:298][225]LogLoad: LoadMap: /Game/Levels/PlayerMovementTest
-[2019.02.01-15.07.42:235][225]LogAIModule: Creating AISystem for world PlayerMovementTest
-[2019.02.01-15.07.42:235][225]LogLoad: Game class is 'GameModeBase'
-[2019.02.01-15.07.42:239][225]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 60) at 2019.02.01-09.07.42
-[2019.02.01-15.07.42:240][225]LogWorld: Bringing up level for play took: 0.004357
-[2019.02.01-15.07.42:240][225]LogOutputDevice: Warning: 
+[2019.02.07-22.22.22:390][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-22.22.22:391][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.07-22.22.22:436][  0]LogHAL: Display: Platform has ~ 16 GB [17054232576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.07-22.22.22:438][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.07-22.22.22:438][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.07-22.22.22:453][  0]LogInit: Computer: DAFT-ZERO
+[2019.02.07-22.22.22:453][  0]LogInit: User: P3dro
+[2019.02.07-22.22.22:453][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.02.07-22.22.22:453][  0]LogInit: High frequency timer resolution =2.835942 MHz
+[2019.02.07-22.22.22:453][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.07-22.22.22:454][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.07-22.22.22:454][  0]LogMemory: Process Physical Memory: 100.59 MB used, 100.59 MB peak
+[2019.02.07-22.22.22:454][  0]LogMemory: Process Virtual Memory: 84.31 MB used, 84.31 MB peak
+[2019.02.07-22.22.22:454][  0]LogMemory: Physical Memory: 5711.40 MB used,  10552.79 MB free, 16264.18 MB total
+[2019.02.07-22.22.22:454][  0]LogMemory: Virtual Memory: 4616.62 MB used,  10552.79 MB free, 134217728.00 MB total
+[2019.02.07-22.22.23:164][  0]LogInit: Using OS detected language (en-US).
+[2019.02.07-22.22.23:164][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.07-22.22.23:169][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.07-22.22.23:671][  0]LogStreaming: Display: Took  0.507s to InitEngineTextLocalization.
+[2019.02.07-22.22.23:672][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.07-22.22.23:841][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.07-22.22.23:841][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.07-22.22.27:928][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.07-22.22.27:928][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.07-22.22.28:043][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.02.07-22.22.28:043][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.07-22.22.28:052][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2019.02.07-22.22.28:052][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.07-22.22.28:054][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.07-22.22.28:055][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.07-22.22.28:055][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.07-22.22.28:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.07-22.22.28:087][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.02.07-22.22.28:088][  0]LogWindows: EnumDisplayDevices:
+[2019.02.07-22.22.28:088][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2019.02.07-22.22.28:088][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.02.07-22.22.28:089][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.02.07-22.22.28:089][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.07-22.22.28:089][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.02.07-22.22.28:089][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.07-22.22.28:089][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.07-22.22.28:089][  0]LogRHI: Texture pool is 1413 MB (70% of 2018 MB)
+[2019.02.07-22.22.28:114][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.07-22.22.28:155][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.07-22.22.28:161][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/18964/).
+[2019.02.07-22.22.28:161][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/P3dro/AppData/Local/Temp/UnrealShaderWorkingDir/7BDD55A94B40071D12636A9F315CAE13/'.
+[2019.02.07-22.22.28:616][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.07-22.22.28:631][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.07-22.22.28:644][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.07-22.22.28:658][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.07-22.22.28:679][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.07-22.22.28:695][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.07-22.22.28:710][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.07-22.22.28:724][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.07-22.22.28:734][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:824][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:825][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:825][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:825][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:825][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-22.22.28:829][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.07-22.22.28:906][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.07-22.22.28:906][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.07-22.22.28:930][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.07-22.22.28:930][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.07-22.22.28:944][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.07-22.22.28:958][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.07-22.22.28:971][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.07-22.22.28:997][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.07-22.22.29:008][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.07-22.22.29:010][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.07-22.22.29:191][  0]LogXGEController: Cleaning working directory: C:/Users/P3dro/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.07-22.22.29:191][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.07-22.22.29:191][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.07-22.22.29:191][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.07-22.22.32:165][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.07-22.22.32:512][  0]LogDerivedDataCache: Loaded boot cache 0.35s 71MB C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.07-22.22.32:513][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.07-22.22.32:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.07-22.22.32:513][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.07-22.22.32:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.07-22.22.32:513][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.07-22.22.32:538][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.07-22.22.32:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/P3dro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.07-22.22.32:550][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.07-22.22.32:550][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.07-22.22.32:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.07-22.22.32:581][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.07-22.22.32:610][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.07-22.22.32:992][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2019.02.07-22.22.33:645][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-22.22.34:567][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.07-22.22.34:601][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.07-22.22.34:602][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.07-22.22.34:603][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.07-22.22.34:603][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.07-22.22.34:707][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2019.02.07-22.22.36:589][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.155955 seconds
+[2019.02.07-22.22.36:598][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.07-22.22.36:598][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.07-22.22.36:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.07-22.22.41:295][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.07-22.22.41:313][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.07-22.22.41:746][  0]SourceControl: Source control is disabled
+[2019.02.07-22.22.41:746][  0]SourceControl: Source control is disabled
+[2019.02.07-22.22.41:761][  0]SourceControl: Source control is disabled
+[2019.02.07-22.22.41:770][  0]SourceControl: Source control is disabled
+[2019.02.07-22.22.42:170][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.07-22.22.42:254][  0]LogOcInput: OculusInput pre-init called
+[2019.02.07-22.22.42:439][  0]LogEngine: Initializing Engine...
+[2019.02.07-22.22.42:448][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.07-22.22.42:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.02.07-22.22.42:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-22.22.42:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.07-22.22.42:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-22.22.42:949][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.07-22.22.43:045][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.07-22.22.43:100][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-22.22.43:151][  0]LogInit: FAudioDevice initialized.
+[2019.02.07-22.22.43:153][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.07-22.22.43:230][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/P3dro/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.07-22.22.43:242][  0]LogInit: Texture streaming: Enabled
+[2019.02.07-22.22.43:279][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.07-22.22.43:386][  0]LogInit: Transaction tracking system initialized
+[2019.02.07-22.22.43:514][  0]BlueprintLog: New page: Editor Load
+[2019.02.07-22.22.43:774][  0]LocalizationService: Localization service is disabled
+[2019.02.07-22.22.44:857][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.07-22.22.44:858][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.07-22.22.44:860][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/' took 0.02s
+[2019.02.07-22.22.44:860][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.07-22.22.44:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.07-22.22.44:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-22.22.44:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.07-22.22.44:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-22.22.45:223][  0]SourceControl: Source control is disabled
+[2019.02.07-22.22.45:233][  0]LightingResults: New page: Lighting Build
+[2019.02.07-22.22.45:253][  0]MapCheck: New page: Map Check
+[2019.02.07-22.22.45:253][  0]LightingResults: New page: Lighting Build
+[2019.02.07-22.22.45:538][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.02.07-22.22.45:538][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.02.07-22.22.45:539][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.02.07-22.22.45:684][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:684][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.02.07-22.22.45:684][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2019.02.07-22.22.45:691][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.02.07-22.22.45:691][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.02.07-22.22.45:691][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2019.02.07-22.22.45:794][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:794][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap.
+[2019.02.07-22.22.45:794][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2019.02.07-22.22.45:795][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.02.07-22.22.45:795][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.02.07-22.22.45:796][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:796][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2019.02.07-22.22.45:796][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.02.07-22.22.45:796][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.02.07-22.22.45:796][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:797][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2019.02.07-22.22.45:808][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2019.02.07-22.22.45:808][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.02.07-22.22.45:809][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2019.02.07-22.22.45:809][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2019.02.07-22.22.45:811][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:811][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2019.02.07-22.22.45:811][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2019.02.07-22.22.45:812][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2019.02.07-22.22.45:812][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2019.02.07-22.22.45:812][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2019.02.07-22.22.45:812][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2019.02.07-22.22.45:812][  0]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by StaticMeshComponent0
+[2019.02.07-22.22.46:049][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.07-22.22.46:114][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-22.22.46:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-22.22.46:230][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.408ms to complete.
+[2019.02.07-22.22.46:230][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.007
+[2019.02.07-22.22.47:773][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.07-22.22.47:941][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PlayerMovement
+[2019.02.07-22.22.47:941][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.07-22.22.47:941][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.02.07-22.22.47:941][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.07-22.22.47:941][  0]LogTemp: BranchPath = DAFT-ZERO/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DAFT-ZERO/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.02.07-22.22.47:941][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\P3dro\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.07-22.22.47:941][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.22.47:956][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.22.47:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.22.47:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.22.48:009][  0]LogCollectionManager: Loaded 0 collections in 0.002223 seconds
+[2019.02.07-22.22.48:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
+[2019.02.07-22.22.48:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Developers/P3dro/Collections/' took 0.01s
+[2019.02.07-22.22.48:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
+[2019.02.07-22.22.48:079][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.07-22.22.48:103][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2579 classes and 607 folders.
+[2019.02.07-22.22.48:129][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.07-22.22.48:725][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.07-22.22.48:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.02.07-22.22.48:951][  0]LogSlate: Took 0.013363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.07-22.22.48:968][  0]LogSlate: Took 0.007936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.07-22.22.48:988][  0]LogSlate: Took 0.010140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.07-22.22.49:229][  0]LogRenderer: Reallocating scene render targets to support 1172x644 Format 9 NumSamples 1 (Frame:1).
+[2019.02.07-22.22.49:528][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.07-22.22.49:528][  0]LogLoad: (Engine Initialization) Total time: 33.37 seconds
+[2019.02.07-22.22.49:528][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.07-22.22.49:616][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.02.07-22.22.49:884][  3]LogAssetRegistry: Asset discovery search completed in 16.9168 seconds
+[2019.02.07-22.22.49:888][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.07-22.22.49:888][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.02.07-22.22.51:217][  7]LogSlate: Took 0.007353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-22.26.19:623][628]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-22.26.22:802][982]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-22.26.26:744][373]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PauseTest.PauseTest
+[2019.02.07-22.26.27:480][373]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.02.07-22.26.28:466][373]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/MainMenu_WB.MainMenu_WB
+[2019.02.07-22.26.28:919][373]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/PauseMenu_WB.PauseMenu_WB
+[2019.02.07-22.26.29:263][373]LogSlate: Took 0.007657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.07-22.26.35:596][904]LogSlate: Window 'PauseMenu_WB' being destroyed
+[2019.02.07-22.27.09:297][502]LogEditorTransaction: Undo Edit Y
+[2019.02.07-22.27.10:256][502]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.943 s
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: 
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: 
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: Stack: 
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfc9f71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfc730c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfc74b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb2aeedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb254576 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf3e99e88 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf3e9ac2d UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf3e9a8ce UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf3ee44e1 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf05b6033 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf05b36cc UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf0664551 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf032f9ba UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf043fc09 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf03af969 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26f16a2e UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26d293b0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26cc1444 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf1fa6cd4 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf1f45a96 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf1ed73c4 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf1fd9a79 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf1f9ee5b UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf4b0fce9 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf544d8d3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb6249b5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf4c7e4cd UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.07-22.27.10:256][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb254dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb2801fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb266535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb2d2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb319b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfb2ac81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbf4b105b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26cc24df UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26d0437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfbb03a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffbfbaf1a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26c870ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26d0606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc26cf9846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc3a58ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc3a580270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc3a58f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc3a57c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc63a46d41 USER32.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc63a46713 USER32.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc3a590646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ff761d454e5 UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ff761d55b3c UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ff761d55bba UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ff761d63dac UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ff761d65aaa UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc61a23034 KERNEL32.DLL!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: [Callstack] 0x00007ffc63df3691 ntdll.dll!UnknownFunction []
+[2019.02.07-22.27.10:257][502]LogOutputDevice: Error: 
+[2019.02.07-22.27.10:267][502]LogStats:                SubmitErrorReport -  0.001 s
+[2019.02.07-22.27.11:361][502]LogStats:                    SendNewReport -  1.093 s
+[2019.02.07-22.27.11:361][502]LogStats:             FDebug::EnsureFailed -  2.048 s
+[2019.02.07-22.27.11:395][502]Cmd: TRANSACTION UNDO
+[2019.02.07-22.27.11:395][502]LogEditorTransaction: Undo Set Vector Property
+[2019.02.07-22.34.00:327][111]LogSlate: Took 0.037541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.02.07-22.35.09:768][129]LogEditorTransaction: Undo Move Widget
+[2019.02.07-22.35.50:845][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.044
+[2019.02.07-22.35.50:849][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu_WB] ([1] browsable assets)...
+[2019.02.07-22.35.50:850][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu_WB]
+[2019.02.07-22.35.50:948][100]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB_Auto14506110046C90CB7CEC31F828BEEE89A.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Blueprints/MainMenu_WB_Auto1.uasset'
+[2019.02.07-22.35.50:950][100]LogFileHelpers: Auto-saving content packages took 0.103
+[2019.02.07-22.48.57:322][971]BlueprintLog: New page: Compile MainMenu_WB
+[2019.02.07-22.48.58:921][ 86]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB849C632B4273604E1D708DA7D498DEEC.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
+[2019.02.07-22.50.37:043][ 74]BlueprintLog: New page: Compile MainMenu_WB
+[2019.02.07-22.51.01:458][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.030
+[2019.02.07-22.51.01:460][613]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu_WB] ([1] browsable assets)...
+[2019.02.07-22.51.01:460][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu_WB]
+[2019.02.07-22.51.01:540][613]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB_Auto22692C8A2408E01291A0301A73901507D.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Blueprints/MainMenu_WB_Auto2.uasset'
+[2019.02.07-22.51.01:542][613]LogFileHelpers: Auto-saving content packages took 0.083
+[2019.02.07-22.52.15:935][458]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB82D33B4F41F54DB80FF9F58A80586398.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
+[2019.02.07-22.57.25:413][408]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-22.57.25:451][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.07-22.57.25:455][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-22.57.25:493][408]PIE: New page: PIE session: Minimal_Default (Feb 7, 2019, 10:57:25 AM)
+[2019.02.07-22.57.25:493][408]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.02.07-22.57.25:506][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011985s)
+[2019.02.07-22.57.25:507][408]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.07-22.57.25:507][408]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2019.02.07-22.57.25:508][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014531s)
+[2019.02.07-22.57.25:549][408]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-22.57.25:590][408]LogInit: FAudioDevice initialized.
+[2019.02.07-22.57.25:602][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.57.25:657][408]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PlayerMovement.PlayerMovementGameMode'
+[2019.02.07-22.57.25:657][408]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-22.57.25:659][408]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.07-16.57.25
+[2019.02.07-22.57.25:661][408]LogWorld: Bringing up level for play took: 0.003809
+[2019.02.07-22.57.25:713][408]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.02.07-22.57.25:728][408]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.947
+[2019.02.07-22.57.25:729][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.07-22.57.33:168][ 75]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.07-22.57.33:177][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.07-22.57.33:216][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-22.57.33:217][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.07-22.57.33:270][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.07-22.57.52:073][868]LogAIModule: Creating AISystem for world Main
+[2019.02.07-22.57.52:080][868]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
+[2019.02.07-22.57.52:113][868]Cmd: MAP LOAD FILE="../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-22.57.52:113][868]LightingResults: New page: Lighting Build
+[2019.02.07-22.57.52:114][868]LoadErrors: New page: Loading map: Main.umap
+[2019.02.07-22.57.52:115][868]MapCheck: New page: Map Check
+[2019.02.07-22.57.52:115][868]LightingResults: New page: Lighting Build
+[2019.02.07-22.57.52:229][868]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-22.57.52:287][868]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-22.57.52:364][868]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.696ms to complete.
+[2019.02.07-22.57.52:364][868]LogFileHelpers: Loading map 'Main' took 0.254
+[2019.02.07-22.57.54:877][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-22.57.54:906][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-22.57.54:906][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-22.57.54:906][ 87]PIE: New page: PIE session: Main (Feb 7, 2019, 10:57:54 AM)
+[2019.02.07-22.57.54:906][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-22.57.54:907][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000916s)
+[2019.02.07-22.57.54:907][ 87]LogAIModule: Creating AISystem for world Main
+[2019.02.07-22.57.54:907][ 87]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2019.02.07-22.57.54:908][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001609s)
+[2019.02.07-22.57.54:940][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-22.57.54:982][ 87]LogInit: FAudioDevice initialized.
+[2019.02.07-22.57.55:014][ 87]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-22.57.55:015][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.02.07-16.57.55
+[2019.02.07-22.57.55:015][ 87]LogWorld: Bringing up level for play took: 0.000281
+[2019.02.07-22.57.55:042][ 87]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.26
+[2019.02.07-22.57.55:042][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-22.58.13:453][262]LogNet: Browse: /Game/Levels/PlayerMovementTest
+[2019.02.07-22.58.13:454][262]LogLoad: LoadMap: /Game/Levels/PlayerMovementTest
+[2019.02.07-22.58.14:314][262]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.02.07-22.58.14:314][262]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-22.58.14:327][262]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.02.07-16.58.14
+[2019.02.07-22.58.14:327][262]LogWorld: Bringing up level for play took: 0.012804
+[2019.02.07-22.58.14:328][262]LogOutputDevice: Warning: 
 
 Script Stack:
 PlayerController.ClientRestart
 
-[2019.02.01-15.07.42:267][225]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.026 s
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: Stack: 
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe149171f6 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe14650c92 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1466b356 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1125cd8c UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe00594cd6 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\p3dro\documents\unreal projects\studiocollab\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:128]
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12027bcc UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120cd3af UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe112936d6 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe13ef6467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe14121133 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11348033 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12848dc9 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120ee2c3 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11bf13c7 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120e37b9 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120fd33c UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:267][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11c9112e UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11c908ac UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12561985 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe124f3483 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1259781d UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe0fe66f02 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1075f666 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ff703db5cbd UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5b3c UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5bba UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dd3dac UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dd5aaa UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe7b233034 KERNEL32.DLL!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: [Callstack] 0x00007ffe7c043691 ntdll.dll!UnknownFunction []
-[2019.02.01-15.07.42:268][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:271][225]LogStats:                SubmitErrorReport -  0.000 s
-[2019.02.01-15.07.42:629][225]LogStats:                    SendNewReport -  0.359 s
-[2019.02.01-15.07.42:629][225]LogStats:             FDebug::EnsureFailed -  0.389 s
-[2019.02.01-15.07.42:629][225]LogOutputDevice: Warning: 
+[2019.02.07-22.58.14:641][262]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.314 s
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: Stack: 
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc9f71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc730c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc74b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf544cd8c UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbe5eb4cd6 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\p3dro\documents\unreal projects\studiocollab\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:128]
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6217bcc UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62bd3af UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf54836d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:641][262]LogOutputDevice: Error: [Callstack] 0x00007ffc2de06467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffc2e031133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5538033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6a38dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62de2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5de13c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62d37b9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62ed33c UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5e8112e UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5e808ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6751985 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf66e3483 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf678781d UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfb226f02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfbb1f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d45cbd UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d55b3c UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d55bba UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d63dac UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d65aaa UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffc61a23034 KERNEL32.DLL!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: [Callstack] 0x00007ffc63df3691 ntdll.dll!UnknownFunction []
+[2019.02.07-22.58.14:642][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.14:643][262]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.07-22.58.15:004][262]LogStats:                    SendNewReport -  0.361 s
+[2019.02.07-22.58.15:004][262]LogStats:             FDebug::EnsureFailed -  0.676 s
+[2019.02.07-22.58.15:004][262]LogOutputDevice: Warning: 
 
 Script Stack:
 PlayerController.ClientRestart
 
-[2019.02.01-15.07.42:634][225]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.005 s
-[2019.02.01-15.07.42:634][225]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: Stack: 
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe149171f6 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe14650c92 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1466b356 UE4Editor-Core.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe00592f8f UE4Editor-PlayerMovement.dll!FInputAxisKeyBinding::FInputAxisKeyBinding() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:469]
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe005924d0 UE4Editor-PlayerMovement.dll!UInputComponent::BindAxisKey<APawnPlayerMove>() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:816]
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe00594e13 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\p3dro\documents\unreal projects\studiocollab\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:135]
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12027bcc UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120cd3af UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe112936d6 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe13ef6467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe14121133 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11348033 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12848dc9 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120ee2c3 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11bf13c7 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120e37b9 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe120fd33c UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11c9112e UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe11c908ac UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe12561985 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe124f3483 UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1259781d UE4Editor-Engine.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe0fe66f02 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe1075f666 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ff703db5cbd UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5b3c UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dc5bba UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dd3dac UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ff703dd5aaa UE4Editor.exe!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe7b233034 KERNEL32.DLL!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: [Callstack] 0x00007ffe7c043691 ntdll.dll!UnknownFunction []
-[2019.02.01-15.07.42:635][225]LogOutputDevice: Error: 
-[2019.02.01-15.07.42:643][225]LogStats:                SubmitErrorReport -  0.000 s
-[2019.02.01-15.07.43:025][225]LogStats:                    SendNewReport -  0.382 s
-[2019.02.01-15.07.43:025][225]LogStats:             FDebug::EnsureFailed -  0.396 s
-[2019.02.01-15.07.43:026][225]LogLoad: Took 1.727380 seconds to LoadMap(/Game/Levels/PlayerMovementTest)
-[2019.02.01-15.07.45:546][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.45:546][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.07.45:567][367]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-15.07.45:599][367]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-15.07.45:600][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.07.45:667][368]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.02.01-15.07.56:261][998]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WBCA8590454104492A5D50A69F2196C89E.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
-[2019.02.01-15.08.00:221][229]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-15.08.00:244][229]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.00:244][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-15.08.00:245][229]PIE: New page: PIE session: Main (Feb 1, 2019, 3:08:00 AM)
-[2019.02.01-15.08.00:245][229]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-15.08.00:246][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000971s)
-[2019.02.01-15.08.00:246][229]LogAIModule: Creating AISystem for world Main
-[2019.02.01-15.08.00:246][229]LogPlayLevel: PIE: World Init took: (0.000791s)
-[2019.02.01-15.08.00:246][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001900s)
-[2019.02.01-15.08.00:276][229]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-15.08.00:321][229]LogInit: FAudioDevice initialized.
-[2019.02.01-15.08.00:328][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.08.00:365][229]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-15.08.00:366][229]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-09.08.00
-[2019.02.01-15.08.00:366][229]LogWorld: Bringing up level for play took: 0.000387
-[2019.02.01-15.08.00:378][229]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.01-15.08.00:384][229]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.42
-[2019.02.01-15.08.00:384][229]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.11:512][894]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.11:513][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.08.11:532][894]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-15.08.11:563][894]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-15.08.11:564][894]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.11:613][895]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.02.01-15.08.16:088][159]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-15.08.16:111][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.16:111][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-15.08.16:111][159]PIE: New page: PIE session: Main (Feb 1, 2019, 3:08:16 AM)
-[2019.02.01-15.08.16:111][159]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-15.08.16:112][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000966s)
-[2019.02.01-15.08.16:113][159]LogAIModule: Creating AISystem for world Main
-[2019.02.01-15.08.16:113][159]LogPlayLevel: PIE: World Init took: (0.000652s)
-[2019.02.01-15.08.16:113][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001732s)
-[2019.02.01-15.08.16:143][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-15.08.16:186][159]LogInit: FAudioDevice initialized.
-[2019.02.01-15.08.16:195][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.08.16:234][159]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-15.08.16:236][159]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-09.08.16
-[2019.02.01-15.08.16:237][159]LogWorld: Bringing up level for play took: 0.001493
-[2019.02.01-15.08.16:249][159]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.01-15.08.16:255][159]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.292
-[2019.02.01-15.08.16:255][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.25:782][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.08.25:782][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.25:803][725]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-15.08.25:833][725]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-15.08.25:833][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.08.25:892][727]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.02.01-15.10.25:045][856]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.17.08:689][ 36]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.02.01-15.17.08:765][ 36]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WBC734A5FB4D202E8A28779EAEB318ECA7.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
-[2019.02.01-15.31.49:870][825]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.31.50:380][826]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.31.50:882][827]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.39.05:601][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.39.06:102][311]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.39.08:728][319]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.39.23:178][362]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.39.23:679][363]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.40.14:996][516]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.40.15:496][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.41.37:695][762]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.41.38:196][763]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.41.42:869][777]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.41.44:915][783]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.02.01-15.45.06:242][876]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.45.13:352][286]BlueprintLog: New page: Compile MainMenu_WB
-[2019.02.01-15.45.15:349][397]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.01-15.45.15:390][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.45.15:391][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.01-15.45.15:391][397]PIE: New page: PIE session: Main (Feb 1, 2019, 3:45:15 AM)
-[2019.02.01-15.45.15:391][397]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
-[2019.02.01-15.45.15:392][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000923s)
-[2019.02.01-15.45.15:392][397]LogAIModule: Creating AISystem for world Main
-[2019.02.01-15.45.15:392][397]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2019.02.01-15.45.15:392][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001672s)
-[2019.02.01-15.45.15:424][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.01-15.45.15:466][397]LogInit: FAudioDevice initialized.
-[2019.02.01-15.45.15:473][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.45.15:510][397]LogLoad: Game class is 'PlayerMovementGameModeBase'
-[2019.02.01-15.45.15:511][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.01-09.45.15
-[2019.02.01-15.45.15:511][397]LogWorld: Bringing up level for play took: 0.000431
-[2019.02.01-15.45.15:523][397]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.01-15.45.15:528][397]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main -0.434
-[2019.02.01-15.45.15:529][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.45.27:730][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.01-15.45.31:831][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.01-15.45.31:831][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.45.31:853][370]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.01-15.45.31:884][370]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.01-15.45.31:884][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
-[2019.02.01-15.45.31:941][372]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.02.01-15.45.35:605][582]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WBB54C1AB947F9F2BFFBCABCA0392C4E8D.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
+[2019.02.07-22.58.15:010][262]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.006 s
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: Stack: 
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc9f71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc730c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfc74b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbe5eb2f8f UE4Editor-PlayerMovement.dll!FInputAxisKeyBinding::FInputAxisKeyBinding() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:469]
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbe5eb24d0 UE4Editor-PlayerMovement.dll!UInputComponent::BindAxisKey<APawnPlayerMove>() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:816]
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbe5eb4e13 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\p3dro\documents\unreal projects\studiocollab\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:135]
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6217bcc UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62bd3af UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf54836d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffc2de06467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffc2e031133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5538033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6a38dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62de2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:010][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5de13c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62d37b9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf62ed33c UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5e8112e UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf5e808ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf6751985 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf66e3483 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbf678781d UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfb226f02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffbfbb1f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d45cbd UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d55b3c UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d55bba UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d63dac UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ff761d65aaa UE4Editor.exe!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffc61a23034 KERNEL32.DLL!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: [Callstack] 0x00007ffc63df3691 ntdll.dll!UnknownFunction []
+[2019.02.07-22.58.15:011][262]LogOutputDevice: Error: 
+[2019.02.07-22.58.15:015][262]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.07-22.58.15:402][262]LogStats:                    SendNewReport -  0.386 s
+[2019.02.07-22.58.15:402][262]LogStats:             FDebug::EnsureFailed -  0.397 s
+[2019.02.07-22.58.15:403][262]LogLoad: Took 1.949380 seconds to LoadMap(/Game/Levels/PlayerMovementTest)
+[2019.02.07-22.58.51:007][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-22.58.51:065][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-22.58.51:069][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.58.51:105][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-22.58.51:105][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-22.58.51:136][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-22.58.51:183][784]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.07-23.34.39:162][304]LogRenderer: Reallocating scene render targets to support 1172x744 Format 9 NumSamples 1 (Frame:1).
+[2019.02.07-23.34.53:011][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.01:128][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.01:211][624]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.35.01:240][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.35.01:240][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.35.01:240][624]PIE: New page: PIE session: Main (Feb 7, 2019, 11:35:01 AM)
+[2019.02.07-23.35.01:240][624]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-23.35.01:241][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001130s)
+[2019.02.07-23.35.01:242][624]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.35.01:242][624]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.02.07-23.35.01:242][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002071s)
+[2019.02.07-23.35.01:277][624]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.35.01:320][624]LogInit: FAudioDevice initialized.
+[2019.02.07-23.35.01:328][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.35.01:362][624]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.35.01:362][624]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.35.01
+[2019.02.07-23.35.01:363][624]LogWorld: Bringing up level for play took: 0.000455
+[2019.02.07-23.35.01:375][624]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.35.01:379][624]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.599
+[2019.02.07-23.35.01:380][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.35.04:152][784]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.07-23.35.04:158][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.35.04:192][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.35.04:192][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.35.04:233][785]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.07-23.35.10:512][157]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.35.10:517][157]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/PedroTestLevel.PedroTestLevel
+[2019.02.07-23.35.10:545][157]Cmd: MAP LOAD FILE="../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/PedroTestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-23.35.10:545][157]LightingResults: New page: Lighting Build
+[2019.02.07-23.35.10:546][157]LoadErrors: New page: Loading map: PedroTestLevel.umap
+[2019.02.07-23.35.10:546][157]MapCheck: New page: Map Check
+[2019.02.07-23.35.10:547][157]LightingResults: New page: Lighting Build
+[2019.02.07-23.35.10:661][157]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-23.35.10:719][157]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-23.35.10:808][157]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.814ms to complete.
+[2019.02.07-23.35.10:808][157]LogFileHelpers: Loading map 'PedroTestLevel' took 0.264
+[2019.02.07-23.35.18:360][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.18:444][604]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.35.18:480][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.18:480][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.35.18:480][604]PIE: New page: PIE session: PedroTestLevel (Feb 7, 2019, 11:35:18 AM)
+[2019.02.07-23.35.18:481][604]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PedroTestLevel
+[2019.02.07-23.35.18:482][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001401s)
+[2019.02.07-23.35.18:483][604]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.35.18:483][604]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2019.02.07-23.35.18:483][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PedroTestLevel.PedroTestLevel to /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel (0.002377s)
+[2019.02.07-23.35.18:515][604]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.35.18:558][604]LogInit: FAudioDevice initialized.
+[2019.02.07-23.35.18:593][604]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.35.18:594][604]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.35.18
+[2019.02.07-23.35.18:594][604]LogWorld: Bringing up level for play took: 0.000476
+[2019.02.07-23.35.18:607][604]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PedroTestLevel -0.174
+[2019.02.07-23.35.18:607][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.30:660][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.30:807][327]LogPackageName: SearchForPackageOnDisk took   0.093s, but failed to resolve None.umap.
+[2019.02.07-23.35.30:888][327]LogPackageName: SearchForPackageOnDisk took   0.080s, but failed to resolve None.umap.
+[2019.02.07-23.35.30:888][327]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2019.02.07-23.35.30:892][327]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/StarterContent/Maps/Minimal_Default
+[2019.02.07-23.35.30:892][327]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/StarterContent/Maps/Minimal_Default'. Shutting down PIE.
+[2019.02.07-23.35.30:892][327]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/StarterContent/Maps/Minimal_Default'. Shutting down PIE.
+[2019.02.07-23.35.30:893][327]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/StarterContent/Maps/Minimal_Default
+[2019.02.07-23.35.30:893][327]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/StarterContent/Maps/Minimal_Default'. Shutting down PIE.
+[2019.02.07-23.35.30:893][327]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/StarterContent/Maps/Minimal_Default'. Shutting down PIE.
+[2019.02.07-23.35.30:893][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.30:894][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.35.30:930][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.35.30:930][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.30:958][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.35.31:006][328]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.07-23.35.37:626][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.37:693][723]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.35.37:719][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.37:719][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.35.37:719][723]PIE: New page: PIE session: PedroTestLevel (Feb 7, 2019, 11:35:37 AM)
+[2019.02.07-23.35.37:719][723]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PedroTestLevel
+[2019.02.07-23.35.37:720][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001355s)
+[2019.02.07-23.35.37:721][723]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.35.37:721][723]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.02.07-23.35.37:721][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PedroTestLevel.PedroTestLevel to /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel (0.002311s)
+[2019.02.07-23.35.37:755][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.35.37:796][723]LogInit: FAudioDevice initialized.
+[2019.02.07-23.35.37:826][723]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.35.37:827][723]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.35.37
+[2019.02.07-23.35.37:827][723]LogWorld: Bringing up level for play took: 0.000493
+[2019.02.07-23.35.37:840][723]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PedroTestLevel 1.059
+[2019.02.07-23.35.37:840][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.44:572][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.52:939][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.35.53:012][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.35.53:012][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.53:051][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.35.53:051][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.35.53:080][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.35.53:137][629]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.07-23.37.00:596][665]LogSlate: Took 0.012674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.07-23.38.21:885][515]BlueprintLog: New page: Compile PauseMenu_WB
+[2019.02.07-23.38.23:221][583]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.38.23:246][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.38.23:246][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.38.23:246][583]PIE: New page: PIE session: PedroTestLevel (Feb 7, 2019, 11:38:23 AM)
+[2019.02.07-23.38.23:246][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PedroTestLevel
+[2019.02.07-23.38.23:247][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001228s)
+[2019.02.07-23.38.23:248][583]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.38.23:248][583]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2019.02.07-23.38.23:248][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PedroTestLevel.PedroTestLevel to /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel (0.001903s)
+[2019.02.07-23.38.23:280][583]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.38.23:320][583]LogInit: FAudioDevice initialized.
+[2019.02.07-23.38.23:328][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.38.23:361][583]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.38.23:361][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.38.23
+[2019.02.07-23.38.23:362][583]LogWorld: Bringing up level for play took: 0.000619
+[2019.02.07-23.38.23:375][583]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.38.23:378][583]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PedroTestLevel 0.598
+[2019.02.07-23.38.23:379][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.38.27:797][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.38.27:881][850]LogNet: Browse: /Game/Levels/Main
+[2019.02.07-23.38.27:881][850]LogLoad: LoadMap: /Game/Levels/Main
+[2019.02.07-23.38.27:929][850]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.38.27:929][850]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.38.27:930][850]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.38.27
+[2019.02.07-23.38.27:930][850]LogWorld: Bringing up level for play took: 0.000468
+[2019.02.07-23.38.27:931][850]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.38.27:934][850]LogLoad: Took 0.052580 seconds to LoadMap(/Game/Levels/Main)
+[2019.02.07-23.38.31:320][ 53]LogNet: Browse: /Game/Levels/PlayerMovementTest
+[2019.02.07-23.38.31:320][ 53]LogLoad: LoadMap: /Game/Levels/PlayerMovementTest
+[2019.02.07-23.38.31:410][ 53]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.02.07-23.38.31:410][ 53]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.38.31:413][ 53]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 60) at 2019.02.07-17.38.31
+[2019.02.07-23.38.31:413][ 53]LogWorld: Bringing up level for play took: 0.002585
+[2019.02.07-23.38.31:414][ 53]LogLoad: Took 0.093648 seconds to LoadMap(/Game/Levels/PlayerMovementTest)
+[2019.02.07-23.38.32:965][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-23.38.34:446][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.38.34:513][224]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.07-23.38.34:518][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.38.34:553][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.38.34:553][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel' with GeneratedClass '/Game/Levels/PedroTestLevel.PedroTestLevel_C' with ClassGeneratedBy '/Game/Levels/PedroTestLevel.PedroTestLevel:PersistentLevel.PedroTestLevel'
+[2019.02.07-23.38.34:615][225]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.07-23.38.55:348][442]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/PedroTestLevelF81B39EE43D671F9825407951D23C32E.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/PedroTestLevel.umap'
+[2019.02.07-23.38.55:414][442]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/PedroTestLevel_BuiltData272AE1D04BC6991EACBF2A9CB7156E16.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/PedroTestLevel_BuiltData.uasset'
+[2019.02.07-23.38.58:399][611]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.38.58:401][611]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
+[2019.02.07-23.39.00:146][611]LogSlate: Window 'Save Content' being destroyed
+[2019.02.07-23.39.00:230][611]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB8F8A7A264E305FE65D6D8A9B307B9E03.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
+[2019.02.07-23.39.00:316][611]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/PauseMenu_WBFCE9AAF44744A7C59DB70584B2FCF8B2.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/PauseMenu_WB.uasset'
+[2019.02.07-23.39.00:322][611]Cmd: MAP LOAD FILE="../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-23.39.00:322][611]LightingResults: New page: Lighting Build
+[2019.02.07-23.39.00:322][611]LoadErrors: New page: Loading map: Main.umap
+[2019.02.07-23.39.00:323][611]MapCheck: New page: Map Check
+[2019.02.07-23.39.00:323][611]LightingResults: New page: Lighting Build
+[2019.02.07-23.39.00:418][611]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-23.39.00:477][611]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-23.39.00:555][611]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.705ms to complete.
+[2019.02.07-23.39.00:555][611]LogFileHelpers: Loading map 'Main' took 0.233
+[2019.02.07-23.39.02:214][700]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.39.02:242][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.39.02:242][700]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.07-23.39.02:256][700]LogPlayLevel: [PlayLevel] Compiling MainMenu_WB before play...
+[2019.02.07-23.39.02:410][700]LogPlayLevel: PlayLevel: Blueprint regeneration took 167 ms (1 blueprints)
+[2019.02.07-23.39.02:410][700]PIE: New page: PIE session: Main (Feb 7, 2019, 11:39:02 AM)
+[2019.02.07-23.39.02:410][700]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-23.39.02:411][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000861s)
+[2019.02.07-23.39.02:411][700]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.39.02:411][700]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2019.02.07-23.39.02:411][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001521s)
+[2019.02.07-23.39.02:442][700]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.39.02:483][700]LogInit: FAudioDevice initialized.
+[2019.02.07-23.39.02:514][700]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.39.02:515][700]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.39.02
+[2019.02.07-23.39.02:515][700]LogWorld: Bringing up level for play took: 0.000313
+[2019.02.07-23.39.02:531][700]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main -0.25
+[2019.02.07-23.39.02:531][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.39.03:899][779]LogNet: Browse: /Game/Levels/PedroTestLevel
+[2019.02.07-23.39.03:899][779]LogLoad: LoadMap: /Game/Levels/PedroTestLevel
+[2019.02.07-23.39.03:963][779]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.39.03:964][779]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.39.03:965][779]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.39.03
+[2019.02.07-23.39.03:965][779]LogWorld: Bringing up level for play took: 0.001258
+[2019.02.07-23.39.03:966][779]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.39.03:966][779]LogLoad: Took 0.066638 seconds to LoadMap(/Game/Levels/PedroTestLevel)
+[2019.02.07-23.39.07:844][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.39.07:914][ 16]LogNet: Browse: /Game/Levels/Main
+[2019.02.07-23.39.07:914][ 16]LogLoad: LoadMap: /Game/Levels/Main
+[2019.02.07-23.39.07:945][ 16]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-23.39.07:946][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000913s)
+[2019.02.07-23.39.07:946][ 16]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.39.07:947][ 16]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2019.02.07-23.39.07:947][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001750s)
+[2019.02.07-23.39.07:947][ 16]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.39.07:947][ 16]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.39.07
+[2019.02.07-23.39.07:948][ 16]LogWorld: Bringing up level for play took: 0.000433
+[2019.02.07-23.39.07:948][ 16]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.39.07:951][ 16]LogLoad: Took 0.037122 seconds to LoadMap(/Game/Levels/UEDPIE_0_Main)
+[2019.02.07-23.39.14:816][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.39.14:817][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.39.14:852][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.39.14:852][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.39.14:881][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.39.14:924][431]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.07-23.39.17:171][550]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/Main219BAF9F4163BA5610B60CAE7E8A924A.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/Main.umap'
+[2019.02.07-23.40.33:033][ 74]LogEditorTransaction: Undo Edit Right
+[2019.02.07-23.41.00:772][735]BlueprintLog: New page: Compile MainMenu_WB
+[2019.02.07-23.41.01:474][760]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/MainMenu_WB7D546D8A401E408F3BD34391E75252EA.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/MainMenu_WB.uasset'
+[2019.02.07-23.41.02:298][807]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.41.02:344][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.41.02:344][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.41.02:344][807]PIE: New page: PIE session: Main (Feb 7, 2019, 11:41:02 AM)
+[2019.02.07-23.41.02:344][807]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-23.41.02:345][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001080s)
+[2019.02.07-23.41.02:346][807]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.41.02:346][807]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2019.02.07-23.41.02:346][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001983s)
+[2019.02.07-23.41.02:378][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.41.02:419][807]LogInit: FAudioDevice initialized.
+[2019.02.07-23.41.02:427][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.41.02:465][807]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.41.02:466][807]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.41.02
+[2019.02.07-23.41.02:467][807]LogWorld: Bringing up level for play took: 0.000536
+[2019.02.07-23.41.02:478][807]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.41.02:484][807]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main -0.297
+[2019.02.07-23.41.02:484][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.41.13:716][473]LogNet: Browse: /Game/Levels/PedroTestLevel
+[2019.02.07-23.41.13:716][473]LogLoad: LoadMap: /Game/Levels/PedroTestLevel
+[2019.02.07-23.41.13:777][473]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.41.13:778][473]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.41.13:779][473]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.41.13
+[2019.02.07-23.41.13:779][473]LogWorld: Bringing up level for play took: 0.001167
+[2019.02.07-23.41.13:780][473]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.41.13:780][473]LogLoad: Took 0.063946 seconds to LoadMap(/Game/Levels/PedroTestLevel)
+[2019.02.07-23.41.23:642][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.41.35:893][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.41.35:894][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.41.35:916][800]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.07-23.41.35:950][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.41.35:950][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.41.35:996][801]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.07-23.42.31:270][ 72]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-23.42.31:315][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.42.31:315][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-23.42.31:315][ 72]PIE: New page: PIE session: Main (Feb 7, 2019, 11:42:31 AM)
+[2019.02.07-23.42.31:315][ 72]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.02.07-23.42.31:316][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000868s)
+[2019.02.07-23.42.31:317][ 72]LogAIModule: Creating AISystem for world Main
+[2019.02.07-23.42.31:317][ 72]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2019.02.07-23.42.31:317][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.001597s)
+[2019.02.07-23.42.31:349][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.07-23.42.31:392][ 72]LogInit: FAudioDevice initialized.
+[2019.02.07-23.42.31:400][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.42.31:436][ 72]LogLoad: Game class is 'PlayerMovementGameModeBase'
+[2019.02.07-23.42.31:437][ 72]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.02.07-17.42.31
+[2019.02.07-23.42.31:437][ 72]LogWorld: Bringing up level for play took: 0.000516
+[2019.02.07-23.42.31:449][ 72]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.42.31:455][ 72]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.674
+[2019.02.07-23.42.31:455][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.42.32:320][114]LogNet: Browse: /Game/Levels/PedroTestLevel
+[2019.02.07-23.42.32:320][114]LogLoad: LoadMap: /Game/Levels/PedroTestLevel
+[2019.02.07-23.42.32:384][114]LogAIModule: Creating AISystem for world PedroTestLevel
+[2019.02.07-23.42.32:385][114]LogLoad: Game class is 'GameModeBase'
+[2019.02.07-23.42.32:386][114]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PedroTestLevel.PedroTestLevel up for play (max tick rate 60) at 2019.02.07-17.42.32
+[2019.02.07-23.42.32:386][114]LogWorld: Bringing up level for play took: 0.001069
+[2019.02.07-23.42.32:387][114]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.07-23.42.32:387][114]LogLoad: Took 0.066591 seconds to LoadMap(/Game/Levels/PedroTestLevel)
+[2019.02.07-23.42.34:814][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-23.42.36:399][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.42.36:399][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-23.42.36:421][355]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.07-23.42.36:452][355]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-23.42.36:452][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.02.07-23.42.36:497][356]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.07-23.43.01:156][807]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/PauseMenu_WBA92178CA416A94C0301F2AA4DB172AA1.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/PauseMenu_WB.uasset'
+[2019.02.08-05.13.55:504][427]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: libcurl info message cache 0 (Connection 94 seems to be dead!)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: libcurl info message cache 1 (Closing connection 94)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.08-05.13.59:245][430]LogHttp: Warning: 000001AB9F90BD80: libcurl info message cache 4 (Closing connection 95)
