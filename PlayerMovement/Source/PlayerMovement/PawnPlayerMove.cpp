@@ -86,18 +86,31 @@ void APawnPlayerMove::Tick(float DeltaTime)
 
 void APawnPlayerMove::HandleInput()
 {
-	FVector FActorMovement; // reperesents the current location of the character
+	FVector FActorMovement; // represents the current location of the character
 	//FRotator FCharacterRotation; //
-	FVector  FDirection;// sets the FDirectionb variable to the foward vector of the actor
+	FVector  FDirection;// sets the FDirectionb variable to the forward vector of the actor
 	FRotator FCharacterRotation;
+	FVector CameraRightVector = Camera->GetRightVector();
+	FVector CameraForwardVector = Camera->GetForwardVector();
+	//float Cam;
+	//FVector CamVec;
 	float Lerp = 0.08;
 	isMoving = false;
-	//Controlls 
+	//Controls 
 	if ((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(0, 270, 0);
+
+		
+		//FRotator CameraRotate = CameraForwardVector.Rotation();
+		//GetWorld()->GetFirstPlayerController()->GetActorEyesViewPoint(OUT GetActorLocation(), OUT GetActorRotation());
+		
+		FCharacterRotation = GetControlRotation();
+		FCharacterRotation.Pitch = 0;
+		FCharacterRotation.Roll = 0;
+
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::Printf(TEXT("%s"), *FCharacterRotation.ToString()));
 		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 	}
@@ -106,7 +119,13 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(0, 90,0);
+
+		//FCharacterRotation = FRotator(0, 90, 0);
+		FCharacterRotation = GetControlRotation();
+		FCharacterRotation.Pitch = 0;
+		FCharacterRotation.Roll = 0;
+		FCharacterRotation.Yaw -= 180;
+
 		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 	}
@@ -115,7 +134,17 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(0, 180, 0);
+
+		/*CameraRightVector = Camera->GetRightVector();
+		CameraForwardVector = Camera->GetForwardVector();
+		Cam = Camera->GetForwardVector().Y;
+		CamVec = Camera->GetForwardVector();*/
+
+		FCharacterRotation = GetControlRotation();
+		FCharacterRotation.Pitch = 0;
+		FCharacterRotation.Roll = 0;
+		FCharacterRotation.Yaw -= 90;
+
 		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 
@@ -124,7 +153,15 @@ void APawnPlayerMove::HandleInput()
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(0, 0, 0);
+
+		/*CameraRightVector = Camera->GetRightVector();
+		Cam = Camera->GetRightVector().Y;*/
+
+		FCharacterRotation = GetControlRotation();
+		FCharacterRotation.Pitch = 0;
+		FCharacterRotation.Roll = 0;
+		FCharacterRotation.Yaw += 90;
+
 		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 
@@ -152,22 +189,6 @@ void APawnPlayerMove::HandleInput()
 	}
 }*/
 
-/*void APawnPlayerMove::MoveForward(float Value)
-{
-	//isMoving = false;
-	if ((Controller != NULL) && (Value != 0.0f))
-	{
-		isMoving = true;
-		// find out which way is forward
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		// get forward vector
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		FVector FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * Direction * Value * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
-		SetActorLocation(FActorMovement);
-	}
-}*/
 
 // Called to bind functionality to input
 void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
