@@ -27,7 +27,7 @@ void AEle_Fire::Tick(float DeltaTime)
 }
 
 //this shuold be called when an overlap collision event happens
-void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum)
+void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Fire Reaction Hit"));
 
@@ -42,6 +42,9 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum)
 
 	case EElementType::ET_Ice:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
+		GetWorld()->DestroyActor(OtherChemical);
+		Destroy();
+
 		break;
 
 	case EElementType::ET_Acid:
@@ -72,8 +75,9 @@ void AEle_Fire::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Othe
 		if (bIsImplemented)
 		{
 			AStable* StableObject = Cast<AStable>(OtherActor);
+			AActor* ChemObject = Cast<AActor>(StableObject);
 
-			Reaction_Implementation(StableObject->ElementTypeEnum);
+			Reaction_Implementation(StableObject->ElementTypeEnum, ChemObject);
 		}
 	}
 }

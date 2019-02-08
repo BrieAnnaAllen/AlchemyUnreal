@@ -31,7 +31,7 @@ void AStable::Tick(float DeltaTime)
 
 }
 
-void AStable::Reaction_Implementation(const EElementType OtherEleEnum)
+void AStable::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Error, TEXT("Message: This Stable Reaction has not been impelemented"));
 	//This should be filled out by the other Elements that are children of this class

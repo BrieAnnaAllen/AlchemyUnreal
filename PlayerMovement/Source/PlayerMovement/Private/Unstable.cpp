@@ -31,9 +31,10 @@ void AUnstable::Tick(float DeltaTime)
 
 }
 
-void AUnstable::Reaction_Implementation(const EElementType OtherEleEnum)
+void AUnstable::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Error, TEXT("Message: This Unstable Reaction has not been impelemented"));
 	//This should be filled out by the other Elements that are children of this class
 }
+
 
