@@ -89,14 +89,19 @@ void APawnPlayerMove::HandleInput()
 {
 	FVector FActorMovement; // reperesents the current location of the character
 	//FRotator FCharacterRotation; //
-	FVector FDirection = GetActorForwardVector(); // sets the FDirectionb variable to the foward vector of the actor
+	FVector  FDirection;// sets the FDirectionb variable to the foward vector of the actor
+	FRotator FCharacterRotation;
 	isMoving = false;
 	//Controlls 
 	if((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 
-		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		//FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		FDirection = FVector(-1, 0, 0);
+		//FCharacterRotation = GetActorRotation().Quaternion ;
+		//SetActorRotation(FCharacterRotation);
 		isMoving = true;
 
 	}
@@ -105,6 +110,8 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		FCharacterRotation = FRotator(GetActorRotation().Pitch, 90, GetActorRotation().Roll);
+		SetActorRotation(FCharacterRotation);
 		isMoving = true;
 
 	}
@@ -113,6 +120,8 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		FCharacterRotation = FRotator(GetActorRotation().Pitch, 180, GetActorRotation().Roll);
+		SetActorRotation(FCharacterRotation);
 		isMoving = true;
 
 	}
@@ -120,11 +129,12 @@ void APawnPlayerMove::HandleInput()
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
+		FCharacterRotation = FRotator(GetActorRotation().Pitch, 0, GetActorRotation().Roll);
+		SetActorRotation(FCharacterRotation);
 		isMoving = true;
 
 	}
-	
-	SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
+	//SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
 	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
