@@ -27,7 +27,7 @@ void AEle_Acid::Tick(float DeltaTime)
 }
 
 //this shuold be called when an overlap collision event happens
-void AEle_Acid::Reaction_Implementation(const EElementType OtherEleEnum)
+void AEle_Acid::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Acid Reaction Hit"));
 
@@ -72,8 +72,9 @@ void AEle_Acid::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Othe
 		if (bIsImplemented)
 		{
 			AStable* StableObject = Cast<AStable>(OtherActor);
+			AActor* ChemObject = Cast<AActor>(StableObject);
 
-			Reaction_Implementation(StableObject->ElementTypeEnum);
+			Reaction_Implementation(StableObject->ElementTypeEnum, ChemObject);
 		}
 	}
 }
