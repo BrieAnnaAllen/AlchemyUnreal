@@ -23,8 +23,8 @@ APawnPlayerMove::APawnPlayerMove()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	// Create components
-	//Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
-	Cube = CreateDefaultSubobject<UBoxComponent>("Cube");
+	Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
+	//Cube = CreateDefaultSubobject<UBoxComponent>("Cube");
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("Static Mesh");
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Skeletal Mesh");
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
@@ -32,7 +32,7 @@ APawnPlayerMove::APawnPlayerMove()
 	
 	// Make sure main collider is Root
 	//RootComponent = Cast<USceneComponent>(Capsule);
-	RootComponent = Cast<USceneComponent>(Cube);
+	RootComponent = Cast<USceneComponent>(Capsule);
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = CameraDistance;
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
@@ -44,7 +44,7 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
-	//Capsule->BodyInstance.bLockRotation = true;
+	Capsule->BodyInstance.bLockRotation = true;
 	//SkeletalMesh->BodyInstance.bLockRotation = true;
 
 	HudReference = nullptr;
@@ -59,16 +59,16 @@ void APawnPlayerMove::BeginPlay()
 	Super::BeginPlay();
 	// Make sure to Simulate Physics
 
-	//Capsule->SetSimulatePhysics(true);
-	Cube->SetSimulatePhysics(true);
+	Capsule->SetSimulatePhysics(true);
+	//Cube->SetSimulatePhysics(true);
 	//Cube->BodyInstance.bLockRotation = true;
 	// Make sure Gravity is enabled
-	//Capsule->SetEnableGravity(true);
-	Cube->SetEnableGravity(true);
+	Capsule->SetEnableGravity(true);
+	//Cube->SetEnableGravity(true);
 
 	// Automatically set Collision Preset to Pawn
-	//Capsule->SetCollisionProfileName("Pawn");
-	Cube->SetCollisionProfileName("Pawn");
+	Capsule->SetCollisionProfileName("Pawn");
+	//Cube->SetCollisionProfileName("Pawn");
 
 	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
