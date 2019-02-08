@@ -3,6 +3,7 @@
 #include "UI/Pickup_Actor.h"
 #include "Components/SphereComponent.h"
 #include "PawnPlayerMove.h"
+#include "ElementTracker.h"
 
 // Sets default values
 APickup_Actor::APickup_Actor()
@@ -18,12 +19,18 @@ APickup_Actor::APickup_Actor()
 		//Bind the overlap delegate to the function
 		CollectionSphere->OnComponentBeginOverlap.AddDynamic(this, &APickup_Actor::OnSphereOverlap);
 	}
+
+	Fire = false;
+	Ice = false;
+	Acid = false;
+	Soap = false;
+
 }
 
 void APickup_Actor::OnCollection_Implementation(APawnPlayerMove * Collector)
 {
 	//Destroy this actor
-	Destroy();
+	//Destroy();
 }
 
 void APickup_Actor::OnSphereOverlap(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
