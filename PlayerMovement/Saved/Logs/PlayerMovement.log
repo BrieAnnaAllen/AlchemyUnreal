@@ -765,3 +765,227 @@ PlayerController.ClientRestart
 [2019.02.08-20.14.52:727][362]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/PedroTestLevel2FDD8812484C8148A00BEBA916505A79.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Levels/PedroTestLevel.umap'
 [2019.02.08-20.14.52:769][362]LogFileHelpers: Saving map 'PedroTestLevel' took 0.343
 [2019.02.08-20.14.52:791][362]LogSavePackage: Moving '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Saved/KeyTest97A06B9B46A767925F05FF8324BD0530.tmp' to '../../../../../../Users/P3dro/Documents/Unreal Projects/StudioCollab/AlchemyUnreal/PlayerMovement/Content/Blueprints/KeyTest.uasset'
+[2019.02.01-22.41.22:590][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.01-22.41.22:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.01-22.41.22:712][  0]LogHAL: Display: Platform has ~ 16 GB [17121423360 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.01-22.41.22:713][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.01-22.41.22:713][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.01-22.41.22:713][  0]LogInit: Computer: T3610-TENNANT
+[2019.02.01-22.41.22:713][  0]LogInit: User: tessolson
+[2019.02.01-22.41.22:714][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.01-22.41.22:714][  0]LogInit: High frequency timer resolution =3.604595 MHz
+[2019.02.01-22.41.22:715][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.01-22.41.22:715][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.01-22.41.22:715][  0]LogMemory: Process Physical Memory: 101.00 MB used, 101.00 MB peak
+[2019.02.01-22.41.22:715][  0]LogMemory: Process Virtual Memory: 92.14 MB used, 92.14 MB peak
+[2019.02.01-22.41.22:715][  0]LogMemory: Physical Memory: 6146.04 MB used,  10182.23 MB free, 16328.26 MB total
+[2019.02.01-22.41.22:715][  0]LogMemory: Virtual Memory: 4646.44 MB used,  10182.23 MB free, 134217728.00 MB total
+[2019.02.01-22.41.22:751][  0]LogInit: Using OS detected language (en-US).
+[2019.02.01-22.41.22:751][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.01-22.41.22:753][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.01-22.41.23:444][  0]LogStreaming: Display: Took  0.692s to InitEngineTextLocalization.
+[2019.02.01-22.41.23:444][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.01-22.41.23:593][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.01-22.41.23:593][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.01-22.41.25:953][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.01-22.41.25:953][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.01-22.41.25:986][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K5000' (Feature Level 11_0)
+[2019.02.01-22.41.25:986][  0]LogD3D11RHI:       4063/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.01-22.41.25:989][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.01-22.41.25:989][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.01-22.41.25:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.01-22.41.25:999][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.01-22.41.25:999][  0]LogD3D11RHI:     GPU DeviceId: 0x11ba (for the marketing name, search the web for "GPU Device Id")
+[2019.02.01-22.41.25:999][  0]LogWindows: EnumDisplayDevices:
+[2019.02.01-22.41.25:999][  0]LogWindows:    0. 'NVIDIA Quadro K5000' (P:1 D:1)
+[2019.02.01-22.41.25:999][  0]LogWindows:    1. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.02.01-22.41.26:000][  0]LogWindows:    2. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.02.01-22.41.26:000][  0]LogWindows:    3. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.02.01-22.41.26:000][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.01-22.41.26:000][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K5000
+[2019.02.01-22.41.26:000][  0]LogD3D11RHI:   Driver Version: 377.61 (internal:21.21.13.7761, unified:377.61)
+[2019.02.01-22.41.26:000][  0]LogD3D11RHI:      Driver Date: 8-14-2017
+[2019.02.01-22.41.26:000][  0]LogRHI: Texture pool is 2844 MB (70% of 4063 MB)
+[2019.02.01-22.41.26:021][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.01-22.41.26:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.01-22.41.26:035][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/12348/).
+[2019.02.01-22.41.26:035][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tess.olson/AppData/Local/Temp/UnrealShaderWorkingDir/4DBB13EB4E3E6F912272D5AC2A830835/'.
+[2019.02.01-22.41.26:404][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.01-22.41.26:420][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.01-22.41.26:436][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.01-22.41.26:453][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.01-22.41.26:484][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.01-22.41.26:501][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.01-22.41.26:517][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.01-22.41.26:533][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.01-22.41.26:542][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-22.41.26:643][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.01-22.41.26:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.01-22.41.26:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.01-22.41.26:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.01-22.41.26:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.01-22.41.26:763][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.01-22.41.26:777][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.01-22.41.26:791][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.01-22.41.26:822][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.01-22.41.26:832][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.01-22.41.26:832][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.01-22.41.26:930][  0]LogXGEController: Cleaning working directory: C:/Users/tess.olson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.01-22.41.26:930][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.01-22.41.26:930][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.01-22.41.26:930][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.01-22.41.28:865][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.01-22.41.29:079][  0]LogDerivedDataCache: Loaded boot cache 0.21s 71MB C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.01-22.41.29:080][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.01-22.41.29:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.01-22.41.29:080][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.01-22.41.29:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.01-22.41.29:080][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.01-22.41.29:094][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.01-22.41.29:107][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tess.olson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.01-22.41.29:107][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.01-22.41.29:107][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.01-22.41.29:127][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.01-22.41.29:129][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.01-22.41.29:152][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.01-22.41.29:403][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2019.02.01-22.41.29:892][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.01-22.41.29:961][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.01-22.41.29:967][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.01-22.41.29:967][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.01-22.41.29:967][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.01-22.41.29:967][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.01-22.41.30:067][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2019.02.01-22.41.30:697][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.174958 seconds
+[2019.02.01-22.41.30:704][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.01-22.41.30:704][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.01-22.41.30:704][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.01-22.41.38:294][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.01-22.41.38:307][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.01-22.41.38:500][  0]SourceControl: Source control is disabled
+[2019.02.01-22.41.38:500][  0]SourceControl: Source control is disabled
+[2019.02.01-22.41.38:502][  0]SourceControl: Source control is disabled
+[2019.02.01-22.41.38:503][  0]SourceControl: Source control is disabled
+[2019.02.01-22.41.38:735][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.01-22.41.38:928][  0]LogOcInput: OculusInput pre-init called
+[2019.02.01-22.41.39:030][  0]LogEngine: Initializing Engine...
+[2019.02.01-22.41.39:031][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.01-22.41.39:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-22.41.39:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-22.41.39:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.01-22.41.39:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-22.41.39:252][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.01-22.41.39:273][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.01-22.41.39:325][  0]LogInit: XAudio2 using 'Analog (1-8) (RME Hammerfall DSP)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.02.01-22.41.39:362][  0]LogInit: FAudioDevice initialized.
+[2019.02.01-22.41.39:362][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.01-22.41.39:551][  0]LogDerivedDataCache: Saved boot cache 0.19s 71MB C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.01-22.41.39:570][  0]LogInit: Texture streaming: Enabled
+[2019.02.01-22.41.39:596][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.01-22.41.39:618][  0]LogInit: Transaction tracking system initialized
+[2019.02.01-22.41.39:659][  0]BlueprintLog: New page: Editor Load
+[2019.02.01-22.41.39:811][  0]LocalizationService: Localization service is disabled
+[2019.02.01-22.41.40:143][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.01-22.41.40:143][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.01-22.41.40:143][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.01-22.41.40:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-22.41.40:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-22.41.40:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.01-22.41.40:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-22.41.40:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/' took 0.03s
+[2019.02.01-22.41.40:432][  0]SourceControl: Source control is disabled
+[2019.02.01-22.41.40:433][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.01-22.41.40:433][  0]LightingResults: New page: Lighting Build
+[2019.02.01-22.41.40:438][  0]MapCheck: New page: Map Check
+[2019.02.01-22.41.40:438][  0]LightingResults: New page: Lighting Build
+[2019.02.01-22.41.40:811][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.01-22.41.40:819][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.01-22.41.40:841][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.01-22.41.40:955][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.449ms to complete.
+[2019.02.01-22.41.40:955][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.523
+[2019.02.01-22.41.41:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-22.41.41:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-22.41.41:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-22.41.41:129][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-22.41.41:143][  0]LogCollectionManager: Loaded 0 collections in 0.003156 seconds
+[2019.02.01-22.41.41:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
+[2019.02.01-22.41.41:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Developers/tessolson/Collections/' took 0.01s
+[2019.02.01-22.41.41:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
+[2019.02.01-22.41.41:186][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.01-22.41.41:197][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2586 classes and 608 folders.
+[2019.02.01-22.41.41:207][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.01-22.41.41:631][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.01-22.41.41:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.01-22.41.41:668][  0]LogSlate: Took 0.012295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.01-22.41.41:679][  0]LogSlate: Took 0.007983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.01-22.41.41:721][  0]LogSlate: Took 0.036390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.01-22.41.41:832][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2019.02.01-22.41.41:989][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.01-22.41.41:989][  0]LogLoad: (Engine Initialization) Total time: 22.61 seconds
+[2019.02.01-22.41.41:989][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.01-22.41.42:020][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.01-22.41.42:174][  1]LogAssetRegistry: Asset discovery search completed in 12.7927 seconds
+[2019.02.01-22.41.42:176][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.01-22.41.42:176][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2019.02.01-22.41.43:060][ 89]LogSlate: Took 0.022844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.01-22.41.46:162][452]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.01-22.41.48:739][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-22.41.48:918][763]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Ele_Acid_BP.Ele_Acid_BP
+[2019.02.01-22.41.49:457][763]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.02.01-22.41.50:524][763]LogSlate: Took 0.016197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.01-22.41.50:612][764]LogSlate: Took 0.004734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.01-22.44.08:761][506]BlueprintLog: New page: Compile Ele_Acid_BP
+[2019.02.01-22.44.09:463][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ele_Acid_BP" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Acid_BP.uasset" SILENT=true
+[2019.02.01-22.44.09:508][561]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Ele_Acid_BP38B65BB444523EFE2B41538A2DD4E887.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Acid_BP.uasset'
+[2019.02.01-22.44.43:398][106]LogHotReload: New module detected: UE4Editor-PlayerMovement-1354.dll
+[2019.02.01-22.44.45:426][113]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.01-22.44.45:507][113]LogClass: Could not find existing class Ele_Ice in package /Script/PlayerMovement for HotReload, assuming new class
+[2019.02.01-22.44.45:508][113]LogClass: Could not find existing class Stable in package /Script/PlayerMovement for HotReload, assuming new class
+[2019.02.01-22.44.45:508][113]LogClass: Function Reaction is new.
+[2019.02.01-22.44.45:508][113]LogClass: Function OnOverlapBegin is new.
+[2019.02.01-22.44.45:508][113]LogClass: Function OnOverlapEnd is new.
+[2019.02.01-22.44.45:516][113]LogClass: EElementType HotReload.
+[2019.02.01-22.44.45:516][113]LogClass: EReactionType HotReload.
+[2019.02.01-22.44.45:516][113]LogClass: Subtitle HotReload.
+[2019.02.01-22.44.45:533][113]LogHotReload: Re-instancing Ele_Ice after hot-reload.
+[2019.02.01-22.44.45:673][113]LogHotReload: Re-instancing Stable after hot-reload.
+[2019.02.01-22.44.45:781][113]LogContentBrowser: Native class hierarchy updated for 'PlayerMovement' in 0.0007 seconds. Added 14 classes and 5 folders.
+[2019.02.01-22.44.45:785][113]Display: HotReload successful (15 functions remapped  1 scriptstructs remapped)
+[2019.02.01-22.44.46:304][113]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2587 classes and 610 folders.
+[2019.02.01-22.44.46:308][113]Display: HotReload took  0.9s.
+[2019.02.01-22.45.22:522][842]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Ele_Fire_BP.Ele_Fire_BP
+[2019.02.01-22.45.36:374][422]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 10 NumSamples 1 (Frame:1).
+[2019.02.01-22.46.49:697][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-22.46.49:788][ 76]BlueprintLog: New page: Compile Ele_Fire_BP
+[2019.02.01-22.46.50:350][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ele_Fire_BP" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Fire_BP.uasset" SILENT=true
+[2019.02.01-22.46.50:394][109]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Ele_Fire_BPDE383CDA4D8C24FB247F068441EDF7C4.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Fire_BP.uasset'
+[2019.02.01-22.47.00:507][314]BlueprintLog: New page: Compile Ele_Fire_BP
+[2019.02.01-22.47.01:268][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ele_Fire_BP" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Fire_BP.uasset" SILENT=true
+[2019.02.01-22.47.01:305][375]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Ele_Fire_BPEAEDA1094A2592FDAD806E9304685158.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Fire_BP.uasset'
+[2019.02.01-22.47.58:057][156]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'TriggerArea' for 'Cube' in BlueprintGeneratedClass 'Ele_Ice_BP_C' (it may have been removed)
+[2019.02.01-22.47.58:074][156]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Ele_Ice_BP.Ele_Ice_BP
+[2019.02.01-22.48.32:633][248]BlueprintLog: New page: Compile Ele_Ice_BP
+[2019.02.01-22.48.33:450][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ele_Ice_BP" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Ice_BP.uasset" SILENT=true
+[2019.02.01-22.48.33:501][312]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Ele_Ice_BPE3BAFE6646EE8C91BD0F6D95D31A1B1C.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Ice_BP.uasset'
+[2019.02.01-22.48.50:359][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-22.48.50:434][304]BlueprintLog: New page: Compile Ele_Ice_BP
+[2019.02.01-22.48.51:057][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ele_Ice_BP" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Ice_BP.uasset" SILENT=true
+[2019.02.01-22.48.51:106][349]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Ele_Ice_BPD6800D8740DC28CBC55374B7F53F675F.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/Ele_Ice_BP.uasset'
