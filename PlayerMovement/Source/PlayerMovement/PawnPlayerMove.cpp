@@ -47,7 +47,6 @@ APawnPlayerMove::APawnPlayerMove()
 	//Capsule->BodyInstance.bLockRotation = true;
 	//SkeletalMesh->BodyInstance.bLockRotation = true;
 
-	
 	HudReference = nullptr;
 	InteractionDistance = 250;
 
@@ -91,37 +90,33 @@ void APawnPlayerMove::HandleInput()
 	//FRotator FCharacterRotation; //
 	FVector  FDirection;// sets the FDirectionb variable to the foward vector of the actor
 	FRotator FCharacterRotation;
+	float Lerp = 0.08;
 	isMoving = false;
 	//Controlls 
-	if((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
+	if ((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
-
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
-		//FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FDirection = FVector(-1, 0, 0);
-		//FCharacterRotation = GetActorRotation().Quaternion ;
-		//SetActorRotation(FCharacterRotation);
+		FCharacterRotation = FRotator(0, 270, 0);
+		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
-
 	}
 	if ((InputComponent->GetAxisKeyValue(EKeys::S) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Down) > 0))
 	{
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(GetActorRotation().Pitch, 90, GetActorRotation().Roll);
-		SetActorRotation(FCharacterRotation);
+		FCharacterRotation = FRotator(0, 90,0);
+		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
-
 	}
 	if ((InputComponent->GetAxisKeyValue(EKeys::A) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Left) > 0))
 	{
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(GetActorRotation().Pitch, 180, GetActorRotation().Roll);
-		SetActorRotation(FCharacterRotation);
+		FCharacterRotation = FRotator(0, 180, 0);
+		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 
 	}
@@ -129,8 +124,8 @@ void APawnPlayerMove::HandleInput()
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, 1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-		FCharacterRotation = FRotator(GetActorRotation().Pitch, 0, GetActorRotation().Roll);
-		SetActorRotation(FCharacterRotation);
+		FCharacterRotation = FRotator(0, 0, 0);
+		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 
 	}
@@ -138,6 +133,41 @@ void APawnPlayerMove::HandleInput()
 	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
+
+/*void APawnPlayerMove::MoveRight(float Value)
+{
+	isMoving = false;
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		// find out which way is right
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get right vector 
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		// add movement in that direction
+		FVector FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * Direction * Value * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
+		isMoving = true;
+	}
+}*/
+
+/*void APawnPlayerMove::MoveForward(float Value)
+{
+	//isMoving = false;
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		isMoving = true;
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get forward vector
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		FVector FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * Direction * Value * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
+		SetActorLocation(FActorMovement);
+	}
+}*/
 
 // Called to bind functionality to input
 void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -152,7 +182,7 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::D);
 	InputComponent->BindAxisKey(EKeys::MouseX, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
 	InputComponent->BindAxisKey(EKeys::MouseY, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
-	InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
+	//InputComponent->BindAxisKey(EKeys::Gamepad_LeftThumbstick);
 	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Left, this, &APawnPlayerMove::AddControllerYawInput); // Automatically binds this movement with the AddControllerYawInput class
 	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Right);
 	InputComponent->BindAxisKey(EKeys::Gamepad_RightStick_Up, this, &APawnPlayerMove::AddControllerPitchInput); // Automatically binds this movement with the AddControllerPitch Input class
@@ -161,6 +191,10 @@ void APawnPlayerMove::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Down);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Left);
 	InputComponent->BindAxisKey(EKeys::Gamepad_LeftStick_Right);
+
+
+	//PlayerInputComponent->BindAxis("MoveForward", this, &APawnPlayerMove::MoveForward);
+	//PlayerInputComponent->BindAxis("MoveRight", this, &APawnPlayerMove::MoveRight);
 
 	InputComponent->BindAction("Inventory", IE_Pressed, this, &APawnPlayerMove::StartInventory);
 }

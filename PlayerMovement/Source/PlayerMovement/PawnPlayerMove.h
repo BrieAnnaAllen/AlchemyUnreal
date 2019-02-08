@@ -61,6 +61,13 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void HandleInput();
 
+
+	int CurrentAngle = 0;
+
+	void MoveRight(float Value);
+
+	void MoveForward(float Value);
+
 	// Remove this override for Implementation
 	virtual void AddControllerPitchInput(float Val) override;
 
