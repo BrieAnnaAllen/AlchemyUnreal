@@ -6,11 +6,12 @@
 #include "GameFramework/Actor.h"
 #include "Chemical.h"
 #include "Engine/TriggerVolume.h"
+#include "Pickup_Actor.h"
 #include "Runtime/Engine/Classes/Components/BoxComponent.h"
 #include "Stable.generated.h"
 
 UCLASS()
-class PLAYERMOVEMENT_API AStable : public AActor, public IChemical
+class PLAYERMOVEMENT_API AStable : public APickup_Actor, public IChemical
 {
 	GENERATED_BODY()
 	
