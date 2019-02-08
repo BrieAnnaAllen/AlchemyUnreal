@@ -80,7 +80,6 @@ void APawnPlayerMove::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	HandleInput();
 
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("%s"), *GetControlRotation().Euler().ToString()));
 
 }
 
@@ -101,16 +100,9 @@ void APawnPlayerMove::HandleInput()
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-
-		
-		//FRotator CameraRotate = CameraForwardVector.Rotation();
-		//GetWorld()->GetFirstPlayerController()->GetActorEyesViewPoint(OUT GetActorLocation(), OUT GetActorRotation());
-		
 		FCharacterRotation = GetControlRotation();
 		FCharacterRotation.Pitch = 0;
 		FCharacterRotation.Roll = 0;
-
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::Printf(TEXT("%s"), *FCharacterRotation.ToString()));
 		SetActorRotation(FMath::Lerp(GetActorRotation(), FCharacterRotation, Lerp));
 		isMoving = true;
 	}
@@ -171,23 +163,7 @@ void APawnPlayerMove::HandleInput()
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
 
-/*void APawnPlayerMove::MoveRight(float Value)
-{
-	isMoving = false;
-	if ((Controller != NULL) && (Value != 0.0f))
-	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		FVector FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * Direction * Value * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
-		SetActorLocation(FActorMovement);
-		isMoving = true;
-	}
-}*/
 
 
 // Called to bind functionality to input
