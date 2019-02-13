@@ -23,6 +23,16 @@ void AEle_Ice::BeginPlay()
 
 void AEle_Ice::Tick(float DeltaTime)
 {
+	if (ToBeDestroyed && timer < 0)
+	{
+		GetWorld()->DestroyActor(ToBeDestroyed);
+		Destroy();
+		timer = 0;
+	}
+	else
+	{
+		timer -= DeltaTime;
+	}
 }
 
 void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
@@ -36,8 +46,10 @@ void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* 
 
 	case EElementType::ET_Fire:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
-		GetWorld()->DestroyActor(OtherChemical);
-		Destroy();
+		timer = 3;
+
+		OtherChemical->SetActorHiddenInGame(true);
+		ToBeDestroyed = OtherChemical;
 		break;
 
 	case EElementType::ET_Ice:

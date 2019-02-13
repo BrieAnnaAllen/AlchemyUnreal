@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Elements/Ele_Fire.h"
+#include "Runtime/Engine/Classes/Components/StaticMeshComponent.h"
 #include "Stable.h"
 
 AEle_Fire::AEle_Fire()
@@ -23,7 +24,15 @@ void AEle_Fire::BeginPlay()
 
 void AEle_Fire::Tick(float DeltaTime)
 {
-
+	if (ToBeDestroyed && timer < 0)
+	{
+		GetWorld()->DestroyActor(ToBeDestroyed);
+		Destroy();
+	}
+	else
+	{
+		timer -= DeltaTime;
+	}
 }
 
 //this shuold be called when an overlap collision event happens
@@ -42,8 +51,10 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 
 	case EElementType::ET_Ice:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
-		GetWorld()->DestroyActor(OtherChemical);
-		Destroy();
+		timer = 3;
+
+		SetActorHiddenInGame(true);
+		ToBeDestroyed = OtherChemical;
 
 		break;
 
