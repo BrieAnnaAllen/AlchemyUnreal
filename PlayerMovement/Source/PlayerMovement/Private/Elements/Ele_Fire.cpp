@@ -40,6 +40,8 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Fire Reaction Hit"));
 
+	TArray<USceneComponent*> children;
+
 	switch (OtherEleEnum)
 	{
 	case EElementType::ET_None:
@@ -53,7 +55,18 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
 		timer = 3;
 
-		SetActorHiddenInGame(true);
+		OtherChemical->GetRootComponent()->GetChildrenComponents(true, children);
+		for (int16 i = 0; i < children.Num(); i++)
+		{
+			UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
+			if (mesh)
+			{
+				mesh->SetSimulatePhysics(false);
+				mesh->SetVisibility(false);
+				//SetActorHiddenInGame(true);
+			}
+		}
+
 		ToBeDestroyed = OtherChemical;
 
 		break;
