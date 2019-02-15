@@ -25,9 +25,8 @@ public:
 	//Capsule Collider
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 		class UCapsuleComponent* Capsule;
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
-		//class UBoxComponent* Cube;
-	// Static Mesh for something?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
+		class UBoxComponent* Cube;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
 		class UStaticMeshComponent* StaticMesh;
 	// Skeletal Mesh for Character Models
