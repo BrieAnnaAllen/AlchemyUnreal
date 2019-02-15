@@ -20,6 +20,12 @@ public:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PickUp")
+		bool pickUpObject;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PickUp")
+		AActor* object;
+
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
@@ -45,6 +51,7 @@ private:
 
 	//Get the first physics body within reach
 	const FHitResult GetFirstPhysicsBodyInReach();
+
 
 	FVector GetReachLineEnd();
 };
