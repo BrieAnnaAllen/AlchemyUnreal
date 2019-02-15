@@ -64,7 +64,7 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 
 	//get player's location and rotation
 	PlayerViewPointLocation = GetOwner()->GetActorLocation();
-	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 90, 0);
+	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 0, 0);
 
 	//Get the player's location and camera rotation
 	/*GetOwner()->GetActorEyesViewPoint(
@@ -112,8 +112,6 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Line Trace Hit: %s"), *(ActorHit->GetName()));
 	}
-	PlayerViewPointLocation = FVector(0);
-	PlayerViewPointRotation = FRotator(0);
 	return Hit;
 }
 
@@ -127,12 +125,15 @@ void UPickUp_Component::PickUp()
 	//attach physics handle
 	if (ActorHit)
 	{
+		pickedUp = true;
 		PhysicsHandle->GrabComponent(
 			ComponentToGrab,
 			NAME_None,
 			ComponentToGrab->GetOwner()->GetActorLocation(),
 			true//allow rotation
 		);
+		/*ActorHit->AttachToComponent(GetOwner()->GetRootComponent()->GetAttachParent(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, false), FName(TEXT("R_HandSocket")));*/
+		Object = ActorHit;
 	}
 }
 
@@ -144,10 +145,11 @@ void UPickUp_Component::Release()
 		auto grabbedObject = PhysicsHandle->GrabbedComponent;
 		PhysicsHandle->ReleaseComponent();
 		grabbedObject->AddImpulse(
-			GetOwner()->GetActorRightVector() * 1000,
+			GetOwner()->GetActorForwardVector() * 1000,
 			NAME_None,
 			true
 		);
+		pickedUp = false;
 	}
 }
 
@@ -156,14 +158,14 @@ void UPickUp_Component::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-
+	GetReachLineEnd();
 	
 	//if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		
 		//move the object the we're holding
-		PhysicsHandle->SetTargetLocation(GetReachLineEnd());
+		//PhysicsHandle->SetTargetLocation(GetReachLineEnd());
 	}
 	
 }
@@ -176,11 +178,20 @@ FVector UPickUp_Component::GetReachLineEnd()
 
 	//get player's location and rotation
 	PlayerViewPointLocation = GetOwner()->GetActorLocation();
-	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 90, 0);
+	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 0, 0);
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
+	DrawDebugLine(
+		GetWorld(),
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FColor(255, 0, 0),
+		false,
+		0.f,
+		0.f,
+		10
+	);
 	FVector HoldPoint = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
 	HoldPoint.Z = GetOwner()->GetActorLocation().Z;
-	PlayerViewPointLocation = FVector(0);
-	PlayerViewPointRotation = FRotator(0);
 	return HoldPoint;
 
 }
