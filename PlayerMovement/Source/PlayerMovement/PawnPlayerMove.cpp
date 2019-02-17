@@ -94,7 +94,10 @@ void APawnPlayerMove::HandleInput()
 	FVector CameraForwardVector = Camera->GetForwardVector();
 	float Lerp = 0.08;
 	isMoving = false;
-	//Controls 
+	//float MouseX = InputComponent->GetAxisValue(EKeys::MouseX);
+
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, FString::Printf(TEXT("%s"), InputComponent->)
+
 	if ((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
@@ -244,16 +247,46 @@ void APawnPlayerMove::AddControllerYawInput(float Val)
  // Grabs the Pitch input class that is already built into Unreal
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
+	Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
 	float CameraPitch = GetController()->GetControlRotation().Pitch;
-	if ((CameraPitch > 335 && CameraPitch < 361) || (CameraPitch > -1 && CameraPitch < 17))
+	
+	/*if ((CameraPitch > 335 && CameraPitch < 361) || (CameraPitch > -1 && CameraPitch < 17))
 	{
-		Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
-	}
-	else if ((CameraPitch <= 335))//|| (CameraPitch >= 17 && Val > 0))
-	{
-		Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
-	}
 
+		if (Val >= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+			PC->AddPitchInput(Val);
+		}
+		//Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	}
+	else if (CameraPitch <= 335)
+	{
+		if (Val >= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+			PC->AddPitchInput(Val);
+		}
+	
+	}
+	else if (CameraPitch >= 17)
+	{
+		if (Val <= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+			PC->AddPitchInput(Val);
+		}
+
+	}
+	*/
+	/*else if ((CameraPitch <= 335))//|| (CameraPitch >= 17 && Val > 0))
+	{
+		Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	}
+	*/
 	
 
 	/*
