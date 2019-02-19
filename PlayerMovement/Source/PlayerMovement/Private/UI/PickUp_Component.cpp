@@ -126,14 +126,27 @@ void UPickUp_Component::PickUp()
 	if (ActorHit)
 	{
 		pickedUp = true;
-		PhysicsHandle->GrabComponent(
-			ComponentToGrab,
-			NAME_None,
-			ComponentToGrab->GetOwner()->GetActorLocation(),
-			true//allow rotation
-		);
-		/*ActorHit->AttachToComponent(GetOwner()->GetRootComponent()->GetAttachParent(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, false), FName(TEXT("R_HandSocket")));*/
+		//PhysicsHandle->GrabComponent(
+		//	ComponentToGrab,
+		//	NAME_None,
+		//	ComponentToGrab->GetOwner()->GetActorLocation(),
+		//	true//allow rotation
+		//);
+
+		UE_LOG(LogTemp, Warning, TEXT("Owner: %s"), *(GetOwner()->GetRootComponent()->GetChildComponent(1)->GetName()));
+
+		ActorHit->SetActorEnableCollision(false);
+		Cast<UPrimitiveComponent>(ActorHit->GetRootComponent())->SetMobility(EComponentMobility::Movable);
+
+		ActorHit->AttachToComponent(GetOwner()->GetRootComponent()->GetChildComponent(1),
+			FAttachmentTransformRules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true), FName(TEXT("R_HandSocket")));
+
+		//ItemToAttach->AttachToComponent(SkeletalMesh, FAttachmentTransformRules(EAttachmentRule::Location, EAttachmentRule::Rotation, EAttachmentRule::Scale, bool for welding into bodies),  
+		//SocketName);
 		Object = ActorHit;
+
+		//UE_LOG(LogTemp, Warning, TEXT("Owner: %s"), (ActorHit->GetAttachParentSocketName().ToString()));
+
 	}
 }
 
@@ -142,13 +155,13 @@ void UPickUp_Component::Release()
 	//TODO release physics handle
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		auto grabbedObject = PhysicsHandle->GrabbedComponent;
-		PhysicsHandle->ReleaseComponent();
-		grabbedObject->AddImpulse(
-			GetOwner()->GetActorForwardVector() * 1000,
-			NAME_None,
-			true
-		);
+		//auto grabbedObject = PhysicsHandle->GrabbedComponent;
+		//PhysicsHandle->ReleaseComponent();
+		//grabbedObject->AddImpulse(
+		//	GetOwner()->GetActorForwardVector() * 1000,
+		//	NAME_None,
+		//	true
+		//);
 		pickedUp = false;
 	}
 }
