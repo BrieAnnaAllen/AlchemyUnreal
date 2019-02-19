@@ -63,8 +63,8 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	FRotator PlayerViewPointRotation;
 
 	//get player's location and rotation
-	PlayerViewPointLocation = GetOwner()->GetActorLocation();
-	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 0, 0);
+	PlayerViewPointLocation = GetOwner()->GetActorLocation()+FVector(0,0,40);
+	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
 
 	//Get the player's location and camera rotation
 	/*GetOwner()->GetActorEyesViewPoint(
@@ -126,20 +126,21 @@ void UPickUp_Component::PickUp()
 	if (ActorHit)
 	{
 		pickedUp = true;
-		//PhysicsHandle->GrabComponent(
-		//	ComponentToGrab,
-		//	NAME_None,
-		//	ComponentToGrab->GetOwner()->GetActorLocation(),
-		//	true//allow rotation
-		//);
+		PhysicsHandle->GrabComponent(
+			ComponentToGrab,
+			NAME_None,
+			ComponentToGrab->GetOwner()->GetActorLocation(),
+			true//allow rotation
+		);
 
-		UE_LOG(LogTemp, Warning, TEXT("Owner: %s"), *(GetOwner()->GetRootComponent()->GetChildComponent(1)->GetName()));
+		//UE_LOG(LogTemp, Warning, TEXT("Owner: %s"), *(GetOwner()->GetRootComponent()->GetChildComponent(1)->GetName()));
 
 		ActorHit->SetActorEnableCollision(false);
-		Cast<UPrimitiveComponent>(ActorHit->GetRootComponent())->SetMobility(EComponentMobility::Movable);
+
+		/*Cast<UPrimitiveComponent>(ActorHit->GetRootComponent())->SetMobility(EComponentMobility::Movable);
 
 		ActorHit->AttachToComponent(GetOwner()->GetRootComponent()->GetChildComponent(1),
-			FAttachmentTransformRules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true), FName(TEXT("R_HandSocket")));
+			FAttachmentTransformRules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true), FName(TEXT("R_HandSocket")));*/
 
 		//ItemToAttach->AttachToComponent(SkeletalMesh, FAttachmentTransformRules(EAttachmentRule::Location, EAttachmentRule::Rotation, EAttachmentRule::Scale, bool for welding into bodies),  
 		//SocketName);
@@ -155,13 +156,14 @@ void UPickUp_Component::Release()
 	//TODO release physics handle
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		//auto grabbedObject = PhysicsHandle->GrabbedComponent;
-		//PhysicsHandle->ReleaseComponent();
-		//grabbedObject->AddImpulse(
-		//	GetOwner()->GetActorForwardVector() * 1000,
-		//	NAME_None,
-		//	true
-		//);
+		Object->SetActorEnableCollision(true);
+		auto grabbedObject = PhysicsHandle->GrabbedComponent;
+		PhysicsHandle->ReleaseComponent();
+		grabbedObject->AddImpulse(
+			GetOwner()->GetActorForwardVector() * 1000,
+			NAME_None,
+			true
+		);
 		pickedUp = false;
 	}
 }
@@ -178,7 +180,10 @@ void UPickUp_Component::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	{
 		
 		//move the object the we're holding
-		//PhysicsHandle->SetTargetLocation(GetReachLineEnd());
+		
+		//up
+			PhysicsHandle->SetTargetLocation((GetOwner()->ActorToWorld().GetLocation()+FVector(0,0,60))+ GetOwner()->GetActorRotation().Vector()*30 );
+		
 	}
 	
 }
@@ -190,8 +195,8 @@ FVector UPickUp_Component::GetReachLineEnd()
 	FRotator PlayerViewPointRotation;
 
 	//get player's location and rotation
-	PlayerViewPointLocation = GetOwner()->GetActorLocation();
-	PlayerViewPointRotation = GetOwner()->GetActorRotation() + FRotator(-15, 0, 0);
+	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(0, 0, 40);
+	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
 	DrawDebugLine(
 		GetWorld(),
@@ -201,7 +206,7 @@ FVector UPickUp_Component::GetReachLineEnd()
 		false,
 		0.f,
 		0.f,
-		10
+		2
 	);
 	FVector HoldPoint = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
 	HoldPoint.Z = GetOwner()->GetActorLocation().Z;
