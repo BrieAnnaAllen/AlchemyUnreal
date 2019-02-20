@@ -964,3 +964,806 @@ LogInit: Object subsystem initialized
 [2019.02.20-14.11.25:558][617]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout7A0909D84DAA34F6402A4499695E9DF1.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
 [2019.02.20-14.11.47:400][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.02.20-14.11.47:599][924]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout9E8B0DD24A55A5211CE858A03DC7CEE7.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.01.58:672][357]LogHttp: Warning: 0000022A81AE5080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-15.01.58:672][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x22a9b0cffa0 [can pipeline])
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 1 (Re-using existing connection! (#51) with host datarouter.ol.epicgames.com)
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.195.133.189) port 443 (#51))
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 3 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 5 (Closing connection 51)
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 6 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE0C9C0E6-4240-ABEC-37EA-C9B8898F0188%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=7523ac754fdff2f4a23ed1828a514dec%7Cefec57975a4d4f3eb87ba97b45795e7d%7C2e6c7e5e-590c-4183-b419-cea5263e0172&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 7 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-15.01.58:673][357]LogHttp: Warning: 0000022A81AE5080: libcurl info message cache 8 (Closing connection 52)
+[2019.02.20-15.02.04:296][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/StorefrontandHome_Level1Layout' took 0.023
+[2019.02.20-15.02.04:300][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_BaseColor_Mat] ([1] browsable assets)...
+[2019.02.20-15.02.04:316][498]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/EnvironmentArt/Other/Textures/woodrailing_BaseColor_Mat.woodrailing_BaseColor_Mat]
+[2019.02.20-15.02.04:316][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_BaseColor_Mat]
+[2019.02.20-15.02.04:343][498]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/woodrailing_BaseColor_Mat_Auto187475E4D40097BCC23C9C7A64F8E9226.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Art/EnvironmentArt/Other/Textures/woodrailing_BaseColor_Mat_Auto1.uasset'
+[2019.02.20-15.02.04:346][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_Mat] ([1] browsable assets)...
+[2019.02.20-15.02.04:359][498]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/EnvironmentArt/Other/Textures/woodrailing_Mat.woodrailing_Mat]
+[2019.02.20-15.02.04:359][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_Mat]
+[2019.02.20-15.02.04:378][498]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/woodrailing_Mat_Auto1792411FF4E7162768EB135AF166D4847.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Art/EnvironmentArt/Other/Textures/woodrailing_Mat_Auto1.uasset'
+[2019.02.20-15.02.04:381][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_OcclusionRoughnessMetallic_Mat] ([1] browsable assets)...
+[2019.02.20-15.02.04:395][498]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/EnvironmentArt/Other/Textures/woodrailing_OcclusionRoughnessMetallic_Mat.woodrailing_OcclusionRoughnessMetallic_Mat]
+[2019.02.20-15.02.04:395][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/EnvironmentArt/Other/Textures/woodrailing_OcclusionRoughnessMetallic_Mat]
+[2019.02.20-15.02.04:415][498]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/woodrailing_OcclusionRoughnessMe5D18E594492EAAA21665069F34DB225A.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Art/EnvironmentArt/Other/Textures/woodrailing_OcclusionRoughnessMetallic_Mat_Auto1.uasset'
+[2019.02.20-15.02.04:416][498]LogFileHelpers: Auto-saving content packages took 0.119
+[2019.02.20-15.02.59:592][707]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.04.07:012][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane11)
+[2019.02.20-15.04.08:328][808]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow5)
+[2019.02.20-15.04.09:540][878]Cmd: EDIT COPY
+[2019.02.20-15.04.09:890][899]Cmd: EDIT PASTE
+[2019.02.20-15.04.21:665][602]Cmd: TRANSACTION UNDO
+[2019.02.20-15.04.21:665][602]LogEditorTransaction: Undo Move Actors
+[2019.02.20-15.04.23:514][712]Cmd: TRANSACTION UNDO
+[2019.02.20-15.04.23:514][712]LogEditorTransaction: Undo Paste
+[2019.02.20-15.04.25:214][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane12)
+[2019.02.20-15.04.26:545][889]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2019.02.20-15.04.32:837][263]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow5)
+[2019.02.20-15.04.36:678][490]Cmd: EDIT COPY
+[2019.02.20-15.04.37:061][513]Cmd: EDIT PASTE
+[2019.02.20-15.04.44:300][944]Cmd: EDIT COPY
+[2019.02.20-15.04.44:633][964]Cmd: EDIT PASTE
+[2019.02.20-15.04.49:191][235]Cmd: TRANSACTION UNDO
+[2019.02.20-15.04.49:191][235]LogEditorTransaction: Undo Move Actors
+[2019.02.20-15.04.49:518][254]Cmd: TRANSACTION UNDO
+[2019.02.20-15.04.49:518][254]LogEditorTransaction: Undo Paste
+[2019.02.20-15.04.50:087][285]Cmd: TRANSACTION UNDO
+[2019.02.20-15.04.50:087][285]LogEditorTransaction: Undo Move Actors
+[2019.02.20-15.04.55:406][603]Cmd: EDIT COPY
+[2019.02.20-15.04.55:673][619]Cmd: EDIT PASTE
+[2019.02.20-15.05.01:447][963]Cmd: EDIT COPY
+[2019.02.20-15.05.01:730][980]Cmd: EDIT PASTE
+[2019.02.20-15.05.14:259][728]Cmd: EDIT COPY
+[2019.02.20-15.05.14:576][747]Cmd: EDIT PASTE
+[2019.02.20-15.05.43:591][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane29)
+[2019.02.20-15.05.58:966][401]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow10)
+[2019.02.20-15.05.59:951][458]Cmd: EDIT COPY
+[2019.02.20-15.06.00:318][480]Cmd: EDIT PASTE
+[2019.02.20-15.06.06:906][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane31)
+[2019.02.20-15.06.49:426][416]Cmd: EDIT COPY
+[2019.02.20-15.06.49:742][435]Cmd: EDIT PASTE
+[2019.02.20-15.07.00:693][ 89]Cmd: EDIT COPY
+[2019.02.20-15.07.00:960][105]Cmd: EDIT PASTE
+[2019.02.20-15.07.24:433][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.07.24:660][509]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutE4D4D49A425CA80FC6DE0EAB0E4C1E1B.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.10.36:566][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane32)
+[2019.02.20-15.10.38:485][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.10.42:949][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.10.47:499][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane33)
+[2019.02.20-15.10.50:680][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.10.54:928][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.10.58:977][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane32)
+[2019.02.20-15.11.01:509][536]Cmd: EDIT COPY
+[2019.02.20-15.11.01:809][554]Cmd: EDIT PASTE
+[2019.02.20-15.11.10:846][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.11.20:464][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.11.29:695][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.11.32:530][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.11.58:395][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow11)
+[2019.02.20-15.11.59:265][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow11)
+[2019.02.20-15.12.00:706][ 85]Cmd: EDIT COPY
+[2019.02.20-15.12.00:972][101]Cmd: EDIT PASTE
+[2019.02.20-15.12.08:716][564]Cmd: TRANSACTION UNDO
+[2019.02.20-15.12.08:716][564]LogEditorTransaction: Undo Move Actors
+[2019.02.20-15.12.21:700][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.12.34:743][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.12.39:552][410]Cmd: EDIT COPY
+[2019.02.20-15.12.39:852][428]Cmd: EDIT PASTE
+[2019.02.20-15.12.41:479][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.12.52:496][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.12.57:641][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.13.10:277][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.13.17:922][705]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.13.18:154][705]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout13303B46465C03959543D38EF1315B35.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.15.54:152][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.16.00:612][441]LogActorFactory: Actor Factory created SpiralStairs
+[2019.02.20-15.16.03:098][590]LogActorFactory: Actor Factory created SpiralStairs
+[2019.02.20-15.16.10:785][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.16.18:967][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.16.42:654][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.16.49:356][353]LogTexture: Display: Building textures: Ramp_low_blinn4SG_BaseColor (AutoDXT, 512X512)
+[2019.02.20-15.16.52:004][497]LogTexture: Display: Building textures: SpiralStairs_low_blinn1SG_BaseColor (AutoDXT, 1024X1024)
+[2019.02.20-15.16.53:131][564]LogMaterial: Display: Missing cached shader map for material SpiralStairs_low_blinn1SG_BaseColor_Mat, compiling. 
+[2019.02.20-15.17.40:719][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.17.45:478][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.18.42:565][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.18.47:107][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.19.51:019][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.19.51:246][222]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout62416D654020FD8ED817309CD041F2CB.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.20.16:458][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.20.16:673][730]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutDC84029C475F7F80765022BA0BA145DB.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.21.20:511][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.27.22:134][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow11)
+[2019.02.20-15.27.25:402][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.27.33:357][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.27.43:263][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.27.43:492][154]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout6019077C4D99C7F409EFD286655CE660.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.27.48:520][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow12)
+[2019.02.20-15.27.53:762][332]Cmd: EDIT COPY
+[2019.02.20-15.27.54:047][366]Cmd: EDIT PASTE
+[2019.02.20-15.28.04:871][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.28.18:513][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane21)
+[2019.02.20-15.28.21:087][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.28.25:223][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane22)
+[2019.02.20-15.28.29:343][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.28.29:562][536]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutFDEE1A0C40418F169607E6964AFF697A.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.28.42:960][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-15.28.52:879][ 49]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutD4D866CE413FD8045094FB8157DE2C25.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-15.30.24:970][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Window10)
+[2019.02.20-15.30.26:219][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide53)
+[2019.02.20-15.30.27:618][177]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-15.30.27:840][177]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout24D343F349C30535B9F72ABB588D1318.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.43.33:367][323]LogHttp: Warning: 0000022AE47CFEC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-16.43.33:367][323]LogHttp: Warning: 0000022AE47CFEC0: libcurl info message cache 0 (Connection 68 seems to be dead!)
+[2019.02.20-16.43.33:367][323]LogHttp: Warning: 0000022AE47CFEC0: libcurl info message cache 1 (Closing connection 68)
+[2019.02.20-16.43.33:367][323]LogHttp: Warning: 0000022AE47CFEC0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-16.43.33:367][323]LogHttp: Warning: 0000022AE47CFEC0: libcurl info message cache 3 (Closing connection 69)
+[2019.02.20-16.43.43:274][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/StorefrontandHome_Level1Layout' took 0.024
+[2019.02.20-16.43.43:276][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/EnvironmentArt/Stairs/Textures/SpiralStairs_low_blinn1SG_BaseColor_Mat] ([1] browsable assets)...
+[2019.02.20-16.43.43:308][351]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/EnvironmentArt/Stairs/Textures/SpiralStairs_low_blinn1SG_BaseColor_Mat.SpiralStairs_low_blinn1SG_BaseColor_Mat]
+[2019.02.20-16.43.43:308][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/EnvironmentArt/Stairs/Textures/SpiralStairs_low_blinn1SG_BaseColor_Mat]
+[2019.02.20-16.43.43:329][351]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/SpiralStairs_low_blinn1SG_BaseCoA81440BB4A68BEB2976F56B68C2C2A5B.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Art/EnvironmentArt/Stairs/Textures/SpiralStairs_low_blinn1SG_BaseColor_Mat_Auto2.uasset'
+[2019.02.20-16.43.43:330][351]LogFileHelpers: Auto-saving content packages took 0.055
+[2019.02.20-16.46.27:610][842]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.46.37:670][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.46.37:898][425]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutC76030E14648F1CE21B839B680D32568.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.46.39:722][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide59)
+[2019.02.20-16.46.51:293][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.09:948][336]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-16.47.12:185][470]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-16.47.17:587][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.17:788][801]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-16.47.20:592][969]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-16.47.23:942][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.24:131][178]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-16.47.25:415][255]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-16.47.29:273][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.29:429][491]LogActorFactory: Actor Factory created Crate
+[2019.02.20-16.47.30:831][575]LogActorFactory: Actor Factory created Crate
+[2019.02.20-16.47.34:132][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.34:375][781]LogActorFactory: Actor Factory created BrokenGlass
+[2019.02.20-16.47.35:958][876]LogActorFactory: Actor Factory created BrokenGlass
+[2019.02.20-16.47.36:629][913]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.47.36:850][913]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout709AA90A4A4DC4779BCC1486150957AA.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.47.40:810][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cabinet6)
+[2019.02.20-16.47.42:400][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.47.51:702][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.48.00:817][335]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-16.48.01:869][398]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-16.48.08:341][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.48.08:395][786]LogStaticMesh: Building static mesh WoodStool_polySurface151...
+[2019.02.20-16.48.08:409][786]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Furniture/Clutter-Other/WoodStool_polySurface151.WoodStool_polySurface151
+[2019.02.20-16.48.08:416][786]LogMaterial: Display: Missing cached shader map for material Stool1, compiling. 
+[2019.02.20-16.48.08:682][801]LogActorFactory: Actor Factory created WoodStool_polySurface151
+[2019.02.20-16.48.09:603][856]LogActorFactory: Actor Factory created WoodStool_polySurface151
+[2019.02.20-16.48.10:450][904]Cmd: DELETE
+[2019.02.20-16.48.10:450][904]Cmd: ACTOR DELETE
+[2019.02.20-16.48.10:456][904]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-16.48.10:479][904]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.02.20-16.48.15:584][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel)
+[2019.02.20-16.48.16:336][252]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Crate)
+[2019.02.20-16.48.16:824][279]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Crate2_pasted__pCube70)
+[2019.02.20-16.48.18:661][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (PottedPlant_polySurface160)
+[2019.02.20-16.48.19:269][420]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Barrel2)
+[2019.02.20-16.48.20:040][464]Cmd: EDIT COPY
+[2019.02.20-16.48.20:308][480]Cmd: EDIT PASTE
+[2019.02.20-16.48.26:706][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.48.30:097][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.48.30:320][ 58]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutB68EB38440977172B489E5ACAE3AE876.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.48.33:167][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel4)
+[2019.02.20-16.48.35:150][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.48.38:869][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PottedPlant_polySurface161)
+[2019.02.20-16.48.47:742][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.48.53:408][429]LogStaticMesh: Building static mesh Bookshelf_polySurface32...
+[2019.02.20-16.48.53:422][429]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Furniture/Shelves/Bookshelf_polySurface32.Bookshelf_polySurface32
+[2019.02.20-16.48.53:428][429]LogMaterial: Display: Missing cached shader map for material Bookshelf1, compiling. 
+[2019.02.20-16.48.53:579][437]LogActorFactory: Actor Factory created Bookshelf_polySurface32
+[2019.02.20-16.48.54:347][483]LogActorFactory: Actor Factory created Bookshelf_polySurface32
+[2019.02.20-16.48.55:102][526]Cmd: DELETE
+[2019.02.20-16.48.55:102][526]Cmd: ACTOR DELETE
+[2019.02.20-16.48.55:107][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-16.48.55:134][526]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.02.20-16.48.56:695][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.01:031][876]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-16.49.05:894][167]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-16.49.12:259][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.12:483][558]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-16.49.13:937][645]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-16.49.21:795][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.44:011][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.44:201][451]LogActorFactory: Actor Factory created SmallCabinet_polySurface54
+[2019.02.20-16.49.44:986][498]LogActorFactory: Actor Factory created SmallCabinet_polySurface54
+[2019.02.20-16.49.45:831][546]Cmd: DELETE
+[2019.02.20-16.49.45:831][546]Cmd: ACTOR DELETE
+[2019.02.20-16.49.45:837][546]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-16.49.45:860][546]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.02.20-16.49.47:138][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.47:391][638]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-16.49.49:816][783]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-16.49.54:500][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.54:687][ 71]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-16.49.56:829][199]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-16.49.57:763][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.49.58:000][267]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-16.49.59:724][370]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-16.50.00:440][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cabinet7)
+[2019.02.20-16.50.06:076][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.50.06:305][745]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout88AED1AC4D30DA8E143364B1A3365846.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.50.26:448][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.51.26:284][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.51.28:400][583]LogActorFactory: Actor Factory created CrossbeamWide_Crossbeam2m1
+[2019.02.20-16.51.34:237][932]LogActorFactory: Actor Factory created CrossbeamWide_Crossbeam2m1
+[2019.02.20-16.51.35:077][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.51.35:307][980]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout674C5AA44DA4545F4A7FC48B30098BFC.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.51.41:491][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.51.41:724][346]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutF23F8E7944D30EFC59212DA7A79D880B.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.51.45:368][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide90)
+[2019.02.20-16.51.46:264][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.51.46:492][607]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout910540D646D3B1517049758800A35CCB.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.51.54:415][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.53.21:271][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.53.35:804][145]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-16.53.37:225][230]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-16.53.38:087][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.53.43:575][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.53.50:392][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.53.50:626][ 14]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout4133F1E5471834BC51C6E48B6C08B502.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.53.54:119][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.53.54:292][230]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-16.53.58:426][478]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-16.53.59:677][551]Cmd: DELETE
+[2019.02.20-16.53.59:678][551]Cmd: ACTOR DELETE
+[2019.02.20-16.53.59:683][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-16.53.59:705][551]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.02.20-16.54.01:982][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cabinet5)
+[2019.02.20-16.54.02:789][733]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cabinet6)
+[2019.02.20-16.54.03:680][784]Cmd: EDIT COPY
+[2019.02.20-16.54.04:714][846]Cmd: EDIT PASTE
+[2019.02.20-16.54.21:014][815]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.54.21:243][815]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout1686C94F4659BD43C18F3BBA314DFC34.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.54.43:368][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide119)
+[2019.02.20-16.54.45:150][242]Cmd: EDIT COPY
+[2019.02.20-16.54.45:532][265]Cmd: EDIT PASTE
+[2019.02.20-16.54.46:774][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.54.50:315][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.55.00:951][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.55.01:182][185]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutE638992041683993003A858F6EB40E1E.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.56.25:850][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.56.32:526][660]LogStaticMesh: Building static mesh StraightStairs...
+[2019.02.20-16.56.32:539][660]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Stairs/StraightStairs.StraightStairs
+[2019.02.20-16.56.32:545][660]LogMaterial: Display: Missing cached shader map for material StraightStairs1, compiling. 
+[2019.02.20-16.56.32:977][685]LogActorFactory: Actor Factory created StraightStairs
+[2019.02.20-16.56.35:794][854]LogActorFactory: Actor Factory created StraightStairs
+[2019.02.20-16.56.41:463][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane18)
+[2019.02.20-16.56.42:110][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StraightStairs)
+[2019.02.20-16.56.43:290][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-16.56.46:454][479]LogTexture: Display: Building textures: StoneStairs_low_blinn2SG_BaseColor (AutoDXT, 512X512)
+[2019.02.20-16.56.47:044][514]LogMaterial: Display: Missing cached shader map for material StoneStairs_low_blinn2SG_BaseColor_Mat, compiling. 
+[2019.02.20-16.56.48:579][604]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.56.48:843][604]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout984AC35242B2CF6527386BB575D496C1.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-16.56.56:288][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-16.57.03:114][321]LogActorFactory: Actor Factory created StoneArchDoor
+[2019.02.20-16.57.05:434][460]LogActorFactory: Actor Factory created StoneArchDoor
+[2019.02.20-17.00.15:738][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.00.22:067][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StraightStairs)
+[2019.02.20-17.00.24:683][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.00.27:960][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.00.31:986][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneArchDoor)
+[2019.02.20-17.03.25:982][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StraightStairs)
+[2019.02.20-17.03.27:440][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.03.30:783][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.04.26:586][999]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.04.34:223][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane17)
+[2019.02.20-17.04.38:538][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide136)
+[2019.02.20-17.04.49:571][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide120)
+[2019.02.20-17.04.50:965][429]Cmd: EDIT COPY
+[2019.02.20-17.04.51:250][446]Cmd: EDIT PASTE
+[2019.02.20-17.05.03:831][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide138)
+[2019.02.20-17.06.15:163][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.06.15:300][483]LogStaticMesh: Building static mesh StoneArch...
+[2019.02.20-17.06.15:315][483]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/DoorsWindows/StoneArch.StoneArch
+[2019.02.20-17.06.15:472][492]LogActorFactory: Actor Factory created StoneArch
+[2019.02.20-17.06.19:158][713]LogActorFactory: Actor Factory created StoneArch
+[2019.02.20-17.06.20:143][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.06.34:095][605]Cmd: DELETE
+[2019.02.20-17.06.34:095][605]Cmd: ACTOR DELETE
+[2019.02.20-17.06.34:101][605]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-17.06.34:125][605]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.02.20-17.06.36:898][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.06.36:951][775]LogStaticMesh: Building static mesh WideDoor_polySurface9...
+[2019.02.20-17.06.36:963][775]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/DoorsWindows/WideDoor_polySurface9.WideDoor_polySurface9
+[2019.02.20-17.06.37:048][780]LogActorFactory: Actor Factory created WideDoor_polySurface9
+[2019.02.20-17.06.42:401][101]LogActorFactory: Actor Factory created WideDoor_polySurface9
+[2019.02.20-17.06.47:448][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide136)
+[2019.02.20-17.06.49:181][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.06.57:643][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide138)
+[2019.02.20-17.07.12:311][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WideDoor_polySurface9)
+[2019.02.20-17.07.39:296][143]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout_A6CC0E011426AE8AA0E14639CC9C0A9B4.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Levels/StorefrontandHome_Level1Layout_Auto3.umap'
+[2019.02.20-17.07.39:305][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/StorefrontandHome_Level1Layout' took 0.247
+[2019.02.20-17.07.39:305][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2019.02.20-17.07.39:306][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/EnvironmentArt/Stairs/Textures/StoneStairs_low_blinn2SG_BaseColor_Mat] ([1] browsable assets)...
+[2019.02.20-17.07.39:335][143]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/EnvironmentArt/Stairs/Textures/StoneStairs_low_blinn2SG_BaseColor_Mat.StoneStairs_low_blinn2SG_BaseColor_Mat]
+[2019.02.20-17.07.39:335][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/EnvironmentArt/Stairs/Textures/StoneStairs_low_blinn2SG_BaseColor_Mat]
+[2019.02.20-17.07.39:355][143]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StoneStairs_low_blinn2SG_BaseCol278646EA4B772B392560E9BD073FED73.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Art/EnvironmentArt/Stairs/Textures/StoneStairs_low_blinn2SG_BaseColor_Mat_Auto3.uasset'
+[2019.02.20-17.07.39:357][143]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.02.20-17.10.39:537][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.14.31:517][427]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.20-17.14.32:601][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WideDoor_polySurface9)
+[2019.02.20-17.14.33:345][536]Cmd: DELETE
+[2019.02.20-17.14.33:345][536]Cmd: ACTOR DELETE
+[2019.02.20-17.14.33:351][536]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-17.14.33:376][536]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.02.20-17.14.33:859][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneArchDoor)
+[2019.02.20-17.14.33:914][566]Cmd: DELETE
+[2019.02.20-17.14.33:914][566]Cmd: ACTOR DELETE
+[2019.02.20-17.14.33:919][566]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-17.14.33:944][566]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.02.20-17.14.38:021][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.14.51:117][593]LogActorFactory: Actor Factory created WoodArch
+[2019.02.20-17.14.55:618][863]LogActorFactory: Actor Factory created WoodArch
+[2019.02.20-17.14.56:559][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.14.56:813][932]LogActorFactory: Actor Factory created WideDoor_polySurface16
+[2019.02.20-17.14.58:582][ 38]LogActorFactory: Actor Factory created WideDoor_polySurface16
+[2019.02.20-17.14.59:708][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.14.59:895][114]LogActorFactory: Actor Factory created WideDoor_polySurface20
+[2019.02.20-17.15.03:419][325]LogActorFactory: Actor Factory created WideDoor_polySurface20
+[2019.02.20-17.15.06:392][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WideDoor_polySurface17)
+[2019.02.20-17.15.51:893][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.16.05:799][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WideDoor_polySurface21)
+[2019.02.20-17.16.08:745][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide136)
+[2019.02.20-17.16.12:406][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WideDoor_polySurface21)
+[2019.02.20-17.16.29:744][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.16.29:993][ 31]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout04FA3294411A60CC5180A69060538F0F.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.16.36:627][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.16.36:861][425]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout605DF54C468C0FBCE41E12A48DEA7C6F.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.18.07:774][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide124)
+[2019.02.20-17.18.09:499][976]Cmd: EDIT COPY
+[2019.02.20-17.18.09:832][996]Cmd: EDIT PASTE
+[2019.02.20-17.18.29:235][156]Cmd: EDIT COPY
+[2019.02.20-17.18.29:517][173]Cmd: EDIT PASTE
+[2019.02.20-17.18.41:147][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide138)
+[2019.02.20-17.18.42:636][955]Cmd: EDIT COPY
+[2019.02.20-17.18.42:919][972]Cmd: EDIT PASTE
+[2019.02.20-17.19.05:681][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.19.05:919][332]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutB7E3DFA147ECDBE7043723A1C774E23A.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.19.09:372][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide140)
+[2019.02.20-17.19.10:226][585]Cmd: EDIT COPY
+[2019.02.20-17.19.10:693][625]Cmd: EDIT PASTE
+[2019.02.20-17.19.21:140][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide126)
+[2019.02.20-17.19.27:395][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.19.34:820][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate2)
+[2019.02.20-17.19.35:471][443]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Crate2_pasted__pCube71)
+[2019.02.20-17.19.36:452][555]Cmd: EDIT COPY
+[2019.02.20-17.19.36:786][594]Cmd: EDIT PASTE
+[2019.02.20-17.19.44:424][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel4)
+[2019.02.20-17.19.45:114][574]Cmd: EDIT COPY
+[2019.02.20-17.19.45:405][608]Cmd: EDIT PASTE
+[2019.02.20-17.24.30:285][647]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.24.36:399][310]Cmd: EDIT COPY
+[2019.02.20-17.24.36:709][347]Cmd: EDIT PASTE
+[2019.02.20-17.24.41:353][892]Cmd: EDIT COPY
+[2019.02.20-17.24.41:670][929]Cmd: EDIT PASTE
+[2019.02.20-17.24.48:041][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.24.49:157][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate3)
+[2019.02.20-17.24.49:923][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SmallCabinet_polySurface54)
+[2019.02.20-17.24.50:607][659]Cmd: EDIT COPY
+[2019.02.20-17.24.50:898][693]Cmd: EDIT PASTE
+[2019.02.20-17.25.01:746][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Counter_polySurface49)
+[2019.02.20-17.25.02:505][ 35]Cmd: EDIT COPY
+[2019.02.20-17.25.02:789][ 69]Cmd: EDIT PASTE
+[2019.02.20-17.25.06:491][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.25.06:749][505]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutD85689A84A46D355847C1F87481C7EB4.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.25.09:717][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.25.09:959][850]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutDC2B3FDC430D55589EC19DAECEB74243.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.25.15:188][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide142)
+[2019.02.20-17.25.16:417][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.25.24:467][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.25.31:608][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.25.31:851][401]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout62E74BF1448DCAAD3CF1699043A20066.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.25.39:596][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.25.39:909][286]LogActorFactory: Actor Factory created StoneArchDoor
+[2019.02.20-17.25.40:994][415]LogActorFactory: Actor Factory created StoneArchDoor
+[2019.02.20-17.25.42:085][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.25.45:784][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.25.54:106][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide142)
+[2019.02.20-17.25.54:984][ 30]Cmd: EDIT COPY
+[2019.02.20-17.25.55:275][ 64]Cmd: EDIT PASTE
+[2019.02.20-17.26.00:229][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.04:612][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.20:522][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.25:961][611]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-17.26.27:283][767]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-17.26.28:023][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.28:155][834]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-17.26.30:461][108]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-17.26.37:493][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.37:551][791]LogStaticMesh: Building static mesh PottedPlant_polySurface163...
+[2019.02.20-17.26.37:566][791]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Furniture/Clutter-Other/PottedPlant_polySurface163.PottedPlant_polySurface163
+[2019.02.20-17.26.37:893][828]LogActorFactory: Actor Factory created PottedPlant_polySurface163
+[2019.02.20-17.26.38:973][956]LogActorFactory: Actor Factory created PottedPlant_polySurface163
+[2019.02.20-17.26.39:822][ 50]Cmd: DELETE
+[2019.02.20-17.26.39:822][ 50]Cmd: ACTOR DELETE
+[2019.02.20-17.26.39:828][ 50]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-17.26.39:850][ 50]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.02.20-17.26.41:389][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.41:632][206]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-17.26.42:781][343]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-17.26.43:644][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.43:790][424]LogActorFactory: Actor Factory created Crate
+[2019.02.20-17.26.45:441][619]LogActorFactory: Actor Factory created Crate
+[2019.02.20-17.26.54:005][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.54:235][508]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-17.26.55:362][641]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-17.26.56:291][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.26.56:719][759]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-17.26.57:531][855]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-17.27.04:002][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-17.27.04:107][571]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-17.27.05:159][695]LogActorFactory: Actor Factory created Barrel
+[2019.02.20-17.27.05:823][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.27.06:076][767]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout7838C42A42DFD4246C1BD7997B9782AF.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-17.34.57:365][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide141)
+[2019.02.20-17.35.01:630][668]Cmd: EDIT COPY
+[2019.02.20-17.35.01:932][704]Cmd: EDIT PASTE
+[2019.02.20-17.37.06:278][590]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout_ACBE974A744FB9015E22BDD9A71B37442.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Levels/StorefrontandHome_Level1Layout_Auto4.umap'
+[2019.02.20-17.37.06:282][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/StorefrontandHome_Level1Layout' took 0.266
+[2019.02.20-17.37.06:282][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.266
+[2019.02.20-17.50.22:541][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-17.53.46:405][168]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.02.20-18.11.10:047][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide143)
+[2019.02.20-18.11.11:422][673]Cmd: EDIT COPY
+[2019.02.20-18.11.11:856][699]Cmd: EDIT PASTE
+[2019.02.20-18.11.13:117][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.25:162][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.34:019][ 25]Cmd: EDIT COPY
+[2019.02.20-18.11.34:436][ 50]Cmd: EDIT PASTE
+[2019.02.20-18.11.35:732][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.38:608][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.44:202][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.50:706][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.11.56:534][370]Cmd: EDIT COPY
+[2019.02.20-18.11.56:951][395]Cmd: EDIT PASTE
+[2019.02.20-18.11.57:854][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.12.02:831][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.12.07:126][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.12.31:307][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide142)
+[2019.02.20-18.12.33:981][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.12.37:084][795]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.12.37:346][795]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout3E5AA4314A6797A2FB9517986D2B48C7.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.12.48:289][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide143)
+[2019.02.20-18.12.51:494][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.12.55:871][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.13.53:236][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.13.53:422][349]LogActorFactory: Actor Factory created Crate
+[2019.02.20-18.13.55:626][481]LogActorFactory: Actor Factory created Crate
+[2019.02.20-18.13.56:281][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.13.56:451][527]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-18.13.58:159][629]LogActorFactory: Actor Factory created Crate2_pasted__pCube70
+[2019.02.20-18.14.00:335][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.00:504][767]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-18.14.02:659][896]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-18.14.09:540][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.15:524][664]LogStaticMesh: Building static mesh WoodWallHalfWide...
+[2019.02.20-18.14.15:540][664]LogStaticMesh: Built static mesh [0.02s] /Game/Art/EnvironmentArt/Wood_Walls/WoodWallHalfWide.WoodWallHalfWide
+[2019.02.20-18.14.15:547][664]LogMaterial: Display: Missing cached shader map for material WallHalf, compiling. 
+[2019.02.20-18.14.15:746][675]LogActorFactory: Actor Factory created WoodWallHalfWide
+[2019.02.20-18.14.16:633][728]LogActorFactory: Actor Factory created WoodWallHalfWide
+[2019.02.20-18.14.17:680][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.21:857][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.29:131][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.33:547][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.37:042][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.14.47:575][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.15.35:932][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.15.35:972][478]LogMaterial: Display: Missing cached shader map for material Wall, compiling. 
+[2019.02.20-18.15.35:984][478]LogStaticMesh: Building static mesh WoodWallDoortop...
+[2019.02.20-18.15.35:999][478]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Wood_Walls/WoodWallDoortop.WoodWallDoortop
+[2019.02.20-18.15.36:104][484]LogActorFactory: Actor Factory created WoodWallDoortop
+[2019.02.20-18.15.37:793][585]LogActorFactory: Actor Factory created WoodWallDoortop
+[2019.02.20-18.15.38:375][620]LogActorFactory: Actor Factory created WoodWallDoortop
+[2019.02.20-18.15.39:748][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.15.44:909][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.15.53:345][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.15.59:322][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.16.03:168][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.16.03:426][102]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutCC69BEC44A9369817C43BBBBEF705D99.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.16.19:100][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide132)
+[2019.02.20-18.16.25:451][416]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide137)
+[2019.02.20-18.16.27:691][548]Cmd: EDIT COPY
+[2019.02.20-18.16.28:291][584]Cmd: EDIT PASTE
+[2019.02.20-18.16.56:642][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide113)
+[2019.02.20-18.16.58:010][360]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide115)
+[2019.02.20-18.16.58:686][398]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide117)
+[2019.02.20-18.16.59:326][434]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide118)
+[2019.02.20-18.16.59:934][468]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide119)
+[2019.02.20-18.17.02:059][592]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide120)
+[2019.02.20-18.17.02:984][645]Cmd: EDIT COPY
+[2019.02.20-18.17.04:038][708]Cmd: EDIT PASTE
+[2019.02.20-18.17.16:195][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide114)
+[2019.02.20-18.17.17:113][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide116)
+[2019.02.20-18.17.18:589][570]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide121)
+[2019.02.20-18.17.19:745][637]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide122)
+[2019.02.20-18.17.20:716][693]Cmd: EDIT COPY
+[2019.02.20-18.17.21:166][720]Cmd: EDIT PASTE
+[2019.02.20-18.17.36:815][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-18.17.41:994][961]Cmd: EDIT COPY
+[2019.02.20-18.17.42:310][980]Cmd: EDIT PASTE
+[2019.02.20-18.17.46:135][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-18.17.50:182][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.17.50:457][446]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout53CD6085450CDB28A5B72086A7D4FBA5.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.18.07:049][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide123)
+[2019.02.20-18.18.08:065][496]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide124)
+[2019.02.20-18.18.08:751][535]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide125)
+[2019.02.20-18.18.11:484][696]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide126)
+[2019.02.20-18.18.12:405][749]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide127)
+[2019.02.20-18.18.13:130][790]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide128)
+[2019.02.20-18.18.13:768][826]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide129)
+[2019.02.20-18.18.14:840][888]Cmd: EDIT COPY
+[2019.02.20-18.18.15:206][910]Cmd: EDIT PASTE
+[2019.02.20-18.18.28:092][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide130)
+[2019.02.20-18.18.29:210][742]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide131)
+[2019.02.20-18.18.30:001][787]Cmd: EDIT COPY
+[2019.02.20-18.18.30:317][806]Cmd: EDIT PASTE
+[2019.02.20-18.18.38:613][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide148)
+[2019.02.20-18.18.39:462][348]Cmd: EDIT COPY
+[2019.02.20-18.18.39:729][364]Cmd: EDIT PASTE
+[2019.02.20-18.18.44:493][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.18.48:305][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.18.57:515][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide149)
+[2019.02.20-18.18.59:233][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.19.14:591][444]LogEditorViewport: Clicking Background
+[2019.02.20-18.19.15:033][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide162)
+[2019.02.20-18.19.19:606][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodArch)
+[2019.02.20-18.19.21:156][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.19.50:492][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide148)
+[2019.02.20-18.19.58:553][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide143)
+[2019.02.20-18.19.59:956][152]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide146)
+[2019.02.20-18.20.01:498][242]Cmd: TRANSACTION UNDO
+[2019.02.20-18.20.01:498][242]LogEditorTransaction: Undo Scale Actors
+[2019.02.20-18.20.03:456][357]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide146)
+[2019.02.20-18.20.05:093][453]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide145)
+[2019.02.20-18.20.06:165][515]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide147)
+[2019.02.20-18.20.06:819][552]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide142)
+[2019.02.20-18.20.08:040][623]Cmd: EDIT COPY
+[2019.02.20-18.20.08:357][642]Cmd: EDIT PASTE
+[2019.02.20-18.20.10:177][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.20.53:032][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneArchDoor)
+[2019.02.20-18.20.54:570][406]Cmd: EDIT COPY
+[2019.02.20-18.20.54:936][428]Cmd: EDIT PASTE
+[2019.02.20-18.21.09:495][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.14:679][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.19:259][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.22:615][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.30:377][683]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.21.30:656][683]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutDB6029BE4B621FBBA99070B0018A7FD3.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.21.35:930][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.39:202][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.21.49:579][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide171)
+[2019.02.20-18.21.50:586][  1]Cmd: EDIT COPY
+[2019.02.20-18.21.50:896][ 38]Cmd: EDIT PASTE
+[2019.02.20-18.22.08:193][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide144)
+[2019.02.20-18.22.09:092][169]Cmd: EDIT COPY
+[2019.02.20-18.22.09:390][204]Cmd: EDIT PASTE
+[2019.02.20-18.22.38:262][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.22.43:113][139]LogActorFactory: Actor Factory created Bed
+[2019.02.20-18.22.47:501][664]LogActorFactory: Actor Factory created Bed
+[2019.02.20-18.22.48:481][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.22.54:104][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.22.54:395][446]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout1450401F44268F0D0A84D6B8395152E0.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.23.00:898][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.23.01:241][219]LogActorFactory: Actor Factory created Wardrobe_pasted__polySurface205
+[2019.02.20-18.23.02:159][328]LogActorFactory: Actor Factory created Wardrobe_pasted__polySurface205
+[2019.02.20-18.23.12:732][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.23.17:533][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.23.43:016][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide55)
+[2019.02.20-18.23.44:342][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.23.48:441][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.23.53:683][417]Cmd: TRANSACTION UNDO
+[2019.02.20-18.23.53:683][417]LogEditorTransaction: Undo Move Actors
+[2019.02.20-18.24.10:671][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide100)
+[2019.02.20-18.24.11:816][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.24.17:433][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.24.23:601][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.24.26:954][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.24.46:291][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide176)
+[2019.02.20-18.24.47:184][554]Cmd: EDIT COPY
+[2019.02.20-18.24.47:435][583]Cmd: EDIT PASTE
+[2019.02.20-18.25.07:924][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide170)
+[2019.02.20-18.25.10:349][252]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide172)
+[2019.02.20-18.25.11:571][393]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide174)
+[2019.02.20-18.25.12:817][537]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide173)
+[2019.02.20-18.25.13:421][604]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide171)
+[2019.02.20-18.25.15:774][880]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide175)
+[2019.02.20-18.25.18:583][183]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneArchDoor2)
+[2019.02.20-18.25.19:802][322]Cmd: EDIT COPY
+[2019.02.20-18.25.23:785][794]Cmd: EDIT PASTE
+[2019.02.20-18.25.43:240][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide178)
+[2019.02.20-18.25.44:424][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.25.47:360][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.25.54:908][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.25.57:838][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.26.59:971][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2019.02.20-18.27.01:456][353]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoneWallWide164)
+[2019.02.20-18.27.05:191][788]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wardrobe_pasted__polySurface205)
+[2019.02.20-18.27.06:186][901]Cmd: EDIT COPY
+[2019.02.20-18.27.06:668][958]Cmd: EDIT PASTE
+[2019.02.20-18.27.22:031][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.27.22:225][683]LogActorFactory: Actor Factory created Bed
+[2019.02.20-18.27.28:316][413]LogActorFactory: Actor Factory created Bed
+[2019.02.20-18.27.32:592][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.27.42:005][857]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-18.27.43:258][  5]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-18.27.44:477][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.27.48:812][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.27.53:366][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.27.53:656][201]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutF7919D6B49C7C09BD4378D9AB1C8268D.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.28.04:180][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.28.26:961][699]LogActorFactory: Actor Factory created WoodStool_polySurface151
+[2019.02.20-18.28.28:057][828]LogActorFactory: Actor Factory created WoodStool_polySurface151
+[2019.02.20-18.28.34:993][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.28.40:865][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.28.54:318][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodWallHalfWide)
+[2019.02.20-18.29.08:744][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.29.09:047][272]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutF02FC25942BBA2346EF89DB49DADDFEF.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.29.16:742][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-18.29.19:760][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow15)
+[2019.02.20-18.29.21:142][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.29.26:920][318]Cmd: EDIT COPY
+[2019.02.20-18.29.27:254][357]Cmd: EDIT PASTE
+[2019.02.20-18.29.30:414][728]Cmd: EDIT COPY
+[2019.02.20-18.29.30:697][761]Cmd: EDIT PASTE
+[2019.02.20-18.29.35:692][351]Cmd: EDIT COPY
+[2019.02.20-18.29.36:159][407]Cmd: EDIT PASTE
+[2019.02.20-18.29.43:042][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane34)
+[2019.02.20-18.29.48:303][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow21)
+[2019.02.20-18.29.50:034][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow20)
+[2019.02.20-18.29.52:539][310]Cmd: EDIT COPY
+[2019.02.20-18.29.52:890][352]Cmd: EDIT PASTE
+[2019.02.20-18.30.15:968][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.30.16:267][ 44]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout439A852D418E641708EA9FB41FAC22AC.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.31.30:913][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneArchDoor3)
+[2019.02.20-18.31.32:129][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.31.45:483][319]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.31.45:779][319]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout74C70193454455AD16EC5AB981317E26.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.31.49:779][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.31.50:978][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.31.51:271][627]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout84B9E10C41E9FBB97EF5FBA8FA9B85FC.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.31.56:671][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow21)
+[2019.02.20-18.32.26:122][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.32.31:201][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-18.32.51:212][812]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.32.51:568][812]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout90C1DB3E436A8C9A25A2F2AEEA571025.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-18.37.42:351][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-18.37.44:258][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cabinet)
+[2019.02.20-18.37.45:507][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.27.06:659][170]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-19.27.40:258][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.27.51:119][820]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-19.27.52:203][885]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-19.27.53:423][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.27.58:520][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.28.18:695][467]Cmd: EDIT COPY
+[2019.02.20-19.28.18:946][482]Cmd: EDIT PASTE
+[2019.02.20-19.28.25:178][853]Cmd: EDIT COPY
+[2019.02.20-19.28.25:444][869]Cmd: EDIT PASTE
+[2019.02.20-19.28.43:265][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.28.56:785][743]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.28.59:058][879]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.00:589][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-19.29.00:898][968]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout5511651A4475AFECA898CDA48768C72A.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-19.29.13:176][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.29.13:446][718]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.14:416][776]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.16:051][874]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.16:795][917]Cmd: TRANSACTION UNDO
+[2019.02.20-19.29.16:795][917]LogEditorTransaction: Undo Create Actors
+[2019.02.20-19.29.23:691][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.29.23:878][339]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.25:448][433]LogActorFactory: Actor Factory created Counter_polySurface48
+[2019.02.20-19.29.26:340][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.29.30:665][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-19.29.56:536][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-19.29.56:842][290]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutF3FCF36548C86177ECF13798640E25BA.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.15.35:730][833]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: libcurl info message cache 0 (Connection 186 seems to be dead!)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: libcurl info message cache 1 (Closing connection 186)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.02.20-21.15.36:071][835]LogHttp: Warning: 0000022A97667240: libcurl info message cache 4 (Closing connection 187)
+[2019.02.20-21.39.10:665][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow16)
+[2019.02.20-21.39.12:887][582]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow17)
+[2019.02.20-21.39.24:923][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-21.39.27:788][468]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-21.39.29:371][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-21.39.30:413][620]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow15)
+[2019.02.20-21.39.35:050][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.39.43:405][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide152)
+[2019.02.20-21.39.53:833][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.39.59:882][378]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-21.40.02:351][526]LogActorFactory: Actor Factory created ApothecaryCabinet
+[2019.02.20-21.40.03:611][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.40.10:821][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.40.29:092][125]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow20)
+[2019.02.20-21.40.30:337][197]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow21)
+[2019.02.20-21.40.31:455][262]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow18)
+[2019.02.20-21.40.34:018][413]Cmd: TRANSACTION UNDO
+[2019.02.20-21.40.34:018][413]LogEditorTransaction: Undo Move Actors
+[2019.02.20-21.40.35:714][514]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow19)
+[2019.02.20-21.40.39:331][729]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow17)
+[2019.02.20-21.40.40:617][804]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow16)
+[2019.02.20-21.40.44:440][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow6)
+[2019.02.20-21.40.45:194][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow15)
+[2019.02.20-21.40.50:435][384]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (CeilingNarrow4)
+[2019.02.20-21.41.11:912][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ApothecaryCabinet5)
+[2019.02.20-21.41.20:707][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.41.20:897][198]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-21.41.26:434][530]LogActorFactory: Actor Factory created Cabinet
+[2019.02.20-21.41.27:114][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.41.27:446][568]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutA300C6F9430FA3A28C660BAA499CC0BE.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.41.31:648][816]LogMaterial: Display: Missing cached shader map for material Shelves1, compiling. 
+[2019.02.20-21.41.31:663][816]LogStaticMesh: Building static mesh NarrowShelf_polySurface148...
+[2019.02.20-21.41.31:681][816]LogStaticMesh: Built static mesh [0.02s] /Game/Art/EnvironmentArt/Furniture/Shelves/NarrowShelf_polySurface148.NarrowShelf_polySurface148
+[2019.02.20-21.41.31:790][822]LogActorFactory: Actor Factory created NarrowShelf_polySurface148
+[2019.02.20-21.41.32:426][860]LogActorFactory: Actor Factory created NarrowShelf_polySurface148
+[2019.02.20-21.41.33:391][915]Cmd: DELETE
+[2019.02.20-21.41.33:392][915]Cmd: ACTOR DELETE
+[2019.02.20-21.41.33:399][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.20-21.41.33:424][915]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.02.20-21.41.34:650][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.41.44:121][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.41.44:359][568]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-21.41.45:894][660]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-21.41.50:354][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.41.50:544][935]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-21.41.51:828][ 12]LogActorFactory: Actor Factory created PottedPlant_polySurface160
+[2019.02.20-21.41.56:727][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ApothecaryCabinet5)
+[2019.02.20-21.41.57:648][355]Cmd: EDIT COPY
+[2019.02.20-21.41.57:934][372]Cmd: EDIT PASTE
+[2019.02.20-21.42.06:587][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.42.13:515][301]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-21.42.17:100][516]LogActorFactory: Actor Factory created SmallCabinet_polySurface52
+[2019.02.20-21.42.22:028][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.42.22:335][808]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout20CAC8C5495F7E7FC71406AA8B4D8ECE.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.42.36:510][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.43.37:962][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoneWallWide139)
+[2019.02.20-21.43.40:791][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.44.12:621][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodWallHalfWide)
+[2019.02.20-21.44.15:011][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.44.29:589][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodStool_polySurface151)
+[2019.02.20-21.44.30:917][ 67]Cmd: EDIT COPY
+[2019.02.20-21.44.31:235][ 86]Cmd: EDIT PASTE
+[2019.02.20-21.44.36:806][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.45.09:982][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (_HighlighPickup_ToBasement)
+[2019.02.20-21.45.10:971][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.45.17:632][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.45.20:480][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.45.25:376][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.45.40:646][229]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.45.40:957][229]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout56E6D44D4C3AF2CABBA956B933768626.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.45.46:908][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.45.47:214][582]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutCE060E6F4990EC6EC5F5DCA961856CD6.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.45.53:623][962]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.45.53:927][962]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutD8EE888A443F15ED37876D961B574533.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.46.04:966][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodStool_polySurface151)
+[2019.02.20-21.46.05:981][679]Cmd: EDIT COPY
+[2019.02.20-21.46.06:415][705]Cmd: EDIT PASTE
+[2019.02.20-21.46.38:953][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.46.44:949][  3]LogMaterial: Display: Missing cached shader map for material Wood, compiling. 
+[2019.02.20-21.46.54:986][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.47.00:081][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.47.15:469][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.47.29:507][669]Cmd: EDIT COPY
+[2019.02.20-21.47.30:406][723]Cmd: EDIT PASTE
+[2019.02.20-21.47.56:103][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.48.02:426][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.48.07:255][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.48.10:749][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.48.17:257][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.48.17:573][512]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1LayoutB1D89EA74840D582812C84A8272C7F59.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.48.27:087][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-21.48.27:392][ 77]LogSavePackage: Moving '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/StorefrontandHome_Level1Layout283D9CC648AB62316CB1658AA1CB78E4.tmp' to '../../../../../../Users/PARKER.HAMILTON/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/StorefrontandHome_Level1Layout.umap'
+[2019.02.20-21.53.19:884][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-21.53.26:815][ 57]LogActorFactory: Actor Factory created SpiralStairs
+[2019.02.20-21.53.27:598][104]LogActorFactory: Actor Factory created SpiralStairs
