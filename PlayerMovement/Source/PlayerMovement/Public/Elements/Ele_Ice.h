@@ -25,6 +25,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
 	virtual void Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical) override;
 
 	UFUNCTION()

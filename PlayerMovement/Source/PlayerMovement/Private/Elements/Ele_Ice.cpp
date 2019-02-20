@@ -2,6 +2,7 @@
 
 #include "Elements/Ele_Ice.h"
 #include "Runtime/Engine/Classes/Components/StaticMeshComponent.h"
+#include "Ele_Fire.h"
 #include "Unstable.h"
 
 AEle_Ice::AEle_Ice()
@@ -29,6 +30,7 @@ void AEle_Ice::Tick(float DeltaTime)
 		GetWorld()->DestroyActor(ToBeDestroyed);
 		Destroy();
 		timer = 0;
+		GetWorld()->ForceGarbageCollection(true);
 	}
 	else
 	{
@@ -47,22 +49,25 @@ void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* 
 		break;
 
 	case EElementType::ET_Fire:
-		timer = 3;
+		timer = 2;
 
-		OtherChemical->GetRootComponent()->GetChildrenComponents(true, children);
-		for (int16 i = 0; i < children.Num(); i++)
-		{
-			UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
-			UE_LOG(LogTemp, Error, TEXT("%f children comps"), (children.Num()));
+		//OtherChemical->GetDefaultAttachComponent()->GetAttachChildren
+		//UE_LOG(LogTemp, Warning, TEXT("Message: Root Comp name > %s"), *(GetRootComponent()->GetName()));
+		//children = GetRootComponent()->GetAttachChildren();
+		//UE_LOG(LogTemp, Error, TEXT("%i children comps"), (children.Num()));
 
-			if (mesh)
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
-				mesh->SetSimulatePhysics(false);
-				mesh->SetVisibility(true);
-				//SetActorHiddenInGame(true);
-			}
-		}
+		//for (int16 i = 0; i < children.Num(); i++)
+		//{
+		//	UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
+
+		//	if (mesh)
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
+		//		mesh->SetSimulatePhysics(false);
+		//		mesh->SetVisibility(true);
+		//	}
+		//}
+		OtherChemical->SetActorHiddenInGame(true);
 
 		ToBeDestroyed = OtherChemical;
 		break;

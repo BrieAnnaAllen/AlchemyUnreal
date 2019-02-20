@@ -53,22 +53,23 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 
 	case EElementType::ET_Ice:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
-		timer = 3;
+		timer = 2;
 
-		OtherChemical->GetRootComponent()->GetChildrenComponents(true, children);
-		for (int16 i = 0; i < children.Num(); i++)
-		{
-			UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
-			if (mesh)
-			{
-				mesh->SetSimulatePhysics(false);
-				mesh->SetVisibility(false);
-				//SetActorHiddenInGame(true);
-			}
-		}
+		//OtherChemical->GetRootComponent()->GetChildrenComponents(true, children);
+		//UE_LOG(LogTemp, Warning, TEXT("Message: Num of Children %i"), children.Num());
+
+		//for (int16 i = 0; i < children.Num(); i++)
+		//{
+		//	UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
+		//	if (mesh)
+		//	{
+		//		mesh->SetSimulatePhysics(false);
+		//		mesh->SetVisibility(false);
+		//		//SetActorHiddenInGame(true);
+		//	}
+		//}
 
 		ToBeDestroyed = OtherChemical;
-
 		break;
 
 	case EElementType::ET_Acid:
