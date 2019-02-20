@@ -10,7 +10,7 @@ UPickUp_Component::UPickUp_Component()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
+	hasObject = false;
 }
 
 
@@ -123,7 +123,7 @@ void UPickUp_Component::PickUp()
 	auto ActorHit = HitResult.GetActor();
 	//If we hit something then attach a physics handle
 	//attach physics handle
-	if (ActorHit)
+	if (ActorHit && !pickedUp )
 	{
 		pickedUp = true;
 		PhysicsHandle->GrabComponent(
@@ -156,15 +156,18 @@ void UPickUp_Component::Release()
 	//TODO release physics handle
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		Object->SetActorEnableCollision(true);
-		auto grabbedObject = PhysicsHandle->GrabbedComponent;
-		PhysicsHandle->ReleaseComponent();
-		grabbedObject->AddImpulse(
-			GetOwner()->GetActorForwardVector() * 1000,
-			NAME_None,
-			true
-		);
-		pickedUp = false;
+		if (pickedUp)
+		{
+			Object->SetActorEnableCollision(true);
+			auto grabbedObject = PhysicsHandle->GrabbedComponent;
+			PhysicsHandle->ReleaseComponent();
+			grabbedObject->AddImpulse(
+				GetOwner()->GetActorForwardVector() * 1000,
+				NAME_None,
+				true
+			);
+			pickedUp = false;
+		}
 	}
 }
 
