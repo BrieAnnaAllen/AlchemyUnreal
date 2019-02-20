@@ -1,8 +1,6 @@
 ﻿Log file open, 02/18/19 19:57:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -10,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlayerMovement
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.275635
+LogStats: Stats thread started at 0.314583
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.222s to configure plugins.
+LogStreaming: Display: Took  0.171s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,7 +116,7 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: AMD RADEON R9 M290X
+LogInit: OS: Windows 10 (), CPU:         Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 750 Ti
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -188,7 +186,7 @@ LogInit: Object subsystem initialized
 [2019.02.19-01.57.22:412][  0]LogWindows:    3. 'AMD RADEON R9 M290X' (P:0 D:0)
 [2019.02.19-01.57.22:413][  0]LogWindows:    4. 'AMD RADEON R9 M290X' (P:0 D:0)
 [2019.02.19-01.57.22:413][  0]LogWindows:    5. 'AMD RADEON R9 M290X' (P:0 D:0)
-[2019.02.19-01.57.22:414][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2019.02.19-01.57.22:414][  0]LogWindows: DebugString: FoundDriverCount:6
 [2019.02.19-01.57.22:414][  0]LogD3D11RHI:     Adapter Name: AMD RADEON R9 M290X
 [2019.02.19-01.57.22:414][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6 (internal:22.19.170.1536, unified:22.19.170.1536)
 [2019.02.19-01.57.22:414][  0]LogD3D11RHI:      Driver Date: 7-20-2017
@@ -347,7 +345,7 @@ LogInit: Object subsystem initialized
 [2019.02.19-01.59.11:128][179]CompilerResultsLog: License is invalid:
 [2019.02.19-01.59.11:129][179]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-01.59.11:129][179]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-01.59.11:129][179]CompilerResultsLog: 
+[2019.02.19-01.59.11:129][179]CompilerResultsLog:
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: PickUp_Component.cpp (0:01.15 at +0:00)
@@ -358,12 +356,12 @@ LogInit: Object subsystem initialized
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: UE4Editor-PlayerMovement-638.lib (0:00.15 at +0:02)
 [2019.02.19-01.59.11:129][179]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-638.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-638.exp
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-01.59.11:129][179]CompilerResultsLog: 
+[2019.02.19-01.59.11:129][179]CompilerResultsLog:
 [2019.02.19-01.59.11:129][179]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-01.59.11:129][179]CompilerResultsLog: 
+[2019.02.19-01.59.11:129][179]CompilerResultsLog:
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-01.59.11:129][179]CompilerResultsLog:    - License is invalid
-[2019.02.19-01.59.11:129][179]CompilerResultsLog: 
+[2019.02.19-01.59.11:129][179]CompilerResultsLog:
 [2019.02.19-01.59.11:129][179]CompilerResultsLog: Total build time: 44.74 seconds (XGE executor: 3.06 seconds)
 [2019.02.19-01.59.11:129][179]LogMainFrame: MainFrame: Module compiling took 45.027 seconds
 [2019.02.19-01.59.11:185][179]LogClass: EElementType HotReload.
@@ -389,7 +387,7 @@ LogInit: Object subsystem initialized
 [2019.02.19-02.00.49:228][842]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.18-20.00.49
 [2019.02.19-02.00.49:229][842]LogWorld: Bringing up level for play took: 0.000647
 [2019.02.19-02.00.49:267][842]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2019.02.19-02.00.49:270][842]LogOutputDevice: Warning: 
+[2019.02.19-02.00.49:270][842]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
@@ -399,10 +397,10 @@ GameModeBase.HandleStartingNewPlayer
 
 [2019.02.19-02.00.50:072][842]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.803 s
 [2019.02.19-02.00.50:072][842]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.00.50:072][842]LogOutputDevice: Error: 
+[2019.02.19-02.00.50:072][842]LogOutputDevice: Error:
 [2019.02.19-02.00.50:072][842]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.00.50:072][842]LogOutputDevice: Error: 
-[2019.02.19-02.00.50:072][842]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.00.50:072][842]LogOutputDevice: Error:
+[2019.02.19-02.00.50:072][842]LogOutputDevice: Error: Stack:
 [2019.02.19-02.00.50:072][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.00.50:072][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.00.50:072][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -456,11 +454,11 @@ GameModeBase.HandleStartingNewPlayer
 [2019.02.19-02.00.50:073][842]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.00.50:073][842]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.00.50:073][842]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.00.50:073][842]LogOutputDevice: Error: 
+[2019.02.19-02.00.50:073][842]LogOutputDevice: Error:
 [2019.02.19-02.00.50:075][842]LogStats:                SubmitErrorReport -  0.000 s
 [2019.02.19-02.00.50:531][842]LogStats:                    SendNewReport -  0.456 s
 [2019.02.19-02.00.50:531][842]LogStats:             FDebug::EnsureFailed -  1.262 s
-[2019.02.19-02.00.50:531][842]LogOutputDevice: Warning: 
+[2019.02.19-02.00.50:531][842]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
@@ -470,10 +468,10 @@ GameModeBase.HandleStartingNewPlayer
 
 [2019.02.19-02.00.50:533][842]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
 [2019.02.19-02.00.50:533][842]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.00.50:533][842]LogOutputDevice: Error: 
+[2019.02.19-02.00.50:533][842]LogOutputDevice: Error:
 [2019.02.19-02.00.50:533][842]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.00.50:533][842]LogOutputDevice: Error: 
-[2019.02.19-02.00.50:533][842]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.00.50:533][842]LogOutputDevice: Error:
+[2019.02.19-02.00.50:533][842]LogOutputDevice: Error: Stack:
 [2019.02.19-02.00.50:533][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.00.50:533][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.00.50:534][842]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -528,7 +526,7 @@ GameModeBase.HandleStartingNewPlayer
 [2019.02.19-02.00.50:534][842]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.00.50:534][842]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.00.50:534][842]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.00.50:534][842]LogOutputDevice: Error: 
+[2019.02.19-02.00.50:534][842]LogOutputDevice: Error:
 [2019.02.19-02.00.50:543][842]LogStats:                SubmitErrorReport -  0.000 s
 [2019.02.19-02.00.51:042][842]LogStats:                    SendNewReport -  0.499 s
 [2019.02.19-02.00.51:042][842]LogStats:             FDebug::EnsureFailed -  0.511 s
@@ -584,7 +582,7 @@ GameModeBase.HandleStartingNewPlayer
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: License is invalid:
 [2019.02.19-02.01.31:585][993]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.01.31:585][993]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.01.31:585][993]CompilerResultsLog: 
+[2019.02.19-02.01.31:585][993]CompilerResultsLog:
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: PickUp_Component.cpp (0:01.01 at +0:00)
@@ -595,12 +593,12 @@ GameModeBase.HandleStartingNewPlayer
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: UE4Editor-PlayerMovement-2279.lib (0:00.15 at +0:02)
 [2019.02.19-02.01.31:585][993]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2279.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2279.exp
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.01.31:585][993]CompilerResultsLog: 
+[2019.02.19-02.01.31:585][993]CompilerResultsLog:
 [2019.02.19-02.01.31:585][993]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.01.31:585][993]CompilerResultsLog: 
+[2019.02.19-02.01.31:585][993]CompilerResultsLog:
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.01.31:585][993]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.01.31:585][993]CompilerResultsLog: 
+[2019.02.19-02.01.31:585][993]CompilerResultsLog:
 [2019.02.19-02.01.31:585][993]CompilerResultsLog: Total build time: 5.23 seconds (XGE executor: 2.86 seconds)
 [2019.02.19-02.01.31:585][993]LogMainFrame: MainFrame: Module compiling took 5.542 seconds
 [2019.02.19-02.01.31:639][993]LogClass: EElementType HotReload.
@@ -623,17 +621,17 @@ GameModeBase.HandleStartingNewPlayer
 [2019.02.19-02.01.38:696][718]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.01.38:698][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.01.38
 [2019.02.19-02.01.38:699][718]LogWorld: Bringing up level for play took: 0.001491
-[2019.02.19-02.01.38:710][718]LogOutputDevice: Warning: 
+[2019.02.19-02.01.38:710][718]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.01.38:984][718]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.274 s
 [2019.02.19-02.01.38:984][718]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.01.38:984][718]LogOutputDevice: Error: 
+[2019.02.19-02.01.38:984][718]LogOutputDevice: Error:
 [2019.02.19-02.01.38:984][718]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.01.38:984][718]LogOutputDevice: Error: 
-[2019.02.19-02.01.38:985][718]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.01.38:984][718]LogOutputDevice: Error:
+[2019.02.19-02.01.38:985][718]LogOutputDevice: Error: Stack:
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -666,13 +664,13 @@ PlayerController.ClientRestart
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.01.38:985][718]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.01.38:985][718]LogOutputDevice: Error: 
+[2019.02.19-02.01.38:985][718]LogOutputDevice: Error:
 [2019.02.19-02.01.38:994][718]LogStats:                SubmitErrorReport -  0.000 s
 [2019.02.19-02.01.39:464][718]LogStats:                    SendNewReport -  0.470 s
 [2019.02.19-02.01.39:465][718]LogStats:             FDebug::EnsureFailed -  0.754 s
 [2019.02.19-02.01.39:465][718]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.337
 [2019.02.19-02.01.44:234][288]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
-[2019.02.19-02.01.49:893][967]PIE: Warning: Ele_Fire_BP_2.Cube Cube has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2019.02.19-02.01.49:893][967]PIE: Warning: Ele_Fire_BP_2.Cube Cube has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse.
 [2019.02.19-02.01.51:326][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.02.19-02.01.51:360][139]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2019.02.19-02.01.51:378][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -693,7 +691,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.01.53:572][356]LogWorld: Bringing up level for play took: 0.000975
 [2019.02.19-02.01.53:585][356]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.543
 [2019.02.19-02.01.59:446][ 54]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
-[2019.02.19-02.02.00:296][156]PIE: Warning: Ele_Fire_BP_2.Cube Cube has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2019.02.19-02.02.00:296][156]PIE: Warning: Ele_Fire_BP_2.Cube Cube has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse.
 [2019.02.19-02.02.03:259][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.02.19-02.02.03:295][511]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2019.02.19-02.02.03:315][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -733,7 +731,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: License is invalid:
 [2019.02.19-02.03.38:160][201]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.03.38:160][201]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.03.38:160][201]CompilerResultsLog: 
+[2019.02.19-02.03.38:160][201]CompilerResultsLog:
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: PickUp_Component.cpp (0:01.07 at +0:00)
@@ -744,12 +742,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: UE4Editor-PlayerMovement-5879.lib (0:00.15 at +0:02)
 [2019.02.19-02.03.38:160][201]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5879.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5879.exp
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.03.38:160][201]CompilerResultsLog: 
+[2019.02.19-02.03.38:160][201]CompilerResultsLog:
 [2019.02.19-02.03.38:160][201]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.03.38:160][201]CompilerResultsLog: 
+[2019.02.19-02.03.38:160][201]CompilerResultsLog:
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.03.38:160][201]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.03.38:160][201]CompilerResultsLog: 
+[2019.02.19-02.03.38:160][201]CompilerResultsLog:
 [2019.02.19-02.03.38:160][201]CompilerResultsLog: Total build time: 5.30 seconds (XGE executor: 2.95 seconds)
 [2019.02.19-02.03.38:160][201]LogMainFrame: MainFrame: Module compiling took 5.595 seconds
 [2019.02.19-02.03.38:211][201]LogClass: EElementType HotReload.
@@ -772,17 +770,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.03.40:106][381]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.03.40:108][381]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.03.40
 [2019.02.19-02.03.40:108][381]LogWorld: Bringing up level for play took: 0.000931
-[2019.02.19-02.03.40:121][381]LogOutputDevice: Warning: 
+[2019.02.19-02.03.40:121][381]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.03.40:404][381]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.283 s
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.03.40:404][381]LogOutputDevice: Error: 
+[2019.02.19-02.03.40:404][381]LogOutputDevice: Error:
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.03.40:404][381]LogOutputDevice: Error: 
-[2019.02.19-02.03.40:404][381]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.03.40:404][381]LogOutputDevice: Error:
+[2019.02.19-02.03.40:404][381]LogOutputDevice: Error: Stack:
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -815,7 +813,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.03.40:404][381]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.03.40:404][381]LogOutputDevice: Error: 
+[2019.02.19-02.03.40:404][381]LogOutputDevice: Error:
 [2019.02.19-02.03.40:411][381]LogStats:                SubmitErrorReport -  0.000 s
 [2019.02.19-02.03.40:906][381]LogStats:                    SendNewReport -  0.495 s
 [2019.02.19-02.03.40:906][381]LogStats:             FDebug::EnsureFailed -  0.785 s
@@ -838,7 +836,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.04.11:169][756]CompilerResultsLog: License is invalid:
 [2019.02.19-02.04.11:169][756]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.04.11:169][756]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.04.11:169][756]CompilerResultsLog: 
+[2019.02.19-02.04.11:169][756]CompilerResultsLog:
 [2019.02.19-02.04.11:169][756]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.04.11:169][756]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.04.11:169][756]CompilerResultsLog: PickUp_Component.cpp (0:01.03 at +0:00)
@@ -849,12 +847,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.04.11:170][756]CompilerResultsLog: UE4Editor-PlayerMovement-4237.lib (0:00.15 at +0:02)
 [2019.02.19-02.04.11:170][756]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4237.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4237.exp
 [2019.02.19-02.04.11:170][756]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.04.11:170][756]CompilerResultsLog: 
+[2019.02.19-02.04.11:170][756]CompilerResultsLog:
 [2019.02.19-02.04.11:170][756]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.04.11:170][756]CompilerResultsLog: 
+[2019.02.19-02.04.11:170][756]CompilerResultsLog:
 [2019.02.19-02.04.11:170][756]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.04.11:170][756]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.04.11:170][756]CompilerResultsLog: 
+[2019.02.19-02.04.11:170][756]CompilerResultsLog:
 [2019.02.19-02.04.11:170][756]CompilerResultsLog: Total build time: 5.40 seconds (XGE executor: 2.96 seconds)
 [2019.02.19-02.04.11:170][756]LogMainFrame: MainFrame: Module compiling took 5.694 seconds
 [2019.02.19-02.04.11:220][756]LogClass: EElementType HotReload.
@@ -877,17 +875,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.04.12:521][872]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.04.12:524][872]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.04.12
 [2019.02.19-02.04.12:524][872]LogWorld: Bringing up level for play took: 0.001858
-[2019.02.19-02.04.12:536][872]LogOutputDevice: Warning: 
+[2019.02.19-02.04.12:536][872]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.04.12:812][872]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.275 s
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.04.12:812][872]LogOutputDevice: Error: 
+[2019.02.19-02.04.12:812][872]LogOutputDevice: Error:
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.04.12:812][872]LogOutputDevice: Error: 
-[2019.02.19-02.04.12:812][872]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.04.12:812][872]LogOutputDevice: Error:
+[2019.02.19-02.04.12:812][872]LogOutputDevice: Error: Stack:
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -920,7 +918,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.04.12:812][872]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.04.12:812][872]LogOutputDevice: Error: 
+[2019.02.19-02.04.12:812][872]LogOutputDevice: Error:
 [2019.02.19-02.04.12:815][872]LogStats:             FDebug::EnsureFailed -  0.278 s
 [2019.02.19-02.04.12:815][872]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 0.692
 [2019.02.19-02.04.18:963][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -979,7 +977,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.05.56:891][586]CompilerResultsLog: License is invalid:
 [2019.02.19-02.05.56:891][586]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.05.56:892][586]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.05.56:892][586]CompilerResultsLog: 
+[2019.02.19-02.05.56:892][586]CompilerResultsLog:
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: PickUp_Component.cpp (0:01.18 at +0:00)
@@ -990,12 +988,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: UE4Editor-PlayerMovement-1720.lib (0:00.17 at +0:02)
 [2019.02.19-02.05.56:892][586]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1720.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1720.exp
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.05.56:892][586]CompilerResultsLog: 
+[2019.02.19-02.05.56:892][586]CompilerResultsLog:
 [2019.02.19-02.05.56:892][586]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.05.56:892][586]CompilerResultsLog: 
+[2019.02.19-02.05.56:892][586]CompilerResultsLog:
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.05.56:892][586]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.05.56:892][586]CompilerResultsLog: 
+[2019.02.19-02.05.56:892][586]CompilerResultsLog:
 [2019.02.19-02.05.56:892][586]CompilerResultsLog: Total build time: 5.41 seconds (XGE executor: 3.06 seconds)
 [2019.02.19-02.05.56:892][586]LogMainFrame: MainFrame: Module compiling took 5.711 seconds
 [2019.02.19-02.05.56:942][586]LogClass: EElementType HotReload.
@@ -1030,17 +1028,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.06.31:776][146]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.06.31:778][146]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.06.31
 [2019.02.19-02.06.31:778][146]LogWorld: Bringing up level for play took: 0.001047
-[2019.02.19-02.06.31:790][146]LogOutputDevice: Warning: 
+[2019.02.19-02.06.31:790][146]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.06.32:065][146]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.275 s
 [2019.02.19-02.06.32:065][146]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.06.32:065][146]LogOutputDevice: Error: 
+[2019.02.19-02.06.32:065][146]LogOutputDevice: Error:
 [2019.02.19-02.06.32:065][146]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.06.32:065][146]LogOutputDevice: Error: 
-[2019.02.19-02.06.32:065][146]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.06.32:065][146]LogOutputDevice: Error:
+[2019.02.19-02.06.32:065][146]LogOutputDevice: Error: Stack:
 [2019.02.19-02.06.32:065][146]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.06.32:065][146]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.06.32:065][146]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1073,7 +1071,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.06.32:066][146]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.06.32:066][146]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.06.32:066][146]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.06.32:066][146]LogOutputDevice: Error: 
+[2019.02.19-02.06.32:066][146]LogOutputDevice: Error:
 [2019.02.19-02.06.32:073][146]LogStats:             FDebug::EnsureFailed -  0.283 s
 [2019.02.19-02.06.32:073][146]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.046
 [2019.02.19-02.06.39:047][979]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1094,7 +1092,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: License is invalid:
 [2019.02.19-02.07.09:413][544]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.07.09:413][544]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.07.09:413][544]CompilerResultsLog: 
+[2019.02.19-02.07.09:413][544]CompilerResultsLog:
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: PickUp_Component.cpp (0:00.98 at +0:00)
@@ -1105,12 +1103,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: UE4Editor-PlayerMovement-2353.lib (0:00.15 at +0:02)
 [2019.02.19-02.07.09:413][544]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2353.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-2353.exp
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.07.09:413][544]CompilerResultsLog: 
+[2019.02.19-02.07.09:413][544]CompilerResultsLog:
 [2019.02.19-02.07.09:413][544]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.07.09:413][544]CompilerResultsLog: 
+[2019.02.19-02.07.09:413][544]CompilerResultsLog:
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.07.09:413][544]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.07.09:413][544]CompilerResultsLog: 
+[2019.02.19-02.07.09:413][544]CompilerResultsLog:
 [2019.02.19-02.07.09:413][544]CompilerResultsLog: Total build time: 5.20 seconds (XGE executor: 2.83 seconds)
 [2019.02.19-02.07.09:413][544]LogMainFrame: MainFrame: Module compiling took 5.497 seconds
 [2019.02.19-02.07.09:467][544]LogClass: EElementType HotReload.
@@ -1133,17 +1131,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.07.13:725][951]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.07.13:727][951]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.07.13
 [2019.02.19-02.07.13:727][951]LogWorld: Bringing up level for play took: 0.001127
-[2019.02.19-02.07.13:739][951]LogOutputDevice: Warning: 
+[2019.02.19-02.07.13:739][951]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.07.14:016][951]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.277 s
 [2019.02.19-02.07.14:016][951]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.07.14:016][951]LogOutputDevice: Error: 
+[2019.02.19-02.07.14:016][951]LogOutputDevice: Error:
 [2019.02.19-02.07.14:016][951]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.07.14:016][951]LogOutputDevice: Error: 
-[2019.02.19-02.07.14:016][951]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.07.14:016][951]LogOutputDevice: Error:
+[2019.02.19-02.07.14:016][951]LogOutputDevice: Error: Stack:
 [2019.02.19-02.07.14:016][951]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.07.14:017][951]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.07.14:017][951]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1176,7 +1174,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.07.14:017][951]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.07.14:017][951]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.07.14:017][951]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.07.14:017][951]LogOutputDevice: Error: 
+[2019.02.19-02.07.14:017][951]LogOutputDevice: Error:
 [2019.02.19-02.07.14:024][951]LogStats:             FDebug::EnsureFailed -  0.284 s
 [2019.02.19-02.07.14:024][951]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.094
 [2019.02.19-02.07.18:294][456]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1197,7 +1195,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: License is invalid:
 [2019.02.19-02.08.01:038][687]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.08.01:038][687]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.08.01:038][687]CompilerResultsLog: 
+[2019.02.19-02.08.01:038][687]CompilerResultsLog:
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: PickUp_Component.cpp (0:00.96 at +0:00)
@@ -1208,12 +1206,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: UE4Editor-PlayerMovement-5475.lib (0:00.15 at +0:02)
 [2019.02.19-02.08.01:038][687]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5475.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5475.exp
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.08.01:038][687]CompilerResultsLog: 
+[2019.02.19-02.08.01:038][687]CompilerResultsLog:
 [2019.02.19-02.08.01:038][687]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.08.01:038][687]CompilerResultsLog: 
+[2019.02.19-02.08.01:038][687]CompilerResultsLog:
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.08.01:038][687]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.08.01:038][687]CompilerResultsLog: 
+[2019.02.19-02.08.01:038][687]CompilerResultsLog:
 [2019.02.19-02.08.01:038][687]CompilerResultsLog: Total build time: 5.23 seconds (XGE executor: 2.83 seconds)
 [2019.02.19-02.08.01:038][687]LogMainFrame: MainFrame: Module compiling took 5.507 seconds
 [2019.02.19-02.08.01:084][687]LogClass: EElementType HotReload.
@@ -1236,17 +1234,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.08.01:809][745]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.08.01:811][745]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.08.01
 [2019.02.19-02.08.01:811][745]LogWorld: Bringing up level for play took: 0.000991
-[2019.02.19-02.08.01:823][745]LogOutputDevice: Warning: 
+[2019.02.19-02.08.01:823][745]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.08.02:109][745]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.285 s
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.08.02:109][745]LogOutputDevice: Error: 
+[2019.02.19-02.08.02:109][745]LogOutputDevice: Error:
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.08.02:109][745]LogOutputDevice: Error: 
-[2019.02.19-02.08.02:109][745]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.08.02:109][745]LogOutputDevice: Error:
+[2019.02.19-02.08.02:109][745]LogOutputDevice: Error: Stack:
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1279,7 +1277,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.08.02:109][745]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.08.02:109][745]LogOutputDevice: Error: 
+[2019.02.19-02.08.02:109][745]LogOutputDevice: Error:
 [2019.02.19-02.08.02:115][745]LogStats:             FDebug::EnsureFailed -  0.291 s
 [2019.02.19-02.08.02:115][745]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.003
 [2019.02.19-02.08.09:450][617]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1304,7 +1302,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: License is invalid:
 [2019.02.19-02.09.03:623][741]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.09.03:623][741]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.09.03:623][741]CompilerResultsLog: 
+[2019.02.19-02.09.03:623][741]CompilerResultsLog:
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: PickUp_Component.cpp (0:01.00 at +0:00)
@@ -1315,12 +1313,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: UE4Editor-PlayerMovement-11.lib (0:00.15 at +0:02)
 [2019.02.19-02.09.03:623][741]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-11.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-11.exp
 [2019.02.19-02.09.03:623][741]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.09.03:623][741]CompilerResultsLog: 
+[2019.02.19-02.09.03:623][741]CompilerResultsLog:
 [2019.02.19-02.09.03:623][741]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.09.03:623][741]CompilerResultsLog: 
+[2019.02.19-02.09.03:623][741]CompilerResultsLog:
 [2019.02.19-02.09.03:624][741]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.09.03:624][741]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.09.03:624][741]CompilerResultsLog: 
+[2019.02.19-02.09.03:624][741]CompilerResultsLog:
 [2019.02.19-02.09.03:624][741]CompilerResultsLog: Total build time: 5.28 seconds (XGE executor: 2.94 seconds)
 [2019.02.19-02.09.03:624][741]LogMainFrame: MainFrame: Module compiling took 5.567 seconds
 [2019.02.19-02.09.03:673][741]LogClass: EElementType HotReload.
@@ -1343,17 +1341,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.09.05:370][900]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.09.05:372][900]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.09.05
 [2019.02.19-02.09.05:373][900]LogWorld: Bringing up level for play took: 0.001398
-[2019.02.19-02.09.05:384][900]LogOutputDevice: Warning: 
+[2019.02.19-02.09.05:384][900]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.09.05:668][900]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.283 s
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.09.05:668][900]LogOutputDevice: Error: 
+[2019.02.19-02.09.05:668][900]LogOutputDevice: Error:
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.09.05:668][900]LogOutputDevice: Error: 
-[2019.02.19-02.09.05:668][900]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.09.05:668][900]LogOutputDevice: Error:
+[2019.02.19-02.09.05:668][900]LogOutputDevice: Error: Stack:
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1386,7 +1384,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.09.05:668][900]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.09.05:668][900]LogOutputDevice: Error: 
+[2019.02.19-02.09.05:668][900]LogOutputDevice: Error:
 [2019.02.19-02.09.05:671][900]LogStats:             FDebug::EnsureFailed -  0.286 s
 [2019.02.19-02.09.05:671][900]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.446
 [2019.02.19-02.09.09:846][395]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1409,7 +1407,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: License is invalid:
 [2019.02.19-02.15.03:286][581]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.15.03:286][581]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.15.03:286][581]CompilerResultsLog: 
+[2019.02.19-02.15.03:286][581]CompilerResultsLog:
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: PickUp_Component.cpp (0:01.12 at +0:00)
@@ -1420,12 +1418,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: UE4Editor-PlayerMovement-5206.lib (0:00.15 at +0:02)
 [2019.02.19-02.15.03:286][581]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5206.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-5206.exp
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.15.03:286][581]CompilerResultsLog: 
+[2019.02.19-02.15.03:286][581]CompilerResultsLog:
 [2019.02.19-02.15.03:286][581]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.15.03:286][581]CompilerResultsLog: 
+[2019.02.19-02.15.03:286][581]CompilerResultsLog:
 [2019.02.19-02.15.03:286][581]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.15.03:286][581]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.15.03:287][581]CompilerResultsLog: 
+[2019.02.19-02.15.03:287][581]CompilerResultsLog:
 [2019.02.19-02.15.03:287][581]CompilerResultsLog: Total build time: 5.98 seconds (XGE executor: 3.04 seconds)
 [2019.02.19-02.15.03:287][581]LogMainFrame: MainFrame: Module compiling took 6.275 seconds
 [2019.02.19-02.15.03:343][581]LogClass: EElementType HotReload.
@@ -1448,17 +1446,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.05:675][743]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.15.05:677][743]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.15.05
 [2019.02.19-02.15.05:678][743]LogWorld: Bringing up level for play took: 0.001207
-[2019.02.19-02.15.05:689][743]LogOutputDevice: Warning: 
+[2019.02.19-02.15.05:689][743]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.15.05:969][743]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.280 s
 [2019.02.19-02.15.05:969][743]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.15.05:969][743]LogOutputDevice: Error: 
+[2019.02.19-02.15.05:969][743]LogOutputDevice: Error:
 [2019.02.19-02.15.05:969][743]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.15.05:969][743]LogOutputDevice: Error: 
-[2019.02.19-02.15.05:969][743]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.15.05:969][743]LogOutputDevice: Error:
+[2019.02.19-02.15.05:969][743]LogOutputDevice: Error: Stack:
 [2019.02.19-02.15.05:969][743]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.15.05:969][743]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.15.05:969][743]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1491,7 +1489,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.05:970][743]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.15.05:970][743]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.15.05:970][743]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.15.05:970][743]LogOutputDevice: Error: 
+[2019.02.19-02.15.05:970][743]LogOutputDevice: Error:
 [2019.02.19-02.15.05:978][743]LogStats:             FDebug::EnsureFailed -  0.288 s
 [2019.02.19-02.15.05:978][743]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.132
 [2019.02.19-02.15.10:020][222]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1512,7 +1510,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: License is invalid:
 [2019.02.19-02.15.48:640][503]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.15.48:640][503]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.15.48:640][503]CompilerResultsLog: 
+[2019.02.19-02.15.48:640][503]CompilerResultsLog:
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: PickUp_Component.cpp (0:01.28 at +0:00)
@@ -1523,12 +1521,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: UE4Editor-PlayerMovement-3414.lib (0:00.15 at +0:02)
 [2019.02.19-02.15.48:640][503]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-3414.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-3414.exp
 [2019.02.19-02.15.48:640][503]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.15.48:640][503]CompilerResultsLog: 
+[2019.02.19-02.15.48:640][503]CompilerResultsLog:
 [2019.02.19-02.15.48:640][503]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.15.48:640][503]CompilerResultsLog: 
+[2019.02.19-02.15.48:640][503]CompilerResultsLog:
 [2019.02.19-02.15.48:641][503]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.15.48:641][503]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.15.48:641][503]CompilerResultsLog: 
+[2019.02.19-02.15.48:641][503]CompilerResultsLog:
 [2019.02.19-02.15.48:641][503]CompilerResultsLog: Total build time: 6.46 seconds (XGE executor: 3.35 seconds)
 [2019.02.19-02.15.48:641][503]LogMainFrame: MainFrame: Module compiling took 6.768 seconds
 [2019.02.19-02.15.48:690][503]LogClass: EElementType HotReload.
@@ -1551,17 +1549,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.50:589][681]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.15.50:591][681]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.15.50
 [2019.02.19-02.15.50:591][681]LogWorld: Bringing up level for play took: 0.001214
-[2019.02.19-02.15.50:603][681]LogOutputDevice: Warning: 
+[2019.02.19-02.15.50:603][681]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.15.50:891][681]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.287 s
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.15.50:891][681]LogOutputDevice: Error: 
+[2019.02.19-02.15.50:891][681]LogOutputDevice: Error:
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.15.50:891][681]LogOutputDevice: Error: 
-[2019.02.19-02.15.50:891][681]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.15.50:891][681]LogOutputDevice: Error:
+[2019.02.19-02.15.50:891][681]LogOutputDevice: Error: Stack:
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1594,7 +1592,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.15.50:891][681]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.15.50:891][681]LogOutputDevice: Error: 
+[2019.02.19-02.15.50:891][681]LogOutputDevice: Error:
 [2019.02.19-02.15.50:901][681]LogStats:             FDebug::EnsureFailed -  0.297 s
 [2019.02.19-02.15.50:901][681]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 0.792
 [2019.02.19-02.15.54:768][135]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1615,7 +1613,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: License is invalid:
 [2019.02.19-02.16.39:840][355]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.16.39:840][355]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.16.39:840][355]CompilerResultsLog: 
+[2019.02.19-02.16.39:840][355]CompilerResultsLog:
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: PickUp_Component.cpp (0:01.00 at +0:00)
@@ -1626,12 +1624,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: UE4Editor-PlayerMovement-4487.lib (0:00.14 at +0:02)
 [2019.02.19-02.16.39:840][355]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4487.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4487.exp
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.16.39:840][355]CompilerResultsLog: 
+[2019.02.19-02.16.39:840][355]CompilerResultsLog:
 [2019.02.19-02.16.39:840][355]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.16.39:840][355]CompilerResultsLog: 
+[2019.02.19-02.16.39:840][355]CompilerResultsLog:
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.16.39:840][355]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.16.39:840][355]CompilerResultsLog: 
+[2019.02.19-02.16.39:840][355]CompilerResultsLog:
 [2019.02.19-02.16.39:840][355]CompilerResultsLog: Total build time: 5.75 seconds (XGE executor: 2.94 seconds)
 [2019.02.19-02.16.39:840][355]LogMainFrame: MainFrame: Module compiling took 6.048 seconds
 [2019.02.19-02.16.39:888][355]LogClass: EElementType HotReload.
@@ -1654,17 +1652,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.16.57:660][364]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.16.57:662][364]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.16.57
 [2019.02.19-02.16.57:662][364]LogWorld: Bringing up level for play took: 0.001112
-[2019.02.19-02.16.57:674][364]LogOutputDevice: Warning: 
+[2019.02.19-02.16.57:674][364]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.16.57:955][364]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.281 s
 [2019.02.19-02.16.57:955][364]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.16.57:955][364]LogOutputDevice: Error: 
+[2019.02.19-02.16.57:955][364]LogOutputDevice: Error:
 [2019.02.19-02.16.57:955][364]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.16.57:955][364]LogOutputDevice: Error: 
-[2019.02.19-02.16.57:955][364]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.16.57:955][364]LogOutputDevice: Error:
+[2019.02.19-02.16.57:955][364]LogOutputDevice: Error: Stack:
 [2019.02.19-02.16.57:955][364]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.16.57:955][364]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.16.57:955][364]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1697,7 +1695,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.16.57:956][364]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.16.57:956][364]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.16.57:956][364]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.16.57:956][364]LogOutputDevice: Error: 
+[2019.02.19-02.16.57:956][364]LogOutputDevice: Error:
 [2019.02.19-02.16.57:963][364]LogStats:             FDebug::EnsureFailed -  0.288 s
 [2019.02.19-02.16.57:963][364]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.145
 [2019.02.19-02.17.01:371][771]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1738,7 +1736,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: License is invalid:
 [2019.02.19-02.23.36:405][298]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.23.36:405][298]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.23.36:405][298]CompilerResultsLog: 
+[2019.02.19-02.23.36:405][298]CompilerResultsLog:
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: PickUp_Component.cpp (0:01.03 at +0:00)
@@ -1749,12 +1747,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: UE4Editor-PlayerMovement-7102.lib (0:00.15 at +0:02)
 [2019.02.19-02.23.36:405][298]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7102.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7102.exp
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.23.36:405][298]CompilerResultsLog: 
+[2019.02.19-02.23.36:405][298]CompilerResultsLog:
 [2019.02.19-02.23.36:405][298]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.23.36:405][298]CompilerResultsLog: 
+[2019.02.19-02.23.36:405][298]CompilerResultsLog:
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.23.36:405][298]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.23.36:405][298]CompilerResultsLog: 
+[2019.02.19-02.23.36:405][298]CompilerResultsLog:
 [2019.02.19-02.23.36:405][298]CompilerResultsLog: Total build time: 9.17 seconds (XGE executor: 2.93 seconds)
 [2019.02.19-02.23.36:405][298]LogMainFrame: MainFrame: Module compiling took 9.489 seconds
 [2019.02.19-02.23.36:471][298]LogClass: EElementType HotReload.
@@ -1789,17 +1787,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.23.50:848][784]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.23.50:849][784]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.23.50
 [2019.02.19-02.23.50:850][784]LogWorld: Bringing up level for play took: 0.001178
-[2019.02.19-02.23.50:862][784]LogOutputDevice: Warning: 
+[2019.02.19-02.23.50:862][784]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.23.51:145][784]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.283 s
 [2019.02.19-02.23.51:145][784]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.23.51:145][784]LogOutputDevice: Error: 
+[2019.02.19-02.23.51:145][784]LogOutputDevice: Error:
 [2019.02.19-02.23.51:145][784]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.23.51:145][784]LogOutputDevice: Error: 
-[2019.02.19-02.23.51:145][784]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.23.51:145][784]LogOutputDevice: Error:
+[2019.02.19-02.23.51:145][784]LogOutputDevice: Error: Stack:
 [2019.02.19-02.23.51:145][784]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.23.51:145][784]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.23.51:145][784]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1832,7 +1830,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.23.51:146][784]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.23.51:146][784]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.23.51:146][784]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.23.51:146][784]LogOutputDevice: Error: 
+[2019.02.19-02.23.51:146][784]LogOutputDevice: Error:
 [2019.02.19-02.23.51:149][784]LogStats:             FDebug::EnsureFailed -  0.286 s
 [2019.02.19-02.23.51:149][784]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.047
 [2019.02.19-02.24.01:604][ 37]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -1904,17 +1902,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.32.40:858][475]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.32.40:859][475]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.32.40
 [2019.02.19-02.32.40:860][475]LogWorld: Bringing up level for play took: 0.001136
-[2019.02.19-02.32.40:871][475]LogOutputDevice: Warning: 
+[2019.02.19-02.32.40:871][475]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.32.41:153][475]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.283 s
 [2019.02.19-02.32.41:153][475]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.32.41:153][475]LogOutputDevice: Error: 
+[2019.02.19-02.32.41:153][475]LogOutputDevice: Error:
 [2019.02.19-02.32.41:153][475]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.32.41:153][475]LogOutputDevice: Error: 
-[2019.02.19-02.32.41:153][475]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.32.41:153][475]LogOutputDevice: Error:
+[2019.02.19-02.32.41:153][475]LogOutputDevice: Error: Stack:
 [2019.02.19-02.32.41:153][475]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.32.41:153][475]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.32.41:154][475]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -1947,7 +1945,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.32.41:154][475]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.32.41:154][475]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.32.41:154][475]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.32.41:154][475]LogOutputDevice: Error: 
+[2019.02.19-02.32.41:154][475]LogOutputDevice: Error:
 [2019.02.19-02.32.41:160][475]LogStats:             FDebug::EnsureFailed -  0.289 s
 [2019.02.19-02.32.41:160][475]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.063
 [2019.02.19-02.32.44:868][918]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -2027,7 +2025,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: License is invalid:
 [2019.02.19-02.49.12:228][436]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.49.12:228][436]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.49.12:228][436]CompilerResultsLog: 
+[2019.02.19-02.49.12:228][436]CompilerResultsLog:
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: PickUp_Component.cpp (0:01.09 at +0:00)
@@ -2038,12 +2036,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: UE4Editor-PlayerMovement-9768.lib (0:00.17 at +0:02)
 [2019.02.19-02.49.12:228][436]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-9768.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-9768.exp
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.49.12:228][436]CompilerResultsLog: 
+[2019.02.19-02.49.12:228][436]CompilerResultsLog:
 [2019.02.19-02.49.12:228][436]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.49.12:228][436]CompilerResultsLog: 
+[2019.02.19-02.49.12:228][436]CompilerResultsLog:
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.49.12:228][436]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.49.12:228][436]CompilerResultsLog: 
+[2019.02.19-02.49.12:228][436]CompilerResultsLog:
 [2019.02.19-02.49.12:228][436]CompilerResultsLog: Total build time: 9.67 seconds (XGE executor: 3.03 seconds)
 [2019.02.19-02.49.12:228][436]LogMainFrame: MainFrame: Module compiling took 9.974 seconds
 [2019.02.19-02.49.12:288][436]LogClass: EElementType HotReload.
@@ -2067,17 +2065,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.15:549][761]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.49.15:551][761]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.49.15
 [2019.02.19-02.49.15:551][761]LogWorld: Bringing up level for play took: 0.001074
-[2019.02.19-02.49.15:563][761]LogOutputDevice: Warning: 
+[2019.02.19-02.49.15:563][761]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.49.15:848][761]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.285 s
 [2019.02.19-02.49.15:848][761]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.49.15:848][761]LogOutputDevice: Error: 
+[2019.02.19-02.49.15:848][761]LogOutputDevice: Error:
 [2019.02.19-02.49.15:848][761]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.49.15:848][761]LogOutputDevice: Error: 
-[2019.02.19-02.49.15:848][761]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.49.15:848][761]LogOutputDevice: Error:
+[2019.02.19-02.49.15:848][761]LogOutputDevice: Error: Stack:
 [2019.02.19-02.49.15:848][761]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.49.15:848][761]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.49.15:848][761]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2110,7 +2108,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.15:849][761]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.49.15:849][761]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.49.15:849][761]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.49.15:849][761]LogOutputDevice: Error: 
+[2019.02.19-02.49.15:849][761]LogOutputDevice: Error:
 [2019.02.19-02.49.15:853][761]LogStats:             FDebug::EnsureFailed -  0.289 s
 [2019.02.19-02.49.15:853][761]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.191
 [2019.02.19-02.49.19:273][165]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -2149,7 +2147,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: License is invalid:
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.49.55:950][ 67]CompilerResultsLog: 
+[2019.02.19-02.49.55:950][ 67]CompilerResultsLog:
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: PickUp_Component.cpp (0:01.00 at +0:00)
@@ -2160,12 +2158,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: UE4Editor-PlayerMovement-8890.lib (0:00.15 at +0:02)
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-8890.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-8890.exp
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.49.55:950][ 67]CompilerResultsLog: 
+[2019.02.19-02.49.55:950][ 67]CompilerResultsLog:
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.49.55:950][ 67]CompilerResultsLog: 
+[2019.02.19-02.49.55:950][ 67]CompilerResultsLog:
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.49.55:950][ 67]CompilerResultsLog: 
+[2019.02.19-02.49.55:950][ 67]CompilerResultsLog:
 [2019.02.19-02.49.55:950][ 67]CompilerResultsLog: Total build time: 5.30 seconds (XGE executor: 2.95 seconds)
 [2019.02.19-02.49.55:950][ 67]LogMainFrame: MainFrame: Module compiling took 5.577 seconds
 [2019.02.19-02.49.56:005][ 67]LogClass: EElementType HotReload.
@@ -2188,17 +2186,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.56:784][131]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.49.56:786][131]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.49.56
 [2019.02.19-02.49.56:786][131]LogWorld: Bringing up level for play took: 0.001268
-[2019.02.19-02.49.56:798][131]LogOutputDevice: Warning: 
+[2019.02.19-02.49.56:798][131]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.49.57:088][131]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.290 s
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.49.57:088][131]LogOutputDevice: Error: 
+[2019.02.19-02.49.57:088][131]LogOutputDevice: Error:
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.49.57:088][131]LogOutputDevice: Error: 
-[2019.02.19-02.49.57:088][131]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.49.57:088][131]LogOutputDevice: Error:
+[2019.02.19-02.49.57:088][131]LogOutputDevice: Error: Stack:
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2231,7 +2229,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.49.57:088][131]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.49.57:088][131]LogOutputDevice: Error: 
+[2019.02.19-02.49.57:088][131]LogOutputDevice: Error:
 [2019.02.19-02.49.57:099][131]LogStats:             FDebug::EnsureFailed -  0.301 s
 [2019.02.19-02.49.57:099][131]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.058
 [2019.02.19-02.50.01:669][672]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -2252,7 +2250,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: License is invalid:
 [2019.02.19-02.51.12:651][184]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.51.12:651][184]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.51.12:651][184]CompilerResultsLog: 
+[2019.02.19-02.51.12:651][184]CompilerResultsLog:
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: PickUp_Component.cpp (0:01.11 at +0:00)
@@ -2263,12 +2261,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: UE4Editor-PlayerMovement-6837.lib (0:00.15 at +0:02)
 [2019.02.19-02.51.12:651][184]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-6837.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-6837.exp
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.51.12:651][184]CompilerResultsLog: 
+[2019.02.19-02.51.12:651][184]CompilerResultsLog:
 [2019.02.19-02.51.12:651][184]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.51.12:651][184]CompilerResultsLog: 
+[2019.02.19-02.51.12:651][184]CompilerResultsLog:
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.51.12:651][184]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.51.12:651][184]CompilerResultsLog: 
+[2019.02.19-02.51.12:651][184]CompilerResultsLog:
 [2019.02.19-02.51.12:651][184]CompilerResultsLog: Total build time: 5.33 seconds (XGE executor: 3.04 seconds)
 [2019.02.19-02.51.12:651][184]LogMainFrame: MainFrame: Module compiling took 5.612 seconds
 [2019.02.19-02.51.12:704][184]LogClass: EElementType HotReload.
@@ -2291,17 +2289,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.51.14:168][322]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.51.14:170][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.51.14
 [2019.02.19-02.51.14:170][322]LogWorld: Bringing up level for play took: 0.001166
-[2019.02.19-02.51.14:182][322]LogOutputDevice: Warning: 
+[2019.02.19-02.51.14:182][322]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.51.14:469][322]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.286 s
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.51.14:469][322]LogOutputDevice: Error: 
+[2019.02.19-02.51.14:469][322]LogOutputDevice: Error:
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.51.14:469][322]LogOutputDevice: Error: 
-[2019.02.19-02.51.14:469][322]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.51.14:469][322]LogOutputDevice: Error:
+[2019.02.19-02.51.14:469][322]LogOutputDevice: Error: Stack:
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2334,7 +2332,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.51.14:469][322]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.51.14:469][322]LogOutputDevice: Error: 
+[2019.02.19-02.51.14:469][322]LogOutputDevice: Error:
 [2019.02.19-02.51.14:478][322]LogStats:             FDebug::EnsureFailed -  0.295 s
 [2019.02.19-02.51.14:478][322]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 0.443
 [2019.02.19-02.51.20:207][  5]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -2345,7 +2343,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.52.01:204][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.02.19-02.53.16:511][201]LogStaticMesh: Building static mesh Counter_polySurface48...
 [2019.02.19-02.53.16:763][201]LogStaticMesh: Built static mesh [0.25s] /Game/Art/EnvironmentArt/Furniture/Surfaces/Counter_polySurface48.Counter_polySurface48
-[2019.02.19-02.53.16:775][201]LogMaterial: Display: Missing cached shader map for material Counter1, compiling. 
+[2019.02.19-02.53.16:775][201]LogMaterial: Display: Missing cached shader map for material Counter1, compiling.
 [2019.02.19-02.53.16:843][201]LogShaderCompilers: Display: Shaders left to compile 31
 [2019.02.19-02.53.16:843][201]LogShaderCompilers: Display: Shaders left to compile 21
 [2019.02.19-02.53.16:843][201]LogShaderCompilers: Display: Shaders left to compile 11
@@ -2378,7 +2376,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.55.49:205][244]CompilerResultsLog: License is invalid:
 [2019.02.19-02.55.49:206][244]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.55.49:206][244]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.55.49:206][244]CompilerResultsLog: 
+[2019.02.19-02.55.49:206][244]CompilerResultsLog:
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: PickUp_Component.cpp (0:01.14 at +0:00)
@@ -2389,12 +2387,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: UE4Editor-PlayerMovement-4648.lib (0:00.14 at +0:02)
 [2019.02.19-02.55.49:206][244]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4648.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-4648.exp
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.55.49:206][244]CompilerResultsLog: 
+[2019.02.19-02.55.49:206][244]CompilerResultsLog:
 [2019.02.19-02.55.49:206][244]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.55.49:206][244]CompilerResultsLog: 
+[2019.02.19-02.55.49:206][244]CompilerResultsLog:
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.55.49:206][244]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.55.49:206][244]CompilerResultsLog: 
+[2019.02.19-02.55.49:206][244]CompilerResultsLog:
 [2019.02.19-02.55.49:206][244]CompilerResultsLog: Total build time: 5.41 seconds (XGE executor: 3.04 seconds)
 [2019.02.19-02.55.49:206][244]LogMainFrame: MainFrame: Module compiling took 5.711 seconds
 [2019.02.19-02.55.49:279][244]LogClass: EElementType HotReload.
@@ -2417,17 +2415,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.55.51:976][464]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.55.51:978][464]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.55.51
 [2019.02.19-02.55.51:978][464]LogWorld: Bringing up level for play took: 0.000998
-[2019.02.19-02.55.51:990][464]LogOutputDevice: Warning: 
+[2019.02.19-02.55.51:990][464]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.55.52:276][464]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.286 s
 [2019.02.19-02.55.52:276][464]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.55.52:276][464]LogOutputDevice: Error: 
+[2019.02.19-02.55.52:276][464]LogOutputDevice: Error:
 [2019.02.19-02.55.52:276][464]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.55.52:276][464]LogOutputDevice: Error: 
-[2019.02.19-02.55.52:277][464]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.55.52:276][464]LogOutputDevice: Error:
+[2019.02.19-02.55.52:277][464]LogOutputDevice: Error: Stack:
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2460,7 +2458,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.55.52:277][464]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.55.52:277][464]LogOutputDevice: Error: 
+[2019.02.19-02.55.52:277][464]LogOutputDevice: Error:
 [2019.02.19-02.55.52:284][464]LogStats:             FDebug::EnsureFailed -  0.294 s
 [2019.02.19-02.55.52:284][464]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 0.268
 [2019.02.19-02.56.04:848][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -2480,7 +2478,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: License is invalid:
 [2019.02.19-02.56.57:630][893]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.56.57:630][893]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.56.57:630][893]CompilerResultsLog: 
+[2019.02.19-02.56.57:630][893]CompilerResultsLog:
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: PickUp_Component.cpp (0:01.15 at +0:00)
@@ -2491,12 +2489,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: UE4Editor-PlayerMovement-370.lib (0:00.15 at +0:02)
 [2019.02.19-02.56.57:630][893]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-370.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-370.exp
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.56.57:630][893]CompilerResultsLog: 
+[2019.02.19-02.56.57:630][893]CompilerResultsLog:
 [2019.02.19-02.56.57:630][893]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.56.57:630][893]CompilerResultsLog: 
+[2019.02.19-02.56.57:630][893]CompilerResultsLog:
 [2019.02.19-02.56.57:630][893]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.56.57:630][893]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.56.57:630][893]CompilerResultsLog: 
+[2019.02.19-02.56.57:630][893]CompilerResultsLog:
 [2019.02.19-02.56.57:631][893]CompilerResultsLog: Total build time: 5.57 seconds (XGE executor: 3.12 seconds)
 [2019.02.19-02.56.57:631][893]LogMainFrame: MainFrame: Module compiling took 5.860 seconds
 [2019.02.19-02.56.57:696][893]LogClass: EElementType HotReload.
@@ -2519,17 +2517,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.56.59:336][ 21]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.56.59:338][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.56.59
 [2019.02.19-02.56.59:339][ 21]LogWorld: Bringing up level for play took: 0.001129
-[2019.02.19-02.56.59:350][ 21]LogOutputDevice: Warning: 
+[2019.02.19-02.56.59:350][ 21]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.56.59:646][ 21]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.295 s
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: 
+[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error:
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: 
-[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error:
+[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: Stack:
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2562,7 +2560,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error: 
+[2019.02.19-02.56.59:646][ 21]LogOutputDevice: Error:
 [2019.02.19-02.56.59:650][ 21]LogStats:             FDebug::EnsureFailed -  0.299 s
 [2019.02.19-02.56.59:650][ 21]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.363
 [2019.02.19-02.57.13:206][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -2582,7 +2580,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: License is invalid:
 [2019.02.19-02.57.33:232][606]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-02.57.33:232][606]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-02.57.33:232][606]CompilerResultsLog: 
+[2019.02.19-02.57.33:232][606]CompilerResultsLog:
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: PickUp_Component.cpp (0:01.03 at +0:00)
@@ -2593,12 +2591,12 @@ PlayerController.ClientRestart
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: UE4Editor-PlayerMovement-1201.lib (0:00.20 at +0:02)
 [2019.02.19-02.57.33:232][606]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1201.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1201.exp
 [2019.02.19-02.57.33:232][606]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-02.57.33:232][606]CompilerResultsLog: 
+[2019.02.19-02.57.33:232][606]CompilerResultsLog:
 [2019.02.19-02.57.33:233][606]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-02.57.33:233][606]CompilerResultsLog: 
+[2019.02.19-02.57.33:233][606]CompilerResultsLog:
 [2019.02.19-02.57.33:233][606]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-02.57.33:233][606]CompilerResultsLog:    - License is invalid
-[2019.02.19-02.57.33:233][606]CompilerResultsLog: 
+[2019.02.19-02.57.33:233][606]CompilerResultsLog:
 [2019.02.19-02.57.33:233][606]CompilerResultsLog: Total build time: 5.45 seconds (XGE executor: 3.03 seconds)
 [2019.02.19-02.57.33:233][606]LogMainFrame: MainFrame: Module compiling took 5.749 seconds
 [2019.02.19-02.57.33:297][606]LogClass: EElementType HotReload.
@@ -2621,17 +2619,17 @@ PlayerController.ClientRestart
 [2019.02.19-02.57.34:653][700]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-02.57.34:655][700]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-20.57.34
 [2019.02.19-02.57.34:656][700]LogWorld: Bringing up level for play took: 0.001203
-[2019.02.19-02.57.34:668][700]LogOutputDevice: Warning: 
+[2019.02.19-02.57.34:668][700]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-02.57.34:958][700]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.290 s
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-02.57.34:958][700]LogOutputDevice: Error: 
+[2019.02.19-02.57.34:958][700]LogOutputDevice: Error:
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-02.57.34:958][700]LogOutputDevice: Error: 
-[2019.02.19-02.57.34:958][700]LogOutputDevice: Error: Stack: 
+[2019.02.19-02.57.34:958][700]LogOutputDevice: Error:
+[2019.02.19-02.57.34:958][700]LogOutputDevice: Error: Stack:
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2664,7 +2662,7 @@ PlayerController.ClientRestart
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-02.57.34:958][700]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-02.57.34:958][700]LogOutputDevice: Error: 
+[2019.02.19-02.57.34:958][700]LogOutputDevice: Error:
 [2019.02.19-02.57.34:965][700]LogStats:             FDebug::EnsureFailed -  0.297 s
 [2019.02.19-02.57.34:965][700]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 0.955
 [2019.02.19-02.57.48:648][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -2843,7 +2841,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: License is invalid:
 [2019.02.19-03.01.15:523][312]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-03.01.15:523][312]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-03.01.15:523][312]CompilerResultsLog: 
+[2019.02.19-03.01.15:523][312]CompilerResultsLog:
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: PickUp_Component.cpp (0:01.06 at +0:00)
@@ -2854,12 +2852,12 @@ PlayerController.ClientRestart
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: UE4Editor-PlayerMovement-1696.lib (0:00.17 at +0:02)
 [2019.02.19-03.01.15:523][312]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1696.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-1696.exp
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-03.01.15:523][312]CompilerResultsLog: 
+[2019.02.19-03.01.15:523][312]CompilerResultsLog:
 [2019.02.19-03.01.15:523][312]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-03.01.15:523][312]CompilerResultsLog: 
+[2019.02.19-03.01.15:523][312]CompilerResultsLog:
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-03.01.15:523][312]CompilerResultsLog:    - License is invalid
-[2019.02.19-03.01.15:523][312]CompilerResultsLog: 
+[2019.02.19-03.01.15:523][312]CompilerResultsLog:
 [2019.02.19-03.01.15:523][312]CompilerResultsLog: Total build time: 5.60 seconds (XGE executor: 3.14 seconds)
 [2019.02.19-03.01.15:523][312]LogMainFrame: MainFrame: Module compiling took 5.906 seconds
 [2019.02.19-03.01.15:593][312]LogClass: EElementType HotReload.
@@ -2882,17 +2880,17 @@ PlayerController.ClientRestart
 [2019.02.19-03.01.20:750][797]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-03.01.20:752][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-21.01.20
 [2019.02.19-03.01.20:752][797]LogWorld: Bringing up level for play took: 0.001017
-[2019.02.19-03.01.20:764][797]LogOutputDevice: Warning: 
+[2019.02.19-03.01.20:764][797]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-03.01.21:053][797]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.288 s
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-03.01.21:053][797]LogOutputDevice: Error: 
+[2019.02.19-03.01.21:053][797]LogOutputDevice: Error:
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-03.01.21:053][797]LogOutputDevice: Error: 
-[2019.02.19-03.01.21:053][797]LogOutputDevice: Error: Stack: 
+[2019.02.19-03.01.21:053][797]LogOutputDevice: Error:
+[2019.02.19-03.01.21:053][797]LogOutputDevice: Error: Stack:
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -2925,7 +2923,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-03.01.21:053][797]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-03.01.21:053][797]LogOutputDevice: Error: 
+[2019.02.19-03.01.21:053][797]LogOutputDevice: Error:
 [2019.02.19-03.01.21:062][797]LogStats:             FDebug::EnsureFailed -  0.297 s
 [2019.02.19-03.01.21:062][797]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.065
 [2019.02.19-03.01.28:281][654]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP2_2
@@ -2947,7 +2945,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: License is invalid:
 [2019.02.19-03.02.07:318][877]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-03.02.07:318][877]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-03.02.07:318][877]CompilerResultsLog: 
+[2019.02.19-03.02.07:318][877]CompilerResultsLog:
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: PickUp_Component.cpp (0:00.98 at +0:00)
@@ -2958,12 +2956,12 @@ PlayerController.ClientRestart
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: UE4Editor-PlayerMovement-7779.lib (0:00.17 at +0:02)
 [2019.02.19-03.02.07:318][877]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7779.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7779.exp
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-03.02.07:318][877]CompilerResultsLog: 
+[2019.02.19-03.02.07:318][877]CompilerResultsLog:
 [2019.02.19-03.02.07:318][877]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-03.02.07:318][877]CompilerResultsLog: 
+[2019.02.19-03.02.07:318][877]CompilerResultsLog:
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-03.02.07:318][877]CompilerResultsLog:    - License is invalid
-[2019.02.19-03.02.07:318][877]CompilerResultsLog: 
+[2019.02.19-03.02.07:318][877]CompilerResultsLog:
 [2019.02.19-03.02.07:318][877]CompilerResultsLog: Total build time: 5.39 seconds (XGE executor: 2.94 seconds)
 [2019.02.19-03.02.07:318][877]LogMainFrame: MainFrame: Module compiling took 5.691 seconds
 [2019.02.19-03.02.07:383][877]LogClass: EElementType HotReload.
@@ -2986,17 +2984,17 @@ PlayerController.ClientRestart
 [2019.02.19-03.02.08:813][979]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-03.02.08:815][979]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-21.02.08
 [2019.02.19-03.02.08:815][979]LogWorld: Bringing up level for play took: 0.000991
-[2019.02.19-03.02.08:827][979]LogOutputDevice: Warning: 
+[2019.02.19-03.02.08:827][979]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-03.02.09:120][979]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.294 s
 [2019.02.19-03.02.09:120][979]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-03.02.09:120][979]LogOutputDevice: Error: 
+[2019.02.19-03.02.09:120][979]LogOutputDevice: Error:
 [2019.02.19-03.02.09:120][979]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-03.02.09:120][979]LogOutputDevice: Error: 
-[2019.02.19-03.02.09:120][979]LogOutputDevice: Error: Stack: 
+[2019.02.19-03.02.09:120][979]LogOutputDevice: Error:
+[2019.02.19-03.02.09:120][979]LogOutputDevice: Error: Stack:
 [2019.02.19-03.02.09:120][979]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.02.09:121][979]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.02.09:121][979]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -3029,7 +3027,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.02.09:121][979]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-03.02.09:121][979]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-03.02.09:121][979]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-03.02.09:121][979]LogOutputDevice: Error: 
+[2019.02.19-03.02.09:121][979]LogOutputDevice: Error:
 [2019.02.19-03.02.09:127][979]LogStats:             FDebug::EnsureFailed -  0.300 s
 [2019.02.19-03.02.09:127][979]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test 1.133
 [2019.02.19-03.02.18:929][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
@@ -3069,7 +3067,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.03.12:645][379]CompilerResultsLog: License is invalid:
 [2019.02.19-03.03.12:645][379]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-03.03.12:646][379]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-03.03.12:646][379]CompilerResultsLog: 
+[2019.02.19-03.03.12:646][379]CompilerResultsLog:
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: PickUp_Component.cpp (0:00.98 at +0:00)
@@ -3080,12 +3078,12 @@ PlayerController.ClientRestart
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: UE4Editor-PlayerMovement-6165.lib (0:00.21 at +0:02)
 [2019.02.19-03.03.12:646][379]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-6165.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-6165.exp
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-03.03.12:646][379]CompilerResultsLog: 
+[2019.02.19-03.03.12:646][379]CompilerResultsLog:
 [2019.02.19-03.03.12:646][379]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-03.03.12:646][379]CompilerResultsLog: 
+[2019.02.19-03.03.12:646][379]CompilerResultsLog:
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-03.03.12:646][379]CompilerResultsLog:    - License is invalid
-[2019.02.19-03.03.12:646][379]CompilerResultsLog: 
+[2019.02.19-03.03.12:646][379]CompilerResultsLog:
 [2019.02.19-03.03.12:646][379]CompilerResultsLog: Total build time: 6.07 seconds (XGE executor: 2.96 seconds)
 [2019.02.19-03.03.12:646][379]LogMainFrame: MainFrame: Module compiling took 6.373 seconds
 [2019.02.19-03.03.12:710][379]LogClass: EElementType HotReload.
@@ -3108,17 +3106,17 @@ PlayerController.ClientRestart
 [2019.02.19-03.03.17:496][821]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-03.03.17:498][821]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-21.03.17
 [2019.02.19-03.03.17:498][821]LogWorld: Bringing up level for play took: 0.001028
-[2019.02.19-03.03.17:511][821]LogOutputDevice: Warning: 
+[2019.02.19-03.03.17:511][821]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-03.03.17:803][821]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.292 s
 [2019.02.19-03.03.17:803][821]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-03.03.17:803][821]LogOutputDevice: Error: 
+[2019.02.19-03.03.17:803][821]LogOutputDevice: Error:
 [2019.02.19-03.03.17:803][821]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-03.03.17:803][821]LogOutputDevice: Error: 
-[2019.02.19-03.03.17:803][821]LogOutputDevice: Error: Stack: 
+[2019.02.19-03.03.17:803][821]LogOutputDevice: Error:
+[2019.02.19-03.03.17:803][821]LogOutputDevice: Error: Stack:
 [2019.02.19-03.03.17:803][821]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.03.17:803][821]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.03.17:803][821]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -3151,7 +3149,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.03.17:804][821]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-03.03.17:804][821]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-03.03.17:804][821]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-03.03.17:804][821]LogOutputDevice: Error: 
+[2019.02.19-03.03.17:804][821]LogOutputDevice: Error:
 [2019.02.19-03.03.17:814][821]LogStats:             FDebug::EnsureFailed -  0.303 s
 [2019.02.19-03.03.17:814][821]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.177
 [2019.02.19-03.03.27:038][921]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -3172,7 +3170,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.04.27:472][568]CompilerResultsLog: License is invalid:
 [2019.02.19-03.04.27:472][568]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
 [2019.02.19-03.04.27:472][568]CompilerResultsLog:     This build will run in standalone mode.
-[2019.02.19-03.04.27:472][568]CompilerResultsLog: 
+[2019.02.19-03.04.27:472][568]CompilerResultsLog:
 [2019.02.19-03.04.27:472][568]CompilerResultsLog: -------------------------------------------------------------------------------
 [2019.02.19-03.04.27:472][568]CompilerResultsLog: --------------------Project: Default-------------------------------------------
 [2019.02.19-03.04.27:473][568]CompilerResultsLog: PickUp_Component.cpp (0:00.98 at +0:00)
@@ -3183,12 +3181,12 @@ PlayerController.ClientRestart
 [2019.02.19-03.04.27:473][568]CompilerResultsLog: UE4Editor-PlayerMovement-7566.lib (0:00.15 at +0:02)
 [2019.02.19-03.04.27:473][568]CompilerResultsLog:    Creating library C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7566.lib and object C:\Users\adan.benitez\source\repos\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7566.exp
 [2019.02.19-03.04.27:473][568]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.02.19-03.04.27:473][568]CompilerResultsLog: 
+[2019.02.19-03.04.27:473][568]CompilerResultsLog:
 [2019.02.19-03.04.27:473][568]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.02.19-03.04.27:473][568]CompilerResultsLog: 
+[2019.02.19-03.04.27:473][568]CompilerResultsLog:
 [2019.02.19-03.04.27:473][568]CompilerResultsLog: 1 build system warning(s):
 [2019.02.19-03.04.27:473][568]CompilerResultsLog:    - License is invalid
-[2019.02.19-03.04.27:473][568]CompilerResultsLog: 
+[2019.02.19-03.04.27:473][568]CompilerResultsLog:
 [2019.02.19-03.04.27:473][568]CompilerResultsLog: Total build time: 5.73 seconds (XGE executor: 2.84 seconds)
 [2019.02.19-03.04.27:473][568]LogMainFrame: MainFrame: Module compiling took 6.022 seconds
 [2019.02.19-03.04.27:536][568]LogClass: EElementType HotReload.
@@ -3211,17 +3209,17 @@ PlayerController.ClientRestart
 [2019.02.19-03.04.29:419][719]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
 [2019.02.19-03.04.29:421][719]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PickUp_Test.PickUp_Test up for play (max tick rate 0) at 2019.02.18-21.04.29
 [2019.02.19-03.04.29:421][719]LogWorld: Bringing up level for play took: 0.001117
-[2019.02.19-03.04.29:433][719]LogOutputDevice: Warning: 
+[2019.02.19-03.04.29:433][719]LogOutputDevice: Warning:
 
 Script Stack:
 PlayerController.ClientRestart
 
 [2019.02.19-03.04.29:727][719]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.293 s
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: === Handled ensure: ===
-[2019.02.19-03.04.29:727][719]LogOutputDevice: Error: 
+[2019.02.19-03.04.29:727][719]LogOutputDevice: Error:
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
-[2019.02.19-03.04.29:727][719]LogOutputDevice: Error: 
-[2019.02.19-03.04.29:727][719]LogOutputDevice: Error: Stack: 
+[2019.02.19-03.04.29:727][719]LogOutputDevice: Error:
+[2019.02.19-03.04.29:727][719]LogOutputDevice: Error: Stack:
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff92f7671f6 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff92f4a0c92 UE4Editor-Core.dll!UnknownFunction []
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff92f4bb356 UE4Editor-Core.dll!UnknownFunction []
@@ -3254,7 +3252,7 @@ PlayerController.ClientRestart
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff64be55aaa UE4Editor.exe!UnknownFunction []
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff962c081f4 KERNEL32.DLL!UnknownFunction []
 [2019.02.19-03.04.29:727][719]LogOutputDevice: Error: [Callstack] 0x00007ff9650ca251 ntdll.dll!UnknownFunction []
-[2019.02.19-03.04.29:727][719]LogOutputDevice: Error: 
+[2019.02.19-03.04.29:727][719]LogOutputDevice: Error:
 [2019.02.19-03.04.29:733][719]LogStats:             FDebug::EnsureFailed -  0.300 s
 [2019.02.19-03.04.29:733][719]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PickUp_Test -0.254
 [2019.02.19-03.04.52:049][389]LogTemp: Warning: Line Trace Hit: Ele_Fire_BP_2
@@ -3266,3 +3264,508 @@ PlayerController.ClientRestart
 [2019.02.19-03.06.27:768][849]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.02.19-03.06.27:859][849]LogSavePackage: Moving '../../../../../../Users/adan.benitez/source/repos/AlchemyUnreal/PlayerMovement/Saved/PickUp_Test6AD1D14242D1B17937309AA3A1D06FB6.tmp' to '../../../../../../Users/adan.benitez/source/repos/AlchemyUnreal/PlayerMovement/Content/Levels/PickUp_Test.umap'
 [2019.02.19-03.06.30:121][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.15-16.52.54:406][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.15-16.52.54:407][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.15-16.52.54:426][  0]LogHAL: Display: Platform has ~ 16 GB [17158975488 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.15-16.52.54:426][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.15-16.52.54:426][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.15-16.52.54:427][  0]LogInit: Computer: PLANET_EXPRESS
+[2019.02.15-16.52.54:427][  0]LogInit: User: Adan
+[2019.02.15-16.52.54:427][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.15-16.52.54:427][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.15-16.52.54:427][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.15-16.52.54:427][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.15-16.52.54:427][  0]LogMemory: Process Physical Memory: 101.85 MB used, 101.85 MB peak
+[2019.02.15-16.52.54:427][  0]LogMemory: Process Virtual Memory: 96.47 MB used, 96.47 MB peak
+[2019.02.15-16.52.54:427][  0]LogMemory: Physical Memory: 8490.94 MB used,  7873.13 MB free, 16364.07 MB total
+[2019.02.15-16.52.54:427][  0]LogMemory: Virtual Memory: 4648.40 MB used,  7873.13 MB free, 134217728.00 MB total
+[2019.02.15-16.52.54:457][  0]LogInit: Using OS detected language (en-US).
+[2019.02.15-16.52.54:457][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.15-16.52.54:458][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.15-16.52.54:924][  0]LogStreaming: Display: Took  0.466s to InitEngineTextLocalization.
+[2019.02.15-16.52.54:924][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.15-16.52.54:996][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.15-16.52.54:996][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.15-16.52.55:289][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.15-16.52.55:289][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.15-16.52.55:363][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2019.02.15-16.52.55:363][  0]LogD3D11RHI:       2017/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.15-16.52.55:366][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.15-16.52.55:366][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.15-16.52.55:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.15-16.52.55:376][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.15-16.52.55:376][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.15-16.52.55:376][  0]LogWindows: EnumDisplayDevices:
+[2019.02.15-16.52.55:376][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2019.02.15-16.52.55:377][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2019.02.15-16.52.55:377][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.15-16.52.55:377][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.15-16.52.55:378][  0]LogWindows: DebugString: FoundDriverCount:4
+[2019.02.15-16.52.55:378][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2019.02.15-16.52.55:378][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.02.15-16.52.55:378][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.02.15-16.52.55:378][  0]LogRHI: Texture pool is 1412 MB (70% of 2017 MB)
+[2019.02.15-16.52.55:427][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.15-16.52.55:447][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.15-16.52.55:502][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/7956/).
+[2019.02.15-16.52.55:503][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adan/AppData/Local/Temp/UnrealShaderWorkingDir/79AE0DBE429C59C553CA38AD81C63C5A/'.
+[2019.02.15-16.52.55:882][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.15-16.52.55:900][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.15-16.52.55:921][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.15-16.52.55:940][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.15-16.52.55:959][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.15-16.52.55:978][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.15-16.52.55:996][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.15-16.52.56:021][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.15-16.52.56:032][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.15-16.52.56:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-16.52.56:139][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.15-16.52.56:217][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.15-16.52.56:217][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.15-16.52.56:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.15-16.52.56:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.15-16.52.56:267][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.15-16.52.56:283][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.15-16.52.56:300][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.15-16.52.56:318][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.15-16.52.56:329][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.15-16.52.56:330][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.15-16.52.56:427][  0]LogXGEController: Cleaning working directory: C:/Users/Adan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.15-16.52.56:427][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.15-16.52.56:427][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.15-16.52.56:427][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.15-16.52.57:415][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.15-16.52.57:498][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Adan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.15-16.52.57:499][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Adan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.15-16.52.57:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.15-16.52.57:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.15-16.52.57:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.15-16.52.57:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.15-16.52.57:515][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.15-16.52.57:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.15-16.52.57:528][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.15-16.52.57:528][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.15-16.52.57:550][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.15-16.52.57:552][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.15-16.52.57:553][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.15-16.52.57:640][  0]LogAssetRegistry: FAssetRegistry took 0.0283 seconds to start up
+[2019.02.15-16.52.58:190][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.15-16.52.58:369][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.15-16.52.58:374][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.15-16.52.58:374][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.15-16.52.58:374][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.15-16.52.58:374][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.15-16.52.58:397][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2019.02.15-16.52.59:071][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.170345 seconds
+[2019.02.15-16.52.59:080][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.15-16.52.59:080][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.15-16.52.59:080][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.15-16.53.00:177][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.15-16.53.00:191][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.15-16.53.00:361][  0]SourceControl: Source control is disabled
+[2019.02.15-16.53.00:361][  0]SourceControl: Source control is disabled
+[2019.02.15-16.53.00:362][  0]SourceControl: Source control is disabled
+[2019.02.15-16.53.00:363][  0]SourceControl: Source control is disabled
+[2019.02.15-16.53.00:538][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.15-16.53.00:678][  0]LogOcInput: OculusInput pre-init called
+[2019.02.15-16.53.00:761][  0]LogEngine: Initializing Engine...
+[2019.02.15-16.53.00:762][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.15-16.53.00:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.15-16.53.00:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.15-16.53.00:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.15-16.53.00:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.15-16.53.01:019][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.15-16.53.01:044][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.15-16.53.01:079][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.15-16.53.01:106][  0]LogInit: FAudioDevice initialized.
+[2019.02.15-16.53.01:106][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.15-16.53.01:246][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/Adan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.15-16.53.01:256][  0]LogInit: Texture streaming: Enabled
+[2019.02.15-16.53.01:289][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.15-16.53.01:289][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={CCE476CC-4946-BF10-130F-5B88AE82EC47}
+[2019.02.15-16.53.01:313][  0]LogInit: Transaction tracking system initialized
+[2019.02.15-16.53.01:361][  0]BlueprintLog: New page: Editor Load
+[2019.02.15-16.53.01:511][  0]LocalizationService: Localization service is disabled
+[2019.02.15-16.53.01:851][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.15-16.53.01:851][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.15-16.53.01:851][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.15-16.53.01:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.15-16.53.01:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.15-16.53.01:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.15-16.53.01:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.15-16.53.01:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/' took 0.02s
+[2019.02.15-16.53.02:034][  0]SourceControl: Source control is disabled
+[2019.02.15-16.53.02:034][  0]Cmd: MAP LOAD FILE="C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.15-16.53.02:035][  0]LightingResults: New page: Lighting Build
+[2019.02.15-16.53.02:040][  0]MapCheck: New page: Map Check
+[2019.02.15-16.53.02:040][  0]LightingResults: New page: Lighting Build
+[2019.02.15-16.53.02:486][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.15-16.53.02:495][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.15-16.53.02:522][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.15-16.53.02:607][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.919ms to complete.
+[2019.02.15-16.53.02:607][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.573
+[2019.02.15-16.53.02:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-16.53.02:778][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-16.53.02:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-16.53.02:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-16.53.02:814][  0]LogCollectionManager: Loaded 0 collections in 0.004537 seconds
+[2019.02.15-16.53.02:865][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
+[2019.02.15-16.53.02:865][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Developers/Adan/Collections/' took 0.01s
+[2019.02.15-16.53.02:865][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adan/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
+[2019.02.15-16.53.02:865][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.15-16.53.02:882][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2588 classes and 610 folders.
+[2019.02.15-16.53.02:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.15-16.53.02:948][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.15-16.53.03:022][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.15-16.53.03:030][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.15-16.53.03:036][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.15-16.53.03:036][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.15-16.53.03:162][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.15-16.53.03:309][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.15-16.53.03:309][  0]LogLoad: (Engine Initialization) Total time: 11.12 seconds
+[2019.02.15-16.53.03:309][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.15-16.53.03:342][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.15-16.53.03:377][  1]LogAssetRegistry: Asset discovery search completed in 5.7602 seconds
+[2019.02.15-16.53.03:381][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.15-16.53.03:381][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000397 seconds (updated 0 objects)
+[2019.02.15-16.53.04:365][ 88]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.15-17.21.05:440][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.15-17.21.05:703][ 25]LogSlate: Window 'PlayerMovement - Unreal Editor' being destroyed
+[2019.02.15-17.21.05:919][ 26]Cmd: QUIT_EDITOR
+[2019.02.15-17.21.05:937][ 26]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.15-17.21.05:985][ 26]LogExit: Preparing to exit.
+[2019.02.15-17.21.07:128][ 26]LogExit: Editor shut down
+[2019.02.15-17.21.07:129][ 26]LogExit: Transaction tracking system shut down
+[2019.02.15-17.21.07:665][ 26]LogExit: Object subsystem successfully closed.
+[2019.02.15-17.21.07:684][ 26]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.15-17.21.07:691][ 26]LogD3D11RHI: Shutdown
+[2019.02.15-17.21.07:691][ 26]LogD3D11RHI: CleanupD3DDevice
+[2019.02.15-17.21.07:693][ 26]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.15-17.21.07:722][ 26]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.02.15-17.21.07:722][ 26]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.02.15-17.21.07:723][ 26]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.02.15-17.21.07:724][ 26]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.02.15-17.21.07:725][ 26]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.02.15-17.21.07:726][ 26]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.02.15-17.21.08:520][ 26]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.02.15-17.21.08:521][ 26]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.02.15-17.21.08:522][ 26]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.02.15-17.21.08:522][ 26]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.02.15-17.21.08:523][ 26]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.02.15-17.21.08:523][ 26]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.02.15-17.21.08:523][ 26]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.02.15-17.21.08:523][ 26]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.02.15-17.21.08:523][ 26]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.02.15-17.21.08:590][ 26]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.02.15-17.21.08:591][ 26]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.02.15-17.21.08:592][ 26]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.02.15-17.21.08:711][ 26]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.02.15-17.21.08:712][ 26]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.02.15-17.21.08:715][ 26]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.02.15-17.21.08:716][ 26]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module PlayerMovement (300)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.15-17.21.08:717][ 26]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.15-17.21.08:818][ 26]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.15-17.21.08:918][ 26]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.15-17.21.08:919][ 26]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.15-17.21.08:919][ 26]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.15-17.21.08:919][ 26]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.15-17.21.08:919][ 26]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.15-17.21.08:919][ 26]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.15-17.21.08:921][ 26]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.02.15-17.21.08:922][ 26]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.02.15-17.21.08:928][ 26]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.02.15-17.21.08:928][ 26]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.02.15-17.21.08:928][ 26]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.02.15-17.21.14:935][ 26]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.02.15-17.21.14:936][ 26]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.02.15-17.21.14:937][ 26]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.02.15-17.21.14:937][ 26]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.02.15-17.21.14:940][ 26]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.02.15-17.21.14:941][ 26]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.02.15-17.21.14:942][ 26]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.02.15-17.21.14:942][ 26]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.02.15-17.21.14:942][ 26]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.02.15-17.21.15:019][ 26]LogDerivedDataCache: Shutdown
+[2019.02.15-17.21.15:019][ 26]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.02.15-17.21.15:019][ 26]LogXGEController: Cleaning working directory: C:/Users/Adan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.02.15-17.21.15:020][ 26]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.02.15-17.21.15:021][ 26]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.02.15-17.21.15:022][ 26]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.02.15-17.21.15:023][ 26]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.02.15-17.21.15:024][ 26]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.02.15-17.21.15:024][ 26]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.02.15-17.21.15:036][ 26]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.02.15-17.21.15:037][ 26]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.02.15-17.21.15:037][ 26]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.02.15-17.21.15:057][ 26]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.02.15-17.21.15:057][ 26]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.15-17.21.15:057][ 26]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B109464CF-41D5-0208-9ACC-D4AB7CCE857C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=87a0385c4009a9baa8d3a69c3f69b006%7C9b0b236950a64f6abe6abbee39a95555%7C48ac3c41-2fa5-499b-8355-0b56bf8e6bcc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.15-17.21.15:064][ 26]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.02.15-17.21.15:065][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.02.15-17.21.15:066][ 26]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.15-17.21.15:066][ 26]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.15-17.21.15:067][ 26]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.15-17.21.15:068][ 26]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.15-17.21.15:074][ 26]LogExit: Exiting.
+[2019.02.15-17.21.15:082][ 26]Log file closed, 02/15/19 11:21:15

@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Elements/Ele_Ice.h"
+#include "Runtime/Engine/Classes/Components/StaticMeshComponent.h"
+#include "Ele_Fire.h"
 #include "Unstable.h"
 
 AEle_Ice::AEle_Ice()
@@ -23,11 +25,23 @@ void AEle_Ice::BeginPlay()
 
 void AEle_Ice::Tick(float DeltaTime)
 {
+	if (ToBeDestroyed && timer < 0)
+	{
+		GetWorld()->DestroyActor(ToBeDestroyed);
+		Destroy();
+		timer = 0;
+		GetWorld()->ForceGarbageCollection(true);
+	}
+	else
+	{
+		timer -= DeltaTime;
+	}
 }
 
 void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Ice Reaction Hit"));
+	TArray<USceneComponent*> children;
 
 	switch (OtherEleEnum)
 	{
@@ -35,9 +49,27 @@ void AEle_Ice::Reaction_Implementation(const EElementType OtherEleEnum, AActor* 
 		break;
 
 	case EElementType::ET_Fire:
-		UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
-		GetWorld()->DestroyActor(OtherChemical);
-		Destroy();
+		timer = 2;
+
+		//OtherChemical->GetDefaultAttachComponent()->GetAttachChildren
+		//UE_LOG(LogTemp, Warning, TEXT("Message: Root Comp name > %s"), *(GetRootComponent()->GetName()));
+		//children = GetRootComponent()->GetAttachChildren();
+		//UE_LOG(LogTemp, Error, TEXT("%i children comps"), (children.Num()));
+
+		//for (int16 i = 0; i < children.Num(); i++)
+		//{
+		//	UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
+
+		//	if (mesh)
+		//	{
+		//		UE_LOG(LogTemp, Warning, TEXT("Message: Ice Hit Fire"));
+		//		mesh->SetSimulatePhysics(false);
+		//		mesh->SetVisibility(true);
+		//	}
+		//}
+		OtherChemical->SetActorHiddenInGame(true);
+
+		ToBeDestroyed = OtherChemical;
 		break;
 
 	case EElementType::ET_Ice:
