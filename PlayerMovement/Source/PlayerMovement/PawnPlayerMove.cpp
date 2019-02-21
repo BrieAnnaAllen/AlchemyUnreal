@@ -23,15 +23,15 @@ APawnPlayerMove::APawnPlayerMove()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	// Create components
-	//Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
-	Cube = CreateDefaultSubobject<UBoxComponent>("Cube");
+	Capsule = CreateDefaultSubobject<UCapsuleComponent>("Capsule");
+	//Cube = CreateDefaultSubobject<UBoxComponent>("Cube");
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("Static Mesh");
 	SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Skeletal Mesh");
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 	
 	// Make sure main collider is Root
-	RootComponent = Cast<USceneComponent>(Cube);
+	RootComponent = Cast<USceneComponent>(Capsule);
 	//RootComponent = Cast<USceneComponent>(Capsule);
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = CameraDistance;
@@ -57,13 +57,16 @@ void APawnPlayerMove::BeginPlay()
 	Super::BeginPlay();
 	// Make sure to Simulate Physics
 
-	//Capsule->SetSimulatePhysics(true);
-	//Capsule->SetEnableGravity(true);
-	Cube->SetSimulatePhysics(true);
-	Cube->SetEnableGravity(true);
+	Capsule->SetSimulatePhysics(true);
+	Capsule->SetEnableGravity(true);
+	//Cube->SetSimulatePhysics(true);
+	//Cube->SetEnableGravity(true);
 	// Automatically set Collision Preset to Pawn
 	//Capsule->SetCollisionProfileName("Pawn");
-	Cube->SetCollisionProfileName("Pawn");
+	Capsule->SetCollisionProfileName("Pawn");
+	Capsule->BodyInstance.bLockXRotation = true;
+	Capsule->BodyInstance.bLockYRotation = true;
+	Capsule->BodyInstance.SetDOFLock(EDOFMode::SixDOF);
 
 	SkeletalMesh->BodyInstance.bLockXRotation = true;
 	SkeletalMesh->BodyInstance.bLockYRotation = true;
@@ -247,7 +250,7 @@ void APawnPlayerMove::AddControllerYawInput(float Val)
  // Grabs the Pitch input class that is already built into Unreal
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
-	Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	//Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
 	float CameraPitch = GetController()->GetControlRotation().Pitch;
 	
 	/*if ((CameraPitch > 335 && CameraPitch < 361) || (CameraPitch > -1 && CameraPitch < 17))
