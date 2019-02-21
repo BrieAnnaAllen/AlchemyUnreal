@@ -17,7 +17,7 @@ UPickUp_Component::UPickUp_Component()
 void UPickUp_Component::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	FindPhysicsHandleComponent();
 
 	SetupInputComponent();
@@ -62,7 +62,7 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	FRotator PlayerViewPointRotation;
 
 	//get player's location and rotation
-	PlayerViewPointLocation = GetOwner()->GetActorLocation()+FVector(0,0,40);
+	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(0, 0, 40);
 	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
 
 	//Get the player's location and camera rotation
@@ -70,17 +70,17 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 		PlayerViewPointLocation,
 		PlayerViewPointRotation);*/
 
-	//Get the camera's location and rotation
-	/*GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-				 PlayerViewPointLocation,
-				 PlayerViewPointRotation
-			);*/
+		//Get the camera's location and rotation
+		/*GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+					 PlayerViewPointLocation,
+					 PlayerViewPointRotation
+				);*/
 
 
 
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
 	///Draw red trace in the world to visualize
-	/*DrawDebugLine(
+	DrawDebugLine(
 		GetWorld(),
 		PlayerViewPointLocation,
 		LineTraceEnd,
@@ -88,8 +88,8 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 		false,
 		0.f,
 		0.f,
-		10
-	);*/
+		2.0f
+	);
 
 	///Setup query parameters
 	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
@@ -117,12 +117,12 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 void UPickUp_Component::PickUp()
 {
 	//Try and reach any actors with physics body collision channel set
-	auto HitResult=GetFirstPhysicsBodyInReach();
+	auto HitResult = GetFirstPhysicsBodyInReach();
 	auto ComponentToGrab = HitResult.GetComponent();
 	auto ActorHit = HitResult.GetActor();
 	//If we hit something then attach a physics handle
 	//attach physics handle
-	if (ActorHit && !pickedUp )
+	if (ActorHit && !pickedUp)
 	{
 		pickedUp = true;
 		PhysicsHandle->GrabComponent(
@@ -137,12 +137,11 @@ void UPickUp_Component::PickUp()
 		ActorHit->SetActorEnableCollision(false);
 
 		/*Cast<UPrimitiveComponent>(ActorHit->GetRootComponent())->SetMobility(EComponentMobility::Movable);
-
 		ActorHit->AttachToComponent(GetOwner()->GetRootComponent()->GetChildComponent(1),
 			FAttachmentTransformRules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true), FName(TEXT("R_HandSocket")));*/
 
-		//ItemToAttach->AttachToComponent(SkeletalMesh, FAttachmentTransformRules(EAttachmentRule::Location, EAttachmentRule::Rotation, EAttachmentRule::Scale, bool for welding into bodies),  
-		//SocketName);
+			//ItemToAttach->AttachToComponent(SkeletalMesh, FAttachmentTransformRules(EAttachmentRule::Location, EAttachmentRule::Rotation, EAttachmentRule::Scale, bool for welding into bodies),  
+			//SocketName);
 		Object = ActorHit;
 
 		//UE_LOG(LogTemp, Warning, TEXT("Owner: %s"), (ActorHit->GetAttachParentSocketName().ToString()));
@@ -176,18 +175,18 @@ void UPickUp_Component::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	GetReachLineEnd();
-	
+
 	//if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		
+
 		//move the object the we're holding
-		
+
 		//up
-			PhysicsHandle->SetTargetLocation((GetOwner()->ActorToWorld().GetLocation()+FVector(0,0,60))+ GetOwner()->GetActorRotation().Vector()*30 );
-		
+		PhysicsHandle->SetTargetLocation((GetOwner()->ActorToWorld().GetLocation() + FVector(0, 0, 60)) + GetOwner()->GetActorRotation().Vector() * 30);
+
 	}
-	
+
 }
 
 FVector UPickUp_Component::GetReachLineEnd()
@@ -215,4 +214,3 @@ FVector UPickUp_Component::GetReachLineEnd()
 	return HoldPoint;
 
 }
-
