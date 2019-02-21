@@ -31,8 +31,8 @@ APawnPlayerMove::APawnPlayerMove()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 	
 	// Make sure main collider is Root
-	//RootComponent = Cast<USceneComponent>(Capsule);
 	RootComponent = Cast<USceneComponent>(Capsule);
+	//RootComponent = Cast<USceneComponent>(Capsule);
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = CameraDistance;
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
@@ -44,8 +44,6 @@ APawnPlayerMove::APawnPlayerMove()
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 	StaticMesh->SetupAttachment(RootComponent);
 	SkeletalMesh->SetupAttachment(RootComponent);
-	Capsule->BodyInstance.bLockRotation = true;
-	//SkeletalMesh->BodyInstance.bLockRotation = true;
 
 	HudReference = nullptr;
 	InteractionDistance = 250;
@@ -60,18 +58,23 @@ void APawnPlayerMove::BeginPlay()
 	// Make sure to Simulate Physics
 
 	Capsule->SetSimulatePhysics(true);
-	//Cube->SetSimulatePhysics(true);
-	//Cube->BodyInstance.bLockRotation = true;
-	// Make sure Gravity is enabled
 	Capsule->SetEnableGravity(true);
+	//Cube->SetSimulatePhysics(true);
 	//Cube->SetEnableGravity(true);
-
 	// Automatically set Collision Preset to Pawn
+	//Capsule->SetCollisionProfileName("Pawn");
 	Capsule->SetCollisionProfileName("Pawn");
-	//Cube->SetCollisionProfileName("Pawn");
+	Capsule->BodyInstance.bLockXRotation = true;
+	Capsule->BodyInstance.bLockYRotation = true;
+	Capsule->BodyInstance.SetDOFLock(EDOFMode::SixDOF);
 
+	SkeletalMesh->BodyInstance.bLockXRotation = true;
+	SkeletalMesh->BodyInstance.bLockYRotation = true;
+	//Capsule->BodyInstance.bLockXRotation = true;
+	//Capsule->BodyInstance.bLockYRotation = true;
 	//Sets location of spring arm
 	SpringArm->SetRelativeLocation(FVector(0, 0, CameraHeightOffset));
+	//UWorld::SpawnActor(TestSpawn)
 }
 
 // Called every frame
@@ -80,6 +83,7 @@ void APawnPlayerMove::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	HandleInput();
 
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("%s"), *GetControlRotation().Euler().ToString()));
 
 }
 
@@ -91,11 +95,12 @@ void APawnPlayerMove::HandleInput()
 	FRotator FCharacterRotation;
 	FVector CameraRightVector = Camera->GetRightVector();
 	FVector CameraForwardVector = Camera->GetForwardVector();
-	//float Cam;
-	//FVector CamVec;
 	float Lerp = 0.08;
 	isMoving = false;
-	//Controls 
+	//float MouseX = InputComponent->GetAxisValue(EKeys::MouseX);
+
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, FString::Printf(TEXT("%s"), InputComponent->)
+
 	if ((InputComponent->GetAxisKeyValue(EKeys::W) > 0) || (InputComponent->GetAxisKeyValue(EKeys::Gamepad_LeftStick_Up) > 0))
 	{
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(1, 0, 0) *  CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
@@ -112,7 +117,6 @@ void APawnPlayerMove::HandleInput()
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(-1, 0, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
 
-		//FCharacterRotation = FRotator(0, 90, 0);
 		FCharacterRotation = GetControlRotation();
 		FCharacterRotation.Pitch = 0;
 		FCharacterRotation.Roll = 0;
@@ -126,11 +130,6 @@ void APawnPlayerMove::HandleInput()
 
 		FActorMovement = GetActorLocation() + GetControlRotation().Quaternion() * FVector(0, -1, 0) * CharacterMoveSpeed * GetWorld()->GetDeltaSeconds();
 		SetActorLocation(FActorMovement);
-
-		/*CameraRightVector = Camera->GetRightVector();
-		CameraForwardVector = Camera->GetForwardVector();
-		Cam = Camera->GetForwardVector().Y;
-		CamVec = Camera->GetForwardVector();*/
 
 		FCharacterRotation = GetControlRotation();
 		FCharacterRotation.Pitch = 0;
@@ -159,6 +158,7 @@ void APawnPlayerMove::HandleInput()
 
 	}
 	//SetActorRotation(FRotator(GetActorRotation().Pitch, UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), FDirection).Yaw, GetActorRotation().Roll));
+	
 	AddControllerYawInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Right)) * -1);
 	AddControllerPitchInput(InputComponent->GetAxisKeyValue((EKeys::Gamepad_RightStick_Down)) * -1);
 }
@@ -244,16 +244,70 @@ void APawnPlayerMove::EndInventory()
 // Grabs the Yaw Input class that is already built into Unreal
 void APawnPlayerMove::AddControllerYawInput(float Val)
 {
-
 	Super::AddControllerYawInput(IsCameraYawInverted ? Val * -1 : Val);
-
 }
+
  // Grabs the Pitch input class that is already built into Unreal
 void APawnPlayerMove::AddControllerPitchInput(float Val)
 {
+	//Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	float CameraPitch = GetController()->GetControlRotation().Pitch;
+	
+	/*if ((CameraPitch > 335 && CameraPitch < 361) || (CameraPitch > -1 && CameraPitch < 17))
+	{
 
-	Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+		if (Val >= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
 
+			PC->AddPitchInput(Val);
+		}
+		//Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	}
+	else if (CameraPitch <= 335)
+	{
+		if (Val >= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+			PC->AddPitchInput(Val);
+		}
+	
+	}
+	else if (CameraPitch >= 17)
+	{
+		if (Val <= 0.f && Controller && Controller->IsLocalPlayerController())
+		{
+			APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+			PC->AddPitchInput(Val);
+		}
+
+	}
+	*/
+	/*else if ((CameraPitch <= 335))//|| (CameraPitch >= 17 && Val > 0))
+	{
+		Super::AddControllerPitchInput(IsCameraPitchInverted ? Val * -1 : Val);
+	}
+	*/
+	
+
+	/*
+	
+	else if (CameraPitch >= 17)
+	{
+		if (Val < 0)
+		{
+			if (Val != 0.f && Controller && Controller->IsLocalPlayerController())
+			{
+				APlayerController* const PC = CastChecked<APlayerController>(Controller);
+
+				PC->AddPitchInput(Val);
+			}
+		}
+	}
+	*/
+	
 }
 
 void APawnPlayerMove::Interact()
