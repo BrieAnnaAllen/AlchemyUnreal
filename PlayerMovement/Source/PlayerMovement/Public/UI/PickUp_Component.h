@@ -20,6 +20,12 @@ public:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object")
+		bool pickedUp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Object")
+		AActor* Object;
+
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
