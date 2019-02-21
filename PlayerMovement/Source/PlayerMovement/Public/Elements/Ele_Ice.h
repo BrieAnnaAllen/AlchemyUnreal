@@ -25,6 +25,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
 	virtual void Reaction_Implementation(const EElementType OtherEleEnum, AActor* OtherChemical) override;
 
 	UFUNCTION()
@@ -34,6 +35,8 @@ public:
 	UFUNCTION()
 		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	
+private:
+	AActor* ToBeDestroyed;
+	float timer;
 	
 };

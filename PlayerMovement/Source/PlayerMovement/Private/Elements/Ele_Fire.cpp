@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Elements/Ele_Fire.h"
+#include "Runtime/Engine/Classes/Components/StaticMeshComponent.h"
 #include "Stable.h"
 
 AEle_Fire::AEle_Fire()
@@ -23,13 +24,23 @@ void AEle_Fire::BeginPlay()
 
 void AEle_Fire::Tick(float DeltaTime)
 {
-
+	if (ToBeDestroyed && timer < 0)
+	{
+		GetWorld()->DestroyActor(ToBeDestroyed);
+		Destroy();
+	}
+	else
+	{
+		timer -= DeltaTime;
+	}
 }
 
 //this shuold be called when an overlap collision event happens
 void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* OtherChemical)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Message: Fire Reaction Hit"));
+
+	TArray<USceneComponent*> children;
 
 	switch (OtherEleEnum)
 	{
@@ -42,9 +53,23 @@ void AEle_Fire::Reaction_Implementation(EElementType OtherEleEnum, AActor* Other
 
 	case EElementType::ET_Ice:
 		UE_LOG(LogTemp, Warning, TEXT("Message: Fire Hit Ice"));
-		GetWorld()->DestroyActor(OtherChemical);
-		Destroy();
+		timer = 2;
 
+		//OtherChemical->GetRootComponent()->GetChildrenComponents(true, children);
+		//UE_LOG(LogTemp, Warning, TEXT("Message: Num of Children %i"), children.Num());
+
+		//for (int16 i = 0; i < children.Num(); i++)
+		//{
+		//	UStaticMeshComponent* mesh = Cast<UStaticMeshComponent>(children[i]);
+		//	if (mesh)
+		//	{
+		//		mesh->SetSimulatePhysics(false);
+		//		mesh->SetVisibility(false);
+		//		//SetActorHiddenInGame(true);
+		//	}
+		//}
+
+		ToBeDestroyed = OtherChemical;
 		break;
 
 	case EElementType::ET_Acid:
