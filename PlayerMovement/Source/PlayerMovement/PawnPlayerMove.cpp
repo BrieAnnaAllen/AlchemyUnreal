@@ -83,7 +83,7 @@ void APawnPlayerMove::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	HandleInput();
 
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("%s"), *GetControlRotation().Euler().ToString()));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("%s"), *GetControlRotation().Euler().ToString()));
 
 }
 
