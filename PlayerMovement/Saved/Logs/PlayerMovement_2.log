@@ -1,4 +1,4 @@
-﻿Log file open, 02/21/19 07:43:54
+﻿Log file open, 02/22/19 07:58:13
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlayerMovement
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.324722
+LogStats: Stats thread started at 0.325485
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.359s to configure plugins.
+LogStreaming: Display: Took  0.258s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -145,765 +145,228 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.007s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.21-13.43.55:309][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.21-13.43.55:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.21-13.43.55:351][  0]LogHAL: Display: Platform has ~ 16 GB [17059753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.21-13.43.55:351][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.21-13.43.55:351][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.21-13.43.55:352][  0]LogInit: Computer: BRIEANNA-CHEEBS
-[2019.02.21-13.43.55:352][  0]LogInit: User: BrieAnna
-[2019.02.21-13.43.55:352][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.21-13.43.55:352][  0]LogInit: High frequency timer resolution =2.537592 MHz
-[2019.02.21-13.43.55:354][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.21-13.43.55:354][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.21-13.43.55:354][  0]LogMemory: Process Physical Memory: 102.03 MB used, 102.03 MB peak
-[2019.02.21-13.43.55:354][  0]LogMemory: Process Virtual Memory: 87.25 MB used, 87.25 MB peak
-[2019.02.21-13.43.55:354][  0]LogMemory: Physical Memory: 9464.86 MB used,  6804.59 MB free, 16269.45 MB total
-[2019.02.21-13.43.55:354][  0]LogMemory: Virtual Memory: 4641.59 MB used,  6804.59 MB free, 134217728.00 MB total
-[2019.02.21-13.43.55:427][  0]LogInit: Using OS detected language (en-US).
-[2019.02.21-13.43.55:428][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.21-13.43.55:432][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.21-13.43.55:921][  0]LogStreaming: Display: Took  0.494s to InitEngineTextLocalization.
-[2019.02.21-13.43.55:954][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.21-13.43.55:954][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.21-13.43.56:878][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.21-13.43.56:878][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.21-13.43.57:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2019.02.21-13.43.57:105][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.21-13.43.57:126][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2019.02.21-13.43.57:126][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.21-13.43.57:133][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.21-13.43.57:133][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.21-13.43.57:133][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.21-13.43.57:278][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.21-13.43.57:278][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.21-13.43.57:278][  0]LogWindows: EnumDisplayDevices:
-[2019.02.21-13.43.57:279][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2019.02.21-13.43.57:281][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.02.21-13.43.57:283][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.02.21-13.43.57:284][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.21-13.43.57:285][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2019.02.21-13.43.57:285][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.21-13.43.57:285][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.21-13.43.57:285][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
-[2019.02.21-13.43.57:440][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.21-13.43.57:472][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.21-13.43.57:478][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/20100/).
-[2019.02.21-13.43.57:479][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BrieAnna/AppData/Local/Temp/UnrealShaderWorkingDir/5852F05D467C893A92920B94C30C54FE/'.
-[2019.02.21-13.44.00:643][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.21-13.44.00:670][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.21-13.44.00:699][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.21-13.44.00:724][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.21-13.44.00:755][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.21-13.44.00:780][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.21-13.44.00:798][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.21-13.44.00:820][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.21-13.44.00:829][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.21-13.44.00:948][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.21-13.44.01:029][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.21-13.44.01:029][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.21-13.44.01:055][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.21-13.44.01:055][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.21-13.44.01:073][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.21-13.44.01:089][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.21-13.44.01:104][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.21-13.44.01:121][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.21-13.44.01:135][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.21-13.44.01:135][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.21-13.44.01:230][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.21-13.44.01:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.21-13.44.01:231][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.21-13.44.03:043][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.21-13.44.03:131][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.21-13.44.03:132][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.21-13.44.03:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.21-13.44.03:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.21-13.44.03:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.21-13.44.03:132][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.21-13.44.03:146][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.21-13.44.03:159][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BrieAnna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.21-13.44.03:159][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.21-13.44.03:159][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.21-13.44.03:205][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.21-13.44.03:208][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.21-13.44.03:211][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.21-13.44.03:533][  0]LogAssetRegistry: FAssetRegistry took 0.0435 seconds to start up
-[2019.02.21-13.44.04:744][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.21-13.44.05:311][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.21-13.44.05:329][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.21-13.44.05:330][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.21-13.44.05:330][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.21-13.44.05:330][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.21-13.44.05:408][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
-[2019.02.21-13.44.07:830][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.736788 seconds
-[2019.02.21-13.44.07:851][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.21-13.44.07:851][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.02.21-13.44.07:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.21-13.44.10:833][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.21-13.44.10:851][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.21-13.44.11:266][  0]SourceControl: Source control is disabled
-[2019.02.21-13.44.11:266][  0]SourceControl: Source control is disabled
-[2019.02.21-13.44.11:276][  0]SourceControl: Source control is disabled
-[2019.02.21-13.44.11:281][  0]SourceControl: Source control is disabled
-[2019.02.21-13.44.11:733][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.21-13.44.11:993][  0]LogOcInput: OculusInput pre-init called
-[2019.02.21-13.44.12:236][  0]LogEngine: Initializing Engine...
-[2019.02.21-13.44.12:239][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.21-13.44.12:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.21-13.44.12:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.21-13.44.12:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2019.02.21-13.44.12:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.21-13.44.13:286][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.21-13.44.13:333][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.21-13.44.13:362][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.21-13.44.13:407][  0]LogInit: FAudioDevice initialized.
-[2019.02.21-13.44.13:408][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.21-13.44.13:889][  0]LogDerivedDataCache: Saved boot cache 0.48s 71MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.21-13.44.13:936][  0]LogInit: Texture streaming: Enabled
-[2019.02.21-13.44.14:021][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.21-13.44.14:083][  0]LogInit: Transaction tracking system initialized
-[2019.02.21-13.44.14:240][  0]BlueprintLog: New page: Editor Load
-[2019.02.21-13.44.14:605][  0]LocalizationService: Localization service is disabled
-[2019.02.21-13.44.15:383][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.21-13.44.15:384][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.21-13.44.15:384][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.21-13.44.15:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.21-13.44.15:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.21-13.44.15:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2019.02.21-13.44.15:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.21-13.44.15:603][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/' took 0.04s
-[2019.02.21-13.44.15:603][  0]SourceControl: Source control is disabled
-[2019.02.21-13.44.15:603][  0]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.21-13.44.15:603][  0]LightingResults: New page: Lighting Build
-[2019.02.21-13.44.15:608][  0]MapCheck: New page: Map Check
-[2019.02.21-13.44.15:608][  0]LightingResults: New page: Lighting Build
-[2019.02.21-13.44.17:866][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.02.21-13.44.18:470][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2019.02.21-13.44.18:697][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.21-13.44.18:849][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153.549ms to complete.
-[2019.02.21-13.44.18:850][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.247
-[2019.02.21-13.44.20:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.21-13.44.20:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.21-13.44.20:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.21-13.44.20:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.21-13.44.20:636][  0]LogCollectionManager: Loaded 0 collections in 0.009134 seconds
-[2019.02.21-13.44.20:789][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
-[2019.02.21-13.44.20:789][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Developers/BrieAnna/Collections/' took 0.01s
-[2019.02.21-13.44.20:789][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
-[2019.02.21-13.44.20:789][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.21-13.44.20:871][  0]LogContentBrowser: Native class hierarchy populated in 0.0665 seconds. Added 2589 classes and 608 folders.
-[2019.02.21-13.44.20:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
-[2019.02.21-13.44.21:952][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
-[2019.02.21-13.44.22:112][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
-[2019.02.21-13.44.22:768][  0]LogSlate: Took 0.029082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.21-13.44.22:814][  0]LogSlate: Took 0.023709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.21-13.44.22:924][  0]LogSlate: Took 0.032291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.21-13.44.23:637][  0]LogRenderer: Reallocating scene render targets to support 928x364 Format 10 NumSamples 1 (Frame:1).
-[2019.02.21-13.44.24:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 0 classes and 0 folders.
-[2019.02.21-13.44.24:948][  0]LogLoad: (Engine Initialization) Total time: 35.34 seconds
-[2019.02.21-13.44.24:948][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.21-13.44.25:191][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.21-13.44.25:818][  3]LogSlate: Took 0.016503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.21-13.44.26:182][  4]LogAssetRegistry: Asset discovery search completed in 22.6738 seconds
-[2019.02.21-13.44.26:189][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.02.21-13.44.26:189][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000203 seconds (updated 0 objects)
-[2019.02.21-13.44.26:507][  5]LogSlate: Took 0.000843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.21-13.46.10:087][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.21-13.47.53:796][479]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_bottom_top.fbx)
-[2019.02.21-13.47.54:096][479]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_bottom_top.fbx
-[2019.02.21-13.47.54:126][479]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.47.59:262][479]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.02.21-13.47.59:403][479]LogFbx: Warning: Triangulating static mesh CageFlat
-[2019.02.21-13.47.59:521][479]LogStaticMesh: Building static mesh Cage_bottom_top...
-[2019.02.21-13.47.59:565][479]LogStaticMesh: Built static mesh [0.04s] /Game/Art/EnvironmentArt/Cage/Cage_bottom_top.Cage_bottom_top
-[2019.02.21-13.47.59:690][479]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.47.59:740][479]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Corner.fbx)
-[2019.02.21-13.48.01:888][479]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.02.21-13.48.01:976][479]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Corner.fbx
-[2019.02.21-13.48.02:002][479]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.48.02:002][479]LogFbx: Warning: Triangulating static mesh CageCorner
-[2019.02.21-13.48.02:063][479]LogStaticMesh: Building static mesh Cage_Corner...
-[2019.02.21-13.48.02:077][479]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Cage/Cage_Corner.Cage_Corner
-[2019.02.21-13.48.02:095][479]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.48.02:122][479]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Door.fbx)
-[2019.02.21-13.48.03:011][479]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.02.21-13.48.03:063][479]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Door.fbx
-[2019.02.21-13.48.03:072][479]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.48.03:072][479]LogFbx: Warning: Triangulating static mesh CageDoor
-[2019.02.21-13.48.03:116][479]LogStaticMesh: Building static mesh Cage_Door...
-[2019.02.21-13.48.03:126][479]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Cage/Cage_Door.Cage_Door
-[2019.02.21-13.48.03:145][479]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.48.03:194][479]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Straight.fbx)
-[2019.02.21-13.48.04:365][479]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.02.21-13.48.04:425][479]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Cage_Straight.fbx
-[2019.02.21-13.48.04:433][479]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.48.04:434][479]LogFbx: Warning: Triangulating static mesh CageStraight
-[2019.02.21-13.48.04:467][479]LogStaticMesh: Building static mesh Cage_Straight...
-[2019.02.21-13.48.04:492][479]LogStaticMesh: Built static mesh [0.02s] /Game/Art/EnvironmentArt/Cage/Cage_Straight.Cage_Straight
-[2019.02.21-13.48.04:521][479]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.48.25:132][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageCorner_low_cage_BaseColor.png)
-[2019.02.21-13.48.25:337][151]LogTexture: Display: Building textures: CageCorner_low_cage_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.48.25:643][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageCorner_low_cage_Normal.png)
-[2019.02.21-13.48.25:675][151]LogTexture: Display: Building textures: CageCorner_low_cage_Normal (BC5, 1024X1024)
-[2019.02.21-13.48.25:735][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageCorner_low_cage_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.48.25:770][151]LogTexture: Display: Building textures: CageCorner_low_cage_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.48.25:941][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageDoor_low_initialShadingGroup_BaseColor.png)
-[2019.02.21-13.48.25:970][151]LogTexture: Display: Building textures: CageDoor_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.48.26:130][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageDoor_low_initialShadingGroup_Normal.png)
-[2019.02.21-13.48.26:162][151]LogTexture: Display: Building textures: CageDoor_low_initialShadingGroup_Normal (BC5, 1024X1024)
-[2019.02.21-13.48.26:227][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageDoor_low_initialShadingGroup_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.48.26:254][151]LogTexture: Display: Building textures: CageDoor_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.48.26:425][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageFlat_low_initialShadingGroup_BaseColor.png)
-[2019.02.21-13.48.26:433][151]LogTexture: Display: Building textures: CageFlat_low_initialShadingGroup_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.48.26:477][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageFlat_low_initialShadingGroup_Normal.png)
-[2019.02.21-13.48.26:492][151]LogTexture: Display: Building textures: CageFlat_low_initialShadingGroup_Normal (BC5, 512X512)
-[2019.02.21-13.48.26:531][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageFlat_low_initialShadingGroup_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.48.26:539][151]LogTexture: Display: Building textures: CageFlat_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.48.26:584][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageStraight_low_initialShadingGroup_BaseColor.png)
-[2019.02.21-13.48.26:613][151]LogTexture: Display: Building textures: CageStraight_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.48.26:790][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageStraight_low_initialShadingGroup_Normal.png)
-[2019.02.21-13.48.26:823][151]LogTexture: Display: Building textures: CageStraight_low_initialShadingGroup_Normal (BC5, 1024X1024)
-[2019.02.21-13.48.26:939][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Cage/Textures/CageStraight_low_initialShadingGroup_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.48.26:997][151]LogTexture: Display: Building textures: CageStraight_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.49.36:758][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice1_low.fbx)
-[2019.02.21-13.49.36:778][231]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice1_low.fbx
-[2019.02.21-13.49.36:784][231]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.49.39:361][231]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.02.21-13.49.39:396][231]LogFbx: Warning: Triangulating static mesh polySurface1
-[2019.02.21-13.49.39:433][231]LogStaticMesh: Building static mesh Ice1_low...
-[2019.02.21-13.49.39:437][231]LogStaticMesh: Built static mesh [0.00s] /Game/Art/EnvironmentArt/Ice/Ice1_low.Ice1_low
-[2019.02.21-13.49.39:454][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.49.39:461][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice2_low.fbx)
-[2019.02.21-13.49.39:483][231]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice2_low.fbx
-[2019.02.21-13.49.39:492][231]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.49.39:492][231]LogFbx: Warning: Triangulating static mesh polySurface2
-[2019.02.21-13.49.39:530][231]LogStaticMesh: Building static mesh Ice2_low...
-[2019.02.21-13.49.39:541][231]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Ice/Ice2_low.Ice2_low
-[2019.02.21-13.49.39:586][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.49.39:606][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice3_low.fbx)
-[2019.02.21-13.49.39:648][231]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice3_low.fbx
-[2019.02.21-13.49.39:674][231]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.49.39:675][231]LogFbx: Warning: Triangulating static mesh polySurface3
-[2019.02.21-13.49.39:792][231]LogStaticMesh: Building static mesh Ice3_low...
-[2019.02.21-13.49.39:807][231]LogStaticMesh: Built static mesh [0.02s] /Game/Art/EnvironmentArt/Ice/Ice3_low.Ice3_low
-[2019.02.21-13.49.39:853][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.49.39:867][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice4_low.fbx)
-[2019.02.21-13.49.39:916][231]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice4_low.fbx
-[2019.02.21-13.49.39:941][231]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.49.39:942][231]LogFbx: Warning: Triangulating static mesh pPlatonic1
-[2019.02.21-13.49.39:958][231]LogStaticMesh: Building static mesh Ice4_low...
-[2019.02.21-13.49.39:962][231]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Ice/Ice4_low.Ice4_low
-[2019.02.21-13.49.39:993][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.49.40:004][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice5_low.fbx)
-[2019.02.21-13.49.40:036][231]LogFbx: Loading FBX Scene from ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Ice5_low.fbx
-[2019.02.21-13.49.40:055][231]LogFbx: FBX Scene Loaded Succesfully
-[2019.02.21-13.49.40:056][231]LogFbx: Warning: Triangulating static mesh pasted__pPyramid1
-[2019.02.21-13.49.40:113][231]LogStaticMesh: Building static mesh Ice5_low...
-[2019.02.21-13.49.40:121][231]LogStaticMesh: Built static mesh [0.01s] /Game/Art/EnvironmentArt/Ice/Ice5_low.Ice5_low
-[2019.02.21-13.49.40:164][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.02.21-13.50.10:863][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice1_low_lambert1_BaseColor.png)
-[2019.02.21-13.50.10:912][159]LogTexture: Display: Building textures: Ice1_low_lambert1_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.50.11:135][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice1_low_lambert1_Normal.png)
-[2019.02.21-13.50.11:154][159]LogTexture: Display: Building textures: Ice1_low_lambert1_Normal (BC5, 512X512)
-[2019.02.21-13.50.11:180][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice1_low_lambert1_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.50.11:188][159]LogTexture: Display: Building textures: Ice1_low_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.50.11:227][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice2_low_lambert1_BaseColor.png)
-[2019.02.21-13.50.11:236][159]LogTexture: Display: Building textures: Ice2_low_lambert1_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.50.11:384][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice2_low_lambert1_Normal.png)
-[2019.02.21-13.50.11:402][159]LogTexture: Display: Building textures: Ice2_low_lambert1_Normal (BC5, 512X512)
-[2019.02.21-13.50.11:434][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice2_low_lambert1_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.50.11:441][159]LogTexture: Display: Building textures: Ice2_low_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.50.11:505][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice3_low_lambert1_BaseColor.png)
-[2019.02.21-13.50.11:533][159]LogTexture: Display: Building textures: Ice3_low_lambert1_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.50.11:756][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice3_low_lambert1_Normal.png)
-[2019.02.21-13.50.11:774][159]LogTexture: Display: Building textures: Ice3_low_lambert1_Normal (BC5, 512X512)
-[2019.02.21-13.50.11:806][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice3_low_lambert1_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.50.11:813][159]LogTexture: Display: Building textures: Ice3_low_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.50.11:852][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice4_low_lambert1_BaseColor.png)
-[2019.02.21-13.50.11:863][159]LogTexture: Display: Building textures: Ice4_low_lambert1_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.50.11:989][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice4_low_lambert1_Normal.png)
-[2019.02.21-13.50.12:006][159]LogTexture: Display: Building textures: Ice4_low_lambert1_Normal (BC5, 512X512)
-[2019.02.21-13.50.12:039][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice4_low_lambert1_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.50.12:047][159]LogTexture: Display: Building textures: Ice4_low_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.50.12:090][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice5_low_lambert1_BaseColor.png)
-[2019.02.21-13.50.12:099][159]LogTexture: Display: Building textures: Ice5_low_lambert1_BaseColor (AutoDXT, 512X512)
-[2019.02.21-13.50.12:281][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice5_low_lambert1_Normal.png)
-[2019.02.21-13.50.12:298][159]LogTexture: Display: Building textures: Ice5_low_lambert1_Normal (BC5, 512X512)
-[2019.02.21-13.50.12:332][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Ice/Textures/Ice5_low_lambert1_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.50.12:338][159]LogTexture: Display: Building textures: Ice5_low_lambert1_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2019.02.21-13.51.33:926][999]LogSlate: Window 'Delete Assets' being destroyed
-[2019.02.21-13.51.45:841][698]LogLinker: Warning: Can't find file '/Game/Levels/Ground_Level_BuiltData'
-[2019.02.21-13.51.45:841][698]LogLinker: Warning: Can't find file for asset '/Game/Levels/Ground_Level_BuiltData' while loading ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/Ground_Level.umap.
-[2019.02.21-13.51.45:841][698]LoadErrors: Error: /Game/Levels/Ground_Level : Can't find file for asset. /Game/Levels/Ground_Level_BuiltData
-[2019.02.21-13.51.46:751][698]LogLinker: Warning: Can't find file '/Game/Levels/Ground_Level_BuiltData'
-[2019.02.21-13.51.46:752][698]LogLinker: Warning: Can't find file for asset '/Game/Levels/Ground_Level_BuiltData' while loading ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/Ground_Level.umap.
-[2019.02.21-13.51.47:341][698]LogLinker: Warning: Can't find file '/Game/Levels/Ground_Level_BuiltData'
-[2019.02.21-13.51.47:342][698]LoadErrors: Failed to load /Game/Levels/Ground_Level_BuiltData.Ground_Level_BuiltData Referenced by PersistentLevel
-[2019.02.21-13.51.47:343][698]LogLinker: Warning: Can't find file for asset '/Game/Levels/Ground_Level_BuiltData' while loading NULL.
-[2019.02.21-13.51.48:453][698]LogMaterial: Display: Missing cached shader map for material Torch1, compiling. 
-[2019.02.21-13.51.48:891][698]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.02.21-13.51.48:891][698]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.02.21-13.51.48:891][698]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.02.21-13.51.48:891][698]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.02.21-13.51.48:891][698]LogAIModule: Creating AISystem for world Ground_Level
-[2019.02.21-13.51.49:011][698]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Ground_Level.Ground_Level
-[2019.02.21-13.51.51:650][698]LogSlate: Window 'Save Content' being destroyed
-[2019.02.21-13.51.51:819][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Cage_bottom_top0C602754453EAE4B01DCD4BDE10CBD97.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Cage_bottom_top.uasset'
-[2019.02.21-13.51.51:896][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Cage_Corner8F51DF6D41D189416C32DE9BBC0070B6.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Cage_Corner.uasset'
-[2019.02.21-13.51.51:978][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Cage_Door3944F9FC44C75C097BED26A8665A15C3.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Cage_Door.uasset'
-[2019.02.21-13.51.52:053][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Cage_Straight96DDA92346568B530D7CBCB65FED25A7.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Cage_Straight.uasset'
-[2019.02.21-13.51.52:218][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageCorner_low_cage_BaseColor502DBFC84E264916834F6A940CB5FDFA.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageCorner_low_cage_BaseColor.uasset'
-[2019.02.21-13.51.52:353][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageCorner_low_cage_NormalDF9D38AE443F6F96BD0E22853B359D0B.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageCorner_low_cage_Normal.uasset'
-[2019.02.21-13.51.52:504][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageCorner_low_cage_OcclusionRouB9BB99E64C8EA41F5EE66081F9076DE6.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageCorner_low_cage_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.52:671][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageDoor_low_initialShadingGroupBEDE34D946ED6025208C7D8A14054A98.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageDoor_low_initialShadingGroup_BaseColor.uasset'
-[2019.02.21-13.51.52:815][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageDoor_low_initialShadingGroup324AD2F34A5CE0BE85689F81AF1B5926.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageDoor_low_initialShadingGroup_Normal.uasset'
-[2019.02.21-13.51.52:961][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageDoor_low_initialShadingGroup8B82243F48E3499A85277CB917AB1562.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageDoor_low_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.53:011][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageFlat_low_initialShadingGroupFDB1BA144569F1E6DD6FC5B171288636.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageFlat_low_initialShadingGroup_BaseColor.uasset'
-[2019.02.21-13.51.53:052][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageFlat_low_initialShadingGroupC084E56648C8B6256E3EE4B081661848.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageFlat_low_initialShadingGroup_Normal.uasset'
-[2019.02.21-13.51.53:099][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageFlat_low_initialShadingGroupB692E0484A040ECC8D272399A02615CB.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageFlat_low_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.53:245][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageStraight_low_initialShadingGD4E8421B4C258BD5B1E93CB18DC4870F.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageStraight_low_initialShadingGroup_BaseColor.uasset'
-[2019.02.21-13.51.53:358][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageStraight_low_initialShadingG187D0BA34C328E931480289000648596.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageStraight_low_initialShadingGroup_Normal.uasset'
-[2019.02.21-13.51.53:535][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/CageStraight_low_initialShadingGCFC808A64ECE627D24E1B3A472361AD0.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Cage/Textures/CageStraight_low_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.53:599][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice1_low2E0995B84E6A8C041F346993C2B67D64.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Ice1_low.uasset'
-[2019.02.21-13.51.53:674][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice2_low3322F4DD4A0B84D02137A9B348E6A3D1.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Ice2_low.uasset'
-[2019.02.21-13.51.53:743][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice3_low89B517EA464A4703552CC4B354431711.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Ice3_low.uasset'
-[2019.02.21-13.51.53:808][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice4_lowCC4591E647478B2D90C432B9DD980B28.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Ice4_low.uasset'
-[2019.02.21-13.51.53:874][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice5_lowAEABFFEF48DBA5B3A9225B89E7923EDE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Ice5_low.uasset'
-[2019.02.21-13.51.53:956][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice1_low_lambert1_BaseColorE0D4C54849A615987362389F1AFCA088.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice1_low_lambert1_BaseColor.uasset'
-[2019.02.21-13.51.54:062][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice1_low_lambert1_Normal6F663F6447258253C0AE0194302A3468.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice1_low_lambert1_Normal.uasset'
-[2019.02.21-13.51.54:106][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice1_low_lambert1_OcclusionRough14E4B18E4410B727E838CF9B2F33B469.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice1_low_lambert1_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.54:195][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice2_low_lambert1_BaseColor705EF96D45E16484BC63DEA333A431AE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice2_low_lambert1_BaseColor.uasset'
-[2019.02.21-13.51.54:311][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice2_low_lambert1_Normal25A7ACB84D82E446C51B3B9D81A82B15.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice2_low_lambert1_Normal.uasset'
-[2019.02.21-13.51.54:406][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice2_low_lambert1_OcclusionRoughDD7AF04A4F5EB92D600A3F9520D6B8EE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice2_low_lambert1_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.54:525][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice3_low_lambert1_BaseColorEBA91B6546549AF291B887A4D42C76B5.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice3_low_lambert1_BaseColor.uasset'
-[2019.02.21-13.51.54:673][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice3_low_lambert1_Normal2815B381410143D1708B1FBD8BABE6DD.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice3_low_lambert1_Normal.uasset'
-[2019.02.21-13.51.54:732][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice3_low_lambert1_OcclusionRough10F09BC64DCE191BB41BBB9596BB995E.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice3_low_lambert1_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.54:783][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice4_low_lambert1_BaseColorD589962C4FC810DC984EE284E7CDB409.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice4_low_lambert1_BaseColor.uasset'
-[2019.02.21-13.51.54:839][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice4_low_lambert1_NormalC9B4FD5844A5218E46D7069A4912EB01.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice4_low_lambert1_Normal.uasset'
-[2019.02.21-13.51.54:882][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice4_low_lambert1_OcclusionRough4EC6BF9D450EF21EAFD22CB5FE67051D.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice4_low_lambert1_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.54:933][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice5_low_lambert1_BaseColorA88513A84827BC38946B0C830193793E.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice5_low_lambert1_BaseColor.uasset'
-[2019.02.21-13.51.54:989][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice5_low_lambert1_NormalCC498F8B44D1A82ED98925BF4392B909.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice5_low_lambert1_Normal.uasset'
-[2019.02.21-13.51.55:071][698]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ice5_low_lambert1_OcclusionRoughA6A7EB4C44C9F805C5F6DB8A021E4EAE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Ice/Textures/Ice5_low_lambert1_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.51.55:090][698]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/Ground_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.21-13.51.55:090][698]LightingResults: New page: Lighting Build
-[2019.02.21-13.51.55:092][698]LoadErrors: New page: Loading map: Ground_Level.umap
-[2019.02.21-13.51.55:093][698]MapCheck: New page: Map Check
-[2019.02.21-13.51.55:093][698]LightingResults: New page: Lighting Build
-[2019.02.21-13.51.55:294][698]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2019.02.21-13.51.55:435][698]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.21-13.51.55:640][698]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 204.192ms to complete.
-[2019.02.21-13.51.55:643][698]LogFileHelpers: Loading map 'Ground_Level' took 0.554
-[2019.02.21-13.51.57:481][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodFloor287)
-[2019.02.21-13.51.59:032][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodFloor226)
-[2019.02.21-13.52.06:181][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.21-13.52.37:791][416]LogSlate: Window 'Delete Assets' being destroyed
-[2019.02.21-13.52.53:790][152]LogSlate: Window 'Delete Assets' being destroyed
-[2019.02.21-13.52.57:062][152]LogMaterial: Display: Missing cached shader map for material WoodWallWide_BaseColor_Mat, compiling. 
-[2019.02.21-13.52.57:064][152]LogMaterial: Warning: D:\Users\BrieAnna\Documents\GitHub\AlchemyUnreal\PlayerMovement\Content\Art\EnvironmentArt\Wood_Walls\Textures\WoodWallWide_BaseColor_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2019.02.21-13.52.57:064][152]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2019.02.21-13.53.16:276][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_BaseColor.png)
-[2019.02.21-13.53.16:401][272]LogTexture: Display: Building textures: WallDoortop_low_WallDoortop_low_blinn18SG_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.16:791][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_Normal.png)
-[2019.02.21-13.53.16:835][272]LogTexture: Display: Building textures: WallDoortop_low_WallDoortop_low_blinn18SG_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.16:928][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.16:960][272]LogTexture: Display: Building textures: WallDoortop_low_WallDoortop_low_blinn18SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.17:167][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_BaseColor.png)
-[2019.02.21-13.53.17:209][272]LogTexture: Display: Building textures: WallNarrow_low_WallNarrow_low_blinn22SG_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.17:549][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_Normal.png)
-[2019.02.21-13.53.17:598][272]LogTexture: Display: Building textures: WallNarrow_low_WallNarrow_low_blinn22SG_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.17:685][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.17:721][272]LogTexture: Display: Building textures: WallNarrow_low_WallNarrow_low_blinn22SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.17:979][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_BaseColor.png)
-[2019.02.21-13.53.18:022][272]LogTexture: Display: Building textures: WallNarrowL_low_WallNarrowL_low_blinn22SG_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.18:346][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_Normal.png)
-[2019.02.21-13.53.18:398][272]LogTexture: Display: Building textures: WallNarrowL_low_WallNarrowL_low_blinn22SG_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.18:475][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.18:509][272]LogTexture: Display: Building textures: WallNarrowL_low_WallNarrowL_low_blinn22SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.18:743][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowLow_low_initialShadingGroup_BaseColor.png)
-[2019.02.21-13.53.18:786][272]LogTexture: Display: Building textures: WallNarrowLow_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.19:095][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowLow_low_initialShadingGroup_Normal.png)
-[2019.02.21-13.53.19:145][272]LogTexture: Display: Building textures: WallNarrowLow_low_initialShadingGroup_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.19:228][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallNarrowLow_low_initialShadingGroup_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.19:291][272]LogTexture: Display: Building textures: WallNarrowLow_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.19:587][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWide_low_WallWide_low_blinn22SG_BaseColor.png)
-[2019.02.21-13.53.19:632][272]LogTexture: Display: Building textures: WallWide_low_WallWide_low_blinn22SG_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.19:989][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWide_low_WallWide_low_blinn22SG_Normal.png)
-[2019.02.21-13.53.20:041][272]LogTexture: Display: Building textures: WallWide_low_WallWide_low_blinn22SG_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.20:122][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWide_low_WallWide_low_blinn22SG_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.20:166][272]LogTexture: Display: Building textures: WallWide_low_WallWide_low_blinn22SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.20:405][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_BaseColor.png)
-[2019.02.21-13.53.20:452][272]LogTexture: Display: Building textures: WallWideL_low_WallWideR_low_blinn22SG_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.20:777][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_Normal.png)
-[2019.02.21-13.53.20:828][272]LogTexture: Display: Building textures: WallWideL_low_WallWideR_low_blinn22SG_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.20:907][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.20:961][272]LogTexture: Display: Building textures: WallWideL_low_WallWideR_low_blinn22SG_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.53.21:211][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideLow_low_initialShadingGroup_BaseColor.png)
-[2019.02.21-13.53.21:250][272]LogTexture: Display: Building textures: WallWideLow_low_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
-[2019.02.21-13.53.21:553][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideLow_low_initialShadingGroup_Normal.png)
-[2019.02.21-13.53.21:600][272]LogTexture: Display: Building textures: WallWideLow_low_initialShadingGroup_Normal (BC5, 1024X1024)
-[2019.02.21-13.53.21:681][272]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/BrieAnna/Documents/Alis Art/ModularKit/Wood Walls/Textures/WallWideLow_low_initialShadingGroup_OcclusionRoughnessMetallic.png)
-[2019.02.21-13.53.21:718][272]LogTexture: Display: Building textures: WallWideLow_low_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
-[2019.02.21-13.54.14:492][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Ground_Level1BD09D1544070C0884A21ABA5437CE58.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Levels/Ground_Level.umap'
-[2019.02.21-13.54.14:704][889]LogFileHelpers: Saving map 'Ground_Level' took 3.305
-[2019.02.21-13.54.15:219][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowLow_low_initialShadingB15ED9F24422DFA92F8E6093FD67795A.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowLow_low_initialShadingGroup_Normal.uasset'
-[2019.02.21-13.54.15:791][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallDoortop_low_WallDoortop_low_D84510F344A9D1D5885872B9E8EAEBE9.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_BaseColor.uasset'
-[2019.02.21-13.54.16:173][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallDoortop_low_WallDoortop_low_B5664D95488D22C0709FAA9CB5735794.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_Normal.uasset'
-[2019.02.21-13.54.16:618][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallDoortop_low_WallDoortop_low_F2D11A0E48F2D7340D9DF494E948557E.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallDoortop_low_WallDoortop_low_blinn18SG_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.17:220][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrow_low_WallNarrow_low_blF59A78874AF0DBE5FD3C08B2E4D9DEF2.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_BaseColor.uasset'
-[2019.02.21-13.54.17:840][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrow_low_WallNarrow_low_bl4DBCB0794E49F581C93539AFBDED99DD.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_Normal.uasset'
-[2019.02.21-13.54.18:159][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrow_low_WallNarrow_low_blCD4B17134C799F1C685118AEA0A708D3.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrow_low_WallNarrow_low_blinn22SG_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.18:628][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowL_low_WallNarrowL_low_76EBCF9140150827E6791292A1CB15F7.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_BaseColor.uasset'
-[2019.02.21-13.54.19:277][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowL_low_WallNarrowL_low_AA993FA445E78ED0A02FC0AA6BD1C19C.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_Normal.uasset'
-[2019.02.21-13.54.19:694][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowL_low_WallNarrowL_low_D8DC228846B7ACB1B4982F8563C32A18.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowL_low_WallNarrowL_low_blinn22SG_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.20:276][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowLow_low_initialShading9B65B13847B421A6B2CBDCB6D5DD38BE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowLow_low_initialShadingGroup_BaseColor.uasset'
-[2019.02.21-13.54.20:781][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallNarrowLow_low_initialShading8FB73EB540823BA84BD8EE82E0A9B3D2.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallNarrowLow_low_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.21:465][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWide_low_WallWide_low_blinn2797D399F4C236010744CEE820BCDE489.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWide_low_WallWide_low_blinn22SG_BaseColor.uasset'
-[2019.02.21-13.54.21:823][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWide_low_WallWide_low_blinn21111508D45CC9827F7161F80173A815A.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWide_low_WallWide_low_blinn22SG_Normal.uasset'
-[2019.02.21-13.54.22:269][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWide_low_WallWide_low_blinn25E212F8C48540070D2597995A67EC3D0.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWide_low_WallWide_low_blinn22SG_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.22:931][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideL_low_WallWideR_low_blin3BD5360A42B9AD1BAF504A9651B776C6.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_BaseColor.uasset'
-[2019.02.21-13.54.23:617][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideL_low_WallWideR_low_blin6904E27946C5A693CEC10497294B12EE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_Normal.uasset'
-[2019.02.21-13.54.24:093][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideL_low_WallWideR_low_blin646F15844059E041BCEF2F92C5E998FC.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideL_low_WallWideR_low_blinn22SG_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.24:691][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideLow_low_initialShadingGr0E9B2B23473FE5721AB9C5A0FAE6B8F5.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideLow_low_initialShadingGroup_BaseColor.uasset'
-[2019.02.21-13.54.25:292][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideLow_low_initialShadingGrF178D86446B513D6500777938A4FEB5C.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideLow_low_initialShadingGroup_Normal.uasset'
-[2019.02.21-13.54.25:707][889]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/WallWideLow_low_initialShadingGr0E317E384F18295805F23089442FAA2A.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Art/EnvironmentArt/Wood_Walls/Textures/WallWideLow_low_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
-[2019.02.21-13.54.27:858][  0]LogSlate: Window 'PlayerMovement - Unreal Editor' being destroyed
-[2019.02.21-13.54.27:861][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.21-13.54.28:157][  1]Cmd: QUIT_EDITOR
-[2019.02.21-13.54.28:189][  1]LogExit: Preparing to exit.
-[2019.02.21-13.54.29:285][  1]LogExit: Editor shut down
-[2019.02.21-13.54.29:286][  1]LogExit: Transaction tracking system shut down
-[2019.02.21-13.54.29:833][  1]LogExit: Object subsystem successfully closed.
-[2019.02.21-13.54.29:847][  1]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.02.21-13.54.29:851][  1]LogD3D11RHI: Shutdown
-[2019.02.21-13.54.29:851][  1]LogD3D11RHI: CleanupD3DDevice
-[2019.02.21-13.54.29:855][  1]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.21-13.54.29:869][  1]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (616)
-[2019.02.21-13.54.29:869][  1]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
-[2019.02.21-13.54.29:869][  1]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
-[2019.02.21-13.54.29:869][  1]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
-[2019.02.21-13.54.29:869][  1]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module BspMode (584)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
-[2019.02.21-13.54.29:870][  1]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module SessionServices (534)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
-[2019.02.21-13.54.29:871][  1]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
-[2019.02.21-13.54.30:124][  1]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
-[2019.02.21-13.54.30:124][  1]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
-[2019.02.21-13.54.30:124][  1]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
-[2019.02.21-13.54.30:124][  1]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
-[2019.02.21-13.54.30:124][  1]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2019.02.21-13.54.30:125][  1]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2019.02.21-13.54.30:126][  1]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2019.02.21-13.54.30:127][  1]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2019.02.21-13.54.30:192][  1]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2019.02.21-13.54.30:192][  1]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2019.02.21-13.54.30:192][  1]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2019.02.21-13.54.30:192][  1]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2019.02.21-13.54.30:192][  1]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2019.02.21-13.54.30:193][  1]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2019.02.21-13.54.30:193][  1]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2019.02.21-13.54.30:193][  1]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2019.02.21-13.54.30:193][  1]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2019.02.21-13.54.30:193][  1]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2019.02.21-13.54.30:194][  1]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2019.02.21-13.54.30:194][  1]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.02.21-13.54.30:195][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.02.21-13.54.30:196][  1]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.02.21-13.54.30:197][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2019.02.21-13.54.30:395][  1]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2019.02.21-13.54.30:396][  1]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2019.02.21-13.54.30:410][  1]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2019.02.21-13.54.30:411][  1]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2019.02.21-13.54.30:411][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2019.02.21-13.54.30:411][  1]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
-[2019.02.21-13.54.30:411][  1]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
-[2019.02.21-13.54.30:412][  1]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2019.02.21-13.54.30:412][  1]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2019.02.21-13.54.30:412][  1]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2019.02.21-13.54.30:413][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2019.02.21-13.54.30:414][  1]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module PlayerMovement (300)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.02.21-13.54.30:415][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.02.21-13.54.30:516][  1]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.02.21-13.54.30:617][  1]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.02.21-13.54.30:618][  1]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.02.21-13.54.30:620][  1]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.02.21-13.54.30:620][  1]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.02.21-13.54.30:621][  1]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.02.21-13.54.30:621][  1]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.02.21-13.54.30:623][  1]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.02.21-13.54.30:626][  1]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.02.21-13.54.30:640][  1]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.02.21-13.54.30:648][  1]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.02.21-13.54.30:649][  1]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.02.21-13.54.30:650][  1]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.02.21-13.54.30:650][  1]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.02.21-13.54.30:650][  1]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.02.21-13.54.30:650][  1]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.02.21-13.54.30:656][  1]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.02.21-13.54.30:657][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.02.21-13.54.30:658][  1]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.02.21-13.54.30:711][  1]LogDerivedDataCache: Shutdown
-[2019.02.21-13.54.30:711][  1]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.02.21-13.54.30:711][  1]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.02.21-13.54.30:711][  1]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.02.21-13.54.30:711][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.02.21-13.54.30:711][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.02.21-13.54.30:712][  1]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.02.21-13.54.30:713][  1]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.02.21-13.54.30:716][  1]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.02.21-13.54.30:716][  1]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.02.21-13.54.30:718][  1]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.02.21-13.54.30:718][  1]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.02.21-13.54.30:737][  1]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.02.21-13.54.30:738][  1]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.02.21-13.54.30:741][  1]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.02.21-13.54.30:741][  1]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.02.21-13.54.30:756][  1]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.02.21-13.54.30:756][  1]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.21-13.54.30:757][  1]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18DACB39-4650-451F-B8CF-DD81BCAE0475%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=9556cc154714501b863c40bdfe2c8e07%7C1a8f9984db4c4353a49fb71223dcd704%7Cf38051cd-6b46-484a-9985-d4971c83e6e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.21-13.54.30:784][  1]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.02.21-13.54.30:788][  1]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.02.21-13.54.30:789][  1]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.02.21-13.54.30:789][  1]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.02.21-13.54.30:789][  1]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.21-13.54.30:789][  1]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.21-13.54.30:789][  1]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.21-13.54.30:789][  1]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.21-13.54.30:790][  1]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.21-13.54.30:790][  1]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.21-13.54.30:790][  1]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.21-13.54.30:791][  1]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.21-13.54.30:791][  1]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.21-13.54.30:791][  1]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.21-13.54.30:791][  1]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.21-13.54.30:791][  1]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.21-13.54.30:792][  1]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.21-13.54.30:818][  1]LogExit: Exiting.
-[2019.02.21-13.54.30:898][  1]Log file closed, 02/21/19 07:54:30
+[2019.02.22-13.58.13:670][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-13.58.13:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.22-13.58.13:722][  0]LogHAL: Display: Platform has ~ 16 GB [17059753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.22-13.58.13:722][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.22-13.58.13:722][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.22-13.58.13:723][  0]LogInit: Computer: BRIEANNA-CHEEBS
+[2019.02.22-13.58.13:723][  0]LogInit: User: BrieAnna
+[2019.02.22-13.58.13:723][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.22-13.58.13:723][  0]LogInit: High frequency timer resolution =2.537592 MHz
+[2019.02.22-13.58.13:724][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.22-13.58.13:724][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.22-13.58.13:724][  0]LogMemory: Process Physical Memory: 103.31 MB used, 103.31 MB peak
+[2019.02.22-13.58.13:724][  0]LogMemory: Process Virtual Memory: 103.25 MB used, 103.25 MB peak
+[2019.02.22-13.58.13:724][  0]LogMemory: Physical Memory: 7432.08 MB used,  8837.37 MB free, 16269.45 MB total
+[2019.02.22-13.58.13:724][  0]LogMemory: Virtual Memory: 4657.59 MB used,  8837.37 MB free, 134217728.00 MB total
+[2019.02.22-13.58.13:779][  0]LogInit: Using OS detected language (en-US).
+[2019.02.22-13.58.13:779][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.22-13.58.13:781][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.22-13.58.14:246][  0]LogStreaming: Display: Took  0.467s to InitEngineTextLocalization.
+[2019.02.22-13.58.14:284][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.22-13.58.14:284][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.22-13.58.14:751][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-13.58.14:751][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.22-13.58.14:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.02.22-13.58.14:816][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.22-13.58.14:825][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.02.22-13.58.14:825][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.22-13.58.14:827][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.22-13.58.14:827][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.22-13.58.14:827][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.22-13.58.14:867][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.22-13.58.14:867][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.22-13.58.14:867][  0]LogWindows: EnumDisplayDevices:
+[2019.02.22-13.58.14:867][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.02.22-13.58.14:868][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.02.22-13.58.14:868][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.02.22-13.58.14:868][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.22-13.58.14:869][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.02.22-13.58.14:869][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.22-13.58.14:869][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.22-13.58.14:869][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
+[2019.02.22-13.58.14:908][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.22-13.58.14:919][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.22-13.58.14:921][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/25856/).
+[2019.02.22-13.58.14:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BrieAnna/AppData/Local/Temp/UnrealShaderWorkingDir/343989F6499728E4C287DABE6085DBD8/'.
+[2019.02.22-13.58.16:983][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.22-13.58.16:999][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.22-13.58.17:015][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.22-13.58.17:035][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.22-13.58.17:057][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.22-13.58.17:073][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.22-13.58.17:090][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.22-13.58.17:107][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.22-13.58.17:115][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:223][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:224][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-13.58.17:226][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.22-13.58.17:291][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-13.58.17:291][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-13.58.17:317][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-13.58.17:318][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-13.58.17:331][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.22-13.58.17:345][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.22-13.58.17:362][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.22-13.58.17:377][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.22-13.58.17:387][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.22-13.58.17:387][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.22-13.58.17:474][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.22-13.58.17:474][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.22-13.58.17:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.22-13.58.18:299][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.22-13.58.18:415][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-13.58.18:419][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.22-13.58.18:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.22-13.58.18:419][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.22-13.58.18:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.22-13.58.18:419][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.22-13.58.18:433][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.22-13.58.18:445][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BrieAnna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.22-13.58.18:445][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.22-13.58.18:445][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.22-13.58.18:466][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.22-13.58.18:467][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.22-13.58.18:469][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.22-13.58.18:579][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2019.02.22-13.58.18:939][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-13.58.19:088][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.22-13.58.19:099][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.22-13.58.19:099][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.22-13.58.19:099][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.22-13.58.19:099][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.22-13.58.19:114][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2019.02.22-13.58.19:824][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.189761 seconds
+[2019.02.22-13.58.19:833][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.22-13.58.19:833][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.22-13.58.19:833][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.22-13.58.21:356][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.22-13.58.21:371][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.22-13.58.21:601][  0]SourceControl: Source control is disabled
+[2019.02.22-13.58.21:601][  0]SourceControl: Source control is disabled
+[2019.02.22-13.58.21:606][  0]SourceControl: Source control is disabled
+[2019.02.22-13.58.21:610][  0]SourceControl: Source control is disabled
+[2019.02.22-13.58.21:858][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.22-13.58.21:970][  0]LogOcInput: OculusInput pre-init called
+[2019.02.22-13.58.22:037][  0]LogEngine: Initializing Engine...
+[2019.02.22-13.58.22:038][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-13.58.22:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-13.58.22:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-13.58.22:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-13.58.22:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-13.58.22:288][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.22-13.58.22:306][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.22-13.58.22:321][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.22-13.58.22:338][  0]LogInit: FAudioDevice initialized.
+[2019.02.22-13.58.22:338][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.22-13.58.22:506][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-13.58.22:506][  0]LogInit: Texture streaming: Enabled
+[2019.02.22-13.58.22:535][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.22-13.58.22:555][  0]LogInit: Transaction tracking system initialized
+[2019.02.22-13.58.22:592][  0]BlueprintLog: New page: Editor Load
+[2019.02.22-13.58.22:756][  0]LocalizationService: Localization service is disabled
+[2019.02.22-13.58.23:166][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.22-13.58.23:166][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.22-13.58.23:166][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.22-13.58.23:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-13.58.23:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-13.58.23:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-13.58.23:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-13.58.23:331][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/' took 0.03s
+[2019.02.22-13.58.23:331][  0]SourceControl: Source control is disabled
+[2019.02.22-13.58.23:331][  0]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.22-13.58.23:332][  0]LightingResults: New page: Lighting Build
+[2019.02.22-13.58.23:338][  0]MapCheck: New page: Map Check
+[2019.02.22-13.58.23:338][  0]LightingResults: New page: Lighting Build
+[2019.02.22-13.58.24:296][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.22-13.58.24:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.22-13.58.24:337][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.22-13.58.24:438][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.375ms to complete.
+[2019.02.22-13.58.24:439][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.109
+[2019.02.22-13.58.24:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-13.58.24:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-13.58.24:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-13.58.24:607][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-13.58.24:617][  0]LogCollectionManager: Loaded 0 collections in 0.002741 seconds
+[2019.02.22-13.58.24:676][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
+[2019.02.22-13.58.24:676][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Developers/BrieAnna/Collections/' took 0.01s
+[2019.02.22-13.58.24:676][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
+[2019.02.22-13.58.24:676][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.22-13.58.24:696][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2589 classes and 608 folders.
+[2019.02.22-13.58.24:710][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.02.22-13.58.24:813][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.22-13.58.24:820][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.22-13.58.24:837][  0]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.22-13.58.24:842][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.22-13.58.24:847][  0]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.22-13.58.24:931][  0]LogRenderer: Reallocating scene render targets to support 928x364 Format 10 NumSamples 1 (Frame:1).
+[2019.02.22-13.58.25:141][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.22-13.58.25:141][  0]LogLoad: (Engine Initialization) Total time: 17.29 seconds
+[2019.02.22-13.58.25:141][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.22-13.58.25:159][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.22-13.58.25:181][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.22-13.58.25:212][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.22-13.58.25:232][  1]LogAssetRegistry: Asset discovery search completed in 6.6749 seconds
+[2019.02.22-13.58.25:234][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.22-13.58.25:234][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.02.22-13.58.26:466][  5]LogSlate: Took 0.000646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.22-13.58.26:663][  6]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error E_INVALIDARG
+[2019.02.22-13.58.26:664][  6]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.02.22-13.58.39:500][  6]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: === Critical error: ===
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: Rendering thread exception:
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 251] 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: Result failed 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error:  at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error:  with error E_INVALIDARG
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffb309ca388 KERNELBASE.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffaf8176850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffadfe862fc UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffadfe151db UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae177e896 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae175d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae176ab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffaf8c8b106 UE4Editor-RHI.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae1511b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae1517d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffadfca1f92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffadfca2456 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffaf99b75f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffaf99b8574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae00e6b7c UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffae00e17c7 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffb33463dc4 KERNEL32.DLL!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: [Callstack] 0x00007ffb34633691 ntdll.dll!UnknownFunction []
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:545][  6]LogWindows: Error: 
+[2019.02.22-13.58.39:562][  6]LogExit: Executing StaticShutdownAfterError
+[2019.02.22-13.58.39:700][  6]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.02.22-13.58.39:708][  6]Log file closed, 02/22/19 07:58:39
