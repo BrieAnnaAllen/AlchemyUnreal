@@ -3,6 +3,7 @@
 #include "PlayerMovement/Public/UI/PickUp_Component.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
+#include "Collision.h"
 
 // Sets default values for this component's properties
 UPickUp_Component::UPickUp_Component()
@@ -62,7 +63,7 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	FRotator PlayerViewPointRotation;
 
 	//get player's location and rotation
-	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(0, 0, 40);
+	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(25, 0, -10);
 	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
 
 	//Get the player's location and camera rotation
@@ -78,30 +79,48 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 
 
 
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector();
+	LineTraceEnd.Z = Reach;
+
+	FCollisionShape shape;
+	shape.ShapeType= ECollisionShape::Box;
+	shape.SetBox(FVector(40,40,70));
 	///Draw red trace in the world to visualize
-	DrawDebugLine(
+	DrawDebugBox(
 		GetWorld(),
-		PlayerViewPointLocation,
-		LineTraceEnd,
+		((LineTraceEnd-PlayerViewPointLocation)/2)+PlayerViewPointLocation,
+		shape.GetExtent(),
 		FColor(255, 0, 0),
 		false,
 		0.f,
 		0.f,
 		2.0f
 	);
+	//DrawDebugLine(
+	//	GetWorld(),
+	//	PlayerViewPointLocation,
+	//	LineTraceEnd,
+	//	FColor(255, 0, 0),
+	//	false,
+	//	0.f,
+	//	0.f,
+	//	2.0f
+	//);
 
 	///Setup query parameters
 	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
 
 	///Ray-cast out to reach distance
 	FHitResult Hit;
-	GetWorld()->LineTraceSingleByObjectType(
+	
+	GetWorld()->SweepSingleByObjectType(
 
 		Hit,
 		PlayerViewPointLocation,
 		LineTraceEnd,
+		PlayerViewPointRotation.Quaternion(),
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		shape,
 		TraceParams
 	);
 
@@ -164,6 +183,10 @@ void UPickUp_Component::Release()
 				NAME_None,
 				true
 			);
+			if (PhysicsHandle->GrabbedComponent)
+			{
+				PhysicsHandle->GrabbedComponent = nullptr;
+			}
 			pickedUp = false;
 		}
 	}
@@ -198,8 +221,19 @@ FVector UPickUp_Component::GetReachLineEnd()
 	//get player's location and rotation
 	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(0, 0, 40);
 	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
-	DrawDebugLine(
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector();
+	LineTraceEnd.Z += Reach;
+	//DrawDebugBox(
+	//	GetWorld(),
+	//	PlayerViewPointLocation,
+	//	LineTraceEnd,
+	//	FColor(255, 0, 0),
+	//	false,
+	//	0.f,
+	//	0.f,
+	//	2.0f
+	//);
+	/*DrawDebugLine(
 		GetWorld(),
 		PlayerViewPointLocation,
 		LineTraceEnd,
@@ -208,7 +242,7 @@ FVector UPickUp_Component::GetReachLineEnd()
 		0.f,
 		0.f,
 		2
-	);
+	);*/
 	FVector HoldPoint = PlayerViewPointLocation + PlayerViewPointRotation.Vector()*Reach;
 	HoldPoint.Z = GetOwner()->GetActorLocation().Z;
 	return HoldPoint;
