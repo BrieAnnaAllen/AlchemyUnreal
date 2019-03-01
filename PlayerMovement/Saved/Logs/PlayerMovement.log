@@ -1,4 +1,4 @@
-﻿Log file open, 03/01/19 14:01:22
+﻿Log file open, 03/01/19 13:50:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlayerMovement
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.161815
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.410623
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -118,12 +118,12 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Xeon(R) CPU E5-1620 v2 @ 3.70GHz, GPU: NVIDIA Quadro K5000
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -667,3 +667,1136 @@ LogInit: Object subsystem initialized
 [2019.03.01-20.06.00:907][151]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2019.03.01-20.06.00:910][151]LogExit: Exiting.
 [2019.03.01-20.06.00:947][151]Log file closed, 03/01/19 14:06:00
+LogStreaming: Display: Took  0.012s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.01-19.50.53:717][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-19.50.53:717][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.01-19.50.53:804][  0]LogHAL: Display: Platform has ~ 16 GB [17121423360 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.01-19.50.53:805][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.01-19.50.53:805][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.01-19.50.53:823][  0]LogInit: Computer: T3610-TENNANT
+[2019.03.01-19.50.53:823][  0]LogInit: User: tessolson
+[2019.03.01-19.50.53:823][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.01-19.50.53:823][  0]LogInit: High frequency timer resolution =3.604594 MHz
+[2019.03.01-19.50.53:824][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.01-19.50.53:824][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.01-19.50.53:824][  0]LogMemory: Process Physical Memory: 102.58 MB used, 102.58 MB peak
+[2019.03.01-19.50.53:824][  0]LogMemory: Process Virtual Memory: 87.04 MB used, 87.04 MB peak
+[2019.03.01-19.50.53:824][  0]LogMemory: Physical Memory: 3726.88 MB used,  12601.38 MB free, 16328.26 MB total
+[2019.03.01-19.50.53:824][  0]LogMemory: Virtual Memory: 4641.44 MB used,  12601.38 MB free, 134217728.00 MB total
+[2019.03.01-19.50.54:167][  0]LogInit: Using OS detected language (en-US).
+[2019.03.01-19.50.54:167][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.01-19.50.54:168][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.01-19.50.54:826][  0]LogStreaming: Display: Took  0.660s to InitEngineTextLocalization.
+[2019.03.01-19.50.54:826][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.01-19.50.55:247][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.01-19.50.55:247][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.01-19.50.58:710][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-19.50.58:710][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.01-19.50.58:745][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K5000' (Feature Level 11_0)
+[2019.03.01-19.50.58:745][  0]LogD3D11RHI:       4063/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.01-19.50.58:747][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.01-19.50.58:747][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.01-19.50.58:747][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.01-19.50.58:754][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.01-19.50.58:754][  0]LogD3D11RHI:     GPU DeviceId: 0x11ba (for the marketing name, search the web for "GPU Device Id")
+[2019.03.01-19.50.58:754][  0]LogWindows: EnumDisplayDevices:
+[2019.03.01-19.50.58:754][  0]LogWindows:    0. 'NVIDIA Quadro K5000' (P:1 D:1)
+[2019.03.01-19.50.58:754][  0]LogWindows:    1. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.03.01-19.50.58:755][  0]LogWindows:    2. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.03.01-19.50.58:755][  0]LogWindows:    3. 'NVIDIA Quadro K5000' (P:0 D:0)
+[2019.03.01-19.50.58:755][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.01-19.50.58:755][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K5000
+[2019.03.01-19.50.58:755][  0]LogD3D11RHI:   Driver Version: 377.61 (internal:21.21.13.7761, unified:377.61)
+[2019.03.01-19.50.58:755][  0]LogD3D11RHI:      Driver Date: 8-14-2017
+[2019.03.01-19.50.58:755][  0]LogRHI: Texture pool is 2844 MB (70% of 4063 MB)
+[2019.03.01-19.50.58:778][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.01-19.50.58:789][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.01-19.50.58:791][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Intermediate/Shaders/WorkingDirectory/3172/).
+[2019.03.01-19.50.58:792][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tess.olson/AppData/Local/Temp/UnrealShaderWorkingDir/A89168E54EE9A7CA9A2DC19D5D29BF89/'.
+[2019.03.01-19.50.59:399][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.01-19.50.59:425][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.01-19.50.59:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.01-19.50.59:465][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.01-19.50.59:499][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.01-19.50.59:525][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.01-19.50.59:555][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.01-19.50.59:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.01-19.50.59:592][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:702][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-19.50.59:710][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.01-19.50.59:834][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-19.50.59:834][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-19.50.59:868][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-19.50.59:868][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-19.50.59:890][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.01-19.50.59:909][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.01-19.50.59:926][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.01-19.50.59:954][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.01-19.50.59:973][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.01-19.50.59:973][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.01-19.51.00:341][  0]LogXGEController: Cleaning working directory: C:/Users/tess.olson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.01-19.51.00:341][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.01-19.51.00:341][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.01-19.51.00:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.01-19.51.02:415][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.01-19.51.03:173][  0]LogDerivedDataCache: Loaded boot cache 0.75s 71MB C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-19.51.03:175][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.01-19.51.03:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.01-19.51.03:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.01-19.51.03:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.01-19.51.03:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.01-19.51.03:218][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.01-19.51.03:249][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tess.olson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.01-19.51.03:249][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.01-19.51.03:249][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.01-19.51.03:270][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.01-19.51.03:272][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.01-19.51.03:316][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.01-19.51.04:127][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2019.03.01-19.51.04:652][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-19.51.05:302][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.01-19.51.05:332][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.01-19.51.05:332][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.01-19.51.05:332][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.01-19.51.05:332][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.01-19.51.05:434][  0]LogNetVersion: PlayerMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171376428)
+[2019.03.01-19.51.09:317][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.152384 seconds
+[2019.03.01-19.51.09:324][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.01-19.51.09:324][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.01-19.51.09:324][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.01-19.51.20:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.01-19.51.20:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.01-19.51.20:818][  0]SourceControl: Source control is disabled
+[2019.03.01-19.51.20:818][  0]SourceControl: Source control is disabled
+[2019.03.01-19.51.20:826][  0]SourceControl: Source control is disabled
+[2019.03.01-19.51.20:833][  0]SourceControl: Source control is disabled
+[2019.03.01-19.51.21:394][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.01-19.51.21:692][  0]LogOcInput: OculusInput pre-init called
+[2019.03.01-19.51.21:861][  0]LogEngine: Initializing Engine...
+[2019.03.01-19.51.21:862][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-19.51.21:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-19.51.21:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-19.51.21:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-19.51.21:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-19.51.22:730][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.01-19.51.22:797][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.01-19.51.22:847][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.51.22:905][  0]LogInit: FAudioDevice initialized.
+[2019.03.01-19.51.22:905][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.01-19.51.23:075][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/tess.olson/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-19.51.23:079][  0]LogInit: Texture streaming: Enabled
+[2019.03.01-19.51.23:205][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.01-19.51.23:252][  0]LogInit: Transaction tracking system initialized
+[2019.03.01-19.51.23:389][  0]BlueprintLog: New page: Editor Load
+[2019.03.01-19.51.23:755][  0]LocalizationService: Localization service is disabled
+[2019.03.01-19.51.25:154][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.01-19.51.25:154][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.01-19.51.25:154][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.01-19.51.25:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-19.51.25:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-19.51.25:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-19.51.25:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-19.51.25:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/' took 0.03s
+[2019.03.01-19.51.26:061][  0]SourceControl: Source control is disabled
+[2019.03.01-19.51.26:062][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-19.51.26:062][  0]LightingResults: New page: Lighting Build
+[2019.03.01-19.51.26:075][  0]MapCheck: New page: Map Check
+[2019.03.01-19.51.26:075][  0]LightingResults: New page: Lighting Build
+[2019.03.01-19.51.27:398][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.01-19.51.27:453][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-19.51.27:474][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-19.51.27:585][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.674ms to complete.
+[2019.03.01-19.51.27:585][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.524
+[2019.03.01-19.51.27:779][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.51.27:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.51.27:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.51.27:804][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.51.27:847][  0]LogCollectionManager: Loaded 0 collections in 0.003540 seconds
+[2019.03.01-19.51.27:910][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Collections/' took 0.01s
+[2019.03.01-19.51.27:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Developers/tessolson/Collections/' took 0.01s
+[2019.03.01-19.51.27:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Collections/' took 0.01s
+[2019.03.01-19.51.27:911][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.01-19.51.27:922][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2590 classes and 610 folders.
+[2019.03.01-19.51.27:953][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.01-19.51.28:902][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.01-19.51.28:922][  0]LogSlate: Took 0.011840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.01-19.51.28:947][  0]LogSlate: Took 0.020719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.01-19.51.28:968][  0]LogSlate: Took 0.017591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.01-19.51.29:125][  0]LogRenderer: Reallocating scene render targets to support 916x644 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-19.51.29:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.01-19.51.29:276][  0]LogLoad: (Engine Initialization) Total time: 48.52 seconds
+[2019.03.01-19.51.29:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.01-19.51.29:287][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.01-19.51.29:307][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.01-19.51.29:540][  2]LogAssetRegistry: Asset discovery search completed in 25.4348 seconds
+[2019.03.01-19.51.29:542][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.01-19.51.29:542][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2019.03.01-19.51.30:342][ 79]LogSlate: Took 0.018036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-19.51.33:406][439]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-19.51.38:479][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-19.51.47:695][ 68]LogLinker: Warning: Can't find file '/Game/Levels/PlayerMovementTest_BuiltData'
+[2019.03.01-19.51.47:695][ 68]LogLinker: Warning: Can't find file for asset '/Game/Levels/PlayerMovementTest_BuiltData' while loading ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Levels/PlayerMovementTest.umap.
+[2019.03.01-19.51.47:695][ 68]LoadErrors: Error: /Game/Levels/PlayerMovementTest : Can't find file for asset. /Game/Levels/PlayerMovementTest_BuiltData
+[2019.03.01-19.51.47:728][ 68]LogLinker: Warning: Asset '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.01-19.51.47:729][ 68]LogLinker: Warning: Asset '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.01-19.51.47:744][ 68]LogLinker: Warning: Asset '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.01-19.51.47:746][ 68]LogLinker: Warning: Asset '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.01-19.51.47:748][ 68]LogLinker: Warning: Asset '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.01-19.51.47:869][ 68]LogLinker: Warning: Can't find file '/Game/Levels/PlayerMovementTest_BuiltData'
+[2019.03.01-19.51.47:870][ 68]LogLinker: Warning: Can't find file for asset '/Game/Levels/PlayerMovementTest_BuiltData' while loading ../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Levels/PlayerMovementTest.umap.
+[2019.03.01-19.51.47:904][ 68]LogLinker: Warning: Can't find file '/Game/Levels/PlayerMovementTest_BuiltData'
+[2019.03.01-19.51.47:905][ 68]LoadErrors: Failed to load /Game/Levels/PlayerMovementTest_BuiltData.PlayerMovementTest_BuiltData Referenced by PersistentLevel
+[2019.03.01-19.51.47:905][ 68]LogLinker: Warning: Can't find file for asset '/Game/Levels/PlayerMovementTest_BuiltData' while loading NULL.
+[2019.03.01-19.51.48:555][ 68]LogMaterial: Display: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2019.03.01-19.51.48:735][ 68]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.01-19.51.48:735][ 68]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.01-19.51.48:735][ 68]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.01-19.51.48:735][ 68]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.01-19.51.48:918][ 68]LogMaterial: Display: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2019.03.01-19.51.49:446][ 68]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.51.49:455][ 68]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/PlayerMovementTest.PlayerMovementTest
+[2019.03.01-19.51.49:484][ 68]Cmd: MAP LOAD FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Levels/PlayerMovementTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-19.51.49:484][ 68]LightingResults: New page: Lighting Build
+[2019.03.01-19.51.49:485][ 68]LoadErrors: New page: Loading map: PlayerMovementTest.umap
+[2019.03.01-19.51.49:487][ 68]MapCheck: New page: Map Check
+[2019.03.01-19.51.49:487][ 68]LightingResults: New page: Lighting Build
+[2019.03.01-19.51.49:562][ 68]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-19.51.49:640][ 68]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-19.51.49:771][ 68]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131.334ms to complete.
+[2019.03.01-19.51.49:772][ 68]LogFileHelpers: Loading map 'PlayerMovementTest' took 0.289
+[2019.03.01-19.51.54:572][536]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.01-19.51.54:945][575]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.01-19.51.55:658][652]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-19.51.55:728][659]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-19.52.25:027][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-19.52.28:696][549]LogActor: Warning: Ele_Acid_BP_C /Engine/Transient.World_3:PersistentLevel.Ele_Acid_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.01-19.52.32:845][840]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tris2.BP_Tris2
+[2019.03.01-19.52.33:716][840]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.03.01-19.52.35:021][840]LogSlate: Took 0.014245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.01-19.52.35:365][841]LogSlate: Took 0.010372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.01-19.53.37:151][167]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.53.37:203][167]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.53.37:453][167]LogBlueprint: Warning: [Compiler BP_Tris2] [0176.70] Compile of BP_Tris2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 301 ms] (/Game/Blueprints/BP_Tris2.BP_Tris2)
+[2019.03.01-19.54.04:307][318]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.54.05:407][412]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.54.05:445][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-19.54.05:458][412]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:54:05 AM)
+[2019.03.01-19.54.05:458][412]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.54.05:463][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004899s)
+[2019.03.01-19.54.05:464][412]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.54.05:464][412]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2019.03.01-19.54.05:464][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.006519s)
+[2019.03.01-19.54.05:525][412]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.54.05:543][412]LogInit: FAudioDevice initialized.
+[2019.03.01-19.54.05:550][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.54.05:615][412]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.54.05:618][412]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.54.05
+[2019.03.01-19.54.05:619][412]LogWorld: Bringing up level for play took: 0.001891
+[2019.03.01-19.54.05:643][412]LogOutputDevice: Warning: 
+
+Script Stack:
+PlayerController.ClientRestart
+
+[2019.03.01-19.54.07:344][412]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.700 s
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: Stack: 
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3be771f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbb0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbcb356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb36e6cd8c UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb20785ca6 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\tess.olson\desktop\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:177]
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37c37bcc UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cdd3af UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb36ea36d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3c4b6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3c6e1133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb36f58033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb38458dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cfe2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378013c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cf37b9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37d0d33c UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378a112e UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378a08ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37661ec5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3597f989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb359a01ac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb359be536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb353d6b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ffb35ccf666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d715cbd UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.07:344][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d725b3c UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d725bba UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d733dac UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d735aaa UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: [Callstack] 0x00007ffb7ee83dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: [Callstack] 0x00007ffb7f1e3691 ntdll.dll!UnknownFunction []
+[2019.03.01-19.54.07:345][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.07:346][412]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.01-19.54.10:764][412]LogStats:                    SendNewReport -  3.417 s
+[2019.03.01-19.54.10:764][412]LogStats:             FDebug::EnsureFailed -  5.121 s
+[2019.03.01-19.54.10:764][412]LogOutputDevice: Warning: 
+
+Script Stack:
+PlayerController.ClientRestart
+
+[2019.03.01-19.54.11:127][412]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.364 s
+[2019.03.01-19.54.11:127][412]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: Stack: 
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3be771f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbb0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbcb356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb20783acf UE4Editor-PlayerMovement.dll!FInputAxisKeyBinding::FInputAxisKeyBinding() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:469]
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb20782f40 UE4Editor-PlayerMovement.dll!UInputComponent::BindAxisKey<APawnPlayerMove>() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:816]
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb20785dc2 UE4Editor-PlayerMovement.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\tess.olson\desktop\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:184]
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37c37bcc UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cdd3af UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb36ea36d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3c4b6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3c6e1133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb36f58033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb38458dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cfe2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378013c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37cf37b9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37d0d33c UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378a112e UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb378a08ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb37661ec5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb3597f989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb359a01ac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb359be536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb353d6b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb35ccf666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d715cbd UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d725b3c UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d725bba UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d733dac UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ff69d735aaa UE4Editor.exe!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb7ee83dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: [Callstack] 0x00007ffb7f1e3691 ntdll.dll!UnknownFunction []
+[2019.03.01-19.54.11:128][412]LogOutputDevice: Error: 
+[2019.03.01-19.54.11:129][412]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.01-19.54.11:684][412]LogStats:                    SendNewReport -  0.555 s
+[2019.03.01-19.54.11:684][412]LogStats:             FDebug::EnsureFailed -  0.920 s
+[2019.03.01-19.54.11:707][412]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.03.01-19.54.11:721][412]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 6.496
+[2019.03.01-19.54.11:842][412]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-19.54.12:016][417]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.54.12:016][417]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.54.13:609][537]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.54.13:610][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.54.17:403][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.54.17:433][880]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.54.17:472][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.54.17:612][881]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.01-19.54.24:907][720]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.54.24:937][720]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.01-19.54.24:951][720]LogPlayLevel: [PlayLevel] Compiling BP_Tris2 before play...
+[2019.03.01-19.54.25:125][720]LogPlayLevel: PlayLevel: Blueprint regeneration took 188 ms (1 blueprints)
+[2019.03.01-19.54.25:125][720]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:54:25 AM)
+[2019.03.01-19.54.25:125][720]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.54.25:129][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003863s)
+[2019.03.01-19.54.25:130][720]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.54.25:130][720]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.03.01-19.54.25:130][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.004945s)
+[2019.03.01-19.54.25:196][720]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.54.25:213][720]LogInit: FAudioDevice initialized.
+[2019.03.01-19.54.25:219][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.54.25:255][720]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.54.25:257][720]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.54.25
+[2019.03.01-19.54.25:258][720]LogWorld: Bringing up level for play took: 0.001759
+[2019.03.01-19.54.25:272][720]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 0.047
+[2019.03.01-19.54.33:851][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.54.33:881][551]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.54.33:914][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.54.33:958][552]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.01-19.54.36:982][904]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.54.37:009][904]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.54.37:168][904]LogBlueprint: Warning: [Compiler BP_Tris2] [0236.41] Compile of BP_Tris2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 186 ms] (/Game/Blueprints/BP_Tris2.BP_Tris2)
+[2019.03.01-19.55.13:625][176]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.55.14:745][264]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.55.14:783][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-19.55.14:783][264]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:55:14 AM)
+[2019.03.01-19.55.14:783][264]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.55.14:787][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2019.03.01-19.55.14:788][264]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.55.14:788][264]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.03.01-19.55.14:788][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.004922s)
+[2019.03.01-19.55.14:849][264]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.55.14:867][264]LogInit: FAudioDevice initialized.
+[2019.03.01-19.55.14:873][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.55.14:904][264]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.55.14:906][264]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.55.14
+[2019.03.01-19.55.14:907][264]LogWorld: Bringing up level for play took: 0.001956
+[2019.03.01-19.55.14:921][264]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest -0.305
+[2019.03.01-19.55.17:047][445]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.17:048][445]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.18:146][550]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.18:147][550]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.19:050][639]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.19:050][639]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.19:555][688]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.19:555][688]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.20:753][806]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.20:753][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.25:056][229]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:039A
+[2019.03.01-19.55.25:056][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.55.25:224][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.55.25:254][245]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.55.25:294][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.55.25:475][246]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.01-19.55.34:821][333]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.55.34:848][333]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.55.35:007][333]LogBlueprint: Warning: [Compiler BP_Tris2] [0294.25] Compile of BP_Tris2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 186 ms] (/Game/Blueprints/BP_Tris2.BP_Tris2)
+[2019.03.01-19.55.40:999][ 31]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.55.41:026][ 31]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.55.41:026][ 31]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.55.41:184][ 31]LogBlueprint: Warning: [Compiler BP_Tris2] [0300.43] Compile of BP_Tris2 failed. 2 Fatal Issue(s) 0 Warning(s) [in 185 ms] (/Game/Blueprints/BP_Tris2.BP_Tris2)
+[2019.03.01-19.55.43:511][299]LogEditorTransaction: Undo Delete current selection
+[2019.03.01-19.55.43:944][340]LogEditorTransaction: Undo Create Pin Link
+[2019.03.01-19.55.48:989][943]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.55.49:017][943]LogBlueprint: Error: [Compiler BP_Tris2] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.03.01-19.55.49:177][943]LogBlueprint: Warning: [Compiler BP_Tris2] [0308.42] Compile of BP_Tris2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 186 ms] (/Game/Blueprints/BP_Tris2.BP_Tris2)
+[2019.03.01-19.56.53:678][596]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.56.56:002][843]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.56.56:041][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-19.56.56:041][843]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:56:56 AM)
+[2019.03.01-19.56.56:041][843]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.56.56:045][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003633s)
+[2019.03.01-19.56.56:046][843]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.56.56:046][843]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2019.03.01-19.56.56:046][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.004822s)
+[2019.03.01-19.56.56:112][843]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.56.56:129][843]LogInit: FAudioDevice initialized.
+[2019.03.01-19.56.56:136][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.56.56:169][843]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.56.56:172][843]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.56.56
+[2019.03.01-19.56.56:172][843]LogWorld: Bringing up level for play took: 0.001792
+[2019.03.01-19.56.56:185][843]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 0.96
+[2019.03.01-19.56.56:409][852]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.56.56:409][852]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.56.57:403][968]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.56.57:403][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.00:707][363]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.57.00:707][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.02:604][590]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.57.02:604][590]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.05:207][902]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.57.05:207][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.06:908][106]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0388
+[2019.03.01-19.57.06:908][106]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.14:221][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.57.14:252][983]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.57.14:290][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.57.14:405][984]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.01-19.57.27:116][505]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.57.28:086][590]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.57.28:124][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-19.57.28:125][590]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:57:28 AM)
+[2019.03.01-19.57.28:125][590]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.57.28:128][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003545s)
+[2019.03.01-19.57.28:129][590]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.57.28:129][590]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2019.03.01-19.57.28:129][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.004711s)
+[2019.03.01-19.57.28:197][590]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.57.28:214][590]LogInit: FAudioDevice initialized.
+[2019.03.01-19.57.28:220][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.57.28:251][590]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.57.28:253][590]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.57.28
+[2019.03.01-19.57.28:253][590]LogWorld: Bringing up level for play took: 0.001726
+[2019.03.01-19.57.28:267][590]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 1.042
+[2019.03.01-19.57.28:488][602]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0384
+[2019.03.01-19.57.28:488][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.29:388][709]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0384
+[2019.03.01-19.57.29:388][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.35:693][465]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	BP_Tris2_C /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest:PersistentLevel.BP_Tris2_2
+	Function /Game/Blueprints/BP_Tris2.BP_Tris2_C:Trace:0384
+[2019.03.01-19.57.35:693][465]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.38:793][836]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.41:887][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.46:388][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.47:889][924]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.51:993][416]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.53:289][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.57.56:888][  0]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.00:894][477]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.03:594][800]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.04:812][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.58.04:843][946]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.58.04:883][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.58.05:002][947]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.01-19.58.06:270][ 93]LogRenderer: Reallocating scene render targets to support 1292x808 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-19.58.10:461][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-19.58.10:552][559]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-19.58.11:304][618]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-19.58.11:338][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-19.58.11:338][618]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 7:58:11 AM)
+[2019.03.01-19.58.11:338][618]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-19.58.11:342][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003957s)
+[2019.03.01-19.58.11:343][618]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-19.58.11:343][618]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2019.03.01-19.58.11:343][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.005150s)
+[2019.03.01-19.58.11:407][618]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-19.58.11:424][618]LogInit: FAudioDevice initialized.
+[2019.03.01-19.58.11:430][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.58.11:465][618]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-19.58.11:467][618]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-13.58.11
+[2019.03.01-19.58.11:467][618]LogWorld: Bringing up level for play took: 0.001700
+[2019.03.01-19.58.11:482][618]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 0.256
+[2019.03.01-19.58.11:706][630]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.12:513][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.16:213][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.26:405][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.29:705][718]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.31:806][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-19.58.33:740][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-19.58.33:770][202]LogSlate: Window 'PlayerMovement Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.01-19.58.33:801][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-19.58.33:870][203]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.01-19.58.37:103][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-19.58.46:332][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tris2" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/BP_Tris2.uasset" SILENT=true
+[2019.03.01-19.58.46:404][655]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/BP_Tris2E045EAF84F33A67A72465A8FE69A6EF9.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/BP_Tris2.uasset'
+[2019.03.01-19.58.52:180][242]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/PlayerMovement.uproject" -game -rocket -progress
+[2019.03.01-19.58.52:612][242]Discovering modules, targets and source code for project...
+[2019.03.01-19.58.58:050][242]C:\Program Files\Epic Games\UE_4.20\Engine\Source\ThirdParty\Expat\Expat.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.20\Engine\Source\ThirdParty\Expat\expat-2.2.0\Win64\VS2015\Release' does not exist.
+[2019.03.01-19.59.12:336][775]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.03.01-19.59.12:340][775]Candidate modules for hot reload:
+[2019.03.01-19.59.12:340][775]  PlayerMovement
+[2019.03.01-19.59.12:340][775]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PlayerMovement,7410 Win64 Development -TargetType=Editor -Project="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/PlayerMovement.uproject" -canskiplink "C:/Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/PlayerMovement.uproject" ]
+[2019.03.01-19.59.12:369][775]Warning: Starting HotReload took  0.0s.
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: New page: Compilation - Mar 1, 2019, 8:01:35 AM
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: Parsing headers for PlayerMovementEditor
+[2019.03.01-20.01.35:081][721]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\PlayerMovement.uproject" "C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\PlayerMovementEditor\Development\PlayerMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: Reflection code generated for PlayerMovementEditor in 28.0015116 seconds
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: Distributing 17 actions to XGE
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.03.01-20.01.35:081][721]CompilerResultsLog: License is invalid:
+[2019.03.01-20.01.35:081][721]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2019.03.01-20.01.35:082][721]CompilerResultsLog:     This build will run in standalone mode.
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: 
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: Ele_Fire.gen.cpp (0:56.34 at +0:00)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: Ele_Ice.gen.cpp (0:02.07 at +0:56)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: ItemSpawnTest.gen.cpp (0:01.51 at +0:58)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: PawnPlayerMove.gen.cpp (0:01.89 at +1:00)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: ItemTest.gen.cpp (0:01.39 at +1:01)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: BPTris.gen.cpp (0:01.32 at +1:03)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: PawnPlayerMove.cpp (0:30.23 at +1:04)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: ItemSpawnTest.cpp (0:01.07 at +1:34)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: ItemTest.cpp (0:00.98 at +1:36)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: PickUp_Component.cpp (0:01.26 at +1:37)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Source\PlayerMovement\Private\UI\PickUp_Component.cpp(147): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: Ele_Fire.cpp (0:01.31 at +1:38)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: Ele_Ice.cpp (0:01.31 at +1:39)
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Source\PlayerMovement\Private\Elements\Ele_Ice.cpp(33): warning C4996: 'UWorld::ForceGarbageCollection': Call GEngine->ForceGarbageCollection instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.03.01-20.01.35:082][721]CompilerResultsLog: C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/World.h(3201): note: see declaration of 'UWorld::ForceGarbageCollection'
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: Inventory.cpp (0:03.26 at +1:40)
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: Pickup_Actor.cpp (0:01.12 at +1:44)
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: BPTris.cpp (0:01.00 at +1:45)
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: UE4Editor-PlayerMovement-7410.dll (0:02.48 at +1:46)
+[2019.03.01-20.01.35:083][721]CompilerResultsLog:    Creating library C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7410.suppressed.lib and object C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7410.suppressed.exp
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: UE4Editor-PlayerMovement-7410.lib (0:00.39 at +1:48)
+[2019.03.01-20.01.35:083][721]CompilerResultsLog:    Creating library C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7410.lib and object C:\Users\tess.olson\Desktop\AlchemyUnreal\PlayerMovement\Intermediate\Build\Win64\UE4Editor\Development\PlayerMovement\UE4Editor-PlayerMovement-7410.exp
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: 
+[2019.03.01-20.01.35:083][721]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: 
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: 1 build system warning(s):
+[2019.03.01-20.01.35:083][721]CompilerResultsLog:    - License is invalid
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: 
+[2019.03.01-20.01.35:083][721]CompilerResultsLog: Total build time: 142.39 seconds (XGE executor: 109.68 seconds)
+[2019.03.01-20.01.35:083][721]LogMainFrame: MainFrame: Module compiling took 142.747 seconds
+[2019.03.01-20.01.35:168][721]LogClass: EElementType HotReload.
+[2019.03.01-20.01.35:168][721]LogClass: EReactionType HotReload.
+[2019.03.01-20.01.35:168][721]LogClass: Subtitle HotReload.
+[2019.03.01-20.01.35:182][721]LogContentBrowser: Native class hierarchy updated for 'PlayerMovement' in 0.0006 seconds. Added 17 classes and 5 folders.
+[2019.03.01-20.01.35:186][721]Display: HotReload successful (19 functions remapped  1 scriptstructs remapped)
+[2019.03.01-20.01.35:674][721]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2590 classes and 610 folders.
+[2019.03.01-20.01.35:681][721]Display: HotReload took 143.3s.
+[2019.03.01-20.03.36:176][137]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/PlayerMovementTest_Auto1C67845694128A3EC4B9818B229E3A4FB.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/Autosaves/Game/Levels/PlayerMovementTest_Auto1.umap'
+[2019.03.01-20.03.36:183][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/PlayerMovementTest' took 0.130
+[2019.03.01-20.03.36:183][137]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2019.03.01-20.05.33:722][224]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-20.05.33:753][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-20.05.33:753][224]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 8:05:33 AM)
+[2019.03.01-20.05.33:754][224]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-20.05.33:758][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004275s)
+[2019.03.01-20.05.33:759][224]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-20.05.33:759][224]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2019.03.01-20.05.33:759][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.005533s)
+[2019.03.01-20.05.33:831][224]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-20.05.33:848][224]LogInit: FAudioDevice initialized.
+[2019.03.01-20.05.33:879][224]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-20.05.33:881][224]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-14.05.33
+[2019.03.01-20.05.33:882][224]LogWorld: Bringing up level for play took: 0.001738
+[2019.03.01-20.05.33:894][224]LogOutputDevice: Warning: 
+
+Script Stack:
+PlayerController.ClientRestart
+
+[2019.03.01-20.05.34:218][224]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.324 s
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: 
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: Ensure condition failed: AxisKey.IsFloatAxis() [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h] [Line: 469]
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: 
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: Stack: 
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3be771f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbb0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3bbcb356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb5bb73acf UE4Editor-PlayerMovement-7410.dll!FInputAxisKeyBinding::FInputAxisKeyBinding() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:469]
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb5bb72f40 UE4Editor-PlayerMovement-7410.dll!UInputComponent::BindAxisKey<APawnPlayerMove>() [c:\program files\epic games\ue_4.20\engine\source\runtime\engine\classes\components\inputcomponent.h:816]
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb5bb75dc2 UE4Editor-PlayerMovement-7410.dll!APawnPlayerMove::SetupPlayerInputComponent() [c:\users\tess.olson\desktop\alchemyunreal\playermovement\source\playermovement\pawnplayermove.cpp:184]
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37c37bcc UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37cdd3af UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb36ea36d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3c4b6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3c6e1133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb36f58033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb38458dc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37cfe2c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb378013c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:218][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37cf37b9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37d0d33c UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb378a112e UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb378a08ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb37661ec5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb3597f989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb359a01ac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb359be536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb353d6b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb35ccf666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ff69d715cbd UE4Editor.exe!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ff69d725b3c UE4Editor.exe!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ff69d725bba UE4Editor.exe!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ff69d733dac UE4Editor.exe!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ff69d735aaa UE4Editor.exe!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb7ee83dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: [Callstack] 0x00007ffb7f1e3691 ntdll.dll!UnknownFunction []
+[2019.03.01-20.05.34:219][224]LogOutputDevice: Error: 
+[2019.03.01-20.05.34:224][224]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.01-20.05.34:780][224]LogStats:                    SendNewReport -  0.556 s
+[2019.03.01-20.05.34:780][224]LogStats:             FDebug::EnsureFailed -  0.886 s
+[2019.03.01-20.05.34:781][224]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 1.55
+[2019.03.01-20.05.34:922][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.36:321][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.38:018][604]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.38:720][688]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.40:621][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.42:321][120]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.44:521][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.53:202][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.05.53:245][421]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-20.05.53:276][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.05.53:312][422]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.01-20.05.54:525][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.05.54:609][561]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-20.05.54:639][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-20.05.54:639][561]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 8:05:54 AM)
+[2019.03.01-20.05.54:639][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-20.05.54:643][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003837s)
+[2019.03.01-20.05.54:644][561]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-20.05.54:644][561]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2019.03.01-20.05.54:644][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.005195s)
+[2019.03.01-20.05.54:709][561]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-20.05.54:727][561]LogInit: FAudioDevice initialized.
+[2019.03.01-20.05.54:759][561]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-20.05.54:761][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-14.05.54
+[2019.03.01-20.05.54:761][561]LogWorld: Bringing up level for play took: 0.001588
+[2019.03.01-20.05.54:774][561]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest -0.458
+[2019.03.01-20.05.54:916][573]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.55:711][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.56:413][752]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.05.57:580][892]LogTemp: Warning: Line Trace Hit: Ele_Acid_BP_2
+[2019.03.01-20.06.42:618][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.44:518][522]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.46:018][702]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.46:318][738]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.47:027][823]LogTemp: Warning: Line Trace Hit: KeyPotActor_2
+[2019.03.01-20.06.49:314][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.53:318][574]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.55:718][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.06.58:318][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.07.12:814][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.07.20:515][836]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.07.45:620][848]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.07.46:420][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.07.50:196][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.07.50:236][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-20.07.50:268][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.07.50:304][398]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.01-20.07.55:092][953]LogEditorViewport: Clicking on Actor (LMB): Ele_Acid_BP_C (Ele_Acid_BP)
+[2019.03.01-20.08.09:150][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.08.09:244][523]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-20.08.09:275][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-20.08.09:275][523]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 8:08:09 AM)
+[2019.03.01-20.08.09:275][523]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-20.08.09:279][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004060s)
+[2019.03.01-20.08.09:280][523]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-20.08.09:280][523]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2019.03.01-20.08.09:281][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.005266s)
+[2019.03.01-20.08.09:350][523]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-20.08.09:367][523]LogInit: FAudioDevice initialized.
+[2019.03.01-20.08.09:395][523]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-20.08.09:397][523]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-14.08.09
+[2019.03.01-20.08.09:397][523]LogWorld: Bringing up level for play took: 0.001611
+[2019.03.01-20.08.09:410][523]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest 0.175
+[2019.03.01-20.08.14:651][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.08.15:050][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.08.17:248][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.08.19:173][684]LogTemp: Warning: Line Trace Hit: Ele_Acid_BP_2
+[2019.03.01-20.08.22:349][ 65]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.08.24:649][341]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.08.26:448][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.09.02:049][827]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.09.04:499][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.09.04:539][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-20.09.04:568][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.09.04:605][122]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.01-20.09.08:725][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.09.49:211][167]BlueprintLog: New page: Compile BP_Tris2
+[2019.03.01-20.09.52:816][560]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-20.09.52:855][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-20.09.52:855][560]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 8:09:52 AM)
+[2019.03.01-20.09.52:855][560]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-20.09.52:859][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003980s)
+[2019.03.01-20.09.52:860][560]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-20.09.52:861][560]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2019.03.01-20.09.52:861][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.005176s)
+[2019.03.01-20.09.52:926][560]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-20.09.52:944][560]LogInit: FAudioDevice initialized.
+[2019.03.01-20.09.52:977][560]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-20.09.52:979][560]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-14.09.52
+[2019.03.01-20.09.52:979][560]LogWorld: Bringing up level for play took: 0.001635
+[2019.03.01-20.09.52:992][560]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest -0.244
+[2019.03.01-20.09.56:719][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.10.13:324][991]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.10.17:125][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.10.18:726][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.10.21:322][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Blueprint:  BP_Tris2 Function:  Trace Graph:  Trace Node:  Set Render Custom Depth
+[2019.03.01-20.10.22:881][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.10.22:918][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-20.10.22:951][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.10.22:987][137]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.01-20.10.24:265][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Counter_polySurface48)
+[2019.03.01-20.10.32:181][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.10.54:316][447]LogEditorViewport: Clicking on Actor (LMB): KeyPotActor_C (KeyPotActor)
+[2019.03.01-20.10.58:374][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.12.08:419][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tris2" FILE="../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/BP_Tris2.uasset" SILENT=true
+[2019.03.01-20.12.08:490][280]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/BP_Tris2CA35106448BCED5EB7A1EDAFF940EF5B.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Blueprints/BP_Tris2.uasset'
+[2019.03.01-20.12.28:190][323]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.01-20.12.28:385][324]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PlayerMovement
+[2019.03.01-20.12.28:385][324]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.01-20.12.28:385][324]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.03.01-20.12.28:385][324]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.03.01-20.12.28:385][324]LogTemp: BranchPath = T3610-TENNANT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = T3610-TENNANT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.03.01-20.12.28:385][324]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tess.olson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.01-20.13.32:924][932]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.01-20.13.32:928][932]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.01-20.13.35:447][193]LogSavePackage: Moving '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Saved/PlayerMovementTest06B6AFC148FEBDF1F9BD3898E482BC55.tmp' to '../../../../../../Users/tess.olson/Desktop/AlchemyUnreal/PlayerMovement/Content/Levels/PlayerMovementTest.umap'
+[2019.03.01-20.13.35:508][193]LogFileHelpers: Saving map 'PlayerMovementTest' took 0.292
+[2019.03.01-20.13.43:006][936]LogTemp: Repeating last play command: Standalone Game
+[2019.03.01-20.14.20:628][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-20.14.20:629][702]PIE: New page: PIE session: PlayerMovementTest (Mar 1, 2019, 8:14:20 AM)
+[2019.03.01-20.14.20:629][702]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlayerMovementTest
+[2019.03.01-20.14.20:633][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004531s)
+[2019.03.01-20.14.20:634][702]LogAIModule: Creating AISystem for world PlayerMovementTest
+[2019.03.01-20.14.20:635][702]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2019.03.01-20.14.20:635][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlayerMovementTest.PlayerMovementTest to /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest (0.006192s)
+[2019.03.01-20.14.20:727][702]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.01-20.14.20:749][702]LogInit: FAudioDevice initialized.
+[2019.03.01-20.14.20:781][702]LogLoad: Game class is 'PlayerMovementGameModeBase_BP_C'
+[2019.03.01-20.14.20:783][702]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlayerMovementTest.PlayerMovementTest up for play (max tick rate 0) at 2019.03.01-14.14.20
+[2019.03.01-20.14.20:784][702]LogWorld: Bringing up level for play took: 0.002059
+[2019.03.01-20.14.20:797][702]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlayerMovementTest -0.441
+[2019.03.01-20.14.22:011][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.14.22:058][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-20.14.22:097][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-20.14.22:124][828]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.01-20.14.24:707][126]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-20.15.21:646][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-20.15.22:062][593]LogSlate: Window 'PlayerMovement - Unreal Editor' being destroyed
+[2019.03.01-20.15.22:288][594]Cmd: QUIT_EDITOR
+[2019.03.01-20.15.23:272][594]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.01-20.15.23:288][594]LogExit: Preparing to exit.
+[2019.03.01-20.15.24:345][594]LogExit: Editor shut down
+[2019.03.01-20.15.24:346][594]LogExit: Transaction tracking system shut down
+[2019.03.01-20.15.25:271][594]LogExit: Object subsystem successfully closed.
+[2019.03.01-20.15.25:295][594]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.01-20.15.25:299][594]LogD3D11RHI: Shutdown
+[2019.03.01-20.15.25:299][594]LogD3D11RHI: CleanupD3DDevice
+[2019.03.01-20.15.25:301][594]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (621)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module PlayerMovement (619)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.03.01-20.15.25:346][594]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.03.01-20.15.25:347][594]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.03.01-20.15.25:348][594]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.03.01-20.15.25:349][594]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.03.01-20.15.25:349][594]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.03.01-20.15.25:349][594]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.03.01-20.15.25:349][594]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.03.01-20.15.27:234][594]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.03.01-20.15.27:235][594]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.03.01-20.15.27:241][594]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.03.01-20.15.27:241][594]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.03.01-20.15.27:307][594]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.01-20.15.27:315][594]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.01-20.15.27:316][594]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.01-20.15.27:316][594]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.01-20.15.27:316][594]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.01-20.15.27:316][594]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.01-20.15.27:316][594]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.03.01-20.15.27:340][594]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.03.01-20.15.27:343][594]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.03.01-20.15.27:343][594]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.03.01-20.15.27:344][594]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.01-20.15.27:345][594]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.01-20.15.27:446][594]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.01-20.15.27:546][594]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.01-20.15.27:547][594]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.01-20.15.27:547][594]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.01-20.15.27:547][594]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.01-20.15.27:547][594]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.01-20.15.27:547][594]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.01-20.15.27:548][594]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.01-20.15.27:550][594]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.01-20.15.27:556][594]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.01-20.15.27:557][594]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.01-20.15.27:557][594]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.01-20.15.27:557][594]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.01-20.15.27:557][594]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.01-20.15.27:558][594]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.01-20.15.27:559][594]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.01-20.15.27:589][594]LogDerivedDataCache: Shutdown
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.01-20.15.27:589][594]LogXGEController: Cleaning working directory: C:/Users/tess.olson/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.01-20.15.27:589][594]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.01-20.15.27:590][594]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.01-20.15.27:590][594]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.01-20.15.27:590][594]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.01-20.15.27:591][594]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.01-20.15.27:591][594]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.01-20.15.27:602][594]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.01-20.15.27:603][594]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.01-20.15.27:603][594]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.01-20.15.27:625][594]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.01-20.15.27:625][594]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.01-20.15.27:625][594]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD07FB57-4F5E-60AB-B833-C29A299C6004%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f6fbd3a3403d7328111c67a34fc514f0%7Ccfbec505177c4eeeb608d0faf53c2ddd%7C47d64417-1309-4bd0-80e1-111dd44c1569&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.01-20.15.27:627][594]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.01-20.15.27:628][594]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.01-20.15.27:628][594]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.01-20.15.27:628][594]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.01-20.15.27:628][594]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.01-20.15.27:628][594]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.01-20.15.27:629][594]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.01-20.15.27:629][594]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.01-20.15.27:630][594]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.01-20.15.27:635][594]LogExit: Exiting.
+[2019.03.01-20.15.27:674][594]Log file closed, 03/01/19 14:15:27
