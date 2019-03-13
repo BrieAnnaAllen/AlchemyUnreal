@@ -63,7 +63,7 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	FRotator PlayerViewPointRotation;
 
 	//get player's location and rotation
-	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(35, 0, -10);
+	PlayerViewPointLocation = GetOwner()->GetActorLocation() + FVector(25, 0, -10);
 	PlayerViewPointRotation = GetOwner()->GetActorRotation() /*+ FRotator(-15, 0, 0)*/;
 
 	//Get the player's location and camera rotation
@@ -86,16 +86,16 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 	shape.ShapeType= ECollisionShape::Box;
 	shape.SetBox(FVector(40,40,70));
 	///Draw red trace in the world to visualize
-	//DrawDebugBox(
-	//	GetWorld(),
-	//	((LineTraceEnd-PlayerViewPointLocation)/2)+PlayerViewPointLocation,
-	//	shape.GetExtent(),
-	//	FColor(255, 0, 0),
-	//	false,
-	//	0.f,
-	//	0.f,
-	//	2.0f
-	//);
+	DrawDebugBox(
+		GetWorld(),
+		((LineTraceEnd-PlayerViewPointLocation)/2)+PlayerViewPointLocation,
+		shape.GetExtent(),
+		FColor(255, 0, 0),
+		false,
+		0.f,
+		0.f,
+		2.0f
+	);
 	//DrawDebugLine(
 	//	GetWorld(),
 	//	PlayerViewPointLocation,
