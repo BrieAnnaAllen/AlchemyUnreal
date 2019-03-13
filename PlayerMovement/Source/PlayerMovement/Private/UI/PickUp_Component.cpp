@@ -84,18 +84,18 @@ const FHitResult UPickUp_Component::GetFirstPhysicsBodyInReach()
 
 	FCollisionShape shape;
 	shape.ShapeType= ECollisionShape::Box;
-	shape.SetBox(FVector(40,40,70));
+	shape.SetBox(FVector(70,70,70));
 	///Draw red trace in the world to visualize
-	DrawDebugBox(
-		GetWorld(),
-		((LineTraceEnd-PlayerViewPointLocation)/2)+PlayerViewPointLocation,
-		shape.GetExtent(),
-		FColor(255, 0, 0),
-		false,
-		0.f,
-		0.f,
-		2.0f
-	);
+	//DrawDebugBox(
+	//	GetWorld(),
+	//	((LineTraceEnd-PlayerViewPointLocation)/2)+PlayerViewPointLocation,
+	//	shape.GetExtent(),
+	//	FColor(255, 0, 0),
+	//	false,
+	//	0.f,
+	//	0.f,
+	//	2.0f
+	//);
 	//DrawDebugLine(
 	//	GetWorld(),
 	//	PlayerViewPointLocation,
